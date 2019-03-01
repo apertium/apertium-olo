@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-olo
+
+Name: apertium-olo
+Description: Finite-state morphological transducer and constraint grammar for Livvi
+Version: @VERSION@
+
