@@ -19,7 +19,7 @@ TARGETS_COMMON =			\
 	hfst-twolc --resolve $< -o $@
 
 .deps/$(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc .deps/.d
-	hfst-lexc $< -o $@ --alignStrings --Werror
+	hfst-lexc $< -o $@ --alignStrings
 
 $(LANG1).autogen.hfst: .deps/$(LANG1).lexc.hfst
 	hfst-fst2fst -f olw -o $@ -i $<
