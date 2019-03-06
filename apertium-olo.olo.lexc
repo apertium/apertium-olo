@@ -143,11 +143,11 @@ Multichar_Symbols
 %<p1%>%<pl%> %<p2%>%<pl%> %<p3%>%<pl%>
 
 ! Reflexive conjugation
-%<recip%>%<pl%>1 %<recip%>%<p2>%<sg%> %<recip%>%<p3>%<sg%>
-%<recip%>%<pl%>1 %<recip%>%<p2>%<pl%> %<recip%>%<p3>%<pl%>
-%<recip%>
-%<recip%>%<pl%>
-%<recip%>%<pl%>
+%<refl%>%<p1%>%<sg%> %<refl%>%<p2%>%<sg%> %<refl%>%<p3%>%<sg%>
+%<refl%>%<p1%>%<pl%> %<refl%>%<p2%>%<pl%> %<refl%>%<p3%>%<pl%>
+%<refl%>
+%<refl%>%<pl%>
+%<refl%>%<pl%>
  %<p1%>%<sg%> %<p2%>%<sg%> %<p3%>%<sg%> %<p1%>%<pl%> %<p2%>%<pl%> %<p3%>%<pl%>
 !! Other verb forms are
   %<inf%>       !!= @CODE@ : Infinitive
@@ -155,7 +155,7 @@ Multichar_Symbols
   %<pass%> !!= @CODE@ : passive voice
   %<pp%> !!= @CODE@ : past participle
   %<pprs%> !!= @CODE@ : present participle
-  %<recip%>%<pp%>  !!= @CODE@ : reflexive past participle
+  %<refl%>%<pp%>  !!= @CODE@ : reflexive past participle
   %<ger%>       !!= @CODE@ : Gerund
 
  %<conneg%> %<conneg%> %<neg%> %<imp%>II
@@ -63656,7 +63656,7 @@ LEXICON VR_AMBUO_01 !!= * __@CODE@__ ambuokseh:ambu
 :     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
 :     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
 :%^WGStem     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ;
-%<inf%>%<recip%>:%>%{oö%}kseh K ;
+%<inf%>%<refl%>:%>%{oö%}kseh K ;
 
 LEXICON VR_VALUO !!= * __@CODE@__ valuokseh:valu
 ! harmony: back
@@ -63710,7 +63710,7 @@ LEXICON VR_PIDIÄ_01 !!= * __@CODE@__ pidiäkseh:pidä
 :%^RmVow     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
 :     VR_01-FRONT-SHORTSTEM-USUALLY-STRONG_ ;
 :%^WGStem     VR_01-FRONT-SHORTSTEM-USUALLY-WEAK_ ;
-%<inf%>%<recip%>:%^Ä2I%>%{aä%}kseh K ;
+%<inf%>%<refl%>:%^Ä2I%>%{aä%}kseh K ;
 
 LEXICON VR_KANDUA !!= * __@CODE@__ kanduakseh:kanda
 :%{back%} VR_KANDUA_01 ;
@@ -63721,7 +63721,7 @@ LEXICON VR_KANDUA_01 !!= * __@CODE@__ kanduakseh:kanda
 :%^A2O     VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS ;  
 :     VR_01-BACK-SHORTSTEM-USUALLY-STRONG_ ;
 :%^WGStem     VR_01-BACK-SHORTSTEM-USUALLY-WEAK_ ;
-%<inf%>%<recip%>:%^A2U%>%{aä%}kseh K ;
+%<inf%>%<refl%>:%^A2U%>%{aä%}kseh K ;
 
 LEXICON VR_KANDUA-SG3 !!= * __@CODE@__ kanduakseh:kanda
 :%{back%} VR_KANDUA-SG3_01 ;
@@ -63816,51 +63816,51 @@ LEXICON VR_
 	VR-LONGSTEM_ ;
 	VR-SHORTSTEM_ ;
 LEXICON VR-LONGSTEM_
-%<act%>%<pri%>%<pri%>%<p1%>%<sg%>%<recip%>:%^WGStem%>mm%{oö%}s	K	;
-%<act%>%<pri%>%<pri%>%<p2%>%<sg%>%<recip%>:%^WGStem%>tt%{oö%}s	K	;
-%<act%>%<pri%>%<pri%>%<p3%>%<sg%>%<recip%>:%^WGStem%>h	K	;
-%<act%>%<pri%>%<pri%>%<p1%>%<pl%>%<recip%>:%^WGStem%>mm%{oö%}kseh	K	;
-%<act%>%<pri%>%<pri%>%<p2%>%<pl%>%<recip%>:%^WGStem%>tt%{oö%}kseh	K	;
+%<act%>%<pri%>%<pri%>%<p1%>%<sg%>%<refl%>:%^WGStem%>mm%{oö%}s	K	;
+%<act%>%<pri%>%<pri%>%<p2%>%<sg%>%<refl%>:%^WGStem%>tt%{oö%}s	K	;
+%<act%>%<pri%>%<pri%>%<p3%>%<sg%>%<refl%>:%^WGStem%>h	K	;
+%<act%>%<pri%>%<pri%>%<p1%>%<pl%>%<refl%>:%^WGStem%>mm%{oö%}kseh	K	;
+%<act%>%<pri%>%<pri%>%<p2%>%<pl%>%<refl%>:%^WGStem%>tt%{oö%}kseh	K	;
 
-%<act%>%<pri%>%<past%>%<p1%>%<sg%>%<recip%>:%>mm%{oö%}s	K	;
-%<act%>%<pri%>%<past%>%<p2%>%<sg%>%<recip%>:%>tt%{oö%}s	K	;
-%<act%>%<pri%>%<past%>%<p3%>%<sg%>%<recip%>:%>h	K	;
-%<act%>%<pri%>%<past%>%<p1%>%<pl%>%<recip%>:%>mm%{oö%}kseh	K	;
-%<act%>%<pri%>%<past%>%<p2%>%<pl%>%<recip%>:%>tt%{oö%}kseh	K	;
+%<act%>%<pri%>%<past%>%<p1%>%<sg%>%<refl%>:%>mm%{oö%}s	K	;
+%<act%>%<pri%>%<past%>%<p2%>%<sg%>%<refl%>:%>tt%{oö%}s	K	;
+%<act%>%<pri%>%<past%>%<p3%>%<sg%>%<refl%>:%>h	K	;
+%<act%>%<pri%>%<past%>%<p1%>%<pl%>%<refl%>:%>mm%{oö%}kseh	K	;
+%<act%>%<pri%>%<past%>%<p2%>%<pl%>%<refl%>:%>tt%{oö%}kseh	K	;
 
 LEXICON VR-SHORTSTEM_
-%<act%>%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^WGStem%>j%{aä%}h	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<recip%>%<pl%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%>j%{aä%}	K	;
-%<act%>%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%>ttih	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}%{uy%}h	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}h	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}h	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>tt%{uy%}	K	;
+%<act%>%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^WGStem%>j%{aä%}h	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<refl%>%<pl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%>j%{aä%}	K	;
+%<act%>%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%>ttih	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}%{uy%}h	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}h	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}h	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>tt%{uy%}	K	;
 LEXICON VR-SHORTSTEM_BACK
-%<act%>%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^WGStem%>jah	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<recip%>%<pl%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%>ja	K	;
-%<act%>%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%>ttih	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}uh	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}uh	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}uh	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>ttu	K	;
+%<act%>%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^WGStem%>jah	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<refl%>%<pl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%>ja	K	;
+%<act%>%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%>ttih	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}uh	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}uh	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}uh	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>ttu	K	;
 LEXICON VR-SHORTSTEM_FRONT
-%<act%>%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^WGStem%>jäh	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<recip%>%<pl%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%^WGStem%>	K	;
-%<act%>%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%>jä	K	;
-%<act%>%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%>ttih	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}yh	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}yh	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}yh	K	;
-%<act%>%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>tty	K	;
+%<act%>%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^WGStem%>jäh	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<refl%>%<pl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%^WGStem%>	K	;
+%<act%>%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%>jä	K	;
+%<act%>%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%>ttih	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}yh	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}yh	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}yh	K	;
+%<act%>%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>tty	K	;
 
 
 LEXICON V-VV_01_USUALLY-WEAK-VOWEL-LOSS
@@ -64661,7 +64661,7 @@ LEXICON VR_01-BACK-SHORTSTEM-USUALLY-STRONG_
  VR_POT_N_BACK ;
  VR_IMPRT_kka ;
  RCPRFPRC_nuHes ;
-%<inf%>%<recip%>:%>takseh K ;
+%<inf%>%<refl%>:%>takseh K ;
 
 LEXICON VR_01-BACK-LONGSTEM-USUALLY-STRONG-VOWEL-LOSS
  VR_INDPRTSG3 ;
@@ -64709,7 +64709,7 @@ LEXICON VR_01-FRONT-SHORTSTEM-USUALLY-STRONG_
  VR_POT_N_FRONT ;
  VR_IMPRT_kkä ;
  RCPRFPRC_nyHes ;
-%<inf%>%<recip%>:%>täkseh K ;
+%<inf%>%<refl%>:%>täkseh K ;
 
 LEXICON VR_01-FRONT-SHORTSTEM-USUALLY-WEAK_
  VR_INDPRSPL3_Etähes ;
@@ -64766,7 +64766,7 @@ LEXICON VR_03-SHORTSTEM_
  VR_IMPRTPL3_DAhes ;
 
  RCPRFPRC_nUHes ;
-%<inf%>%<recip%>:%>t%{aä%}kseh K ;
+%<inf%>%<refl%>:%>t%{aä%}kseh K ;
 
 LEXICON VR_03_kuvitellakseh
 :e     VR_03-LONGSTEM_ ;
@@ -64881,73 +64881,73 @@ LEXICON INDPRSCONNEG !! * @CODE@ type 04
 !! !INDICATIVE PRESENT REFLEXIVE
 
 LEXICON VR_INDPRSSG1
-%<pri%>%<pri%>%<p1%>%<sg%>%<recip%>:%^WGStem%>mm%{oö%}s K ;
+%<pri%>%<pri%>%<p1%>%<sg%>%<refl%>:%^WGStem%>mm%{oö%}s K ;
 LEXICON VR_INDPRSSG1_BACK
-%<pri%>%<pri%>%<p1%>%<sg%>%<recip%>:%^WGStem%>mmos K ;
+%<pri%>%<pri%>%<p1%>%<sg%>%<refl%>:%^WGStem%>mmos K ;
 LEXICON VR_INDPRSSG1_FRONT
-%<pri%>%<pri%>%<p1%>%<sg%>%<recip%>:%^WGStem%>mmös K ;
+%<pri%>%<pri%>%<p1%>%<sg%>%<refl%>:%^WGStem%>mmös K ;
 LEXICON VR_INDPRSSG2
-%<pri%>%<pri%>%<p2%>%<sg%>%<recip%>:%^WGStem%>tt%{oö%}s K ;
+%<pri%>%<pri%>%<p2%>%<sg%>%<refl%>:%^WGStem%>tt%{oö%}s K ;
 LEXICON VR_INDPRSSG2_BACK
-%<pri%>%<pri%>%<p2%>%<sg%>%<recip%>:%^WGStem%>ttos K ;
+%<pri%>%<pri%>%<p2%>%<sg%>%<refl%>:%^WGStem%>ttos K ;
 LEXICON VR_INDPRSSG2_FRONT
-%<pri%>%<pri%>%<p2%>%<sg%>%<recip%>:%^WGStem%>ttoös K ;
+%<pri%>%<pri%>%<p2%>%<sg%>%<refl%>:%^WGStem%>ttoös K ;
 LEXICON VR_INDPRSSG3
-%<pri%>%<pri%>%<p3%>%<sg%>%<recip%>:%^WGStem%>h K ;
-%<pri%>%<pri%>%<p3%>%<sg%>%<recip%>:%^WGStem%>hes K ;
+%<pri%>%<pri%>%<p3%>%<sg%>%<refl%>:%^WGStem%>h K ;
+%<pri%>%<pri%>%<p3%>%<sg%>%<refl%>:%^WGStem%>hes K ;
 LEXICON VR_INDPRSPL1
-%<pri%>%<pri%>%<p1%>%<pl%>%<recip%>:%^WGStem%>mm%{oö%}kseh K ;
+%<pri%>%<pri%>%<p1%>%<pl%>%<refl%>:%^WGStem%>mm%{oö%}kseh K ;
 LEXICON VR_INDPRSPL1_BACK
-%<pri%>%<pri%>%<p1%>%<pl%>%<recip%>:%^WGStem%>mmokseh K ;
+%<pri%>%<pri%>%<p1%>%<pl%>%<refl%>:%^WGStem%>mmokseh K ;
 LEXICON VR_INDPRSPL1_FRONT
-%<pri%>%<pri%>%<p1%>%<pl%>%<recip%>:%^WGStem%>mmökseh K ;
+%<pri%>%<pri%>%<p1%>%<pl%>%<refl%>:%^WGStem%>mmökseh K ;
 LEXICON VR_INDPRSPL2
-%<pri%>%<pri%>%<p2%>%<pl%>%<recip%>:%^WGStem%>tt%{oö%}kseh K ;
+%<pri%>%<pri%>%<p2%>%<pl%>%<refl%>:%^WGStem%>tt%{oö%}kseh K ;
 LEXICON VR_INDPRSPL2_BACK
-%<pri%>%<pri%>%<p2%>%<pl%>%<recip%>:%^WGStem%>ttokseh K ;
+%<pri%>%<pri%>%<p2%>%<pl%>%<refl%>:%^WGStem%>ttokseh K ;
 LEXICON VR_INDPRSPL2_FRONT
-%<pri%>%<pri%>%<p2%>%<pl%>%<recip%>:%^WGStem%>ttökseh K ;
+%<pri%>%<pri%>%<p2%>%<pl%>%<refl%>:%^WGStem%>ttökseh K ;
 
 LEXICON VR_INDPRSPL3_jAhes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%>j%{aä%}hes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>j%{aä%}hes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%>j%{aä%}hes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>j%{aä%}hes K ;
 LEXICON VR_INDPRSPL3_jahes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%>jahes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>jahes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%>jahes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>jahes K ;
 LEXICON VR_INDPRSPL3_jähes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%>jähes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>jähes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%>jähes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>jähes K ;
 
 LEXICON VR_INDPRSPL3_dAhes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}%^WGStemhes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}%^WGStemhes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}%^WGStemhes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}%^WGStemhes K ;
 !LEXICON VR_INDPRSPL3_tAhes
-!%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^WGStem%>t%{aä%}hes K ;
-!%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%>t%{aä%}hes K ;
+!%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^WGStem%>t%{aä%}hes K ;
+!%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%>t%{aä%}hes K ;
 
 LEXICON VR_INDPRSPL3_EtAhes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^E1%>t%{aä%}hes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>t%{aä%}hes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^E1%>t%{aä%}hes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>t%{aä%}hes K ;
 LEXICON VR_INDPRSPL3_Etahes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^E1%>t%{aä%}hes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>t%{aä%}hes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^E1%>t%{aä%}hes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>t%{aä%}hes K ;
 LEXICON VR_INDPRSPL3_Etähes
-%<pri%>%<pri%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>t%{aä%}hes K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>t%{aä%}hes K ;
+%<pri%>%<pri%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>t%{aä%}hes K ;
+%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>t%{aä%}hes K ;
 
 LEXICON VR_INDPRSCONNEG_WEAK
-%<pri%>%<pri%>%<conneg%>%<recip%>%<pl%>:%^WGStemi K ;
-%<imp%>%<p2%>%<sg%>%<recip%>:%^WGStemi K ;
-%<imp%>%<conneg%>%<p2%>%<sg%>%<recip%>:%^WGStemi K ;
-%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%^WGStemi K ;
-%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%^WGStemi K ;
+%<pri%>%<pri%>%<conneg%>%<refl%>%<pl%>:%^WGStemi K ;
+%<imp%>%<p2%>%<sg%>%<refl%>:%^WGStemi K ;
+%<imp%>%<conneg%>%<p2%>%<sg%>%<refl%>:%^WGStemi K ;
+%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%^WGStemi K ;
+%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%^WGStemi K ;
 
 LEXICON VR_INDPRSCONNEG !! * @CODE@ 
-%<pri%>%<pri%>%<conneg%>%<recip%>%<pl%>:i K ;
-%<imp%>%<p2%>%<sg%>%<recip%>:i K ;
-%<imp%>%<conneg%>%<p2%>%<sg%>%<recip%>:i K ;
-%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:i K ;
-%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:i K ;
+%<pri%>%<pri%>%<conneg%>%<refl%>%<pl%>:i K ;
+%<imp%>%<p2%>%<sg%>%<refl%>:i K ;
+%<imp%>%<conneg%>%<p2%>%<sg%>%<refl%>:i K ;
+%<pri%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:i K ;
+%<pri%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:i K ;
 
 !! !INDICATIVE PRETERITE
 
@@ -65032,59 +65032,59 @@ LEXICON INDPRTCONNEGPL3_Etty
 !! !INDICATIVE PRETERITE REFLEXIVE
 
 LEXICON VR_INDPRTSG1
-%<pri%>%<past%>%<p1%>%<sg%>%<recip%>:%>i%^WGStem%>mm%{oö%}s K ;
+%<pri%>%<past%>%<p1%>%<sg%>%<refl%>:%>i%^WGStem%>mm%{oö%}s K ;
 LEXICON VR_INDPRTSG1_BACK
-%<pri%>%<past%>%<p1%>%<sg%>%<recip%>:%>i%^WGStem%>mmos K ;
+%<pri%>%<past%>%<p1%>%<sg%>%<refl%>:%>i%^WGStem%>mmos K ;
 LEXICON VR_INDPRTSG1_FRONT
-%<pri%>%<past%>%<p1%>%<sg%>%<recip%>:%>i%^WGStem%>mmös K ;
+%<pri%>%<past%>%<p1%>%<sg%>%<refl%>:%>i%^WGStem%>mmös K ;
 LEXICON VR_INDPRTSG2
-%<pri%>%<past%>%<p2%>%<sg%>%<recip%>:%>i%^WGStem%>tt%{oö%}s K ;
+%<pri%>%<past%>%<p2%>%<sg%>%<refl%>:%>i%^WGStem%>tt%{oö%}s K ;
 LEXICON VR_INDPRTSG2_BACK
-%<pri%>%<past%>%<p2%>%<sg%>%<recip%>:%>i%^WGStem%>ttos K ;
+%<pri%>%<past%>%<p2%>%<sg%>%<refl%>:%>i%^WGStem%>ttos K ;
 LEXICON VR_INDPRTSG2_FRONT
-%<pri%>%<past%>%<p2%>%<sg%>%<recip%>:%>i%^WGStem%>ttös K ;
+%<pri%>%<past%>%<p2%>%<sg%>%<refl%>:%>i%^WGStem%>ttös K ;
 LEXICON VR_INDPRTSG3
-%<pri%>%<past%>%<p3%>%<sg%>%<recip%>:%>i%>h K ;
-%<pri%>%<past%>%<p3%>%<sg%>%<recip%>:%>i%>hes K ;
+%<pri%>%<past%>%<p3%>%<sg%>%<refl%>:%>i%>h K ;
+%<pri%>%<past%>%<p3%>%<sg%>%<refl%>:%>i%>hes K ;
 LEXICON VR_INDPRTPL1
-%<pri%>%<past%>%<p1%>%<pl%>%<recip%>:%>i%^WGStem%>mm%{oö%}kseh K ;
+%<pri%>%<past%>%<p1%>%<pl%>%<refl%>:%>i%^WGStem%>mm%{oö%}kseh K ;
 LEXICON VR_INDPRTPL1_BACK
-%<pri%>%<past%>%<p1%>%<pl%>%<recip%>:%>i%^WGStem%>mmokseh K ;
+%<pri%>%<past%>%<p1%>%<pl%>%<refl%>:%>i%^WGStem%>mmokseh K ;
 LEXICON VR_INDPRTPL1_FRONT
-%<pri%>%<past%>%<p1%>%<pl%>%<recip%>:%>i%^WGStem%>mmökseh K ;
+%<pri%>%<past%>%<p1%>%<pl%>%<refl%>:%>i%^WGStem%>mmökseh K ;
 LEXICON VR_INDPRTPL2
-%<pri%>%<past%>%<p2%>%<pl%>%<recip%>:%>i%^WGStem%>tt%{oö%}kseh K ;
+%<pri%>%<past%>%<p2%>%<pl%>%<refl%>:%>i%^WGStem%>tt%{oö%}kseh K ;
 LEXICON VR_INDPRTPL2_BACK
-%<pri%>%<past%>%<p2%>%<pl%>%<recip%>:%>i%^WGStem%>ttokseh K ;
+%<pri%>%<past%>%<p2%>%<pl%>%<refl%>:%>i%^WGStem%>ttokseh K ;
 LEXICON VR_INDPRTPL2_FRONT
-%<pri%>%<past%>%<p2%>%<pl%>%<recip%>:%>i%^WGStem%>ttökseh K ;
+%<pri%>%<past%>%<p2%>%<pl%>%<refl%>:%>i%^WGStem%>ttökseh K ;
 LEXICON VR_INDPRTPL3_dihes
-%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%>dihes K ;
+%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%>dihes K ;
 LEXICON VR_INDPRTPL3_tihes
-%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%^WGStem%>tihes K ;
+%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%^WGStem%>tihes K ;
 !LEXICON VR_INDPRTPL3_Etihes
-!%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>tihes K ;
+!%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>tihes K ;
 !LEXICON VR_INDPRTPL3_ttihes
-!%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%^WGStem%>ttihes K ;
+!%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%^WGStem%>ttihes K ;
 
 LEXICON VR_INDPRTPL3_Ettihes
-%<pri%>%<past%>%<p3%>%<pl%>%<recip%>:%^E1%>ttihes K ;
+%<pri%>%<past%>%<p3%>%<pl%>%<refl%>:%^E1%>ttihes K ;
 
 !LEXICON VR_INDPRTSGCONNEG
 !%<pri%>%<past%>%<conneg%>%<sg%>:%^WGStem K ;
 
 LEXICON VR_INDPRTCONNEG_nUhes
-%<pri%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}%{uy%}%^WGStemhes K ;
-%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStemhes K ;
-%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStemhes K ;
+%<pri%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}%{uy%}%^WGStemhes K ;
+%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStemhes K ;
+%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStemhes K ;
 !LEXICON VR_INDPRTCONNEG_nuhes
-!%<pri%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}u%^WGStemhes K ;
-!%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}u%^WGStemhes K ;
-!%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}u%^WGStemhes K ;
+!%<pri%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}u%^WGStemhes K ;
+!%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}u%^WGStemhes K ;
+!%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}u%^WGStemhes K ;
 !LEXICON VR_INDPRTCONNEG_nyhes
-!%<pri%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}y%^WGStemhes K ;
-!%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}y%^WGStemhes K ;
-!%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}y%^WGStemhes K ;
+!%<pri%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}y%^WGStemhes K ;
+!%<pri%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}y%^WGStemhes K ;
+!%<pri%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}y%^WGStemhes K ;
 
 LEXICON VR_INDPRTCONNEG_nnUhes
 %<pri%>%<past%>%<conneg%>:%>n%{lnrs%}%{uy%}hes K ;
@@ -65094,16 +65094,16 @@ LEXICON VR_INDPRTCONNEG_nnUhes
 !%<pri%>%<past%>%<conneg%>:%>n%{lnrs%}yhes K ;
 
 LEXICON VR_INDPRTCONNEGPL3_DUhes
-%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{uy%}hes K ;
+%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{uy%}hes K ;
 !LEXICON VR_INDPRTCONNEGPL3_ttUhes
-!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%>tt%{uy%}hes K ;
+!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%>tt%{uy%}hes K ;
 
 LEXICON VR_INDPRTCONNEGPL3_EttUhes
-%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tt%{uy%}hes K ;
+%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tt%{uy%}hes K ;
 !LEXICON VR_INDPRTCONNEGPL3_Ettuhes
-!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tt%{uy%}hes K ;
+!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tt%{uy%}hes K ;
 !LEXICON VR_INDPRTCONNEGPL3_Ettyhes
-!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>yhes K ;
+!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>yhes K ;
 
 
 !! !!Conditional
@@ -65205,52 +65205,52 @@ LEXICON CONDPRSPL3_Ettäs
 %<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:%^E1%>ttäs K ;
 
 LEXICON VR_CONDPRS_IZ
-%<cni%>%<pri%>%<p1%>%<sg%>%<recip%>:%>i%>zimm%{oö%}s K ;
-%<cni%>%<pri%>%<p2%>%<sg%>%<recip%>:%>izitt%{oö%}s K ;
-%<cni%>%<pri%>%<p3%>%<sg%>%<recip%>:%>izihes K ;
-%<cni%>%<pri%>%<p1%>%<pl%>%<recip%>:%>izimm%{oö%}kseh K ;
-%<cni%>%<pri%>%<p2%>%<pl%>%<recip%>:%>izitt%{oö%}kseh K ;
-%<cni%>%<pri%>%<conneg%>%<recip%>%<pl%>:%>izihes K ;
-%<cni%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>izihes K ;
-%<cni%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>izihes K ;
+%<cni%>%<pri%>%<p1%>%<sg%>%<refl%>:%>i%>zimm%{oö%}s K ;
+%<cni%>%<pri%>%<p2%>%<sg%>%<refl%>:%>izitt%{oö%}s K ;
+%<cni%>%<pri%>%<p3%>%<sg%>%<refl%>:%>izihes K ;
+%<cni%>%<pri%>%<p1%>%<pl%>%<refl%>:%>izimm%{oö%}kseh K ;
+%<cni%>%<pri%>%<p2%>%<pl%>%<refl%>:%>izitt%{oö%}kseh K ;
+%<cni%>%<pri%>%<conneg%>%<refl%>%<pl%>:%>izihes K ;
+%<cni%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>izihes K ;
+%<cni%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>izihes K ;
 LEXICON VR_CONDPRS_IZ_BACK
-%<cni%>%<pri%>%<p1%>%<sg%>%<recip%>:%>i%>zimmos K ;
-%<cni%>%<pri%>%<p2%>%<sg%>%<recip%>:%>izittos K ;
-%<cni%>%<pri%>%<p3%>%<sg%>%<recip%>:%>izihes K ;
-%<cni%>%<pri%>%<p1%>%<pl%>%<recip%>:%>izimmokseh K ;
-%<cni%>%<pri%>%<p2%>%<pl%>%<recip%>:%>izittokseh K ;
-%<cni%>%<pri%>%<conneg%>%<recip%>%<pl%>:%>izihes K ;
-%<cni%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>izihes K ;
-%<cni%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>izihes K ;
+%<cni%>%<pri%>%<p1%>%<sg%>%<refl%>:%>i%>zimmos K ;
+%<cni%>%<pri%>%<p2%>%<sg%>%<refl%>:%>izittos K ;
+%<cni%>%<pri%>%<p3%>%<sg%>%<refl%>:%>izihes K ;
+%<cni%>%<pri%>%<p1%>%<pl%>%<refl%>:%>izimmokseh K ;
+%<cni%>%<pri%>%<p2%>%<pl%>%<refl%>:%>izittokseh K ;
+%<cni%>%<pri%>%<conneg%>%<refl%>%<pl%>:%>izihes K ;
+%<cni%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>izihes K ;
+%<cni%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>izihes K ;
 LEXICON VR_CONDPRS_IZ_FRONT
-%<cni%>%<pri%>%<p1%>%<sg%>%<recip%>:%>i%>zimmös K ;
-%<cni%>%<pri%>%<p2%>%<sg%>%<recip%>:%>izittös K ;
-%<cni%>%<pri%>%<p3%>%<sg%>%<recip%>:%>izihes K ;
-%<cni%>%<pri%>%<p1%>%<pl%>%<recip%>:%>izimmökseh K ;
-%<cni%>%<pri%>%<p2%>%<pl%>%<recip%>:%>izittökseh K ;
-%<cni%>%<pri%>%<conneg%>%<recip%>%<pl%>:%>izihes K ;
-%<cni%>%<pri%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>izihes K ;
-%<cni%>%<pri%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>izihes K ;
+%<cni%>%<pri%>%<p1%>%<sg%>%<refl%>:%>i%>zimmös K ;
+%<cni%>%<pri%>%<p2%>%<sg%>%<refl%>:%>izittös K ;
+%<cni%>%<pri%>%<p3%>%<sg%>%<refl%>:%>izihes K ;
+%<cni%>%<pri%>%<p1%>%<pl%>%<refl%>:%>izimmökseh K ;
+%<cni%>%<pri%>%<p2%>%<pl%>%<refl%>:%>izittökseh K ;
+%<cni%>%<pri%>%<conneg%>%<refl%>%<pl%>:%>izihes K ;
+%<cni%>%<pri%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>izihes K ;
+%<cni%>%<pri%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>izihes K ;
 
 LEXICON VR_CONDPRSPL3_DAzihes
-%<cni%>%<pri%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}zihes K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}zihes K ;
+%<cni%>%<pri%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}zihes K ;
+%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}zihes K ;
 LEXICON VR_CONDPRSPL3_Dazihes
-%<cni%>%<pri%>%<p3%>%<pl%>%<recip%>:%>dazihes K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>dazihes K ;
+%<cni%>%<pri%>%<p3%>%<pl%>%<refl%>:%>dazihes K ;
+%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>dazihes K ;
 LEXICON VR_CONDPRSPL3_Däzihes
-%<cni%>%<pri%>%<p3%>%<pl%>%<recip%>:%>däzihes K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>däzihes K ;
+%<cni%>%<pri%>%<p3%>%<pl%>%<refl%>:%>däzihes K ;
+%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>däzihes K ;
 
 LEXICON VR_CONDPRSPL3_EttAzihes
-%<cni%>%<pri%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>tt%{aä%}zihes K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>tt%{aä%}zihes K ;
+%<cni%>%<pri%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>tt%{aä%}zihes K ;
+%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>tt%{aä%}zihes K ;
 LEXICON VR_CONDPRSPL3_Ettazihes
-%<cni%>%<pri%>%<p3%>%<pl%>%<recip%>:%^E1%>ttazihes K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>ttazihes K ;
+%<cni%>%<pri%>%<p3%>%<pl%>%<refl%>:%^E1%>ttazihes K ;
+%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>ttazihes K ;
 LEXICON VR_CONDPRSPL3_Ettäzihes
-%<cni%>%<pri%>%<p3%>%<pl%>%<recip%>:%^E1%>ttäzihes K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>ttäzihes K ;
+%<cni%>%<pri%>%<p3%>%<pl%>%<refl%>:%^E1%>ttäzihes K ;
+%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>ttäzihes K ;
 
 !! !CONDITIONAL PRETERITE
 LEXICON CONDPRT
@@ -65344,36 +65344,36 @@ LEXICON CONDPRTPL3_Etännys
 %<cni%>%<past%>%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>tän%{lnrs%}ys K ;
 
 LEXICON VR_CONDPRT_nUs
-%<cni%>%<past%>%<p1%>%<sg%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zimm%{oö%}s K ;
-%<cni%>%<past%>%<p2%>%<sg%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zitt%{oö%}s K ;
-%<cni%>%<past%>%<p3%>%<sg%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
-%<cni%>%<past%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zimm%{oö%}kseh K ;
-%<cni%>%<past%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zitt%{oö%}kseh K ;
-%<cni%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
-%<cni%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
-%<cni%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
+%<cni%>%<past%>%<p1%>%<sg%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zimm%{oö%}s K ;
+%<cni%>%<past%>%<p2%>%<sg%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zitt%{oö%}s K ;
+%<cni%>%<past%>%<p3%>%<sg%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
+%<cni%>%<past%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zimm%{oö%}kseh K ;
+%<cni%>%<past%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zitt%{oö%}kseh K ;
+%<cni%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
+%<cni%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
+%<cni%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}%{uy%}%^WGStem%>zihes K ;
 LEXICON VR_CONDPRT_nus
-%<cni%>%<past%>%<p1%>%<sg%>%<recip%>:%>%{lnrs%}u%^WGStem%>zimmos K ;
-%<cni%>%<past%>%<p2%>%<sg%>%<recip%>:%>%{lnrs%}u%^WGStem%>zittos K ;
-%<cni%>%<past%>%<p3%>%<sg%>%<recip%>:%>%{lnrs%}u%^WGStem%>zihes K ;
-%<cni%>%<past%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}u%^WGStem%>zimmokseh K ;
-%<cni%>%<past%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}u%^WGStem%>zittokseh K ;
-%<cni%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}u%^WGStem%>zihes K ;
-%<cni%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}u%^WGStem%>zihes K ;
-%<cni%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}u%^WGStem%>zihes K ;
+%<cni%>%<past%>%<p1%>%<sg%>%<refl%>:%>%{lnrs%}u%^WGStem%>zimmos K ;
+%<cni%>%<past%>%<p2%>%<sg%>%<refl%>:%>%{lnrs%}u%^WGStem%>zittos K ;
+%<cni%>%<past%>%<p3%>%<sg%>%<refl%>:%>%{lnrs%}u%^WGStem%>zihes K ;
+%<cni%>%<past%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}u%^WGStem%>zimmokseh K ;
+%<cni%>%<past%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}u%^WGStem%>zittokseh K ;
+%<cni%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}u%^WGStem%>zihes K ;
+%<cni%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}u%^WGStem%>zihes K ;
+%<cni%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}u%^WGStem%>zihes K ;
 LEXICON VR_CONDPRT_nys
-%<cni%>%<past%>%<p1%>%<sg%>%<recip%>:%>%{lnrs%}y%^WGStem%>zimmös K ;
-%<cni%>%<past%>%<p2%>%<sg%>%<recip%>:%>%{lnrs%}y%^WGStem%>zittös K ;
-%<cni%>%<past%>%<p3%>%<sg%>%<recip%>:%>%{lnrs%}y%^WGStem%>zihes K ;
-%<cni%>%<past%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}y%^WGStem%>zimmökseh K ;
-%<cni%>%<past%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}y%^WGStem%>zittökseh K ;
-%<cni%>%<past%>%<conneg%>%<recip%>%<pl%>:%>%{lnrs%}y%^WGStem%>zihes K ;
-%<cni%>%<past%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>%{lnrs%}y%^WGStem%>zihes K ;
-%<cni%>%<past%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>%{lnrs%}y%^WGStem%>zihes K ;
+%<cni%>%<past%>%<p1%>%<sg%>%<refl%>:%>%{lnrs%}y%^WGStem%>zimmös K ;
+%<cni%>%<past%>%<p2%>%<sg%>%<refl%>:%>%{lnrs%}y%^WGStem%>zittös K ;
+%<cni%>%<past%>%<p3%>%<sg%>%<refl%>:%>%{lnrs%}y%^WGStem%>zihes K ;
+%<cni%>%<past%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}y%^WGStem%>zimmökseh K ;
+%<cni%>%<past%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}y%^WGStem%>zittökseh K ;
+%<cni%>%<past%>%<conneg%>%<refl%>%<pl%>:%>%{lnrs%}y%^WGStem%>zihes K ;
+%<cni%>%<past%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>%{lnrs%}y%^WGStem%>zihes K ;
+%<cni%>%<past%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>%{lnrs%}y%^WGStem%>zihes K ;
 
 LEXICON VR_CONDPRTPL3_DAhUzihes
-%<cni%>%<past%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}h%{uy%}zihes K ;
-%<cni%>%<past%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}h%{uy%}zihes K ;
+%<cni%>%<past%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}h%{uy%}zihes K ;
+%<cni%>%<past%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}h%{uy%}zihes K ;
 
 LEXICON VR_CONDPRTPL3_EtAhUzihes
 %<cni%>%<past%>%<p3%>%<pl%>:%^E1%>t%{aä%}h%{uy%}zihes K ;
@@ -65472,55 +65472,55 @@ LEXICON POTPL3_Etänneh
 %<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>tänne K ;
 
 LEXICON VR_POT_N
-%<post%>t%<p1%>%<sg%>%<recip%>:%>n%^WGStememm%{oö%}s K ;
-%<post%>t%<p2%>%<sg%>%<recip%>:%>n%^WGStemett%{oö%}s K ;
-%<post%>t%<p3%>%<sg%>%<recip%>:%>n%^WGStemehes K ;
-%<post%>t%<p1%>%<pl%>%<recip%>:%>n%^WGStememm%{oö%}kseh K ;
-%<post%>t%<p2%>%<pl%>%<recip%>:%>n%^WGStemett%{oö%}kseh K ;
-%<post%>t%<conneg%>%<recip%>%<pl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p1%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
+%<post%>t%<p1%>%<sg%>%<refl%>:%>n%^WGStememm%{oö%}s K ;
+%<post%>t%<p2%>%<sg%>%<refl%>:%>n%^WGStemett%{oö%}s K ;
+%<post%>t%<p3%>%<sg%>%<refl%>:%>n%^WGStemehes K ;
+%<post%>t%<p1%>%<pl%>%<refl%>:%>n%^WGStememm%{oö%}kseh K ;
+%<post%>t%<p2%>%<pl%>%<refl%>:%>n%^WGStemett%{oö%}kseh K ;
+%<post%>t%<conneg%>%<refl%>%<pl%>:%>n%^WGStemehes K ;
+%<post%>t%<conneg%>%<p1%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
+%<post%>t%<conneg%>%<p2%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
 LEXICON VR_POT_N_BACK
-%<post%>t%<p1%>%<sg%>%<recip%>:%>n%^WGStememmos K ;
-%<post%>t%<p2%>%<sg%>%<recip%>:%>n%^WGStemettos K ;
-%<post%>t%<p3%>%<sg%>%<recip%>:%>n%^WGStemehes K ;
-%<post%>t%<p1%>%<pl%>%<recip%>:%>n%^WGStememmokseh K ;
-%<post%>t%<p2%>%<pl%>%<recip%>:%>n%^WGStemettokseh K ;
-%<post%>t%<conneg%>%<recip%>%<pl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p1%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
+%<post%>t%<p1%>%<sg%>%<refl%>:%>n%^WGStememmos K ;
+%<post%>t%<p2%>%<sg%>%<refl%>:%>n%^WGStemettos K ;
+%<post%>t%<p3%>%<sg%>%<refl%>:%>n%^WGStemehes K ;
+%<post%>t%<p1%>%<pl%>%<refl%>:%>n%^WGStememmokseh K ;
+%<post%>t%<p2%>%<pl%>%<refl%>:%>n%^WGStemettokseh K ;
+%<post%>t%<conneg%>%<refl%>%<pl%>:%>n%^WGStemehes K ;
+%<post%>t%<conneg%>%<p1%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
+%<post%>t%<conneg%>%<p2%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
 LEXICON VR_POT_N_FRONT
-%<post%>t%<p1%>%<sg%>%<recip%>:%>n%^WGStememmös K ;
-%<post%>t%<p2%>%<sg%>%<recip%>:%>n%^WGStemettös K ;
-%<post%>t%<p3%>%<sg%>%<recip%>:%>n%^WGStemehes K ;
-%<post%>t%<p1%>%<pl%>%<recip%>:%>n%^WGStememmökseh K ;
-%<post%>t%<p2%>%<pl%>%<recip%>:%>n%^WGStemettökseh K ;
-%<post%>t%<conneg%>%<recip%>%<pl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p1%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
+%<post%>t%<p1%>%<sg%>%<refl%>:%>n%^WGStememmös K ;
+%<post%>t%<p2%>%<sg%>%<refl%>:%>n%^WGStemettös K ;
+%<post%>t%<p3%>%<sg%>%<refl%>:%>n%^WGStemehes K ;
+%<post%>t%<p1%>%<pl%>%<refl%>:%>n%^WGStememmökseh K ;
+%<post%>t%<p2%>%<pl%>%<refl%>:%>n%^WGStemettökseh K ;
+%<post%>t%<conneg%>%<refl%>%<pl%>:%>n%^WGStemehes K ;
+%<post%>t%<conneg%>%<p1%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
+%<post%>t%<conneg%>%<p2%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
 
 LEXICON VR_POTPL3_DAnehes
-%<post%>t%<p3%>%<pl%>%<recip%>:%>d%{aä%}%>hes K ;
-%<post%>t%<p3%>%<pl%>%<recip%>:%>d%{aä%}%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-%<post%>t%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}%>nehes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%>d%{aä%}%>hes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%>d%{aä%}%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}%>nehes K ;
 LEXICON VR_POTPL3_Danehes
-%<post%>t%<p3%>%<pl%>%<recip%>:%>da%>hes K ;
-%<post%>t%<p3%>%<pl%>%<recip%>:%>da%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-%<post%>t%<conneg%>%<p3%>%<pl%>%<recip%>:%>da%>nehes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%>da%>hes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%>da%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%>da%>nehes K ;
 LEXICON VR_POTPL3_Dänehes
-%<post%>t%<p3%>%<pl%>%<recip%>:%>dä%>hes K ;
-%<post%>t%<p3%>%<pl%>%<recip%>:%>dä%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-%<post%>t%<conneg%>%<p3%>%<pl%>%<recip%>:%>dä%>nehes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%>dä%>hes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%>dä%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%>dä%>nehes K ;
 
 LEXICON VR_POTPL3_EtAnehes
-%<post%>t%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>t%{aä%}nehes K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>t%{aä%}nehes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>t%{aä%}nehes K ;
+%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>t%{aä%}nehes K ;
 LEXICON VR_POTPL3_Etanehes
-%<post%>t%<p3%>%<pl%>%<recip%>:%^E1%>tanehes K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tanehes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%^E1%>tanehes K ;
+%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tanehes K ;
 LEXICON VR_POTPL3_Etänehes
-%<post%>t%<p3%>%<pl%>%<recip%>:%^E1%>tänehes K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tänehes K ;
+%<post%>t%<p3%>%<pl%>%<refl%>:%^E1%>tänehes K ;
+%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tänehes K ;
 
 !! !!IMPERATIVE
 LEXICON IMPRT_GA
@@ -65665,71 +65665,71 @@ LEXICON IMPRTPL3_Ettähes
 
 !! !IMPERATIVE REFLEXIVE
 LEXICON VR_IMPRT_GA
-%<imp%>%<p3%>%<sg%>%<recip%>:%>g%{aä%}hes K ;
-%<imp%>%<p1%>%<pl%>%<recip%>:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;
-%<imp%>%<p2%>%<pl%>%<recip%>:%>g%{ui%}%{aä%}tt%{oö%}kseh K ;
+%<imp%>%<p3%>%<sg%>%<refl%>:%>g%{aä%}hes K ;
+%<imp%>%<p1%>%<pl%>%<refl%>:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;
+%<imp%>%<p2%>%<pl%>%<refl%>:%>g%{ui%}%{aä%}tt%{oö%}kseh K ;
 
-%<imp%>%<conneg%>%<p3%>%<sg%>%<recip%>:%>g%{aä%}hes K ;
-%<imp%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>g%{ui%}%{aä%}tt%{oö%}kseh K ;
+%<imp%>%<conneg%>%<p3%>%<sg%>%<refl%>:%>g%{aä%}hes K ;
+%<imp%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>g%{ui%}%{aä%}mm%{oö%}kseh K ;
+%<imp%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>g%{ui%}%{aä%}tt%{oö%}kseh K ;
 
 LEXICON VR_IMPRT_kkA
-%<imp%>%<p3%>%<sg%>%<recip%>:%>kk%{aä%}hes K ;
-%<imp%>%<p1%>%<pl%>%<recip%>:%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
-%<imp%>%<p2%>%<pl%>%<recip%>:%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
-%<imp%>%<conneg%>%<p3%>%<sg%>%<recip%>:%>kk%{aä%}hes K ;
-%<imp%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
+%<imp%>%<p3%>%<sg%>%<refl%>:%>kk%{aä%}hes K ;
+%<imp%>%<p1%>%<pl%>%<refl%>:%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
+%<imp%>%<p2%>%<pl%>%<refl%>:%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
+%<imp%>%<conneg%>%<p3%>%<sg%>%<refl%>:%>kk%{aä%}hes K ;
+%<imp%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
+%<imp%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
 LEXICON VR_IMPRT_kka
-%<imp%>%<p3%>%<sg%>%<recip%>:%>kkahes K ;
-%<imp%>%<p1%>%<pl%>%<recip%>:%>kkuammokseh K ;
-%<imp%>%<p2%>%<pl%>%<recip%>:%>kkuattokseh K ;
-%<imp%>%<conneg%>%<p3%>%<sg%>%<recip%>:%>kkahes K ;
-%<imp%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>kkuammokseh K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>kkuattokseh K ;
+%<imp%>%<p3%>%<sg%>%<refl%>:%>kkahes K ;
+%<imp%>%<p1%>%<pl%>%<refl%>:%>kkuammokseh K ;
+%<imp%>%<p2%>%<pl%>%<refl%>:%>kkuattokseh K ;
+%<imp%>%<conneg%>%<p3%>%<sg%>%<refl%>:%>kkahes K ;
+%<imp%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>kkuammokseh K ;
+%<imp%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>kkuattokseh K ;
 LEXICON VR_IMPRT_kkä
-%<imp%>%<p3%>%<sg%>%<recip%>:%>kkähes K ;
-%<imp%>%<p1%>%<pl%>%<recip%>:%>kkiämmökseh K ;
-%<imp%>%<p2%>%<pl%>%<recip%>:%>kkiättökseh K ;
-%<imp%>%<conneg%>%<p3%>%<sg%>%<recip%>:%>kkähes K ;
-%<imp%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>kkiämmökseh K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>kkiättökseh K ;
+%<imp%>%<p3%>%<sg%>%<refl%>:%>kkähes K ;
+%<imp%>%<p1%>%<pl%>%<refl%>:%>kkiämmökseh K ;
+%<imp%>%<p2%>%<pl%>%<refl%>:%>kkiättökseh K ;
+%<imp%>%<conneg%>%<p3%>%<sg%>%<refl%>:%>kkähes K ;
+%<imp%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>kkiämmökseh K ;
+%<imp%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>kkiättökseh K ;
 
 !LEXICON VR_IMPRT_WEAK-kkA
-!%<imp%>%<p3%>%<sg%>%<recip%>:%^WGStem%>kk%{aä%}hes K ;
-!%<imp%>%<p1%>%<pl%>%<recip%>:%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
-!%<imp%>%<p2%>%<pl%>%<recip%>:%^WGStem%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
+!%<imp%>%<p3%>%<sg%>%<refl%>:%^WGStem%>kk%{aä%}hes K ;
+!%<imp%>%<p1%>%<pl%>%<refl%>:%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
+!%<imp%>%<p2%>%<pl%>%<refl%>:%^WGStem%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
 
-!%<imp%>%<conneg%>%<p3%>%<sg%>%<recip%>:%^WGStem%>kk%{aä%}hes K ;
-!%<imp%>%<conneg%>%<p1%>%<pl%>%<recip%>:%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
-!%<imp%>%<conneg%>%<p2%>%<pl%>%<recip%>:%^WGStem%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
+!%<imp%>%<conneg%>%<p3%>%<sg%>%<refl%>:%^WGStem%>kk%{aä%}hes K ;
+!%<imp%>%<conneg%>%<p1%>%<pl%>%<refl%>:%^WGStem%>kk%{ui%}%{aä%}mm%{oö%}kseh K ;
+!%<imp%>%<conneg%>%<p2%>%<pl%>%<refl%>:%^WGStem%>kk%{ui%}%{aä%}tt%{oö%}kseh K ;
 
 LEXICON VR_IMPRT_KA
-%<imp%>%<p3%>%<sg%>%<recip%>:%>k%{aä%}hes K ;
-%<imp%>%<p1%>%<pl%>%<recip%>:%>k%{ui%}%{aä%}mm%{oö%}kseh K ;
-%<imp%>%<p2%>%<pl%>%<recip%>:%>k%{ui%}%{aä%}tt%{oö%}kseh K ;
+%<imp%>%<p3%>%<sg%>%<refl%>:%>k%{aä%}hes K ;
+%<imp%>%<p1%>%<pl%>%<refl%>:%>k%{ui%}%{aä%}mm%{oö%}kseh K ;
+%<imp%>%<p2%>%<pl%>%<refl%>:%>k%{ui%}%{aä%}tt%{oö%}kseh K ;
 
-%<imp%>%<conneg%>%<p3%>%<sg%>%<recip%>:%>k%{aä%}hes K ;
-%<imp%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>k%{ui%}%{aä%}mm%{oö%}kseh K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>k%{ui%}%{aä%}tt%{oö%}kseh K ;
+%<imp%>%<conneg%>%<p3%>%<sg%>%<refl%>:%>k%{aä%}hes K ;
+%<imp%>%<conneg%>%<p1%>%<pl%>%<refl%>:%>k%{ui%}%{aä%}mm%{oö%}kseh K ;
+%<imp%>%<conneg%>%<p2%>%<pl%>%<refl%>:%>k%{ui%}%{aä%}tt%{oö%}kseh K ;
 
 LEXICON VR_IMPRTPL3_DAhes
-%<imp%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}hes K ;
-%<imp%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}hes K ;
+%<imp%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}hes K ;
+%<imp%>%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}hes K ;
 
 !LEXICON VR_IMPRTPL3_ttAhes
-!%<imp%>%<p3%>%<pl%>%<recip%>:%^WGStem%>tt%{aä%}hes K ;
-!%<imp%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%>tt%{aä%}hes K ;
+!%<imp%>%<p3%>%<pl%>%<refl%>:%^WGStem%>tt%{aä%}hes K ;
+!%<imp%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%>tt%{aä%}hes K ;
 
 LEXICON VR_IMPRTPL3_EttAhes
-%<imp%>%<p3%>%<pl%>%<recip%>:%^E1%>tt%{aä%}hes K ;
-%<imp%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tt%{aä%}hes K ;
+%<imp%>%<p3%>%<pl%>%<refl%>:%^E1%>tt%{aä%}hes K ;
+%<imp%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tt%{aä%}hes K ;
 LEXICON VR_IMPRTPL3_Ettahes
-%<imp%>%<p3%>%<pl%>%<recip%>:%^E1%>ttahes K ;
-%<imp%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>ttahes K ;
+%<imp%>%<p3%>%<pl%>%<refl%>:%^E1%>ttahes K ;
+%<imp%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>ttahes K ;
 LEXICON VR_IMPRTPL3_Ettähes
-%<imp%>%<p3%>%<pl%>%<recip%>:%^E1%>ttähes K ;
-%<imp%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>ttähes K ;
+%<imp%>%<p3%>%<pl%>%<refl%>:%^E1%>ttähes K ;
+%<imp%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>ttähes K ;
 
 
 
@@ -65860,35 +65860,35 @@ LEXICON  PSS-PRFPRC_Etty
 
 !!
 LEXICON RCPRFPRC_nUHes
-%<recip%>%<pp%>:%>%{lnrs%}%{uy%}hes K ;
-!%<recip%>%<pp%>:%>%{lnrs%}%{uy%}tes K ;
+%<refl%>%<pp%>:%>%{lnrs%}%{uy%}hes K ;
+!%<refl%>%<pp%>:%>%{lnrs%}%{uy%}tes K ;
 LEXICON RCPRFPRC_nuHes
-%<recip%>%<pp%>:%>%{lnrs%}uhes K ;
+%<refl%>%<pp%>:%>%{lnrs%}uhes K ;
 LEXICON RCPRFPRC_nyHes
-%<recip%>%<pp%>:%>%{lnrs%}yhes K ;
+%<refl%>%<pp%>:%>%{lnrs%}yhes K ;
 
 !LEXICON RCPRFPRC_nnUHes
-!%<recip%>%<pp%>:%^WGStem%>n%{lnrs%}%{uy%}hes K ;
-!%<recip%>%<pp%>:%^WGStem%>n%{lnrs%}%{uy%}tes K ;
+!%<refl%>%<pp%>:%^WGStem%>n%{lnrs%}%{uy%}hes K ;
+!%<refl%>%<pp%>:%^WGStem%>n%{lnrs%}%{uy%}tes K ;
 
 LEXICON  RCPRFPRC_Duhes
-%<recip%>%<pp%>%<p3%>%<pl%>:%>duhes K ;
+%<refl%>%<pp%>%<p3%>%<pl%>:%>duhes K ;
 LEXICON  RCPRFPRC_Dyhes
-%<recip%>%<pp%>%<p3%>%<pl%>:%>dyhes K ;
+%<refl%>%<pp%>%<p3%>%<pl%>:%>dyhes K ;
 
 !LEXICON  RCPRFPRC_ttUhes
-!%<recip%>%<pp%>%<p3%>%<pl%>:%^WGStem%>tt%{uy%} K ;
+!%<refl%>%<pp%>%<p3%>%<pl%>:%^WGStem%>tt%{uy%} K ;
 
 !LEXICON  RCPRFPRC_EttUhes
-!%<recip%>%<pp%>%<p3%>%<pl%>:%^WGStem%^E1%>tt%{uy%} K ;
+!%<refl%>%<pp%>%<p3%>%<pl%>:%^WGStem%^E1%>tt%{uy%} K ;
 
 LEXICON INF_A
 %<inf%>:%>%{aäoeö%} K ;
 
 LEXICON INF-RC_Akseh
-%<inf%>%<recip%>:%>%{aäoeö%}kseh K ;
+%<inf%>%<refl%>:%>%{aäoeö%}kseh K ;
 LEXICON INF-RC_tAkseh
-%<inf%>%<recip%>:%>t%{aä%}kseh K ;
+%<inf%>%<refl%>:%>t%{aä%}kseh K ;
 
 LEXICON M-INF
 :%>mi NMN_NAINE/KIELINE ;
