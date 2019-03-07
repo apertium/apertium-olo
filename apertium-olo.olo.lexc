@@ -48,7 +48,7 @@ Multichar_Symbols
 
 !! !!Pronouns
  %<dem%>	 !!= * @CODE@ demonstrative
- %<pri%>ef  !!= * @CODE@ indefinite
+ %<pri%>  !!= * @CODE@ indefinite
  %<dep%> 	 !!= * @CODE@ dependent word requiring the presence of another, e.g. __мень__
  %<itg%> !!= * @CODE@ interrogative
  %<prs%> 	 !!= * @CODE@ personal
@@ -115,9 +115,9 @@ Multichar_Symbols
 %<px3sp%> 	  !!= * @CODE@
 
 !! The comparative forms are:
-%<post%>s     !!= * @CODE@
-%<com%>p    !!= * @CODE@
-%<sup%>erl  !!= * @CODE@
+%<post%>     !!= * @CODE@
+%<com%>    !!= * @CODE@
+%<sup%>  !!= * @CODE@
 
 !! Numerals and Quantifiers are classified under:
        !!= * @CODE@ Iterative form expressing number of times; myv: {{кавксть}}, kpv: {{кыкысь}}
@@ -135,9 +135,9 @@ Multichar_Symbols
   %<pri%>   !! * @CODE@ Indicative
   %<imp%> !! * @CODE@ Imperative
   %<cni%>  !! * @CODE@ Conditional
-  %<post%>t   !! * @CODE@ Potential
+  %<pot%>   !! * @CODE@ Potential
 
-!! Verb personal forms are:
+!! Verb per<sonal forms are:
 ! Subject conjugation
 %<p1%>%<sg%> %<p2%>%<sg%> %<p3%>%<sg%>
 %<p1%>%<pl%> %<p2%>%<pl%> %<p3%>%<pl%>
@@ -600,11 +600,12 @@ LEXICON Root
    verbs	  ;	     !!= * @CODE@
    rus-Cyrl-2-Lat-ProperNouns ;  !!= * @CODE@ Derived from urj-Cyrl
 
-!Abbreviation ;	! stems/abbr.lexc
-!Acronym ;    	! stems/acro.lexc
+Abbreviation ;	! stems/abbr.lexc
+Acronym ;    	! stems/acro.lexc
  Punctuation ;
  Symbols     ;
  Exceptions ;  !!= * @CODE@
+ Digits ;
 
 !! NEWWORDS FILES
  A_NEWWORDS ;     !!= @CODE@ adjectives
@@ -632,10 +633,10 @@ LEXICON INTERJ_
 !LEXICON NUMERAL
 !%<num%>: # ;
 
-LEXICON NUMBERSUF
-%<num%>: K;
-%<num%>:%> CASESUF ;
-%<num%>:%> ORDINAL ;
+!!LEXICON NUMBERSUF
+!!%<num%>: K;
+!!%<num%>:%> CASESUF ;
+!!%<num%>:%> ORDINAL ;
 
 LEXICON ORDINAL
 %<ord%>%<FIXME%>:s K;
@@ -663,8 +664,8 @@ LEXICON PREP_
 LEXICON CASESUF
 #;
 
-LEXICON DEM
-#;
+!!LEXICON DEM
+!!#;
 
 LEXICON ACRONDELIMITER
 # ;
@@ -6094,6 +6095,19 @@ Puavil:Puavil PROP_KARJAL "" ;
 !2014-02-14!nämien:nämien Q_X "" ;
 !2014-02-14!!kuvat:kuvat Q_X "" ; mon.nom
 
+
+
+
+! FLAMMIE Exceptions missing from bugs or ???
+
+ostua%<vblex%>%<inf%>:ostua # ;
+roita%<vblex%>%<pri%>%<p3%>%<sg%>:roitah # ;
+kniigu%<n%>%<sg%>%<par%>:kniigua # ;
+lehti%<n%>%<sg%>%<par%>:lehtie # ;
+žurnualu%<n%>%<sg%>%<par%>:žurnualua # ;
+kilbu%<n%>%<sg%>%<par%>:kilvoin # ;
+97-vuozipäivy%<n%>%<pl%>%<par%>:97-vuozipäiviä # ;
+
 LEXICON interjections
 
 toinah%<ij%>:toinah INTERJ_  "" ;
@@ -6582,7 +6596,7 @@ argi%<n%>:arg N_JOGI  "paastoton aika" ;
 argielos%<n%>:argieloks N_ALUS  "arkielämä" ;
 argikieli%<n%>:argi#kiel N_KIELI  "arkikieli" ;
 argiolo%<n%>:argi#olo N_RUNO  "proosa" ;
-argipäivy%<n%>:argi#päivä N_PÄIVY  "arkipäivä" ;
+vuozipäivy%<n%>:vuozi#päivä N_PÄIVY  "arkipäivä" ;
 argipäivät%<n%>:argi#päivä N_PÄIVY-PL  "arkipäivät" ;
 argiritmu%<n%>:argiritma N_MUARJU  "arkirytmi" ;
 argivoi%<n%>:argi#voi N_KUU  "voi" ;
@@ -6914,6 +6928,7 @@ biitum%<n%>:biitum N_TAIGIN  "bitumi" ;
 biletty%<n%>:bilettä N_MEČČY  "pääsylippu" ;
 biljardu%<n%>:biljarda N_MUARJU  "biljardi" ;
 binokli%<n%>:binoklia N_ARTELI  "kiikari" ;
+spektakli%<n%>:spektaklia N_ARTELI  "kiikari" ;
 bintu%<n%>:binta N_MUARJU  "side" ;
 biofiiziekku%<n%>:bio#fiiziekka N_AKKU  "biofyysikko" ;
 biogruafu%<n%>:biogruafa N_MUARJU  "elämänkerran kirjoittaja" ;
@@ -7266,6 +7281,7 @@ druamujoukko%<n%>:druamujoukko N_RUADO  "teatteriseurue" ;
 druamukirjutus%<n%>:druamu#kirjutuks N_ALUS  "näytelmäkirjoitus" ;
 druamumaterjualu%<n%>:druamu#materjuala N_MUARJU  "näytelmäaines" ;
 druamuteatru%<n%>:druamu#teatra N_MUARJU  "draamateatteri" ;
+tyttiteatru%<n%>:tytti#teatra N_MUARJU  "draamateatteri" ;
 druugu%<n%>:druugu N_KOIVU  "rakastaja" ;
 drušlakku%<n%>:drušlakka N_AKKU  "lävikkö" ;
 družin%<n%>:družin N_TAIGIN  "družina" ;
@@ -8917,6 +8933,7 @@ iškupurgavus%<n%>:išku#purgavuks N_ALUS  "purkaus" ;
 ištundo%<n%>:ištundo N_RUNO  "istunto" ;
 ištuttajaine%<n%>:ištuttaja N_KARJALAINE  "(istutettava) taimi" ;
 ižä%<n%>:ižä N_SÄYNÄ  "isä" ;
+ezi-ižä%<n%>:ezi-ižä N_SÄYNÄ  "isä" ;
 ižäkaži%<n%>:ižä#kažia N_ARTELI  "uroskissa" ;
 ižändy%<n%>:ižändä N_IŽÄNDY  "isäntä" ;
 ižändät-emändät%<n%>:ižändä-emändä N_KOIRU-PL  "isäntäväki" ;
@@ -10254,6 +10271,7 @@ kivipiirustus%<n%>:kivi#piirustuks N_ALUS  "kivipiirros" ;
 kivipäčči%<n%>:kivi#päčči N_HÄKKI  "(saunan)kiuas" ;
 kivistys%<n%>:kivistyks N_ILVES  "kivistys" ;
 kivitaloi%<n%>:kivi#taloi N_REBOI  "kivitalo" ;
+kul’tuurataloi%<n%>:kul’tuura#taloi N_REBOI  "kivitalo" ;
 kivištys%<n%>:kivištyks N_ILVES  "kipu" ;
 kivos%<n%>:kivoks N_ALUS  "kinos" ;
 kivunhoivendamine%<n%>:kivun#hoivendami N_NAINE  "puudutus" ;
@@ -13548,6 +13566,7 @@ suoluvakka%<n%>:suolu#vakka N_KALA  "suola-astia" ;
 suomelaine%<n%>:suomela N_KARJALAINE  "suomalainen" ;
 suomelas-karjalaine%<n%>:suomelas-karjala N_KARJALAINE  "suomalais-karjalainen" ;
 suomelas-ugrilaine%<n%>:suomelas-ugrila N_KARJALAINE  "suomalais-ugrilainen" ;
+suomalasugrilaine%<n%>:suomalasugrila N_KARJALAINE  "suomalais-ugrilainen" ;
 suomelastamine%<n%>:suomelastami N_NAINE  "suomalaistaminen" ;
 suomenkarjalaine%<n%>:suomenkarjala N_KARJALAINE  "suomenkarjalainen" ;
 suomi%<n%>:suom N_NIMI-SG  "suomen" ;
@@ -19339,21 +19358,6 @@ zuavessi:zuavessi N_PAPPI ;
 ärzyttämine:ärzyttämi N_KIELINE ;
 ärzytys:ärzytyks N_ILVES ;
 ärzytändy:ärzytändä N_PIÄSTÄNDY ;
-!! Numerals
-!  --------
-!! Numerals in UNDEFINED language are numbers.
-
-LEXICON Numerals
-numeral    Cases   ;
-
-! vim: set ft=xfst-lexc:
-!! Prefixes
-!  --------
-!! Prefixes in UNDEFINED language are bound to beginning of other words.
-
-LEXICON Prefixes
-nounprefix-     Nouns   ;
-verbprefix-     Verbs   ;
 
 
 ! vim: set ft=xfst-lexc:
@@ -19488,7 +19492,7 @@ enämbi%<prn%>:enämb PRON_ENÄMBI  "enempi" ;
 
 LEXICON propernouns
 
-Biblii%<n%>%<np%>:Bibli PROP_STIPENDII  "Raamattu" ;
+Biblii%<np%>:Bibli PROP_STIPENDII  "Raamattu" ;
 Hristossu%<n%>:Hristossa N_AKKU  "Kristus" ;
 Jumal%<n%>:Jumal N_TAIGIN  "Jumala" ;
 Juminkeko-fondu%<n%>:Jumin#keko-#fonda N_KOIRU  "Juminkeko-säätiö" ;
@@ -19496,597 +19500,602 @@ Kiži-muzei%<n%>:Kiži-muze N_VALGEI  "Kižin museo" ;
 Kone-fondu%<n%>:Kone-#fonda N_KOIRU  "Koneen Säätiö" ;
 Noid-joukko%<n%>:Noid-#joukko N_RUADO  "Noid-ryhmä" ;
 OK-opintokeskus%<n%>:OK-#opinto#keskuks N_ALUS  "OK-opintokeskus" ;
+Tuus%<np%>%<top%>:Tuuks N_ALUS  "OK-opintokeskus" ;
 Salmi-Fondu%<n%>:Salmi-#Fonda N_KOIRU  "Salmi-säätiö" ;
-Abramov%<n%>%<np%>:Abramov PROP_RUS-V_SUR  "" ;
-Afanasjev%<n%>%<np%>:Afanasjev PROP_RUS-VIČ_PATR  "" ;
-Afanasjev%<n%>%<np%>:Afanasjev PROP_RUS-V_SUR  "" ;
-Agafja%<n%>%<np%>%<ant%>%<f%>:Agafja PROP_KALA  "" ;
-Agafonov%<n%>%<np%>:Agafonov PROP_RUS-V_SUR  "" ;
-Agaša%<n%>%<np%>%<ant%>%<f%>:Agaša PROP_KALA  "" ;
-Ahtia%<n%>%<np%>%<ant%>%<m%>:Ahtia PROP_KALA  "" ;
-Akimov%<n%>%<np%>:Akimov PROP_RUS-VIČ_PATR  "" ;
-Akimov%<n%>%<np%>:Akimov PROP_RUS-V_SUR  "" ;
-Akulišnin%<n%>%<np%>:Akulišnin PROP_RUS-IN_SUR  "" ;
-Aleksandr%<n%>%<np%>%<ant%>%<m%>:Aleksandr PROP_TAIGIN  "Aleksandr" ;
-Aleksandrov%<n%>%<np%>:Aleksandrov PROP_RUS-VIČ_PATR  "" ;
-Aleksei%<n%>%<np%>%<ant%>%<m%>:Aleksei PROP_REBOI  "Aleksei" ;
-Aleksejev%<n%>%<np%>:Aleksejev PROP_RUS-VIČ_PATR  "" ;
-Aleksejev%<n%>%<np%>:Aleksejev PROP_RUS-V_SUR  "" ;
-Alevtin%<n%>%<np%>:Alevtin PROP_RUS-IN_SUR  "" ;
-Juakko%<n%>%<np%>%<ant%>%<m%>:Juakko PROP_RUADO  "" ;
-Alina%<n%>%<np%>%<ant%>%<f%>:Alina PROP_KALA  "" ;
-Alisa%<n%>%<np%>%<ant%>%<f%>:Alisa PROP_KALA  "" ;
-Alla%<n%>%<np%>%<ant%>%<f%>:Alla PROP_KALA  "" ;
-Alʼbina%<n%>%<np%>%<ant%>%<f%>:Alʼbina PROP_KALA  "" ;
-Alʼfin%<n%>%<np%>:Alʼfin PROP_RUS-IN_SUR  "" ;
-Alʼona%<n%>%<np%>%<ant%>%<f%>:Alʼona PROP_KALA  "" ;
-Anastasija%<n%>%<np%>%<ant%>%<f%>:Anastasija PROP_KALA  "" ;
-Anatolii%<n%>%<np%>%<ant%>%<m%>:Anatoli PROP_KONDII  "Anatoli" ;
-Anatoljev%<n%>%<np%>:Anatoljev PROP_RUS-VIČ_PATR  "" ;
-Andrei%<n%>%<np%>%<ant%>%<m%>:Andrei PROP_REBOI  "Andrei" ;
-Andrejev%<n%>%<np%>:Andrejev PROP_RUS-VIČ_PATR  "" ;
-Andrejev%<n%>%<np%>:Andrejev PROP_RUS-V_SUR  "" ;
-Anekov%<n%>%<np%>:Anekov PROP_RUS-V_SUR  "" ;
-Anhimov%<n%>%<np%>:Anhimov PROP_RUS-V_SUR  "" ;
-Anikin%<n%>%<np%>:Anikin PROP_RUS-IN_SUR  "" ;
-Anita%<n%>%<np%>%<ant%>%<f%>:Anita PROP_KALA  "" ;
-Anna-Kaisa%<n%>%<np%>%<ant%>%<f%>:Anna-Kaisa PROP_KALA  "" ;
-Annika%<n%>%<np%>%<ant%>%<f%>:Annika PROP_KALA  "" ;
-Antonina%<n%>%<np%>%<ant%>%<f%>:Antonina PROP_KALA  "" ;
-Antonov%<n%>%<np%>:Antonov PROP_RUS-V_SUR  "" ;
-Antropov%<n%>%<np%>:Antropov PROP_RUS-V_SUR  "" ;
-Anuksenlinnu%<n%>%<np%>:Anuksen#linna PROP_MUARJU  "Aunuksenkapunki, Aunuksenlinna" ;
-Anus%<n%>%<np%>:Anuks PROP_ALUS  "Aunus" ;
-Anʼa%<n%>%<np%>%<ant%>%<f%>:Anʼa PROP_KALA  "" ;
-Arhipov%<n%>%<np%>:Arhipov PROP_RUS-V_SUR  "" ;
-Arhippa%<n%>%<np%>%<ant%>%<m%>:Arhippa PROP_KALA  "" ;
-Arja%<n%>%<np%>%<ant%>%<f%>:Arja PROP_KALA  "" ;
-Artemjev%<n%>%<np%>:Artemjev PROP_RUS-V_SUR  "" ;
-Asma%<n%>%<np%>%<ant%>%<f%>:Asma PROP_KALA  "" ;
-Avgustov%<n%>%<np%>:Avgustov PROP_RUS-VIČ_PATR  "" ;
-Baburov%<n%>%<np%>:Baburov PROP_RUS-V_SUR  "" ;
-Baranov%<n%>%<np%>:Baranov PROP_RUS-V_SUR  "" ;
-Barbašin%<n%>%<np%>:Barbašin PROP_RUS-IN_SUR  "" ;
-Barhatov%<n%>%<np%>:Barhatov PROP_RUS-V_SUR  "" ;
-Barmin%<n%>%<np%>:Barmin PROP_RUS-IN_SUR  "" ;
-Basov%<n%>%<np%>:Basov PROP_RUS-V_SUR  "" ;
-Belʼakov%<n%>%<np%>:Belʼakov PROP_RUS-V_SUR  "" ;
-Berezin%<n%>%<np%>:Berezin PROP_RUS-IN_SUR  "" ;
-Biblii%<n%>%<np%>:Bibli PROP_KONDII  "Raamattu" ;
-Birʼukov%<n%>%<np%>:Birʼukov PROP_RUS-V_SUR  "" ;
-Bobin%<n%>%<np%>:Bobin PROP_RUS-IN_SUR  "" ;
-Bogdanov%<n%>%<np%>:Bogdanov PROP_RUS-V_SUR  "" ;
-Boikov%<n%>%<np%>:Boikov PROP_RUS-V_SUR  "" ;
-Bondarev%<n%>%<np%>:Bondarev PROP_RUS-V_SUR  "" ;
-Borisov%<n%>%<np%>:Borisov PROP_RUS-VIČ_PATR  "" ;
-Borisov%<n%>%<np%>:Borisov PROP_RUS-V_SUR  "" ;
-Bukašev%<n%>%<np%>:Bukašev PROP_RUS-V_SUR  "" ;
-Bukin%<n%>%<np%>:Bukin PROP_RUS-IN_SUR  "" ;
-Buravov%<n%>%<np%>:Buravov PROP_RUS-V_SUR  "" ;
-Cikin%<n%>%<np%>:Cikin PROP_RUS-IN_SUR  "" ;
-Cuburov%<n%>%<np%>:Cuburov PROP_RUS-V_SUR  "" ;
-Darina%<n%>%<np%>%<ant%>%<f%>:Darina PROP_KALA  "" ;
-Darja%<n%>%<np%>%<ant%>%<f%>:Darja PROP_KALA  "" ;
-Davidov%<n%>%<np%>:Davidov PROP_RUS-V_SUR  "" ;
-Demjanov%<n%>%<np%>:Demjanov PROP_RUS-V_SUR  "" ;
-Denisov%<n%>%<np%>:Denisov PROP_RUS-V_SUR  "" ;
-Digujev%<n%>%<np%>:Digujev PROP_RUS-V_SUR  "" ;
-Dima%<n%>%<np%>%<ant%>%<m%>:Dima PROP_KALA  "" ;
-Dmitrii%<n%>%<np%>%<ant%>%<m%>:Dmitri PROP_KONDII  "Dmitri" ;
-Dmitrijev%<n%>%<np%>:Dmitrijev PROP_RUS-VIČ_PATR  "" ;
-Domantov%<n%>%<np%>:Domantov PROP_RUS-VIČ_PATR  "" ;
-Dorofejev%<n%>%<np%>:Dorofejev PROP_RUS-V_SUR  "" ;
-Dubinin%<n%>%<np%>:Dubinin PROP_RUS-IN_SUR  "" ;
-Dunʼa%<n%>%<np%>%<ant%>%<f%>:Dunʼa PROP_KALA  "" ;
-Džuljetta%<n%>%<np%>%<ant%>%<f%>:Džuljetta PROP_KALA  "" ;
-Eeva-Kaisa%<n%>%<np%>%<ant%>%<f%>:Eeva-Kaisa PROP_KALA  "" ;
-Eila%<n%>%<np%>%<ant%>%<f%>:Eila PROP_KALA  "" ;
-Elina%<n%>%<np%>%<ant%>%<f%>:Elina PROP_KALA  "" ;
-Ella%<n%>%<np%>%<ant%>%<f%>:Ella PROP_KALA  "" ;
-Elʼmitjärvi%<n%>%<np%>:Elʼmitjärv PROP_NIMI  "" ;
-Elʼsa%<n%>%<np%>%<ant%>%<f%>:Elʼsa PROP_KALA  "" ;
-Elʼvira%<n%>%<np%>%<ant%>%<f%>:Elʼvira PROP_KALA  "" ;
-Emilija%<n%>%<np%>%<ant%>%<f%>:Emilija PROP_KALA  "" ;
-Emma%<n%>%<np%>%<ant%>%<f%>:Emma PROP_KALA  "" ;
-Esa%<n%>%<np%>%<ant%>%<m%>:Esa PROP_KALA  "" ;
-FINKA-projektu%<n%>%<np%>:FINKA-projekta PROP_MUARJU  "FINKA-projekti" ;
-Fedolov%<n%>%<np%>:Fedolov PROP_RUS-V_SUR  "" ;
-Fedosja%<n%>%<np%>%<ant%>%<f%>:Fedosja PROP_KALA  "" ;
-Fedosov%<n%>%<np%>:Fedosov PROP_RUS-V_SUR  "" ;
-Fedotov%<n%>%<np%>:Fedotov PROP_RUS-VIČ_PATR  "" ;
-Fedulov%<n%>%<np%>:Fedulov PROP_RUS-V_SUR  "" ;
-Fedʼa%<n%>%<np%>%<ant%>%<f%>:Fedʼa PROP_KALA  "" ;
-Filippov%<n%>%<np%>:Filippov PROP_RUS-V_SUR  "" ;
-Fodorov%<n%>%<np%>:Fodorov PROP_RUS-VIČ_PATR  "" ;
-Fokin%<n%>%<np%>:Fokin PROP_RUS-IN_SUR  "" ;
-Fomin%<n%>%<np%>:Fomin PROP_RUS-IN_SUR  "" ;
-Fʼodorov%<n%>%<np%>:Fʼodorov PROP_RUS-VIČ_PATR  "" ;
-Fʼodorov%<n%>%<np%>:Fʼodorov PROP_RUS-V_SUR  "" ;
-Fʼokla%<n%>%<np%>%<ant%>%<f%>:Fʼokla PROP_KALA  "" ;
-Fʼoudorov%<n%>%<np%>:Fʼoudorov PROP_RUS-VIČ_PATR  "" ;
-Gagarin%<n%>%<np%>:Gagarin PROP_RUS-IN_SUR  "" ;
-Galaničev%<n%>%<np%>:Galaničev PROP_RUS-V_SUR  "" ;
-Galina%<n%>%<np%>%<ant%>%<f%>:Galina PROP_KALA  "" ;
-Galʼa%<n%>%<np%>%<ant%>%<f%>:Galʼa PROP_KALA  "" ;
-Gavrilov%<n%>%<np%>:Gavrilov PROP_RUS-VIČ_PATR  "" ;
-Gdaljev%<n%>%<np%>:Gdaljev PROP_RUS-VIČ_PATR  "" ;
-Genrihov%<n%>%<np%>:Genrihov PROP_RUS-VIČ_PATR  "" ;
-Gerasimov%<n%>%<np%>:Gerasimov PROP_RUS-V_SUR  "" ;
-Gilojev%<n%>%<np%>:Gilojev PROP_RUS-V_SUR  "" ;
-Ginijatullin%<n%>%<np%>:Ginijatullin PROP_RUS-IN_SUR  "" ;
-Gokkojev%<n%>%<np%>:Gokkojev PROP_RUS-V_SUR  "" ;
-Gončarov%<n%>%<np%>:Gončarov PROP_RUS-V_SUR  "" ;
-Gorohov%<n%>%<np%>:Gorohov PROP_RUS-V_SUR  "" ;
-Gorškov%<n%>%<np%>:Gorškov PROP_RUS-V_SUR  "" ;
-Grafov%<n%>%<np%>:Grafov PROP_RUS-V_SUR  "" ;
-Gračov%<n%>%<np%>:Gračov PROP_RUS-V_SUR  "" ;
-Grigorjev%<n%>%<np%>:Grigorjev PROP_RUS-VIČ_PATR  "" ;
-Grigorjev%<n%>%<np%>:Grigorjev PROP_RUS-V_SUR  "" ;
-Griša%<n%>%<np%>%<ant%>%<m%>:Griša PROP_KALA  "" ;
-Grišin%<n%>%<np%>:Grišin PROP_RUS-IN_SUR  "" ;
-Gromov%<n%>%<np%>:Gromov PROP_RUS-V_SUR  "" ;
-Gubarev%<n%>%<np%>:Gubarev PROP_RUS-V_SUR  "" ;
-Gukkin%<n%>%<np%>:Gukkin PROP_RUS-IN_SUR  "" ;
-Gurilov%<n%>%<np%>:Gurilov PROP_RUS-V_SUR  "" ;
-Haritonov%<n%>%<np%>:Haritonov PROP_RUS-V_SUR  "" ;
-Heikkijev%<n%>%<np%>:Heikkijev PROP_RUS-VIČ_PATR  "" ;
-Hilma%<n%>%<np%>%<ant%>%<f%>:Hilma PROP_KALA  "" ;
-Hotejev%<n%>%<np%>:Hotejev PROP_RUS-V_SUR  "" ;
-Hrebtov%<n%>%<np%>:Hrebtov PROP_RUS-V_SUR  "" ;
-Hristos%<n%>%<np%>%<ant%>%<m%>:Hristos PROP_TAIGIN  "" ;
-Hudilainen%<n%>%<np%>:Hudila PROP_KARJALAINE  "Hudilainen" ;
-Hudʼajev%<n%>%<np%>:Hudʼajev PROP_RUS-V_SUR  "" ;
-Hvatov%<n%>%<np%>:Hvatov PROP_RUS-V_SUR  "" ;
-Ignatjev%<n%>%<np%>:Ignatjev PROP_RUS-VIČ_PATR  "" ;
-Ignatjev%<n%>%<np%>:Ignatjev PROP_RUS-V_SUR  "" ;
-Igumnov%<n%>%<np%>:Igumnov PROP_RUS-V_SUR  "" ;
-Iisus%<n%>%<np%>%<ant%>%<m%>:Iisus PROP_TAIGIN  "" ;
-Ilja%<n%>%<np%>%<ant%>%<m%>:Ilja PROP_KALA  "" ;
-Ilona%<n%>%<np%>%<ant%>%<f%>:Ilona PROP_KALA  "" ;
-Ilʼjin%<n%>%<np%>:Ilʼjin PROP_RUS-IN_SUR  "" ;
-Ilʼjukov%<n%>%<np%>:Ilʼjukov PROP_RUS-V_SUR  "" ;
-Inessa%<n%>%<np%>%<ant%>%<f%>:Inessa PROP_KALA  "" ;
-Inka%<n%>%<np%>%<ant%>%<f%>:Inka PROP_KALA  "" ;
-Inna%<n%>%<np%>%<ant%>%<f%>:Inna PROP_KALA  "" ;
-Ipatov%<n%>%<np%>:Ipatov PROP_RUS-V_SUR  "" ;
-Irina%<n%>%<np%>%<ant%>%<f%>:Irina PROP_KALA  "" ;
-Irinja%<n%>%<np%>%<ant%>%<f%>:Irinja PROP_KALA  "" ;
-Irma%<n%>%<np%>%<ant%>%<f%>:Irma PROP_KALA  "" ;
-Isajev%<n%>%<np%>:Isajev PROP_RUS-V_SUR  "" ;
-Isakov%<n%>%<np%>:Isakov PROP_RUS-V_SUR  "" ;
-Ivan%<n%>%<np%>%<ant%>%<m%>:Ivan PROP_TAIGIN  "Ivan" ;
-Ivana%<n%>%<np%>%<ant%>%<m%>:Ivana PROP_KALA  "" ;
-Ivanov%<n%>%<np%>:Ivanov PROP_RUS-VIČ_PATR  "" ;
-Ivanov%<n%>%<np%>:Ivanov PROP_RUS-V_SUR  "" ;
-Ižändy%<n%>%<np%>%<ant%>%<m%>:Ižändä PROP_PÄIVY  "" ;
-Jakovlev%<n%>%<np%>:Jakovlev PROP_RUS-VIČ_PATR  "" ;
-Jakovlev%<n%>%<np%>:Jakovlev PROP_RUS-V_SUR  "" ;
-Jana%<n%>%<np%>%<ant%>%<f%>:Jana PROP_KALA  "" ;
-Jastrebov%<n%>%<np%>:Jastrebov PROP_RUS-V_SUR  "" ;
-Jaškov%<n%>%<np%>:Jaškov PROP_RUS-V_SUR  "" ;
-Jefimov%<n%>%<np%>:Jefimov PROP_RUS-V_SUR  "" ;
-Jegorov%<n%>%<np%>:Jegorov PROP_RUS-VIČ_PATR  "" ;
-Jegorov%<n%>%<np%>:Jegorov PROP_RUS-V_SUR  "" ;
-Jegov%<n%>%<np%>:Jegov PROP_RUS-VIČ_PATR  "" ;
-Jekaterina%<n%>%<np%>%<ant%>%<f%>:Jekaterina PROP_KALA  "" ;
-Jelagin%<n%>%<np%>:Jelagin PROP_RUS-IN_SUR  "" ;
-Jelena%<n%>%<np%>%<ant%>%<f%>:Jelena PROP_KALA  "Jelena" ;
-Jelizaveta%<n%>%<np%>%<ant%>%<f%>:Jelizaveta PROP_KALA  "" ;
-Jermolajev%<n%>%<np%>:Jermolajev PROP_RUS-V_SUR  "" ;
-Jeršov%<n%>%<np%>:Jeršov PROP_RUS-V_SUR  "" ;
-Jevangelii%<n%>%<np%>:Jevangeli PROP_KONDII  "Evankeliumi" ;
-Jevdokija%<n%>%<np%>%<ant%>%<f%>:Jevdokija PROP_KALA  "" ;
-Jevgenija%<n%>%<np%>%<ant%>%<f%>:Jevgenija PROP_KALA  "" ;
-Jevgenjev%<n%>%<np%>:Jevgenjev PROP_RUS-VIČ_PATR  "" ;
-Jevsejev%<n%>%<np%>:Jevsejev PROP_RUS-V_SUR  "" ;
-Jevstratov%<n%>%<np%>:Jevstratov PROP_RUS-V_SUR  "" ;
-Jolina%<n%>%<np%>%<ant%>%<f%>:Jolina PROP_KALA  "" ;
-Judin%<n%>%<np%>:Judin PROP_RUS-IN_SUR  "" ;
-Jukka%<n%>%<np%>%<ant%>%<m%>:Jukka PROP_KALA  "" ;
-Julija%<n%>%<np%>%<ant%>%<f%>:Julija PROP_KALA  "" ;
-Julʼa%<n%>%<np%>%<ant%>%<f%>:Julʼa PROP_KALA  "" ;
-Jumal%<n%>%<np%>:Jumal PROP_TAIGIN  "" ;
-Jurjev%<n%>%<np%>:Jurjev PROP_RUS-VIČ_PATR  "" ;
-Jyskyjärvi%<n%>%<np%>:Jyskyjärv PROP_NIMI  "" ;
-Jänisjärvi%<n%>%<np%>:Jänisjärv PROP_NIMI  "" ;
-Kaidʼärvi%<n%>%<np%>:Kaidʼärv PROP_NIMI  "" ;
-Kaisa-Jozefiina%<n%>%<np%>%<ant%>%<f%>:Kaisa-Jozefiina PROP_KALA  "" ;
-Kallijev%<n%>%<np%>:Kallijev PROP_RUS-V_SUR  "" ;
-Kalmikov%<n%>%<np%>:Kalmikov PROP_RUS-V_SUR  "" ;
-Karakin%<n%>%<np%>:Karakin PROP_RUS-IN_SUR  "" ;
-Karina%<n%>%<np%>%<ant%>%<f%>:Karina PROP_KALA  "" ;
-Karjal%<n%>%<np%>:Karjal PROP_TAIGIN  "Karjala" ;
-Karkavin%<n%>%<np%>:Karkavin PROP_RUS-IN_SUR  "" ;
-Karlov%<n%>%<np%>:Karlov PROP_RUS-VIČ_PATR  "" ;
-Karlov%<n%>%<np%>:Karlov PROP_RUS-V_SUR  "" ;
-Karolina%<n%>%<np%>%<ant%>%<f%>:Karolina PROP_KALA  "" ;
-Karpov%<n%>%<np%>:Karpov PROP_RUS-V_SUR  "" ;
-Katerina%<n%>%<np%>%<ant%>%<f%>:Katerina PROP_KALA  "" ;
-Katʼa%<n%>%<np%>%<ant%>%<f%>:Katʼa PROP_KALA  "" ;
-Kačalkin%<n%>%<np%>:Kačalkin PROP_RUS-IN_SUR  "" ;
-Kendʼärvi%<n%>%<np%>:Kendʼärv PROP_NIMI  "" ;
-Kentjärvi%<n%>%<np%>:Kentjärv PROP_NIMI  "" ;
-Keskoijärvi%<n%>%<np%>:Keskoijärv PROP_NIMI  "" ;
-Kevätjärvi%<n%>%<np%>:Kevätjärv PROP_NIMI  "" ;
-Kiitehenjärvi%<n%>%<np%>:Kiitehenjärv PROP_NIMI  "" ;
-Kimov%<n%>%<np%>:Kimov PROP_RUS-VIČ_PATR  "" ;
-Kiprušov%<n%>%<np%>:Kiprušov PROP_RUS-V_SUR  "" ;
-Kirjakov%<n%>%<np%>:Kirjakov PROP_RUS-V_SUR  "" ;
-Kirsanov%<n%>%<np%>:Kirsanov PROP_RUS-V_SUR  "" ;
-Kirvesjärvi%<n%>%<np%>:Kirvesjärv PROP_NIMI  "" ;
-Kivijärvi%<n%>%<np%>:Kivijärv PROP_NIMI  "" ;
-Klara%<n%>%<np%>%<ant%>%<f%>:Klara PROP_KALA  "" ;
-Klavdija%<n%>%<np%>%<ant%>%<f%>:Klavdija PROP_KALA  "" ;
-Klejerov%<n%>%<np%>:Klejerov PROP_RUS-V_SUR  "" ;
-Klementjev%<n%>%<np%>:Klementjev PROP_RUS-VIČ_PATR  "" ;
-Knʼazev%<n%>%<np%>:Knʼazev PROP_RUS-V_SUR  "" ;
-Kodratjev%<n%>%<np%>:Kodratjev PROP_RUS-V_SUR  "" ;
-Kokorin%<n%>%<np%>:Kokorin PROP_RUS-IN_SUR  "" ;
-Kokovurov%<n%>%<np%>:Kokovurov PROP_RUS-V_SUR  "" ;
-Kolʼa%<n%>%<np%>%<ant%>%<m%>:Kolʼa PROP_KALA  "" ;
-Kondartjev%<n%>%<np%>:Kondartjev PROP_RUS-V_SUR  "" ;
-Kondrajev%<n%>%<np%>:Kondrajev PROP_RUS-V_SUR  "" ;
-Kondratjev%<n%>%<np%>:Kondratjev PROP_RUS-V_SUR  "" ;
-Kondratʼjev%<n%>%<np%>:Kondratʼjev PROP_RUS-V_SUR  "" ;
-Kononihin%<n%>%<np%>:Kononihin PROP_RUS-IN_SUR  "" ;
-Kononov%<n%>%<np%>:Kononov PROP_RUS-V_SUR  "" ;
-Konovalov%<n%>%<np%>:Konovalov PROP_RUS-V_SUR  "" ;
-Konstantinov%<n%>%<np%>:Konstantinov PROP_RUS-V_SUR  "" ;
-Kopanev%<n%>%<np%>:Kopanev PROP_RUS-V_SUR  "" ;
-Kopanʼov%<n%>%<np%>:Kopanʼov PROP_RUS-V_SUR  "" ;
-Kordʼukov%<n%>%<np%>:Kordʼukov PROP_RUS-V_SUR  "" ;
-Kornilov%<n%>%<np%>:Kornilov PROP_RUS-V_SUR  "" ;
-Korobočkin%<n%>%<np%>:Korobočkin PROP_RUS-IN_SUR  "" ;
-Kosintsev%<n%>%<np%>:Kosintsev PROP_RUS-V_SUR  "" ;
-Kotkatjärvi%<n%>%<np%>:Kotkatjärv PROP_NIMI  "" ;
-Kovalʼov%<n%>%<np%>:Kovalʼov PROP_RUS-V_SUR  "" ;
-Košelev%<n%>%<np%>:Košelev PROP_RUS-V_SUR  "" ;
-Koškin%<n%>%<np%>:Koškin PROP_RUS-IN_SUR  "" ;
-Kožuškov%<n%>%<np%>:Kožuškov PROP_RUS-V_SUR  "" ;
-Krasavtsev%<n%>%<np%>:Krasavtsev PROP_RUS-V_SUR  "" ;
-Krilov%<n%>%<np%>:Krilov PROP_RUS-V_SUR  "" ;
-Kristina%<n%>%<np%>%<ant%>%<f%>:Kristina PROP_KALA  "" ;
-Ksenija%<n%>%<np%>%<ant%>%<f%>:Ksenija PROP_KALA  "" ;
-Kudelʼnikov%<n%>%<np%>:Kudelʼnikov PROP_RUS-V_SUR  "" ;
-Kudrʼašov%<n%>%<np%>:Kudrʼašov PROP_RUS-V_SUR  "" ;
-Kudžijev%<n%>%<np%>:Kudžijev PROP_RUS-V_SUR  "" ;
-Kulakov%<n%>%<np%>:Kulakov PROP_RUS-V_SUR  "" ;
-Kuprijanov%<n%>%<np%>:Kuprijanov PROP_RUS-V_SUR  "" ;
-Kuujärvi%<n%>%<np%>:Kuujärv PROP_NIMI  "" ;
-Kuvšinov%<n%>%<np%>:Kuvšinov PROP_RUS-V_SUR  "" ;
-Kuznetsov%<n%>%<np%>:Kuznetsov PROP_RUS-V_SUR  "" ;
-Kuzʼmin%<n%>%<np%>:Kuzʼmin PROP_RUS-IN_SUR  "" ;
-Kvirinii%<n%>%<np%>:Kvirini PROP_KONDII  "Kyrenius" ;
-Ladvujärvi%<n%>%<np%>:Ladvujärv PROP_NIMI  "" ;
-Lagotskaja-Mahajev%<n%>%<np%>:Lagotskaja-Mahajev PROP_RUS-V_SUR  "" ;
-Lapin%<n%>%<np%>:Lapin PROP_RUS-IN_SUR  "" ;
-Larionov%<n%>%<np%>:Larionov PROP_RUS-V_SUR  "" ;
-Larisa%<n%>%<np%>%<ant%>%<f%>:Larisa PROP_KALA  "" ;
-Latišev%<n%>%<np%>:Latišev PROP_RUS-V_SUR  "" ;
-Latvajärvi%<n%>%<np%>:Latvajärv PROP_NIMI  "" ;
-Lebedev%<n%>%<np%>:Lebedev PROP_RUS-V_SUR  "" ;
-Leila%<n%>%<np%>%<ant%>%<f%>:Leila PROP_KALA  "" ;
-Lemijärvi%<n%>%<np%>:Lemijärv PROP_NIMI  "" ;
-Lena%<n%>%<np%>%<ant%>%<f%>:Lena PROP_KALA  "" ;
-Lenin%<n%>%<np%>:Lenin PROP_RUS-IN_SUR  "" ;
-Leonidov%<n%>%<np%>:Leonidov PROP_RUS-VIČ_PATR  "" ;
-Leontjev%<n%>%<np%>:Leontjev PROP_RUS-V_SUR  "" ;
-Lettijev%<n%>%<np%>:Lettijev PROP_RUS-V_SUR  "" ;
-Libertsov%<n%>%<np%>:Libertsov PROP_RUS-V_SUR  "" ;
-Lidija%<n%>%<np%>%<ant%>%<f%>:Lidija PROP_KALA  "" ;
-Lihačov%<n%>%<np%>:Lihačov PROP_RUS-V_SUR  "" ;
-Liisa%<n%>%<np%>%<ant%>%<f%>:Liisa PROP_KALA  "" ;
-Lilija%<n%>%<np%>%<ant%>%<f%>:Lilija PROP_KALA  "" ;
-Lilikjärvi%<n%>%<np%>:Lilikjärv PROP_NIMI  "" ;
-Lilʼa%<n%>%<np%>%<ant%>%<f%>:Lilʼa PROP_KALA  "" ;
-Linna%<n%>%<np%>%<ant%>%<f%>:Linna PROP_KALA  "" ;
-Liza%<n%>%<np%>%<ant%>%<f%>:Liza PROP_KALA  "" ;
-Lizlov%<n%>%<np%>:Lizlov PROP_RUS-V_SUR  "" ;
-Ližmjärvi%<n%>%<np%>:Ližmjärv PROP_NIMI  "" ;
-Loginov%<n%>%<np%>:Loginov PROP_RUS-V_SUR  "" ;
-Lohijärvi%<n%>%<np%>:Lohijärv PROP_NIMI  "" ;
-Loimojev%<n%>%<np%>:Loimojev PROP_RUS-V_SUR  "" ;
-Lopuhin%<n%>%<np%>:Lopuhin PROP_RUS-IN_SUR  "" ;
-Lukerja%<n%>%<np%>%<ant%>%<f%>:Lukerja PROP_KALA  "" ;
-Lukin%<n%>%<np%>:Lukin PROP_RUS-IN_SUR  "" ;
-Lʼovkin%<n%>%<np%>:Lʼovkin PROP_RUS-IN_SUR  "" ;
-Lʼoša%<n%>%<np%>%<ant%>%<m%>:Lʼoša PROP_KALA  "" ;
-Lʼudmila%<n%>%<np%>%<ant%>%<f%>:Lʼudmila PROP_KALA  "" ;
-Makarov%<n%>%<np%>:Makarov PROP_RUS-V_SUR  "" ;
-Makejev%<n%>%<np%>:Makejev PROP_RUS-V_SUR  "" ;
-Malikov%<n%>%<np%>:Malikov PROP_RUS-V_SUR  "" ;
-Mamontov%<n%>%<np%>:Mamontov PROP_RUS-V_SUR  "" ;
-Margarita%<n%>%<np%>%<ant%>%<f%>:Margarita PROP_KALA  "" ;
-Maria%<n%>%<np%>%<ant%>%<f%>:Maria PROP_KALA  "" ;
-Marija%<n%>%<np%>%<ant%>%<f%>:Marija PROP_KALA  "" ;
-Marina%<n%>%<np%>%<ant%>%<f%>:Marina PROP_KALA  "" ;
-Marja%<n%>%<np%>%<ant%>%<f%>:Marja PROP_KALA  "" ;
-Marjana%<n%>%<np%>%<ant%>%<f%>:Marjana PROP_KALA  "" ;
-Marjatta%<n%>%<np%>%<ant%>%<f%>:Marjatta PROP_KALA  "" ;
-Marjukka%<n%>%<np%>%<ant%>%<f%>:Marjukka PROP_KALA  "" ;
-Markianov%<n%>%<np%>:Markianov PROP_RUS-V_SUR  "" ;
-Markov%<n%>%<np%>:Markov PROP_RUS-V_SUR  "" ;
-Maslov%<n%>%<np%>:Maslov PROP_RUS-V_SUR  "" ;
-Matrosov%<n%>%<np%>:Matrosov PROP_RUS-V_SUR  "" ;
-Matrʼona%<n%>%<np%>%<ant%>%<f%>:Matrʼona PROP_KALA  "" ;
-Matvejev%<n%>%<np%>:Matvejev PROP_RUS-VIČ_PATR  "" ;
-Matvejev%<n%>%<np%>:Matvejev PROP_RUS-V_SUR  "" ;
-Matvejev-Terentjev%<n%>%<np%>:Matvejev-Terentjev PROP_RUS-V_SUR  "" ;
-Matʼušev%<n%>%<np%>:Matʼušev PROP_RUS-V_SUR  "" ;
-Maša%<n%>%<np%>%<ant%>%<f%>:Maša PROP_KALA  "" ;
-Medvedev%<n%>%<np%>:Medvedev PROP_RUS-V_SUR  "" ;
-Melentjev%<n%>%<np%>:Melentjev PROP_RUS-V_SUR  "" ;
-Merja%<n%>%<np%>%<ant%>%<f%>:Merja PROP_KALA  "" ;
-Merkojev%<n%>%<np%>:Merkojev PROP_RUS-V_SUR  "" ;
-Messii%<n%>%<np%>:Messi PROP_KONDII  "Messias" ;
-Migunov%<n%>%<np%>:Migunov PROP_RUS-V_SUR  "" ;
-Mihailov%<n%>%<np%>:Mihailov PROP_RUS-VIČ_PATR  "" ;
-Mihailov%<n%>%<np%>:Mihailov PROP_RUS-V_SUR  "" ;
-Mihejev%<n%>%<np%>:Mihejev PROP_RUS-V_SUR  "" ;
-Mihnev%<n%>%<np%>:Mihnev PROP_RUS-VIČ_PATR  "" ;
-Mimmijev%<n%>%<np%>:Mimmijev PROP_RUS-V_SUR  "" ;
-Mirja%<n%>%<np%>%<ant%>%<f%>:Mirja PROP_KALA  "" ;
-Mirka%<n%>%<np%>%<ant%>%<f%>:Mirka PROP_KALA  "" ;
-Mironov%<n%>%<np%>:Mironov PROP_RUS-V_SUR  "" ;
-Mistalʼov%<n%>%<np%>:Mistalʼov PROP_RUS-V_SUR  "" ;
-Mišin%<n%>%<np%>:Mišin PROP_RUS-IN_SUR  "" ;
-Mokejev%<n%>%<np%>:Mokejev PROP_RUS-V_SUR  "" ;
-Morozov%<n%>%<np%>:Morozov PROP_RUS-V_SUR  "" ;
-Moskvičov%<n%>%<np%>:Moskvičov PROP_RUS-V_SUR  "" ;
-Mošnikov%<n%>%<np%>:Mošnikov PROP_RUS-V_SUR  "" ;
-Mrikin%<n%>%<np%>:Mrikin PROP_RUS-IN_SUR  "" ;
-Muašjärvi%<n%>%<np%>:Muašjärv PROP_NIMI  "" ;
-Muhorov%<n%>%<np%>:Muhorov PROP_RUS-V_SUR  "" ;
-Muhortikov%<n%>%<np%>:Muhortikov PROP_RUS-V_SUR  "" ;
-Mujehjärvi%<n%>%<np%>:Mujehjärv PROP_NIMI  "" ;
-Mullijev%<n%>%<np%>:Mullijev PROP_RUS-V_SUR  "" ;
-Munjärvi%<n%>%<np%>:Munjärv PROP_NIMI  "" ;
-Muraškin%<n%>%<np%>:Muraškin PROP_RUS-IN_SUR  "" ;
-Nadežda%<n%>%<np%>%<ant%>%<f%>:Nadežda PROP_KALA  "Nadežda" ;
-Nadʼa%<n%>%<np%>%<ant%>%<f%>:Nadʼa PROP_KALA  "" ;
-Nastʼa%<n%>%<np%>%<ant%>%<f%>:Nastʼa PROP_KALA  "" ;
-Natalia%<n%>%<np%>%<ant%>%<f%>:Natalia PROP_KALA  "" ;
-Natalija%<n%>%<np%>%<ant%>%<f%>:Natalija PROP_KALA  "" ;
-Natalja%<n%>%<np%>%<ant%>%<f%>:Natalja PROP_KALA  "Natalja, Natalia" ;
-Nefʼodov%<n%>%<np%>:Nefʼodov PROP_RUS-V_SUR  "" ;
-Nesterov%<n%>%<np%>:Nesterov PROP_RUS-V_SUR  "" ;
-Nevvostoliitto%<n%>%<np%>:Nevvostoliitto PROP_RUADO  "Neuvostoliitto" ;
-Nifantjev%<n%>%<np%>:Nifantjev PROP_RUS-V_SUR  "" ;
-Niina%<n%>%<np%>%<ant%>%<f%>:Niina PROP_KALA  "" ;
-Nikita%<n%>%<np%>%<ant%>%<f%>:Nikita PROP_KALA  "" ;
-Nikitin%<n%>%<np%>:Nikitin PROP_RUS-IN_SUR  "" ;
-Nikolai%<n%>%<np%>%<ant%>%<m%>:Nikolai PROP_REBOI  "Nikolai" ;
-Nikolajev%<n%>%<np%>:Nikolajev PROP_RUS-VIČ_PATR  "" ;
-Nikolajev%<n%>%<np%>:Nikolajev PROP_RUS-V_SUR  "" ;
-Nikonov%<n%>%<np%>:Nikonov PROP_RUS-V_SUR  "" ;
-Nina%<n%>%<np%>%<ant%>%<f%>:Nina PROP_KALA  "" ;
-Nosirev%<n%>%<np%>:Nosirev PROP_RUS-V_SUR  "" ;
-Nurmijärvi%<n%>%<np%>:Nurmijärv PROP_NIMI  "" ;
-Nʼura%<n%>%<np%>%<ant%>%<f%>:Nʼura PROP_KALA  "" ;
-Ognev%<n%>%<np%>:Ognev PROP_RUS-V_SUR  "" ;
-Ohapkin%<n%>%<np%>:Ohapkin PROP_RUS-IN_SUR  "" ;
-Oksa%<n%>%<np%>%<ant%>%<f%>:Oksa PROP_KALA  "" ;
-Oksana%<n%>%<np%>%<ant%>%<f%>:Oksana PROP_KALA  "" ;
-Olonija%<n%>%<np%>%<ant%>%<f%>:Olonija PROP_KALA  "" ;
-Olʼa%<n%>%<np%>%<ant%>%<f%>:Olʼa PROP_KALA  "" ;
-Olʼga%<n%>%<np%>%<ant%>%<f%>:Olʼga PROP_OZA_FEM  "Olga" ;
-Olʼkin%<n%>%<np%>:Olʼkin PROP_RUS-IN_SUR  "" ;
-Ondojärvi%<n%>%<np%>:Ondojärv PROP_NIMI  "" ;
-Onegin%<n%>%<np%>:Onegin PROP_RUS-IN_SUR  "" ;
-Onojev%<n%>%<np%>:Onojev PROP_RUS-V_SUR  "" ;
-Osipov%<n%>%<np%>:Osipov PROP_RUS-VIČ_PATR  "" ;
-Ostretsov%<n%>%<np%>:Ostretsov PROP_RUS-V_SUR  "" ;
-Pahomov%<n%>%<np%>:Pahomov PROP_RUS-V_SUR  "" ;
-Pankratjev%<n%>%<np%>:Pankratjev PROP_RUS-V_SUR  "" ;
-Paraskev%<n%>%<np%>:Paraskev PROP_RUS-V_SUR  "" ;
-Pasʼukov%<n%>%<np%>:Pasʼukov PROP_RUS-V_SUR  "" ;
-Paula%<n%>%<np%>%<ant%>%<f%>:Paula PROP_KALA  "" ;
-Pavlov%<n%>%<np%>:Pavlov PROP_RUS-VIČ_PATR  "" ;
-Pavlov%<n%>%<np%>:Pavlov PROP_RUS-V_SUR  "" ;
-Paškov%<n%>%<np%>:Paškov PROP_RUS-V_SUR  "" ;
-Pekka%<n%>%<np%>%<ant%>%<m%>:Pekka PROP_KALA  "" ;
-Petroskoi%<n%>%<np%>:Petroskoi PROP_PAPPI  "" ;
-Petrov%<n%>%<np%>:Petrov PROP_RUS-VIČ_PATR  "" ;
-Petrov%<n%>%<np%>:Petrov PROP_RUS-V_SUR  "" ;
-Petrunin%<n%>%<np%>:Petrunin PROP_RUS-IN_SUR  "" ;
-Petuškov%<n%>%<np%>:Petuškov PROP_RUS-V_SUR  "" ;
-Petʼa%<n%>%<np%>%<ant%>%<m%>:Petʼa PROP_KALA  "" ;
-Pistojärvi%<n%>%<np%>:Pistojärv PROP_NIMI  "" ;
-Piäjärvi%<n%>%<np%>:Piäjärv PROP_NIMI  "" ;
-Polikarpov%<n%>%<np%>:Polikarpov PROP_RUS-VIČ_PATR  "" ;
-Polina%<n%>%<np%>%<ant%>%<f%>:Polina PROP_KALA  "" ;
-Poluzanov%<n%>%<np%>:Poluzanov PROP_RUS-V_SUR  "" ;
-Polʼakov%<n%>%<np%>:Polʼakov PROP_RUS-V_SUR  "" ;
-Ponomarʼov%<n%>%<np%>:Ponomarʼov PROP_RUS-V_SUR  "" ;
-Popov%<n%>%<np%>:Popov PROP_RUS-V_SUR  "" ;
-Porajärvi%<n%>%<np%>:Porajärv PROP_NIMI  "" ;
-Porojev%<n%>%<np%>:Porojev PROP_RUS-V_SUR  "" ;
-Portretov%<n%>%<np%>:Portretov PROP_RUS-V_SUR  "" ;
-Potahin%<n%>%<np%>:Potahin PROP_RUS-IN_SUR  "" ;
-Potamošnev%<n%>%<np%>:Potamošnev PROP_RUS-V_SUR  "" ;
-Potapov%<n%>%<np%>:Potapov PROP_RUS-V_SUR  "" ;
-Povarʼov%<n%>%<np%>:Povarʼov PROP_RUS-V_SUR  "" ;
-Pozdnʼakov%<n%>%<np%>:Pozdnʼakov PROP_RUS-V_SUR  "" ;
-Pozdʼakov%<n%>%<np%>:Pozdʼakov PROP_RUS-V_SUR  "" ;
-Poštu-Anʼa%<n%>%<np%>%<ant%>%<f%>:Poštu-Anʼa PROP_KALA  "" ;
-Prohorov%<n%>%<np%>:Prohorov PROP_RUS-V_SUR  "" ;
-Prokofjev%<n%>%<np%>:Prokofjev PROP_RUS-V_SUR  "" ;
-Prokopenkov%<n%>%<np%>:Prokopenkov PROP_RUS-V_SUR  "" ;
-Prokopjev%<n%>%<np%>:Prokopjev PROP_RUS-V_SUR  "" ;
-Puanajärvi%<n%>%<np%>:Puanajärv PROP_NIMI  "" ;
-Puanʼärvi%<n%>%<np%>:Puanʼärv PROP_NIMI  "" ;
-Puhtasjärvi%<n%>%<np%>:Puhtasjärv PROP_NIMI  "" ;
-Puškin%<n%>%<np%>:Puškin PROP_RUS-IN_SUR  "" ;
-Pyhäjärvi%<n%>%<np%>:Pyhäjärv PROP_NIMI  "" ;
-Pyhärvi%<n%>%<np%>:Pyhärv PROP_NIMI  "" ;
-Radʼkov%<n%>%<np%>:Radʼkov PROP_RUS-V_SUR  "" ;
-Ragujev%<n%>%<np%>:Ragujev PROP_RUS-V_SUR  "" ;
-Raija%<n%>%<np%>%<ant%>%<f%>:Raija PROP_KALA  "" ;
-Raisa%<n%>%<np%>%<ant%>%<f%>:Raisa PROP_KALA  "" ;
-Redkin%<n%>%<np%>:Redkin PROP_RUS-IN_SUR  "" ;
-Redʼkin%<n%>%<np%>:Redʼkin PROP_RUS-IN_SUR  "" ;
-Remšujev%<n%>%<np%>:Remšujev PROP_RUS-V_SUR  "" ;
-Ribakov%<n%>%<np%>:Ribakov PROP_RUS-V_SUR  "" ;
-Riikka%<n%>%<np%>%<ant%>%<f%>:Riikka PROP_KALA  "" ;
-Rikkijev%<n%>%<np%>:Rikkijev PROP_RUS-V_SUR  "" ;
-Rita%<n%>%<np%>%<ant%>%<f%>:Rita PROP_KALA  "" ;
-Ritva%<n%>%<np%>%<ant%>%<f%>:Ritva PROP_KALA  "" ;
-Rodionov%<n%>%<np%>:Rodionov PROP_RUS-V_SUR  "" ;
-Romanov%<n%>%<np%>:Romanov PROP_RUS-V_SUR  "" ;
-Roza%<n%>%<np%>%<ant%>%<f%>:Roza PROP_KALA  "" ;
-Rudov%<n%>%<np%>:Rudov PROP_RUS-V_SUR  "" ;
-Rugačev%<n%>%<np%>:Rugačev PROP_RUS-V_SUR  "" ;
-Rukajärvi%<n%>%<np%>:Rukajärv PROP_NIMI  "" ;
-Räppijev%<n%>%<np%>:Räppijev PROP_RUS-V_SUR  "" ;
-Saburov%<n%>%<np%>:Saburov PROP_RUS-V_SUR  "" ;
-Sampsa%<n%>%<np%>%<ant%>%<m%>:Sampsa PROP_KALA  "" ;
-Samsonov%<n%>%<np%>:Samsonov PROP_RUS-V_SUR  "" ;
-Sandra%<n%>%<np%>%<ant%>%<f%>:Sandra PROP_KALA  "" ;
-Sanna%<n%>%<np%>%<ant%>%<f%>:Sanna PROP_KALA  "" ;
-Sanna-Riikka%<n%>%<np%>%<ant%>%<f%>:Sanna-Riikka PROP_KALA  "" ;
-Santra%<n%>%<np%>%<ant%>%<f%>:Santra PROP_KALA  "" ;
-Santtu%<n%>%<np%>%<ant%>%<m%>:Santtu PROP_KOIVU  "Santtu" ;
-Saveljev%<n%>%<np%>:Saveljev PROP_RUS-V_SUR  "" ;
-Savinov%<n%>%<np%>:Savinov PROP_RUS-V_SUR  "" ;
-Saša%<n%>%<np%>%<ant%>%<f%>:Saša PROP_KALA  "" ;
-Sažin%<n%>%<np%>:Sažin PROP_RUS-IN_SUR  "" ;
-Seesjärvi%<n%>%<np%>:Seesjärv PROP_NIMI  "" ;
-Selʼma%<n%>%<np%>%<ant%>%<f%>:Selʼma PROP_KALA  "" ;
-Semakov%<n%>%<np%>:Semakov PROP_RUS-V_SUR  "" ;
-Semʼonov%<n%>%<np%>:Semʼonov PROP_RUS-VIČ_PATR  "" ;
-Semʼonov%<n%>%<np%>:Semʼonov PROP_RUS-V_SUR  "" ;
-Serafima%<n%>%<np%>%<ant%>%<f%>:Serafima PROP_KALA  "" ;
-Serafin%<n%>%<np%>:Serafin PROP_RUS-IN_SUR  "" ;
-Serebrʼannikov%<n%>%<np%>:Serebrʼannikov PROP_RUS-V_SUR  "" ;
-Sergei%<n%>%<np%>%<ant%>%<m%>:Sergei PROP_REBOI  "Sergei" ;
-Sergejev%<n%>%<np%>:Sergejev PROP_RUS-VIČ_PATR  "" ;
-Sergejev%<n%>%<np%>:Sergejev PROP_RUS-V_SUR  "" ;
-Sidorov%<n%>%<np%>:Sidorov PROP_RUS-V_SUR  "" ;
-Sinikka%<n%>%<np%>%<ant%>%<f%>:Sinikka PROP_KALA  "" ;
-Sirkin%<n%>%<np%>:Sirkin PROP_RUS-IN_SUR  "" ;
-Sirkka%<n%>%<np%>%<ant%>%<f%>:Sirkka PROP_KALA  "" ;
-Siämärvi%<n%>%<np%>:Siämärv PROP_NIMI  "" ;
-Skomorošin%<n%>%<np%>:Skomorošin PROP_RUS-IN_SUR  "" ;
-Smolin%<n%>%<np%>:Smolin PROP_RUS-IN_SUR  "" ;
-Smotrov%<n%>%<np%>:Smotrov PROP_RUS-V_SUR  "" ;
-Snežana%<n%>%<np%>%<ant%>%<f%>:Snežana PROP_KALA  "" ;
-Sofia%<n%>%<np%>%<ant%>%<f%>:Sofia PROP_KALA  "" ;
-Sofija%<n%>%<np%>%<ant%>%<f%>:Sofija PROP_KALA  "" ;
-Sofja%<n%>%<np%>%<ant%>%<f%>:Sofja PROP_KALA  "" ;
-Solovjov%<n%>%<np%>:Solovjov PROP_RUS-V_SUR  "" ;
-Sonkajärvi%<n%>%<np%>:Sonkajärv PROP_NIMI  "" ;
-Sonʼa%<n%>%<np%>%<ant%>%<f%>:Sonʼa PROP_KALA  "" ;
-Spitsin%<n%>%<np%>:Spitsin PROP_RUS-IN_SUR  "" ;
-Stafejev%<n%>%<np%>:Stafejev PROP_RUS-V_SUR  "" ;
-Stanislavov%<n%>%<np%>:Stanislavov PROP_RUS-V_SUR  "" ;
-Stankev%<n%>%<np%>:Stankev PROP_RUS-VIČ_PATR  "" ;
-Staršov%<n%>%<np%>:Staršov PROP_RUS-V_SUR  "" ;
-Stepanov%<n%>%<np%>:Stepanov PROP_RUS-VIČ_PATR  "" ;
-Stepanov%<n%>%<np%>:Stepanov PROP_RUS-V_SUR  "" ;
-Strogalʼščikov%<n%>%<np%>:Strogalʼščikov PROP_RUS-V_SUR  "" ;
-Stroganov%<n%>%<np%>:Stroganov PROP_RUS-V_SUR  "" ;
-Suigärvi%<n%>%<np%>:Suigärv PROP_NIMI  "" ;
-Suojärvi%<n%>%<np%>:Suojärv PROP_NIMI  "" ;
-Suomi%<n%>%<np%>:Suom PROP_NIMI  "Suomi" ;
-Svetlana%<n%>%<np%>%<ant%>%<f%>:Svetlana PROP_KALA  "" ;
-Tabunov%<n%>%<np%>:Tabunov PROP_RUS-V_SUR  "" ;
-Tamara%<n%>%<np%>%<ant%>%<f%>:Tamara PROP_KALA  "" ;
-Tanʼa%<n%>%<np%>%<ant%>%<f%>:Tanʼa PROP_KALA  "" ;
-Tarasov%<n%>%<np%>:Tarasov PROP_RUS-V_SUR  "" ;
-Tarja%<n%>%<np%>%<ant%>%<f%>:Tarja PROP_KALA  "" ;
-Taskajev%<n%>%<np%>:Taskajev PROP_RUS-V_SUR  "" ;
-Tatjana%<n%>%<np%>%<ant%>%<f%>:Tatjana PROP_KALA  "" ;
-Testov%<n%>%<np%>:Testov PROP_RUS-V_SUR  "" ;
-Tetčijev%<n%>%<np%>:Tetčijev PROP_RUS-V_SUR  "" ;
-Tihonov%<n%>%<np%>:Tihonov PROP_RUS-V_SUR  "" ;
-Tiina%<n%>%<np%>%<ant%>%<f%>:Tiina PROP_KALA  "" ;
-Tiirin%<n%>%<np%>:Tiirin PROP_RUS-IN_SUR  "" ;
-Tikkujev%<n%>%<np%>:Tikkujev PROP_RUS-V_SUR  "" ;
-Timofejev%<n%>%<np%>:Timofejev PROP_RUS-VIČ_PATR  "" ;
-Timofejev%<n%>%<np%>:Timofejev PROP_RUS-V_SUR  "" ;
-Titov%<n%>%<np%>:Titov PROP_RUS-V_SUR  "" ;
-Tohmajärvi%<n%>%<np%>:Tohmajärv PROP_NIMI  "" ;
-Tolmačov%<n%>%<np%>:Tolmačov PROP_RUS-V_SUR  "" ;
-Tolʼa%<n%>%<np%>%<ant%>%<m%>:Tolʼa PROP_KALA  "" ;
-Tomilov%<n%>%<np%>:Tomilov PROP_RUS-V_SUR  "" ;
-Topparev%<n%>%<np%>:Topparev PROP_RUS-V_SUR  "" ;
-Trifanov%<n%>%<np%>:Trifanov PROP_RUS-V_SUR  "" ;
-Tulemjärvi%<n%>%<np%>:Tulemjärv PROP_NIMI  "" ;
-Tulemujärvi%<n%>%<np%>:Tulemujärv PROP_NIMI  "" ;
-Tulomjärvi%<n%>%<np%>:Tulomjärv PROP_NIMI  "" ;
-Tuttujev%<n%>%<np%>:Tuttujev PROP_RUS-V_SUR  "" ;
-Tutturev%<n%>%<np%>:Tutturev PROP_RUS-V_SUR  "" ;
-Tyränjärvi%<n%>%<np%>:Tyränjärv PROP_NIMI  "" ;
-Tʼurin%<n%>%<np%>:Tʼurin PROP_RUS-IN_SUR  "" ;
-Uksjärvi%<n%>%<np%>:Uksjärv PROP_NIMI  "" ;
-Ulina%<n%>%<np%>%<ant%>%<f%>:Ulina PROP_KALA  "" ;
-Uljana%<n%>%<np%>%<ant%>%<f%>:Uljana PROP_KALA  "" ;
-Ulla%<n%>%<np%>%<ant%>%<f%>:Ulla PROP_KALA  "" ;
-Unelma%<n%>%<np%>%<ant%>%<f%>:Unelma PROP_KALA  "" ;
-Urbanov%<n%>%<np%>:Urbanov PROP_RUS-VIČ_PATR  "" ;
-Urojärvi%<n%>%<np%>:Urojärv PROP_NIMI  "" ;
-Usatov%<n%>%<np%>:Usatov PROP_RUS-V_SUR  "" ;
-Utkin%<n%>%<np%>:Utkin PROP_RUS-IN_SUR  "" ;
-Vahjärvi%<n%>%<np%>:Vahjärv PROP_NIMI  "" ;
-Valenina%<n%>%<np%>%<ant%>%<f%>:Valenina PROP_KALA  "" ;
-Valentina%<n%>%<np%>%<ant%>%<f%>:Valentina PROP_KALA  "" ;
-Valerija%<n%>%<np%>%<ant%>%<f%>:Valerija PROP_KALA  "" ;
-Valʼa%<n%>%<np%>%<ant%>%<f%>:Valʼa PROP_KALA  "" ;
-Vanʼa%<n%>%<np%>%<ant%>%<m%>:Vanʼa PROP_KALA  "" ;
-Vasilisa%<n%>%<np%>%<ant%>%<f%>:Vasilisa PROP_KALA  "" ;
-Vasiljev%<n%>%<np%>:Vasiljev PROP_RUS-VIČ_PATR  "" ;
-Vasiljev%<n%>%<np%>:Vasiljev PROP_RUS-V_SUR  "" ;
-Vasʼa%<n%>%<np%>%<ant%>%<m%>:Vasʼa PROP_KALA  "" ;
-Vavilov%<n%>%<np%>:Vavilov PROP_RUS-V_SUR  "" ;
-Veledejev%<n%>%<np%>:Veledejev PROP_RUS-V_SUR  "" ;
-Venʼa%<n%>%<np%>:Venʼa PROP_KALA  "Venäjä" ;
-Vera%<n%>%<np%>%<ant%>%<f%>:Vera PROP_KALA  "" ;
-Veronika%<n%>%<np%>%<ant%>%<f%>:Veronika PROP_KALA  "" ;
-Veršinin%<n%>%<np%>:Veršinin PROP_RUS-IN_SUR  "" ;
-Vieljärvi%<n%>%<np%>:Vieljärv PROP_NIMI  "" ;
-Viglijev%<n%>%<np%>:Viglijev PROP_RUS-V_SUR  "" ;
-Vikkel-Natalja%<n%>%<np%>%<ant%>%<f%>:Vikkel-Natalja PROP_KALA  "" ;
-Viktorija%<n%>%<np%>%<ant%>%<f%>:Viktorija PROP_KALA  "" ;
-Viktorov%<n%>%<np%>:Viktorov PROP_RUS-VIČ_PATR  "" ;
-Viola%<n%>%<np%>%<ant%>%<f%>:Viola PROP_KALA  "" ;
-Violetta%<n%>%<np%>%<ant%>%<f%>:Violetta PROP_KALA  "" ;
-Viro%<n%>%<np%>:Viro PROP_RUNO  "Viro" ;
-Vitaljev%<n%>%<np%>:Vitaljev PROP_RUS-VIČ_PATR  "" ;
-Vitʼa%<n%>%<np%>%<ant%>%<m%>:Vitʼa PROP_KALA  "" ;
-Vladimirov%<n%>%<np%>:Vladimirov PROP_RUS-VIČ_PATR  "" ;
-Vlasov%<n%>%<np%>:Vlasov PROP_RUS-VIČ_PATR  "" ;
-Vlasov%<n%>%<np%>:Vlasov PROP_RUS-V_SUR  "" ;
-Vodlajärvi%<n%>%<np%>:Vodlajärv PROP_NIMI  "" ;
-Volhonov%<n%>%<np%>:Volhonov PROP_RUS-V_SUR  "" ;
-Voronov%<n%>%<np%>:Voronov PROP_RUS-V_SUR  "" ;
-Vuažjärvi%<n%>%<np%>:Vuažjärv PROP_NIMI  "" ;
-Vuohtjärvi%<n%>%<np%>:Vuohtjärv PROP_NIMI  "" ;
-Wikipedii%<n%>%<np%>:Wikipedi PROP_KONDII  "Wikipedia" ;
-Zaharov%<n%>%<np%>:Zaharov PROP_RUS-V_SUR  "" ;
-Zaikov%<n%>%<np%>:Zaikov PROP_RUS-V_SUR  "" ;
-Zaitsev%<n%>%<np%>:Zaitsev PROP_RUS-V_SUR  "" ;
-Zarinov%<n%>%<np%>:Zarinov PROP_RUS-V_SUR  "" ;
-Zoja%<n%>%<np%>%<ant%>%<f%>:Zoja PROP_KALA  "" ;
-Zorin%<n%>%<np%>:Zorin PROP_RUS-IN_SUR  "" ;
-Zvezdin%<n%>%<np%>:Zvezdin PROP_RUS-IN_SUR  "" ;
-Černʼakov%<n%>%<np%>:Černʼakov PROP_RUS-V_SUR  "" ;
-Četčujev%<n%>%<np%>:Četčujev PROP_RUS-V_SUR  "" ;
-Čirikov%<n%>%<np%>:Čirikov PROP_RUS-V_SUR  "" ;
-Čičiliušku-tyttiteatru%<n%>%<np%>:Čičiliušku-tyttiteatra PROP_MUARJU  "Čičiliušku-nukketeatteri" ;
-Čuburov%<n%>%<np%>:Čuburov PROP_RUS-V_SUR  "" ;
-Čuprov%<n%>%<np%>:Čuprov PROP_RUS-V_SUR  "" ;
-Čupukov%<n%>%<np%>:Čupukov PROP_RUS-V_SUR  "" ;
-Šaikin%<n%>%<np%>:Šaikin PROP_RUS-IN_SUR  "" ;
-Šoltjärvi%<n%>%<np%>:Šoltjärv PROP_NIMI  "" ;
-Šotjärvi%<n%>%<np%>:Šotjärv PROP_NIMI  "" ;
-Šoutjärvi%<n%>%<np%>:Šoutjärv PROP_NIMI  "" ;
-Šukkajärvi%<n%>%<np%>:Šukkajärv PROP_NIMI  "" ;
-Šura%<n%>%<np%>%<ant%>%<f%>:Šura PROP_KALA  "" ;
-Ščerbakov%<n%>%<np%>:Ščerbakov PROP_RUS-V_SUR  "" ;
-Žanna%<n%>%<np%>%<ant%>%<f%>:Žanna PROP_KALA  "" ;
-Žarinov%<n%>%<np%>:Žarinov PROP_RUS-V_SUR  "" ;
-Žerebtsov%<n%>%<np%>:Žerebtsov PROP_RUS-V_SUR  "" ;
-Žukov%<n%>%<np%>:Žukov PROP_RUS-V_SUR  "" ;
+Abramov%<np%>:Abramov PROP_RUS-V_SUR  "" ;
+Afanasjev%<np%>:Afanasjev PROP_RUS-VIČ_PATR  "" ;
+Afanasjev%<np%>:Afanasjev PROP_RUS-V_SUR  "" ;
+Agafja%<np%>%<ant%>%<f%>:Agafja PROP_KALA  "" ;
+Lokkina%<np%>%<ant%>%<f%>:Lokkina PROP_KALA  "" ;
+Periodika%<np%>%<ant%>%<f%>:Periodika PROP_KALA  "" ;
+Agafonov%<np%>:Agafonov PROP_RUS-V_SUR  "" ;
+Agaša%<np%>%<ant%>%<f%>:Agaša PROP_KALA  "" ;
+Ahtia%<np%>%<ant%>%<m%>:Ahtia PROP_KALA  "" ;
+Akimov%<np%>:Akimov PROP_RUS-VIČ_PATR  "" ;
+Akimov%<np%>:Akimov PROP_RUS-V_SUR  "" ;
+Akulišnin%<np%>:Akulišnin PROP_RUS-IN_SUR  "" ;
+Aleksandr%<np%>%<ant%>%<m%>:Aleksandr PROP_TAIGIN  "Aleksandr" ;
+Aleksandrov%<np%>:Aleksandrov PROP_RUS-VIČ_PATR  "" ;
+Aleksei%<np%>%<ant%>%<m%>:Aleksei PROP_REBOI  "Aleksei" ;
+Aleksejev%<np%>:Aleksejev PROP_RUS-VIČ_PATR  "" ;
+Aleksejev%<np%>:Aleksejev PROP_RUS-V_SUR  "" ;
+Alevtin%<np%>:Alevtin PROP_RUS-IN_SUR  "" ;
+Juakko%<np%>%<ant%>%<m%>:Juakko PROP_RUADO  "" ;
+Alina%<np%>%<ant%>%<f%>:Alina PROP_KALA  "" ;
+Alisa%<np%>%<ant%>%<f%>:Alisa PROP_KALA  "" ;
+Alla%<np%>%<ant%>%<f%>:Alla PROP_KALA  "" ;
+Alʼbina%<np%>%<ant%>%<f%>:Alʼbina PROP_KALA  "" ;
+Alʼfin%<np%>:Alʼfin PROP_RUS-IN_SUR  "" ;
+Alʼona%<np%>%<ant%>%<f%>:Alʼona PROP_KALA  "" ;
+Anastasija%<np%>%<ant%>%<f%>:Anastasija PROP_KALA  "" ;
+Anatolii%<np%>%<ant%>%<m%>:Anatoli PROP_KONDII  "Anatoli" ;
+Anatoljev%<np%>:Anatoljev PROP_RUS-VIČ_PATR  "" ;
+Andrei%<np%>%<ant%>%<m%>:Andrei PROP_REBOI  "Andrei" ;
+Andrejev%<np%>:Andrejev PROP_RUS-VIČ_PATR  "" ;
+Andrejev%<np%>:Andrejev PROP_RUS-V_SUR  "" ;
+Anekov%<np%>:Anekov PROP_RUS-V_SUR  "" ;
+Anhimov%<np%>:Anhimov PROP_RUS-V_SUR  "" ;
+Anikin%<np%>:Anikin PROP_RUS-IN_SUR  "" ;
+Anita%<np%>%<ant%>%<f%>:Anita PROP_KALA  "" ;
+Anna-Kaisa%<np%>%<ant%>%<f%>:Anna-Kaisa PROP_KALA  "" ;
+Annika%<np%>%<ant%>%<f%>:Annika PROP_KALA  "" ;
+Antonina%<np%>%<ant%>%<f%>:Antonina PROP_KALA  "" ;
+Antonov%<np%>:Antonov PROP_RUS-V_SUR  "" ;
+Antropov%<np%>:Antropov PROP_RUS-V_SUR  "" ;
+Anuksenlinnu%<np%>:Anuksen#linna PROP_MUARJU  "Aunuksenkapunki, Aunuksenlinna" ;
+Anus%<np%>:Anuks PROP_ALUS  "Aunus" ;
+Anʼa%<np%>%<ant%>%<f%>:Anʼa PROP_KALA  "" ;
+Arhipov%<np%>:Arhipov PROP_RUS-V_SUR  "" ;
+Arhippa%<np%>%<ant%>%<m%>:Arhippa PROP_KALA  "" ;
+Arja%<np%>%<ant%>%<f%>:Arja PROP_KALA  "" ;
+Artemjev%<np%>:Artemjev PROP_RUS-V_SUR  "" ;
+Asma%<np%>%<ant%>%<f%>:Asma PROP_KALA  "" ;
+Avgustov%<np%>:Avgustov PROP_RUS-VIČ_PATR  "" ;
+Baburov%<np%>:Baburov PROP_RUS-V_SUR  "" ;
+Baranov%<np%>:Baranov PROP_RUS-V_SUR  "" ;
+Barbašin%<np%>:Barbašin PROP_RUS-IN_SUR  "" ;
+Barhatov%<np%>:Barhatov PROP_RUS-V_SUR  "" ;
+Barmin%<np%>:Barmin PROP_RUS-IN_SUR  "" ;
+Basov%<np%>:Basov PROP_RUS-V_SUR  "" ;
+Belʼakov%<np%>:Belʼakov PROP_RUS-V_SUR  "" ;
+Berezin%<np%>:Berezin PROP_RUS-IN_SUR  "" ;
+Biblii%<np%>:Bibli PROP_KONDII  "Raamattu" ;
+Birʼukov%<np%>:Birʼukov PROP_RUS-V_SUR  "" ;
+Bobin%<np%>:Bobin PROP_RUS-IN_SUR  "" ;
+Bogdanov%<np%>:Bogdanov PROP_RUS-V_SUR  "" ;
+Boikov%<np%>:Boikov PROP_RUS-V_SUR  "" ;
+Bondarev%<np%>:Bondarev PROP_RUS-V_SUR  "" ;
+Borisov%<np%>:Borisov PROP_RUS-VIČ_PATR  "" ;
+Borisov%<np%>:Borisov PROP_RUS-V_SUR  "" ;
+Bukašev%<np%>:Bukašev PROP_RUS-V_SUR  "" ;
+Bukin%<np%>:Bukin PROP_RUS-IN_SUR  "" ;
+Buravov%<np%>:Buravov PROP_RUS-V_SUR  "" ;
+Cikin%<np%>:Cikin PROP_RUS-IN_SUR  "" ;
+Cuburov%<np%>:Cuburov PROP_RUS-V_SUR  "" ;
+Darina%<np%>%<ant%>%<f%>:Darina PROP_KALA  "" ;
+Darja%<np%>%<ant%>%<f%>:Darja PROP_KALA  "" ;
+Davidov%<np%>:Davidov PROP_RUS-V_SUR  "" ;
+Demjanov%<np%>:Demjanov PROP_RUS-V_SUR  "" ;
+Denisov%<np%>:Denisov PROP_RUS-V_SUR  "" ;
+Digujev%<np%>:Digujev PROP_RUS-V_SUR  "" ;
+Dima%<np%>%<ant%>%<m%>:Dima PROP_KALA  "" ;
+Dmitrii%<np%>%<ant%>%<m%>:Dmitri PROP_KONDII  "Dmitri" ;
+Dmitrijev%<np%>:Dmitrijev PROP_RUS-VIČ_PATR  "" ;
+Domantov%<np%>:Domantov PROP_RUS-VIČ_PATR  "" ;
+Dorofejev%<np%>:Dorofejev PROP_RUS-V_SUR  "" ;
+Dubinin%<np%>:Dubinin PROP_RUS-IN_SUR  "" ;
+Dunʼa%<np%>%<ant%>%<f%>:Dunʼa PROP_KALA  "" ;
+Džuljetta%<np%>%<ant%>%<f%>:Džuljetta PROP_KALA  "" ;
+Eeva-Kaisa%<np%>%<ant%>%<f%>:Eeva-Kaisa PROP_KALA  "" ;
+Eila%<np%>%<ant%>%<f%>:Eila PROP_KALA  "" ;
+Elina%<np%>%<ant%>%<f%>:Elina PROP_KALA  "" ;
+Ella%<np%>%<ant%>%<f%>:Ella PROP_KALA  "" ;
+Elʼmitjärvi%<np%>:Elʼmitjärv PROP_NIMI  "" ;
+Elʼsa%<np%>%<ant%>%<f%>:Elʼsa PROP_KALA  "" ;
+Elʼvira%<np%>%<ant%>%<f%>:Elʼvira PROP_KALA  "" ;
+Emilija%<np%>%<ant%>%<f%>:Emilija PROP_KALA  "" ;
+Emma%<np%>%<ant%>%<f%>:Emma PROP_KALA  "" ;
+Esa%<np%>%<ant%>%<m%>:Esa PROP_KALA  "" ;
+FINKA-projektu%<np%>:FINKA-projekta PROP_MUARJU  "FINKA-projekti" ;
+Fedolov%<np%>:Fedolov PROP_RUS-V_SUR  "" ;
+Fedosja%<np%>%<ant%>%<f%>:Fedosja PROP_KALA  "" ;
+Fedosov%<np%>:Fedosov PROP_RUS-V_SUR  "" ;
+Fedotov%<np%>:Fedotov PROP_RUS-VIČ_PATR  "" ;
+Fedulov%<np%>:Fedulov PROP_RUS-V_SUR  "" ;
+Fedʼa%<np%>%<ant%>%<f%>:Fedʼa PROP_KALA  "" ;
+Filippov%<np%>:Filippov PROP_RUS-V_SUR  "" ;
+Fodorov%<np%>:Fodorov PROP_RUS-VIČ_PATR  "" ;
+Fokin%<np%>:Fokin PROP_RUS-IN_SUR  "" ;
+Fomin%<np%>:Fomin PROP_RUS-IN_SUR  "" ;
+Fʼodorov%<np%>:Fʼodorov PROP_RUS-VIČ_PATR  "" ;
+Fʼodorov%<np%>:Fʼodorov PROP_RUS-V_SUR  "" ;
+Fʼokla%<np%>%<ant%>%<f%>:Fʼokla PROP_KALA  "" ;
+Fʼoudorov%<np%>:Fʼoudorov PROP_RUS-VIČ_PATR  "" ;
+Gagarin%<np%>:Gagarin PROP_RUS-IN_SUR  "" ;
+Galaničev%<np%>:Galaničev PROP_RUS-V_SUR  "" ;
+Galina%<np%>%<ant%>%<f%>:Galina PROP_KALA  "" ;
+Galʼa%<np%>%<ant%>%<f%>:Galʼa PROP_KALA  "" ;
+Gavrilov%<np%>:Gavrilov PROP_RUS-VIČ_PATR  "" ;
+Gdaljev%<np%>:Gdaljev PROP_RUS-VIČ_PATR  "" ;
+Genrihov%<np%>:Genrihov PROP_RUS-VIČ_PATR  "" ;
+Gerasimov%<np%>:Gerasimov PROP_RUS-V_SUR  "" ;
+Gilojev%<np%>:Gilojev PROP_RUS-V_SUR  "" ;
+Ginijatullin%<np%>:Ginijatullin PROP_RUS-IN_SUR  "" ;
+Gokkojev%<np%>:Gokkojev PROP_RUS-V_SUR  "" ;
+Gončarov%<np%>:Gončarov PROP_RUS-V_SUR  "" ;
+Gorohov%<np%>:Gorohov PROP_RUS-V_SUR  "" ;
+Gorškov%<np%>:Gorškov PROP_RUS-V_SUR  "" ;
+Grafov%<np%>:Grafov PROP_RUS-V_SUR  "" ;
+Gračov%<np%>:Gračov PROP_RUS-V_SUR  "" ;
+Grigorjev%<np%>:Grigorjev PROP_RUS-VIČ_PATR  "" ;
+Grigorjev%<np%>:Grigorjev PROP_RUS-V_SUR  "" ;
+Griša%<np%>%<ant%>%<m%>:Griša PROP_KALA  "" ;
+Grišin%<np%>:Grišin PROP_RUS-IN_SUR  "" ;
+Gromov%<np%>:Gromov PROP_RUS-V_SUR  "" ;
+Gubarev%<np%>:Gubarev PROP_RUS-V_SUR  "" ;
+Gukkin%<np%>:Gukkin PROP_RUS-IN_SUR  "" ;
+Gurilov%<np%>:Gurilov PROP_RUS-V_SUR  "" ;
+Haritonov%<np%>:Haritonov PROP_RUS-V_SUR  "" ;
+Heikkijev%<np%>:Heikkijev PROP_RUS-VIČ_PATR  "" ;
+Hilma%<np%>%<ant%>%<f%>:Hilma PROP_KALA  "" ;
+Hotejev%<np%>:Hotejev PROP_RUS-V_SUR  "" ;
+Hrebtov%<np%>:Hrebtov PROP_RUS-V_SUR  "" ;
+Hristos%<np%>%<ant%>%<m%>:Hristos PROP_TAIGIN  "" ;
+Hudilainen%<np%>:Hudila PROP_KARJALAINE  "Hudilainen" ;
+Hudʼajev%<np%>:Hudʼajev PROP_RUS-V_SUR  "" ;
+Hvatov%<np%>:Hvatov PROP_RUS-V_SUR  "" ;
+Ignatjev%<np%>:Ignatjev PROP_RUS-VIČ_PATR  "" ;
+Ignatjev%<np%>:Ignatjev PROP_RUS-V_SUR  "" ;
+Igumnov%<np%>:Igumnov PROP_RUS-V_SUR  "" ;
+Iisus%<np%>%<ant%>%<m%>:Iisus PROP_TAIGIN  "" ;
+Ilja%<np%>%<ant%>%<m%>:Ilja PROP_KALA  "" ;
+Ilona%<np%>%<ant%>%<f%>:Ilona PROP_KALA  "" ;
+Ilʼjin%<np%>:Ilʼjin PROP_RUS-IN_SUR  "" ;
+Ilʼjukov%<np%>:Ilʼjukov PROP_RUS-V_SUR  "" ;
+Inessa%<np%>%<ant%>%<f%>:Inessa PROP_KALA  "" ;
+Inka%<np%>%<ant%>%<f%>:Inka PROP_KALA  "" ;
+Inna%<np%>%<ant%>%<f%>:Inna PROP_KALA  "" ;
+Ipatov%<np%>:Ipatov PROP_RUS-V_SUR  "" ;
+Irina%<np%>%<ant%>%<f%>:Irina PROP_KALA  "" ;
+Irinja%<np%>%<ant%>%<f%>:Irinja PROP_KALA  "" ;
+Irma%<np%>%<ant%>%<f%>:Irma PROP_KALA  "" ;
+Isajev%<np%>:Isajev PROP_RUS-V_SUR  "" ;
+Isakov%<np%>:Isakov PROP_RUS-V_SUR  "" ;
+Ivan%<np%>%<ant%>%<m%>:Ivan PROP_TAIGIN  "Ivan" ;
+Ivana%<np%>%<ant%>%<m%>:Ivana PROP_KALA  "" ;
+Ivanov%<np%>:Ivanov PROP_RUS-VIČ_PATR  "" ;
+Ivanov%<np%>:Ivanov PROP_RUS-V_SUR  "" ;
+Ižändy%<np%>%<ant%>%<m%>:Ižändä PROP_PÄIVY  "" ;
+Jakovlev%<np%>:Jakovlev PROP_RUS-VIČ_PATR  "" ;
+Jakovlev%<np%>:Jakovlev PROP_RUS-V_SUR  "" ;
+Jana%<np%>%<ant%>%<f%>:Jana PROP_KALA  "" ;
+Jastrebov%<np%>:Jastrebov PROP_RUS-V_SUR  "" ;
+Jaškov%<np%>:Jaškov PROP_RUS-V_SUR  "" ;
+Jefimov%<np%>:Jefimov PROP_RUS-V_SUR  "" ;
+Jegorov%<np%>:Jegorov PROP_RUS-VIČ_PATR  "" ;
+Jegorov%<np%>:Jegorov PROP_RUS-V_SUR  "" ;
+Jegov%<np%>:Jegov PROP_RUS-VIČ_PATR  "" ;
+Jekaterina%<np%>%<ant%>%<f%>:Jekaterina PROP_KALA  "" ;
+Jelagin%<np%>:Jelagin PROP_RUS-IN_SUR  "" ;
+Jelena%<np%>%<ant%>%<f%>:Jelena PROP_KALA  "Jelena" ;
+Jelizaveta%<np%>%<ant%>%<f%>:Jelizaveta PROP_KALA  "" ;
+Jermolajev%<np%>:Jermolajev PROP_RUS-V_SUR  "" ;
+Jeršov%<np%>:Jeršov PROP_RUS-V_SUR  "" ;
+Jevangelii%<np%>:Jevangeli PROP_KONDII  "Evankeliumi" ;
+Jevdokija%<np%>%<ant%>%<f%>:Jevdokija PROP_KALA  "" ;
+Jevgenija%<np%>%<ant%>%<f%>:Jevgenija PROP_KALA  "" ;
+Jevgenjev%<np%>:Jevgenjev PROP_RUS-VIČ_PATR  "" ;
+Jevsejev%<np%>:Jevsejev PROP_RUS-V_SUR  "" ;
+Jevstratov%<np%>:Jevstratov PROP_RUS-V_SUR  "" ;
+Jolina%<np%>%<ant%>%<f%>:Jolina PROP_KALA  "" ;
+Judin%<np%>:Judin PROP_RUS-IN_SUR  "" ;
+Jukka%<np%>%<ant%>%<m%>:Jukka PROP_KALA  "" ;
+Julija%<np%>%<ant%>%<f%>:Julija PROP_KALA  "" ;
+Julʼa%<np%>%<ant%>%<f%>:Julʼa PROP_KALA  "" ;
+Jumal%<np%>:Jumal PROP_TAIGIN  "" ;
+Jurjev%<np%>:Jurjev PROP_RUS-VIČ_PATR  "" ;
+Jyskyjärvi%<np%>:Jyskyjärv PROP_NIMI  "" ;
+Jänisjärvi%<np%>:Jänisjärv PROP_NIMI  "" ;
+Kaidʼärvi%<np%>:Kaidʼärv PROP_NIMI  "" ;
+Kaisa-Jozefiina%<np%>%<ant%>%<f%>:Kaisa-Jozefiina PROP_KALA  "" ;
+Kallijev%<np%>:Kallijev PROP_RUS-V_SUR  "" ;
+Kalmikov%<np%>:Kalmikov PROP_RUS-V_SUR  "" ;
+Karakin%<np%>:Karakin PROP_RUS-IN_SUR  "" ;
+Karina%<np%>%<ant%>%<f%>:Karina PROP_KALA  "" ;
+Karjal%<np%>:Karjal PROP_TAIGIN  "Karjala" ;
+Karkavin%<np%>:Karkavin PROP_RUS-IN_SUR  "" ;
+Karlov%<np%>:Karlov PROP_RUS-VIČ_PATR  "" ;
+Karlov%<np%>:Karlov PROP_RUS-V_SUR  "" ;
+Karolina%<np%>%<ant%>%<f%>:Karolina PROP_KALA  "" ;
+Karpov%<np%>:Karpov PROP_RUS-V_SUR  "" ;
+Katerina%<np%>%<ant%>%<f%>:Katerina PROP_KALA  "" ;
+Katʼa%<np%>%<ant%>%<f%>:Katʼa PROP_KALA  "" ;
+Kačalkin%<np%>:Kačalkin PROP_RUS-IN_SUR  "" ;
+Kendʼärvi%<np%>:Kendʼärv PROP_NIMI  "" ;
+Kentjärvi%<np%>:Kentjärv PROP_NIMI  "" ;
+Keskoijärvi%<np%>:Keskoijärv PROP_NIMI  "" ;
+Kevätjärvi%<np%>:Kevätjärv PROP_NIMI  "" ;
+Kiitehenjärvi%<np%>:Kiitehenjärv PROP_NIMI  "" ;
+Kimov%<np%>:Kimov PROP_RUS-VIČ_PATR  "" ;
+Kiprušov%<np%>:Kiprušov PROP_RUS-V_SUR  "" ;
+Kirjakov%<np%>:Kirjakov PROP_RUS-V_SUR  "" ;
+Kirsanov%<np%>:Kirsanov PROP_RUS-V_SUR  "" ;
+Kirvesjärvi%<np%>:Kirvesjärv PROP_NIMI  "" ;
+Kivijärvi%<np%>:Kivijärv PROP_NIMI  "" ;
+Klara%<np%>%<ant%>%<f%>:Klara PROP_KALA  "" ;
+Klavdija%<np%>%<ant%>%<f%>:Klavdija PROP_KALA  "" ;
+Klejerov%<np%>:Klejerov PROP_RUS-V_SUR  "" ;
+Klementjev%<np%>:Klementjev PROP_RUS-VIČ_PATR  "" ;
+Knʼazev%<np%>:Knʼazev PROP_RUS-V_SUR  "" ;
+Kodratjev%<np%>:Kodratjev PROP_RUS-V_SUR  "" ;
+Kokorin%<np%>:Kokorin PROP_RUS-IN_SUR  "" ;
+Kokovurov%<np%>:Kokovurov PROP_RUS-V_SUR  "" ;
+Kolʼa%<np%>%<ant%>%<m%>:Kolʼa PROP_KALA  "" ;
+Kondartjev%<np%>:Kondartjev PROP_RUS-V_SUR  "" ;
+Kondrajev%<np%>:Kondrajev PROP_RUS-V_SUR  "" ;
+Kondratjev%<np%>:Kondratjev PROP_RUS-V_SUR  "" ;
+Kondratʼjev%<np%>:Kondratʼjev PROP_RUS-V_SUR  "" ;
+Kononihin%<np%>:Kononihin PROP_RUS-IN_SUR  "" ;
+Kononov%<np%>:Kononov PROP_RUS-V_SUR  "" ;
+Konovalov%<np%>:Konovalov PROP_RUS-V_SUR  "" ;
+Konstantinov%<np%>:Konstantinov PROP_RUS-V_SUR  "" ;
+Kopanev%<np%>:Kopanev PROP_RUS-V_SUR  "" ;
+Kopanʼov%<np%>:Kopanʼov PROP_RUS-V_SUR  "" ;
+Kordʼukov%<np%>:Kordʼukov PROP_RUS-V_SUR  "" ;
+Kornilov%<np%>:Kornilov PROP_RUS-V_SUR  "" ;
+Korobočkin%<np%>:Korobočkin PROP_RUS-IN_SUR  "" ;
+Kosintsev%<np%>:Kosintsev PROP_RUS-V_SUR  "" ;
+Kotkatjärvi%<np%>:Kotkatjärv PROP_NIMI  "" ;
+Kovalʼov%<np%>:Kovalʼov PROP_RUS-V_SUR  "" ;
+Košelev%<np%>:Košelev PROP_RUS-V_SUR  "" ;
+Koškin%<np%>:Koškin PROP_RUS-IN_SUR  "" ;
+Kožuškov%<np%>:Kožuškov PROP_RUS-V_SUR  "" ;
+Krasavtsev%<np%>:Krasavtsev PROP_RUS-V_SUR  "" ;
+Krilov%<np%>:Krilov PROP_RUS-V_SUR  "" ;
+Kristina%<np%>%<ant%>%<f%>:Kristina PROP_KALA  "" ;
+Ksenija%<np%>%<ant%>%<f%>:Ksenija PROP_KALA  "" ;
+Kudelʼnikov%<np%>:Kudelʼnikov PROP_RUS-V_SUR  "" ;
+Kudrʼašov%<np%>:Kudrʼašov PROP_RUS-V_SUR  "" ;
+Kudžijev%<np%>:Kudžijev PROP_RUS-V_SUR  "" ;
+Kulakov%<np%>:Kulakov PROP_RUS-V_SUR  "" ;
+Kuprijanov%<np%>:Kuprijanov PROP_RUS-V_SUR  "" ;
+Kuujärvi%<np%>:Kuujärv PROP_NIMI  "" ;
+Kuvšinov%<np%>:Kuvšinov PROP_RUS-V_SUR  "" ;
+Kuznetsov%<np%>:Kuznetsov PROP_RUS-V_SUR  "" ;
+Kuzʼmin%<np%>:Kuzʼmin PROP_RUS-IN_SUR  "" ;
+Kvirinii%<np%>:Kvirini PROP_KONDII  "Kyrenius" ;
+Ladvujärvi%<np%>:Ladvujärv PROP_NIMI  "" ;
+Lagotskaja-Mahajev%<np%>:Lagotskaja-Mahajev PROP_RUS-V_SUR  "" ;
+Lapin%<np%>:Lapin PROP_RUS-IN_SUR  "" ;
+Larionov%<np%>:Larionov PROP_RUS-V_SUR  "" ;
+Larisa%<np%>%<ant%>%<f%>:Larisa PROP_KALA  "" ;
+Latišev%<np%>:Latišev PROP_RUS-V_SUR  "" ;
+Latvajärvi%<np%>:Latvajärv PROP_NIMI  "" ;
+Lebedev%<np%>:Lebedev PROP_RUS-V_SUR  "" ;
+Leila%<np%>%<ant%>%<f%>:Leila PROP_KALA  "" ;
+Lemijärvi%<np%>:Lemijärv PROP_NIMI  "" ;
+Lena%<np%>%<ant%>%<f%>:Lena PROP_KALA  "" ;
+Lenin%<np%>:Lenin PROP_RUS-IN_SUR  "" ;
+Leonidov%<np%>:Leonidov PROP_RUS-VIČ_PATR  "" ;
+Leontjev%<np%>:Leontjev PROP_RUS-V_SUR  "" ;
+Lettijev%<np%>:Lettijev PROP_RUS-V_SUR  "" ;
+Libertsov%<np%>:Libertsov PROP_RUS-V_SUR  "" ;
+Lidija%<np%>%<ant%>%<f%>:Lidija PROP_KALA  "" ;
+Lihačov%<np%>:Lihačov PROP_RUS-V_SUR  "" ;
+Liisa%<np%>%<ant%>%<f%>:Liisa PROP_KALA  "" ;
+Lilija%<np%>%<ant%>%<f%>:Lilija PROP_KALA  "" ;
+Lilikjärvi%<np%>:Lilikjärv PROP_NIMI  "" ;
+Lilʼa%<np%>%<ant%>%<f%>:Lilʼa PROP_KALA  "" ;
+Linna%<np%>%<ant%>%<f%>:Linna PROP_KALA  "" ;
+Liza%<np%>%<ant%>%<f%>:Liza PROP_KALA  "" ;
+Lizlov%<np%>:Lizlov PROP_RUS-V_SUR  "" ;
+Ližmjärvi%<np%>:Ližmjärv PROP_NIMI  "" ;
+Loginov%<np%>:Loginov PROP_RUS-V_SUR  "" ;
+Lohijärvi%<np%>:Lohijärv PROP_NIMI  "" ;
+Loimojev%<np%>:Loimojev PROP_RUS-V_SUR  "" ;
+Lopuhin%<np%>:Lopuhin PROP_RUS-IN_SUR  "" ;
+Lukerja%<np%>%<ant%>%<f%>:Lukerja PROP_KALA  "" ;
+Lukin%<np%>:Lukin PROP_RUS-IN_SUR  "" ;
+Lʼovkin%<np%>:Lʼovkin PROP_RUS-IN_SUR  "" ;
+Lʼoša%<np%>%<ant%>%<m%>:Lʼoša PROP_KALA  "" ;
+Lʼudmila%<np%>%<ant%>%<f%>:Lʼudmila PROP_KALA  "" ;
+Makarov%<np%>:Makarov PROP_RUS-V_SUR  "" ;
+Makejev%<np%>:Makejev PROP_RUS-V_SUR  "" ;
+Malikov%<np%>:Malikov PROP_RUS-V_SUR  "" ;
+Mamontov%<np%>:Mamontov PROP_RUS-V_SUR  "" ;
+Margarita%<np%>%<ant%>%<f%>:Margarita PROP_KALA  "" ;
+Mägriä%<np%>%<ant%>%<f%>:Mägriä PROP_KALA  "" ;
+Maria%<np%>%<ant%>%<f%>:Maria PROP_KALA  "" ;
+Marija%<np%>%<ant%>%<f%>:Marija PROP_KALA  "" ;
+Marina%<np%>%<ant%>%<f%>:Marina PROP_KALA  "" ;
+Marja%<np%>%<ant%>%<f%>:Marja PROP_KALA  "" ;
+Marjana%<np%>%<ant%>%<f%>:Marjana PROP_KALA  "" ;
+Marjatta%<np%>%<ant%>%<f%>:Marjatta PROP_KALA  "" ;
+Marjukka%<np%>%<ant%>%<f%>:Marjukka PROP_KALA  "" ;
+Markianov%<np%>:Markianov PROP_RUS-V_SUR  "" ;
+Markov%<np%>:Markov PROP_RUS-V_SUR  "" ;
+Maslov%<np%>:Maslov PROP_RUS-V_SUR  "" ;
+Matrosov%<np%>:Matrosov PROP_RUS-V_SUR  "" ;
+Matrʼona%<np%>%<ant%>%<f%>:Matrʼona PROP_KALA  "" ;
+Matvejev%<np%>:Matvejev PROP_RUS-VIČ_PATR  "" ;
+Matvejev%<np%>:Matvejev PROP_RUS-V_SUR  "" ;
+Matvejev-Terentjev%<np%>:Matvejev-Terentjev PROP_RUS-V_SUR  "" ;
+Matʼušev%<np%>:Matʼušev PROP_RUS-V_SUR  "" ;
+Maša%<np%>%<ant%>%<f%>:Maša PROP_KALA  "" ;
+Medvedev%<np%>:Medvedev PROP_RUS-V_SUR  "" ;
+Melentjev%<np%>:Melentjev PROP_RUS-V_SUR  "" ;
+Merja%<np%>%<ant%>%<f%>:Merja PROP_KALA  "" ;
+Merkojev%<np%>:Merkojev PROP_RUS-V_SUR  "" ;
+Messii%<np%>:Messi PROP_KONDII  "Messias" ;
+Migunov%<np%>:Migunov PROP_RUS-V_SUR  "" ;
+Mihailov%<np%>:Mihailov PROP_RUS-VIČ_PATR  "" ;
+Mihailov%<np%>:Mihailov PROP_RUS-V_SUR  "" ;
+Mihejev%<np%>:Mihejev PROP_RUS-V_SUR  "" ;
+Mihnev%<np%>:Mihnev PROP_RUS-VIČ_PATR  "" ;
+Mimmijev%<np%>:Mimmijev PROP_RUS-V_SUR  "" ;
+Mirja%<np%>%<ant%>%<f%>:Mirja PROP_KALA  "" ;
+Mirka%<np%>%<ant%>%<f%>:Mirka PROP_KALA  "" ;
+Mironov%<np%>:Mironov PROP_RUS-V_SUR  "" ;
+Mistalʼov%<np%>:Mistalʼov PROP_RUS-V_SUR  "" ;
+Mišin%<np%>:Mišin PROP_RUS-IN_SUR  "" ;
+Mokejev%<np%>:Mokejev PROP_RUS-V_SUR  "" ;
+Morozov%<np%>:Morozov PROP_RUS-V_SUR  "" ;
+Moskvičov%<np%>:Moskvičov PROP_RUS-V_SUR  "" ;
+Mošnikov%<np%>:Mošnikov PROP_RUS-V_SUR  "" ;
+Mrikin%<np%>:Mrikin PROP_RUS-IN_SUR  "" ;
+Muašjärvi%<np%>:Muašjärv PROP_NIMI  "" ;
+Muhorov%<np%>:Muhorov PROP_RUS-V_SUR  "" ;
+Muhortikov%<np%>:Muhortikov PROP_RUS-V_SUR  "" ;
+Mujehjärvi%<np%>:Mujehjärv PROP_NIMI  "" ;
+Mullijev%<np%>:Mullijev PROP_RUS-V_SUR  "" ;
+Munjärvi%<np%>:Munjärv PROP_NIMI  "" ;
+Muraškin%<np%>:Muraškin PROP_RUS-IN_SUR  "" ;
+Nadežda%<np%>%<ant%>%<f%>:Nadežda PROP_KALA  "Nadežda" ;
+Nadʼa%<np%>%<ant%>%<f%>:Nadʼa PROP_KALA  "" ;
+Nastʼa%<np%>%<ant%>%<f%>:Nastʼa PROP_KALA  "" ;
+Natalia%<np%>%<ant%>%<f%>:Natalia PROP_KALA  "" ;
+Natalija%<np%>%<ant%>%<f%>:Natalija PROP_KALA  "" ;
+Natalja%<np%>%<ant%>%<f%>:Natalja PROP_KALA  "Natalja, Natalia" ;
+Nefʼodov%<np%>:Nefʼodov PROP_RUS-V_SUR  "" ;
+Nesterov%<np%>:Nesterov PROP_RUS-V_SUR  "" ;
+Nevvostoliitto%<np%>:Nevvostoliitto PROP_RUADO  "Neuvostoliitto" ;
+Nifantjev%<np%>:Nifantjev PROP_RUS-V_SUR  "" ;
+Niina%<np%>%<ant%>%<f%>:Niina PROP_KALA  "" ;
+Nikita%<np%>%<ant%>%<f%>:Nikita PROP_KALA  "" ;
+Nikitin%<np%>:Nikitin PROP_RUS-IN_SUR  "" ;
+Nikolai%<np%>%<ant%>%<m%>:Nikolai PROP_REBOI  "Nikolai" ;
+Koveri%<np%>%<top%>:Koveri PROP_REBOI  "Nikolai" ;
+Nikolajev%<np%>:Nikolajev PROP_RUS-VIČ_PATR  "" ;
+Nikolajev%<np%>:Nikolajev PROP_RUS-V_SUR  "" ;
+Nikonov%<np%>:Nikonov PROP_RUS-V_SUR  "" ;
+Nina%<np%>%<ant%>%<f%>:Nina PROP_KALA  "" ;
+Nosirev%<np%>:Nosirev PROP_RUS-V_SUR  "" ;
+Nurmijärvi%<np%>:Nurmijärv PROP_NIMI  "" ;
+Nʼura%<np%>%<ant%>%<f%>:Nʼura PROP_KALA  "" ;
+Ognev%<np%>:Ognev PROP_RUS-V_SUR  "" ;
+Ohapkin%<np%>:Ohapkin PROP_RUS-IN_SUR  "" ;
+Oksa%<np%>%<ant%>%<f%>:Oksa PROP_KALA  "" ;
+Oksana%<np%>%<ant%>%<f%>:Oksana PROP_KALA  "" ;
+Olonija%<np%>%<ant%>%<f%>:Olonija PROP_KALA  "" ;
+Olʼa%<np%>%<ant%>%<f%>:Olʼa PROP_KALA  "" ;
+Olʼga%<np%>%<ant%>%<f%>:Olʼga PROP_OZA_FEM  "Olga" ;
+Olʼkin%<np%>:Olʼkin PROP_RUS-IN_SUR  "" ;
+Ondojärvi%<np%>:Ondojärv PROP_NIMI  "" ;
+Onegin%<np%>:Onegin PROP_RUS-IN_SUR  "" ;
+Onojev%<np%>:Onojev PROP_RUS-V_SUR  "" ;
+Osipov%<np%>:Osipov PROP_RUS-VIČ_PATR  "" ;
+Ostretsov%<np%>:Ostretsov PROP_RUS-V_SUR  "" ;
+Pahomov%<np%>:Pahomov PROP_RUS-V_SUR  "" ;
+Pankratjev%<np%>:Pankratjev PROP_RUS-V_SUR  "" ;
+Paraskev%<np%>:Paraskev PROP_RUS-V_SUR  "" ;
+Pasʼukov%<np%>:Pasʼukov PROP_RUS-V_SUR  "" ;
+Paula%<np%>%<ant%>%<f%>:Paula PROP_KALA  "" ;
+Pavlov%<np%>:Pavlov PROP_RUS-VIČ_PATR  "" ;
+Pavlov%<np%>:Pavlov PROP_RUS-V_SUR  "" ;
+Paškov%<np%>:Paškov PROP_RUS-V_SUR  "" ;
+Pekka%<np%>%<ant%>%<m%>:Pekka PROP_KALA  "" ;
+Petroskoi%<np%>:Petroskoi PROP_PAPPI  "" ;
+Petrov%<np%>:Petrov PROP_RUS-VIČ_PATR  "" ;
+Petrov%<np%>:Petrov PROP_RUS-V_SUR  "" ;
+Petrunin%<np%>:Petrunin PROP_RUS-IN_SUR  "" ;
+Petuškov%<np%>:Petuškov PROP_RUS-V_SUR  "" ;
+Petʼa%<np%>%<ant%>%<m%>:Petʼa PROP_KALA  "" ;
+Pistojärvi%<np%>:Pistojärv PROP_NIMI  "" ;
+Piäjärvi%<np%>:Piäjärv PROP_NIMI  "" ;
+Polikarpov%<np%>:Polikarpov PROP_RUS-VIČ_PATR  "" ;
+Polina%<np%>%<ant%>%<f%>:Polina PROP_KALA  "" ;
+Poluzanov%<np%>:Poluzanov PROP_RUS-V_SUR  "" ;
+Polʼakov%<np%>:Polʼakov PROP_RUS-V_SUR  "" ;
+Ponomarʼov%<np%>:Ponomarʼov PROP_RUS-V_SUR  "" ;
+Popov%<np%>:Popov PROP_RUS-V_SUR  "" ;
+Porajärvi%<np%>:Porajärv PROP_NIMI  "" ;
+Porojev%<np%>:Porojev PROP_RUS-V_SUR  "" ;
+Portretov%<np%>:Portretov PROP_RUS-V_SUR  "" ;
+Potahin%<np%>:Potahin PROP_RUS-IN_SUR  "" ;
+Potamošnev%<np%>:Potamošnev PROP_RUS-V_SUR  "" ;
+Potapov%<np%>:Potapov PROP_RUS-V_SUR  "" ;
+Povarʼov%<np%>:Povarʼov PROP_RUS-V_SUR  "" ;
+Pozdnʼakov%<np%>:Pozdnʼakov PROP_RUS-V_SUR  "" ;
+Pozdʼakov%<np%>:Pozdʼakov PROP_RUS-V_SUR  "" ;
+Poštu-Anʼa%<np%>%<ant%>%<f%>:Poštu-Anʼa PROP_KALA  "" ;
+Prohorov%<np%>:Prohorov PROP_RUS-V_SUR  "" ;
+Prokofjev%<np%>:Prokofjev PROP_RUS-V_SUR  "" ;
+Prokopenkov%<np%>:Prokopenkov PROP_RUS-V_SUR  "" ;
+Prokopjev%<np%>:Prokopjev PROP_RUS-V_SUR  "" ;
+Puanajärvi%<np%>:Puanajärv PROP_NIMI  "" ;
+Puanʼärvi%<np%>:Puanʼärv PROP_NIMI  "" ;
+Puhtasjärvi%<np%>:Puhtasjärv PROP_NIMI  "" ;
+Puškin%<np%>:Puškin PROP_RUS-IN_SUR  "" ;
+Pyhäjärvi%<np%>:Pyhäjärv PROP_NIMI  "" ;
+Pyhärvi%<np%>:Pyhärv PROP_NIMI  "" ;
+Radʼkov%<np%>:Radʼkov PROP_RUS-V_SUR  "" ;
+Ragujev%<np%>:Ragujev PROP_RUS-V_SUR  "" ;
+Raija%<np%>%<ant%>%<f%>:Raija PROP_KALA  "" ;
+Raisa%<np%>%<ant%>%<f%>:Raisa PROP_KALA  "" ;
+Redkin%<np%>:Redkin PROP_RUS-IN_SUR  "" ;
+Redʼkin%<np%>:Redʼkin PROP_RUS-IN_SUR  "" ;
+Remšujev%<np%>:Remšujev PROP_RUS-V_SUR  "" ;
+Ribakov%<np%>:Ribakov PROP_RUS-V_SUR  "" ;
+Riikka%<np%>%<ant%>%<f%>:Riikka PROP_KALA  "" ;
+Rikkijev%<np%>:Rikkijev PROP_RUS-V_SUR  "" ;
+Rita%<np%>%<ant%>%<f%>:Rita PROP_KALA  "" ;
+Ritva%<np%>%<ant%>%<f%>:Ritva PROP_KALA  "" ;
+Rodionov%<np%>:Rodionov PROP_RUS-V_SUR  "" ;
+Romanov%<np%>:Romanov PROP_RUS-V_SUR  "" ;
+Roza%<np%>%<ant%>%<f%>:Roza PROP_KALA  "" ;
+Rudov%<np%>:Rudov PROP_RUS-V_SUR  "" ;
+Rugačev%<np%>:Rugačev PROP_RUS-V_SUR  "" ;
+Rukajärvi%<np%>:Rukajärv PROP_NIMI  "" ;
+Räppijev%<np%>:Räppijev PROP_RUS-V_SUR  "" ;
+Saburov%<np%>:Saburov PROP_RUS-V_SUR  "" ;
+Sampsa%<np%>%<ant%>%<m%>:Sampsa PROP_KALA  "" ;
+Samsonov%<np%>:Samsonov PROP_RUS-V_SUR  "" ;
+Sandra%<np%>%<ant%>%<f%>:Sandra PROP_KALA  "" ;
+Sanna%<np%>%<ant%>%<f%>:Sanna PROP_KALA  "" ;
+Sanna-Riikka%<np%>%<ant%>%<f%>:Sanna-Riikka PROP_KALA  "" ;
+Santra%<np%>%<ant%>%<f%>:Santra PROP_KALA  "" ;
+Santtu%<np%>%<ant%>%<m%>:Santtu PROP_KOIVU  "Santtu" ;
+Saveljev%<np%>:Saveljev PROP_RUS-V_SUR  "" ;
+Savinov%<np%>:Savinov PROP_RUS-V_SUR  "" ;
+Saša%<np%>%<ant%>%<f%>:Saša PROP_KALA  "" ;
+Sažin%<np%>:Sažin PROP_RUS-IN_SUR  "" ;
+Seesjärvi%<np%>:Seesjärv PROP_NIMI  "" ;
+Selʼma%<np%>%<ant%>%<f%>:Selʼma PROP_KALA  "" ;
+Semakov%<np%>:Semakov PROP_RUS-V_SUR  "" ;
+Semʼonov%<np%>:Semʼonov PROP_RUS-VIČ_PATR  "" ;
+Semʼonov%<np%>:Semʼonov PROP_RUS-V_SUR  "" ;
+Serafima%<np%>%<ant%>%<f%>:Serafima PROP_KALA  "" ;
+Serafin%<np%>:Serafin PROP_RUS-IN_SUR  "" ;
+Serebrʼannikov%<np%>:Serebrʼannikov PROP_RUS-V_SUR  "" ;
+Sergei%<np%>%<ant%>%<m%>:Sergei PROP_REBOI  "Sergei" ;
+Sergejev%<np%>:Sergejev PROP_RUS-VIČ_PATR  "" ;
+Sergejev%<np%>:Sergejev PROP_RUS-V_SUR  "" ;
+Sidorov%<np%>:Sidorov PROP_RUS-V_SUR  "" ;
+Sinikka%<np%>%<ant%>%<f%>:Sinikka PROP_KALA  "" ;
+Sirkin%<np%>:Sirkin PROP_RUS-IN_SUR  "" ;
+Sirkka%<np%>%<ant%>%<f%>:Sirkka PROP_KALA  "" ;
+Siämärvi%<np%>:Siämärv PROP_NIMI  "" ;
+Skomorošin%<np%>:Skomorošin PROP_RUS-IN_SUR  "" ;
+Smolin%<np%>:Smolin PROP_RUS-IN_SUR  "" ;
+Smotrov%<np%>:Smotrov PROP_RUS-V_SUR  "" ;
+Snežana%<np%>%<ant%>%<f%>:Snežana PROP_KALA  "" ;
+Sofia%<np%>%<ant%>%<f%>:Sofia PROP_KALA  "" ;
+Sofija%<np%>%<ant%>%<f%>:Sofija PROP_KALA  "" ;
+Sofja%<np%>%<ant%>%<f%>:Sofja PROP_KALA  "" ;
+Solovjov%<np%>:Solovjov PROP_RUS-V_SUR  "" ;
+Sonkajärvi%<np%>:Sonkajärv PROP_NIMI  "" ;
+Sonʼa%<np%>%<ant%>%<f%>:Sonʼa PROP_KALA  "" ;
+Spitsin%<np%>:Spitsin PROP_RUS-IN_SUR  "" ;
+Stafejev%<np%>:Stafejev PROP_RUS-V_SUR  "" ;
+Stanislavov%<np%>:Stanislavov PROP_RUS-V_SUR  "" ;
+Stankev%<np%>:Stankev PROP_RUS-VIČ_PATR  "" ;
+Staršov%<np%>:Staršov PROP_RUS-V_SUR  "" ;
+Stepanov%<np%>:Stepanov PROP_RUS-VIČ_PATR  "" ;
+Stepanov%<np%>:Stepanov PROP_RUS-V_SUR  "" ;
+Strogalʼščikov%<np%>:Strogalʼščikov PROP_RUS-V_SUR  "" ;
+Stroganov%<np%>:Stroganov PROP_RUS-V_SUR  "" ;
+Suigärvi%<np%>:Suigärv PROP_NIMI  "" ;
+Suojärvi%<np%>:Suojärv PROP_NIMI  "" ;
+Suomi%<np%>:Suom PROP_NIMI  "Suomi" ;
+Svetlana%<np%>%<ant%>%<f%>:Svetlana PROP_KALA  "" ;
+Tabunov%<np%>:Tabunov PROP_RUS-V_SUR  "" ;
+Tamara%<np%>%<ant%>%<f%>:Tamara PROP_KALA  "" ;
+Tanʼa%<np%>%<ant%>%<f%>:Tanʼa PROP_KALA  "" ;
+Tarasov%<np%>:Tarasov PROP_RUS-V_SUR  "" ;
+Tarja%<np%>%<ant%>%<f%>:Tarja PROP_KALA  "" ;
+Taskajev%<np%>:Taskajev PROP_RUS-V_SUR  "" ;
+Tatjana%<np%>%<ant%>%<f%>:Tatjana PROP_KALA  "" ;
+Testov%<np%>:Testov PROP_RUS-V_SUR  "" ;
+Tetčijev%<np%>:Tetčijev PROP_RUS-V_SUR  "" ;
+Tihonov%<np%>:Tihonov PROP_RUS-V_SUR  "" ;
+Tiina%<np%>%<ant%>%<f%>:Tiina PROP_KALA  "" ;
+Tiirin%<np%>:Tiirin PROP_RUS-IN_SUR  "" ;
+Tikkujev%<np%>:Tikkujev PROP_RUS-V_SUR  "" ;
+Timofejev%<np%>:Timofejev PROP_RUS-VIČ_PATR  "" ;
+Timofejev%<np%>:Timofejev PROP_RUS-V_SUR  "" ;
+Titov%<np%>:Titov PROP_RUS-V_SUR  "" ;
+Tohmajärvi%<np%>:Tohmajärv PROP_NIMI  "" ;
+Tolmačov%<np%>:Tolmačov PROP_RUS-V_SUR  "" ;
+Tolʼa%<np%>%<ant%>%<m%>:Tolʼa PROP_KALA  "" ;
+Tomilov%<np%>:Tomilov PROP_RUS-V_SUR  "" ;
+Topparev%<np%>:Topparev PROP_RUS-V_SUR  "" ;
+Trifanov%<np%>:Trifanov PROP_RUS-V_SUR  "" ;
+Tulemjärvi%<np%>:Tulemjärv PROP_NIMI  "" ;
+Tulemujärvi%<np%>:Tulemujärv PROP_NIMI  "" ;
+Tulomjärvi%<np%>:Tulomjärv PROP_NIMI  "" ;
+Tuttujev%<np%>:Tuttujev PROP_RUS-V_SUR  "" ;
+Tutturev%<np%>:Tutturev PROP_RUS-V_SUR  "" ;
+Tyränjärvi%<np%>:Tyränjärv PROP_NIMI  "" ;
+Tʼurin%<np%>:Tʼurin PROP_RUS-IN_SUR  "" ;
+Uksjärvi%<np%>:Uksjärv PROP_NIMI  "" ;
+Ulina%<np%>%<ant%>%<f%>:Ulina PROP_KALA  "" ;
+Uljana%<np%>%<ant%>%<f%>:Uljana PROP_KALA  "" ;
+Ulla%<np%>%<ant%>%<f%>:Ulla PROP_KALA  "" ;
+Unelma%<np%>%<ant%>%<f%>:Unelma PROP_KALA  "" ;
+Urbanov%<np%>:Urbanov PROP_RUS-VIČ_PATR  "" ;
+Urojärvi%<np%>:Urojärv PROP_NIMI  "" ;
+Usatov%<np%>:Usatov PROP_RUS-V_SUR  "" ;
+Utkin%<np%>:Utkin PROP_RUS-IN_SUR  "" ;
+Vahjärvi%<np%>:Vahjärv PROP_NIMI  "" ;
+Valenina%<np%>%<ant%>%<f%>:Valenina PROP_KALA  "" ;
+Valentina%<np%>%<ant%>%<f%>:Valentina PROP_KALA  "" ;
+Valerija%<np%>%<ant%>%<f%>:Valerija PROP_KALA  "" ;
+Valʼa%<np%>%<ant%>%<f%>:Valʼa PROP_KALA  "" ;
+Vanʼa%<np%>%<ant%>%<m%>:Vanʼa PROP_KALA  "" ;
+Vasilisa%<np%>%<ant%>%<f%>:Vasilisa PROP_KALA  "" ;
+Vasiljev%<np%>:Vasiljev PROP_RUS-VIČ_PATR  "" ;
+Vasiljev%<np%>:Vasiljev PROP_RUS-V_SUR  "" ;
+Vasʼa%<np%>%<ant%>%<m%>:Vasʼa PROP_KALA  "" ;
+Vavilov%<np%>:Vavilov PROP_RUS-V_SUR  "" ;
+Veledejev%<np%>:Veledejev PROP_RUS-V_SUR  "" ;
+Venʼa%<np%>:Venʼa PROP_KALA  "Venäjä" ;
+Vera%<np%>%<ant%>%<f%>:Vera PROP_KALA  "" ;
+Veronika%<np%>%<ant%>%<f%>:Veronika PROP_KALA  "" ;
+Veršinin%<np%>:Veršinin PROP_RUS-IN_SUR  "" ;
+Vieljärvi%<np%>:Vieljärv PROP_NIMI  "" ;
+Viglijev%<np%>:Viglijev PROP_RUS-V_SUR  "" ;
+Vikkel-Natalja%<np%>%<ant%>%<f%>:Vikkel-Natalja PROP_KALA  "" ;
+Viktorija%<np%>%<ant%>%<f%>:Viktorija PROP_KALA  "" ;
+Viktorov%<np%>:Viktorov PROP_RUS-VIČ_PATR  "" ;
+Viola%<np%>%<ant%>%<f%>:Viola PROP_KALA  "" ;
+Violetta%<np%>%<ant%>%<f%>:Violetta PROP_KALA  "" ;
+Viro%<np%>:Viro PROP_RUNO  "Viro" ;
+Vitaljev%<np%>:Vitaljev PROP_RUS-VIČ_PATR  "" ;
+Vitʼa%<np%>%<ant%>%<m%>:Vitʼa PROP_KALA  "" ;
+Vladimirov%<np%>:Vladimirov PROP_RUS-VIČ_PATR  "" ;
+Vlasov%<np%>:Vlasov PROP_RUS-VIČ_PATR  "" ;
+Vlasov%<np%>:Vlasov PROP_RUS-V_SUR  "" ;
+Vodlajärvi%<np%>:Vodlajärv PROP_NIMI  "" ;
+Volhonov%<np%>:Volhonov PROP_RUS-V_SUR  "" ;
+Voronov%<np%>:Voronov PROP_RUS-V_SUR  "" ;
+Vuažjärvi%<np%>:Vuažjärv PROP_NIMI  "" ;
+Vuohtjärvi%<np%>:Vuohtjärv PROP_NIMI  "" ;
+Wikipedii%<np%>:Wikipedi PROP_KONDII  "Wikipedia" ;
+Zaharov%<np%>:Zaharov PROP_RUS-V_SUR  "" ;
+Zaikov%<np%>:Zaikov PROP_RUS-V_SUR  "" ;
+Zaitsev%<np%>:Zaitsev PROP_RUS-V_SUR  "" ;
+Zarinov%<np%>:Zarinov PROP_RUS-V_SUR  "" ;
+Zoja%<np%>%<ant%>%<f%>:Zoja PROP_KALA  "" ;
+Zorin%<np%>:Zorin PROP_RUS-IN_SUR  "" ;
+Zvezdin%<np%>:Zvezdin PROP_RUS-IN_SUR  "" ;
+Černʼakov%<np%>:Černʼakov PROP_RUS-V_SUR  "" ;
+Četčujev%<np%>:Četčujev PROP_RUS-V_SUR  "" ;
+Čirikov%<np%>:Čirikov PROP_RUS-V_SUR  "" ;
+Čičiliušku-tyttiteatru%<np%>:Čičiliušku-tyttiteatra PROP_MUARJU  "Čičiliušku-nukketeatteri" ;
+Čuburov%<np%>:Čuburov PROP_RUS-V_SUR  "" ;
+Čuprov%<np%>:Čuprov PROP_RUS-V_SUR  "" ;
+Čupukov%<np%>:Čupukov PROP_RUS-V_SUR  "" ;
+Šaikin%<np%>:Šaikin PROP_RUS-IN_SUR  "" ;
+Šoltjärvi%<np%>:Šoltjärv PROP_NIMI  "" ;
+Šotjärvi%<np%>:Šotjärv PROP_NIMI  "" ;
+Šoutjärvi%<np%>:Šoutjärv PROP_NIMI  "" ;
+Šukkajärvi%<np%>:Šukkajärv PROP_NIMI  "" ;
+Šura%<np%>%<ant%>%<f%>:Šura PROP_KALA  "" ;
+Ščerbakov%<np%>:Ščerbakov PROP_RUS-V_SUR  "" ;
+Žanna%<np%>%<ant%>%<f%>:Žanna PROP_KALA  "" ;
+Žarinov%<np%>:Žarinov PROP_RUS-V_SUR  "" ;
+Žerebtsov%<np%>:Žerebtsov PROP_RUS-V_SUR  "" ;
+Žukov%<np%>:Žukov PROP_RUS-V_SUR  "" ;
 !! This is where new words are added as lexc entries before they are 
 !! added to the xml source files.
 !! merki:merki PROP_  "/(eng) mark/(fin) merkki" ;
@@ -20161,150 +20170,150 @@ Sroičanpäivy:Sroičanpäivä PROP_PÄIVY "" ;
 
 LEXICON propernouns-toponyms
 
-Aazii%<n%>%<np%>:Aazi PROP-PLC_KONDII  "Aasia" ;
-Afrikku%<n%>%<np%>:Afrikka PROP-PLC_KONDII  "Afrikka" ;
-Anglii%<n%>%<np%>:Angli PROP-PLC_KONDII  "Englanti" ;
-Argentiinu%<n%>%<np%>:Argentiina PROP-PLC_MUARJU  "Argentiina" ;
-Belgii%<n%>%<np%>:Belgi PROP-PLC_KONDII  "Belgia" ;
-Berlin%<n%>%<np%>:Berlinä PROP-PLC_TAIGIN  "Berliini" ;
-Bolgarii%<n%>%<np%>:Bolgari PROP-PLC_KONDII  "Bulgaria" ;
-Brituanii%<n%>%<np%>:Brituani PROP-PLC_KONDII  "Britannia" ;
-Carelia%<n%>%<np%>:Carelia PROP-PLC_KALA  "" ;
-Daanii%<n%>%<np%>:Daani PROP-PLC_KONDII  "Tanska" ;
-Eesti%<n%>%<np%>:Eesti PROP-PLC_PAPPI  "Viro" ;
-Estonia%<n%>%<np%>:Estonia PROP-PLC_KALA  "" ;
-Estounii%<n%>%<np%>:Estouni PROP-PLC_KONDII  "Viro" ;
-Frantsii%<n%>%<np%>:Frantsi PROP-PLC_KONDII  "Ranska" ;
-Fukusima%<n%>%<np%>:Fukusima PROP-PLC_KALA  "" ;
-Georgii%<n%>%<np%>:Georgi PROP-PLC_KONDII  "Georgia" ;
-Germuanii%<n%>%<np%>:Germuani PROP-PLC_KONDII  "Saksa" ;
-Gollandii%<n%>%<np%>:Gollandi PROP-PLC_KONDII  "Hollanti" ;
-Hattula%<n%>%<np%>:Hattula PROP-PLC_KALA  "" ;
-Helsinki%<n%>%<np%>:Helsinki PROP-PLC_PAPPI  "Helsinki" ;
-Irak%<n%>%<np%>:Iraka PROP-PLC_TAIGIN  "Irak" ;
-Iran%<n%>%<np%>:Irana PROP-PLC_TAIGIN  "Iran" ;
-Irlandii%<n%>%<np%>:Irlandi PROP-PLC_KONDII  "Irlanti" ;
-Islandii%<n%>%<np%>:Islandi PROP-PLC_KONDII  "Islanti" ;
-Ispaanii%<n%>%<np%>:Ispaani PROP-PLC_KONDII  "Espanja" ;
-Itaalii%<n%>%<np%>:Itaali PROP-PLC_KONDII  "Italia" ;
-Japounii%<n%>%<np%>:Japouni PROP-PLC_KONDII  "Japani" ;
-Jessoilu%<n%>%<np%>:Jessoila PROP-PLC_MUARJU  "Jessoila" ;
-Jevroupu%<n%>%<np%>:Jevroupa PROP-PLC_KNIIGU  "Eurooppa" ;
-Joškar-Ola%<n%>%<np%>:Joškar-Ola PROP-PLC_KALA  "" ;
-Kalevala%<n%>%<np%>:Kalevala PROP-PLC_KALA  "Kalevala" ;
-Karelia%<n%>%<np%>:Karelia PROP-PLC_KALA  "" ;
-Karelii%<n%>%<np%>:Kareli PROP-PLC_KONDII  "Karjala" ;
-Karelija%<n%>%<np%>:Karelija PROP-PLC_KALA  "" ;
-Kondupohju%<n%>%<np%>:Kondu#pohja PROP-PLC_KOIRU  "Kontupohja" ;
-Korela%<n%>%<np%>:Korela PROP-PLC_KALA  "" ;
-Kostamus%<n%>%<np%>:Kostamuks PROP-PLC_ALUS  "Kostamus" ;
-Latvii%<n%>%<np%>:Latvi PROP-PLC_KONDII  "Latvia" ;
-Leningruadu%<n%>%<np%>:Leningruada PROP-PLC_KNIIGU  "Leningrad" ;
-Litvu%<n%>%<np%>:Litva PROP-PLC_MUARJU  "Liettua" ;
-Lukomorja%<n%>%<np%>:Lukomorja PROP-PLC_KALA  "" ;
-Madʼaarii%<n%>%<np%>:Madʼaari PROP-PLC_KONDII  "Unkari" ;
-Marokko%<n%>%<np%>:Marokko PROP-PLC_RUADO  "Marokko" ;
-Meksikku%<n%>%<np%>:Meksikka PROP-PLC_AKKU  "Meksiko" ;
-Monaako%<n%>%<np%>:Monaako PROP-PLC_RUADO  "Monaco" ;
-Mordouvii%<n%>%<np%>:Mordouvi PROP-PLC_KONDII  "Mordva" ;
-Namiibii%<n%>%<np%>:Namiibi PROP-PLC_KONDII  "Namibia" ;
-Norveegii%<n%>%<np%>:Norveegi PROP-PLC_KONDII  "Norja" ;
-Norveegii%<n%>%<np%>:Norvegi PROP-PLC_KONDII  "Norja" ;
-Palestiinu%<n%>%<np%>:Palestiina PROP-PLC_MUARJU  "Palestiina" ;
-Pohjola%<n%>%<np%>:Pohjola PROP-PLC_KALA  "" ;
-Pol'šu%<n%>%<np%>:Pol'ša PROP-PLC_OZA  "Puola" ;
-Priäžä%<n%>%<np%>:Priäžä PROP-PLC_OZA  "Prääsä" ;
-Repolʼa%<n%>%<np%>:Repolʼa PROP-PLC_KALA  "" ;
-Rossija%<n%>%<np%>:Rossija PROP-PLC_KALA  "" ;
-Ruočči%<n%>%<np%>:Ruoči PROP-PLC_PAPPI  "Ruotsi" ;
-Saha-Jakutija%<n%>%<np%>:Saha-Jakutija PROP-PLC_KALA  "" ;
-Siirii%<n%>%<np%>:Siiri PROP-PLC_KONDII  "Syyria" ;
-Skandinuavii%<n%>%<np%>:Skandinuavi PROP-PLC_KONDII  "Skandinavia" ;
-Slovenii%<n%>%<np%>:Sloveni PROP-PLC_KONDII  "Slovenia" ;
-Stokgol'mu%<n%>%<np%>:Stokgol'ma PROP-PLC_OZA  "Tukholma" ;
-Tuksa%<n%>%<np%>:Tuksa PROP-PLC_KALA  "" ;
-Tver%<n%>%<np%>:Tver PROP-PLC_TVER  "Tver" ;
-Udmurtii%<n%>%<np%>:Udmurti PROP-PLC_KONDII  "Udmurtia" ;
-Ukrainu%<n%>%<np%>:Ukraina PROP-PLC_MUARJU  "Ukraina" ;
-Uuzi-Zielandii%<n%>%<np%>:Uuzi-Zielandi PROP-PLC_KONDII  "Uusi-Seelanti" ;
-Valgo-Ven'a%<n%>%<np%>:Valgo-Ven'a PROP-PLC_KALA  "Valko-Venäjä" ;
-Velikobrituanii%<n%>%<np%>:Velikobrituani PROP-PLC_KONDII  "Iso-Britannia" ;
-Vengrii%<n%>%<np%>:Vengri PROP-PLC_KONDII  "Unkari" ;
-Veškelys%<n%>%<np%>:Veškelyks PROP-PLC_ALUS  "Veskelys" ;
-Viena%<n%>%<np%>:Viena PROP-PLC_KALA  "Viena, Vienan Karjala" ;
-Vizantii%<n%>%<np%>:Vizanti PROP-PLC_KONDII  "Bysantti" ;
-Voulogdu%<n%>%<np%>:Voulogda PROP-PLC_MUARJU  "Vologda" ;
-Yhtysvallat%<n%>%<np%>:Yhtys#valda PROP-PLC_MUARJU-PL  "Yhdysvallat" ;
-Čeehii%<n%>%<np%>:Čeehi PROP-PLC_KONDII  "Tšekki" ;
-Čečeenii%<n%>%<np%>:Čečeeni PROP-PLC_KONDII  "Tšetšenia" ;
-Čičiliušku%<n%>%<np%>:Čičiliušku PROP-PLC_KOIVU  "Čičiliušku" ;
-Izrail'u%<n%>%<np%>:Izrail'a PROP_MUARJU  "Istael" ;
-Kanuadu%<n%>%<np%>:Kanuada PROP_MUARJU  "Kanada" ;
-Tailandu%<n%>%<np%>:Tailanda PROP_MUARJU  "Thaimaa" ;
-Turki%<n%>%<np%>:Turki PROP_PAPPI  "Turkki" ;
-Alavoine%<n%>%<np%>:Alavo PROP_KARJALAINE  "Alavoinen" ;
-Alango%<n%>%<np%>:Alango PROP_RUNO  "Alango" ;
-Amerikku%<n%>%<np%>:Amerikka PROP_MUARJU  "Amerikka" ;
-Anus%<n%>%<np%>:Anuks PROP_ALUS  "Aunus" ;
-Argentiinu%<n%>%<np%>:Argentiina PROP_MUARJU  "Argentiina" ;
-Arhangeli%<n%>%<np%>:Arhangeli PROP_ARTELI  "Arkangeli" ;
-Avstrii%<n%>%<np%>:Avstri PROP_KONDII  "Itävalta" ;
-Belgii%<n%>%<np%>:Belgi PROP_KONDII  "Belgia" ;
-Daanii%<n%>%<np%>:Daani PROP_KONDII  "Tanska" ;
-Espanii%<n%>%<np%>:Espani PROP_KONDII  "Espanja" ;
-Finikii%<n%>%<np%>:Finiki PROP_KONDII  "Foinikia" ;
-Frantsii%<n%>%<np%>:Frantsi PROP_KONDII  "Ranska" ;
-Friigii%<n%>%<np%>:Friigi PROP_KONDII  "Fryygia" ;
-Gretsii%<n%>%<np%>:Gretsi PROP_KONDII  "Kreikka" ;
-Hanti-Mansiisk%<n%>%<np%>:Hanti-Mansiisk PROP_KARJAL  "Hanti-Mansiisk" ;
-Helsinki%<n%>%<np%>:Helsinki PROP_ARTELI  "Helsinki" ;
-Helsingi%<n%>%<np%>:Helsingi PROP_ARTELI  "Helsinki" ;
-Horvuatii%<n%>%<np%>:Horvuati PROP_KONDII  "Kroatia" ;
-Indii%<n%>%<np%>:Indi PROP_KONDII  "Intia" ;
-Jakutii%<n%>%<np%>:Jakuti PROP_KONDII  "Jakutia" ;
-Jevrouppu%<n%>%<np%>:Jevouppa PROP_MUARJU  "Eurooppa" ;
-Karhumägi%<n%>%<np%>:Karhu#mäg PROP_JÄLGI  "Karhumäki" ;
-Kesarii%<n%>%<np%>:Kesari PROP_KONDII  "Kesarea" ;
-Kipru%<n%>%<np%>:Kipra PROP_MUARJU  "Kypros" ;
-Kipru-suari%<n%>%<np%>:Kipru-suar PROP_SUARI  "Kyproksen saari" ;
-Kondupohju%<n%>%<np%>:Kondu#pohja PROP_KOIRU  "Kontupohja" ;
-Korei%<n%>%<np%>:Kore PROP_VALGEI  "Korea" ;
-Kudimkar%<n%>%<np%>:Kudimkar PROP_KARJAL  "Kudymkar" ;
-Kuuba%<n%>%<np%>:Kuuba PROP_OZA  "Kuuba" ;
-Lappi%<n%>%<np%>:Lappi PROP_PAPPI  "Lappi" ;
-Mordouvii%<n%>%<np%>:Mordouvi PROP_KONDII  "Mordva" ;
-Muuminotko%<n%>%<np%>:Muumi#notko PROP_RUNO  "Muumilaakso" ;
-Mägeveh%<n%>%<np%>:Mägeveh PROP_PEREH  "Mägeveh" ;
-Nannul%<n%>%<np%>:Nannul PROP_KARJAL  "Nannula" ;
-Nepalu%<n%>%<np%>:Nepala PROP_KONDII  "Nepal" ;
-Novgorod%<n%>%<np%>:Novgorod PROP_KARJAL  "Novgorod" ;
-Novokuznetsk%<n%>%<np%>:Novokuznetsk PROP_KARJAL  "Novokuznetsk" ;
-Nurmoilu%<n%>%<np%>:Nurmoila PROP_MUARJU  "Nurmoila" ;
-Pikkoilu%<n%>%<np%>:Pikkoila PROP_MUARJU  "Pikkoila" ;
-Priäžy%<n%>%<np%>:Pṙiäžä PROP_MUARJU  "Prääsä" ;
-Riipuškal%<n%>%<np%>:Riipuškal PROP_KARJAL  "Riipuškala" ;
-Saransk%<n%>%<np%>:Saransk PROP_KARJAL  "Saransk" ;
-Siberi%<n%>%<np%>:Siberi PROP_ARTELI  "Siperia" ;
-Siktivkar%<n%>%<np%>:Siktivkar PROP_KARJAL  "Syktyvkar" ;
-Slovakii%<n%>%<np%>:Slovaki PROP_KONDII  "Slovakia" ;
-Šoltarvi%<n%>%<np%>:Šoltarv PROP_NIMI  "Soutjärvi" ;
-Šveitsarii%<n%>%<np%>:Šveitsari PROP_KONDII  "Sveitsi" ;
-Somali%<n%>%<np%>:Somali PROP_ARTELI  "Somalia" ;
-Tanzaanii%<n%>%<np%>:Tanzani PROP_KONDII  "Tansania" ;
-Tartu%<n%>%<np%>:Tartu PROP_KOIVU  "Tartto" ;
-Tiiru%<n%>%<np%>:Tiira PROP_MUARJU  "Tyyros" ;
-Tsʼurih%<n%>%<np%>:Tsʼurih PROP_KARJAL  "Zürich" ;
-Turku%<n%>%<np%>:Turku PROP_KOIVU  "Turku" ;
-Turtsii%<n%>%<np%>:Turtsi PROP_KONDII  "Turkki" ;
-Varkaus%<n%>%<np%>:Varkauks PROP_ALUS  "Varkaus" ;
-Vavilon%<n%>%<np%>:Vavilon PROP_KARJAL  "Babylon" ;
-Veškelys%<n%>%<np%>:Veškelyks PROP_KONDII  "Veskelys" ;
-Videl%<n%>%<np%>:Videl PROP_VIDEL  "Vitele" ;
-Vieljärvi%<n%>%<np%>:Vieljärv PROP_NIMI  "Vieljärvi" ;
-Ylä-Videl%<n%>%<np%>:Ylä-Videl PROP_VIDEL  "Ylä-Vitele" ;
-Jyškyjärvi%<n%>%<np%>:Jyšky#järv PROP_NIMI  "Jyskyjärvi" ;
-Kuittine%<n%>%<np%>:Kuitti PROP_KIELINE  "Kuittinen" ;
-Nuožarvi%<n%>%<np%>:Nuožarv PROP_NIMI  "Nuosjärvi" ;
+Aazii%<np%>:Aazi PROP-PLC_KONDII  "Aasia" ;
+Afrikku%<np%>:Afrikka PROP-PLC_KONDII  "Afrikka" ;
+Anglii%<np%>:Angli PROP-PLC_KONDII  "Englanti" ;
+Argentiinu%<np%>:Argentiina PROP-PLC_MUARJU  "Argentiina" ;
+Belgii%<np%>:Belgi PROP-PLC_KONDII  "Belgia" ;
+Berlin%<np%>:Berlinä PROP-PLC_TAIGIN  "Berliini" ;
+Bolgarii%<np%>:Bolgari PROP-PLC_KONDII  "Bulgaria" ;
+Brituanii%<np%>:Brituani PROP-PLC_KONDII  "Britannia" ;
+Carelia%<np%>:Carelia PROP-PLC_KALA  "" ;
+Daanii%<np%>:Daani PROP-PLC_KONDII  "Tanska" ;
+Eesti%<np%>:Eesti PROP-PLC_PAPPI  "Viro" ;
+Estonia%<np%>:Estonia PROP-PLC_KALA  "" ;
+Estounii%<np%>:Estouni PROP-PLC_KONDII  "Viro" ;
+Frantsii%<np%>:Frantsi PROP-PLC_KONDII  "Ranska" ;
+Fukusima%<np%>:Fukusima PROP-PLC_KALA  "" ;
+Georgii%<np%>:Georgi PROP-PLC_KONDII  "Georgia" ;
+Germuanii%<np%>:Germuani PROP-PLC_KONDII  "Saksa" ;
+Gollandii%<np%>:Gollandi PROP-PLC_KONDII  "Hollanti" ;
+Hattula%<np%>:Hattula PROP-PLC_KALA  "" ;
+Helsinki%<np%>:Helsinki PROP-PLC_PAPPI  "Helsinki" ;
+Irak%<np%>:Iraka PROP-PLC_TAIGIN  "Irak" ;
+Iran%<np%>:Irana PROP-PLC_TAIGIN  "Iran" ;
+Irlandii%<np%>:Irlandi PROP-PLC_KONDII  "Irlanti" ;
+Islandii%<np%>:Islandi PROP-PLC_KONDII  "Islanti" ;
+Ispaanii%<np%>:Ispaani PROP-PLC_KONDII  "Espanja" ;
+Itaalii%<np%>:Itaali PROP-PLC_KONDII  "Italia" ;
+Japounii%<np%>:Japouni PROP-PLC_KONDII  "Japani" ;
+Jessoilu%<np%>:Jessoila PROP-PLC_MUARJU  "Jessoila" ;
+Jevroupu%<np%>:Jevroupa PROP-PLC_KNIIGU  "Eurooppa" ;
+Joškar-Ola%<np%>:Joškar-Ola PROP-PLC_KALA  "" ;
+Kalevala%<np%>:Kalevala PROP-PLC_KALA  "Kalevala" ;
+Karelia%<np%>:Karelia PROP-PLC_KALA  "" ;
+Karelii%<np%>:Kareli PROP-PLC_KONDII  "Karjala" ;
+Karelija%<np%>:Karelija PROP-PLC_KALA  "" ;
+Kondupohju%<np%>:Kondu#pohja PROP-PLC_KOIRU  "Kontupohja" ;
+Korela%<np%>:Korela PROP-PLC_KALA  "" ;
+Kostamus%<np%>:Kostamuks PROP-PLC_ALUS  "Kostamus" ;
+Latvii%<np%>:Latvi PROP-PLC_KONDII  "Latvia" ;
+Leningruadu%<np%>:Leningruada PROP-PLC_KNIIGU  "Leningrad" ;
+Litvu%<np%>:Litva PROP-PLC_MUARJU  "Liettua" ;
+Lukomorja%<np%>:Lukomorja PROP-PLC_KALA  "" ;
+Madʼaarii%<np%>:Madʼaari PROP-PLC_KONDII  "Unkari" ;
+Marokko%<np%>:Marokko PROP-PLC_RUADO  "Marokko" ;
+Meksikku%<np%>:Meksikka PROP-PLC_AKKU  "Meksiko" ;
+Monaako%<np%>:Monaako PROP-PLC_RUADO  "Monaco" ;
+Mordouvii%<np%>:Mordouvi PROP-PLC_KONDII  "Mordva" ;
+Namiibii%<np%>:Namiibi PROP-PLC_KONDII  "Namibia" ;
+Norveegii%<np%>:Norveegi PROP-PLC_KONDII  "Norja" ;
+Norveegii%<np%>:Norvegi PROP-PLC_KONDII  "Norja" ;
+Palestiinu%<np%>:Palestiina PROP-PLC_MUARJU  "Palestiina" ;
+Pohjola%<np%>:Pohjola PROP-PLC_KALA  "" ;
+Pol'šu%<np%>:Pol'ša PROP-PLC_OZA  "Puola" ;
+Priäžä%<np%>:Priäžä PROP-PLC_OZA  "Prääsä" ;
+Repolʼa%<np%>:Repolʼa PROP-PLC_KALA  "" ;
+Rossija%<np%>:Rossija PROP-PLC_KALA  "" ;
+Ruočči%<np%>:Ruoči PROP-PLC_PAPPI  "Ruotsi" ;
+Saha-Jakutija%<np%>:Saha-Jakutija PROP-PLC_KALA  "" ;
+Siirii%<np%>:Siiri PROP-PLC_KONDII  "Syyria" ;
+Skandinuavii%<np%>:Skandinuavi PROP-PLC_KONDII  "Skandinavia" ;
+Slovenii%<np%>:Sloveni PROP-PLC_KONDII  "Slovenia" ;
+Stokgol'mu%<np%>:Stokgol'ma PROP-PLC_OZA  "Tukholma" ;
+Tuksa%<np%>:Tuksa PROP-PLC_KALA  "" ;
+Tver%<np%>:Tver PROP-PLC_TVER  "Tver" ;
+Udmurtii%<np%>:Udmurti PROP-PLC_KONDII  "Udmurtia" ;
+Ukrainu%<np%>:Ukraina PROP-PLC_MUARJU  "Ukraina" ;
+Uuzi-Zielandii%<np%>:Uuzi-Zielandi PROP-PLC_KONDII  "Uusi-Seelanti" ;
+Valgo-Ven'a%<np%>:Valgo-Ven'a PROP-PLC_KALA  "Valko-Venäjä" ;
+Velikobrituanii%<np%>:Velikobrituani PROP-PLC_KONDII  "Iso-Britannia" ;
+Vengrii%<np%>:Vengri PROP-PLC_KONDII  "Unkari" ;
+Veškelys%<np%>:Veškelyks PROP-PLC_ALUS  "Veskelys" ;
+Viena%<np%>:Viena PROP-PLC_KALA  "Viena, Vienan Karjala" ;
+Vizantii%<np%>:Vizanti PROP-PLC_KONDII  "Bysantti" ;
+Voulogdu%<np%>:Voulogda PROP-PLC_MUARJU  "Vologda" ;
+Yhtysvallat%<np%>:Yhtys#valda PROP-PLC_MUARJU-PL  "Yhdysvallat" ;
+Čeehii%<np%>:Čeehi PROP-PLC_KONDII  "Tšekki" ;
+Čečeenii%<np%>:Čečeeni PROP-PLC_KONDII  "Tšetšenia" ;
+Čičiliušku%<np%>:Čičiliušku PROP-PLC_KOIVU  "Čičiliušku" ;
+Izrail'u%<np%>:Izrail'a PROP_MUARJU  "Istael" ;
+Kanuadu%<np%>:Kanuada PROP_MUARJU  "Kanada" ;
+Tailandu%<np%>:Tailanda PROP_MUARJU  "Thaimaa" ;
+Turki%<np%>:Turki PROP_PAPPI  "Turkki" ;
+Alavoine%<np%>:Alavo PROP_KARJALAINE  "Alavoinen" ;
+Alango%<np%>:Alango PROP_RUNO  "Alango" ;
+Amerikku%<np%>:Amerikka PROP_MUARJU  "Amerikka" ;
+Anus%<np%>:Anuks PROP_ALUS  "Aunus" ;
+Argentiinu%<np%>:Argentiina PROP_MUARJU  "Argentiina" ;
+Arhangeli%<np%>:Arhangeli PROP_ARTELI  "Arkangeli" ;
+Avstrii%<np%>:Avstri PROP_KONDII  "Itävalta" ;
+Belgii%<np%>:Belgi PROP_KONDII  "Belgia" ;
+Daanii%<np%>:Daani PROP_KONDII  "Tanska" ;
+Espanii%<np%>:Espani PROP_KONDII  "Espanja" ;
+Finikii%<np%>:Finiki PROP_KONDII  "Foinikia" ;
+Frantsii%<np%>:Frantsi PROP_KONDII  "Ranska" ;
+Friigii%<np%>:Friigi PROP_KONDII  "Fryygia" ;
+Gretsii%<np%>:Gretsi PROP_KONDII  "Kreikka" ;
+Hanti-Mansiisk%<np%>:Hanti-Mansiisk PROP_KARJAL  "Hanti-Mansiisk" ;
+Helsinki%<np%>:Helsinki PROP_ARTELI  "Helsinki" ;
+Helsingi%<np%>:Helsingi PROP_ARTELI  "Helsinki" ;
+Horvuatii%<np%>:Horvuati PROP_KONDII  "Kroatia" ;
+Indii%<np%>:Indi PROP_KONDII  "Intia" ;
+Jakutii%<np%>:Jakuti PROP_KONDII  "Jakutia" ;
+Jevrouppu%<np%>:Jevouppa PROP_MUARJU  "Eurooppa" ;
+Karhumägi%<np%>:Karhu#mäg PROP_JÄLGI  "Karhumäki" ;
+Kesarii%<np%>:Kesari PROP_KONDII  "Kesarea" ;
+Kipru%<np%>:Kipra PROP_MUARJU  "Kypros" ;
+Kipru-suari%<np%>:Kipru-suar PROP_SUARI  "Kyproksen saari" ;
+Kondupohju%<np%>:Kondu#pohja PROP_KOIRU  "Kontupohja" ;
+Korei%<np%>:Kore PROP_VALGEI  "Korea" ;
+Kudimkar%<np%>:Kudimkar PROP_KARJAL  "Kudymkar" ;
+Kuuba%<np%>:Kuuba PROP_OZA  "Kuuba" ;
+Lappi%<np%>:Lappi PROP_PAPPI  "Lappi" ;
+Mordouvii%<np%>:Mordouvi PROP_KONDII  "Mordva" ;
+Muuminotko%<np%>:Muumi#notko PROP_RUNO  "Muumilaakso" ;
+Mägeveh%<np%>:Mägeveh PROP_PEREH  "Mägeveh" ;
+Nannul%<np%>:Nannul PROP_KARJAL  "Nannula" ;
+Nepalu%<np%>:Nepala PROP_KONDII  "Nepal" ;
+Novgorod%<np%>:Novgorod PROP_KARJAL  "Novgorod" ;
+Novokuznetsk%<np%>:Novokuznetsk PROP_KARJAL  "Novokuznetsk" ;
+Nurmoilu%<np%>:Nurmoila PROP_MUARJU  "Nurmoila" ;
+Pikkoilu%<np%>:Pikkoila PROP_MUARJU  "Pikkoila" ;
+Priäžy%<np%>:Pṙiäžä PROP_MUARJU  "Prääsä" ;
+Riipuškal%<np%>:Riipuškal PROP_KARJAL  "Riipuškala" ;
+Saransk%<np%>:Saransk PROP_KARJAL  "Saransk" ;
+Siberi%<np%>:Siberi PROP_ARTELI  "Siperia" ;
+Siktivkar%<np%>:Siktivkar PROP_KARJAL  "Syktyvkar" ;
+Slovakii%<np%>:Slovaki PROP_KONDII  "Slovakia" ;
+Šoltarvi%<np%>:Šoltarv PROP_NIMI  "Soutjärvi" ;
+Šveitsarii%<np%>:Šveitsari PROP_KONDII  "Sveitsi" ;
+Somali%<np%>:Somali PROP_ARTELI  "Somalia" ;
+Tanzaanii%<np%>:Tanzani PROP_KONDII  "Tansania" ;
+Tartu%<np%>:Tartu PROP_KOIVU  "Tartto" ;
+Tiiru%<np%>:Tiira PROP_MUARJU  "Tyyros" ;
+Tsʼurih%<np%>:Tsʼurih PROP_KARJAL  "Zürich" ;
+Turku%<np%>:Turku PROP_KOIVU  "Turku" ;
+Turtsii%<np%>:Turtsi PROP_KONDII  "Turkki" ;
+Varkaus%<np%>:Varkauks PROP_ALUS  "Varkaus" ;
+Vavilon%<np%>:Vavilon PROP_KARJAL  "Babylon" ;
+Veškelys%<np%>:Veškelyks PROP_KONDII  "Veskelys" ;
+Videl%<np%>:Videl PROP_VIDEL  "Vitele" ;
+Vieljärvi%<np%>:Vieljärv PROP_NIMI  "Vieljärvi" ;
+Ylä-Videl%<np%>:Ylä-Videl PROP_VIDEL  "Ylä-Vitele" ;
+Jyškyjärvi%<np%>:Jyšky#järv PROP_NIMI  "Jyskyjärvi" ;
+Kuittine%<np%>:Kuitti PROP_KIELINE  "Kuittinen" ;
+Nuožarvi%<np%>:Nuožarv PROP_NIMI  "Nuosjärvi" ;
 
 LEXICON quantifiers
 
@@ -52830,6 +52839,7 @@ erehtyö%<vblex%>:erehty V_PYZYÖ  "erehtyä" ;
 eritellä%<vblex%>:erittel V_PESTÄ  "eritellä" ;
 erittiä%<vblex%>:erittä V_HEITTIÄ  "erittää" ;
 erittyö%<vblex%>:eritty V_PYZYÖ  "erittyä" ;
+ezittyö%<vblex%>:ezitty V_PYZYÖ  "mennä yli joesta" ;
 eroitella%<vblex%>:eroittel V_KUVITELLA  "erotella" ;
 eroittua%<vblex%>:eroitta V_OTTUA  "erottaa" ;
 eroittuo%<vblex%>:eroittu V_VALUO  "eroittua" ;
@@ -57121,76 +57131,76 @@ LEXICON A_HYVÄ !!= @CODE@ hyvä:hyvä
 
 LEXICON A_OZA !!= @CODE@ oza:oza
 :%{back%} NMN_OZA/SÄYNÄ ;
-%<com%>p:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_SÄYNÄ !!= @CODE@ säynä:säynä
 :%{front%} NMN_OZA/SÄYNÄ ;
-%<com%>p:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KALA !!= @CODE@ kala:kala
 :%{back%} NMN_KALA ;
-%<com%>p:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIVU !!= @CODE@ koivu:koivu
 :%{back%}        NMN_KOIVU/HERY ;
-%<com%>p:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}vi NMN_ENIN        ;
+%<com%>:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_HERY !!= @CODE@ hery:hery
 :%{front%}        NMN_KOIVU/HERY ;
-%<com%>p:%{front%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}vi NMN_ENIN        ;
+%<com%>:%{front%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}vi NMN_ENIN        ;
 
 LEXICON A_LUGU !!= @CODE@ lugu:lugu
 :%{back%}        NMN_LUGU/IDY ;
-%<com%>p:%{back%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}vi NMN_ENIN        ;
+%<com%>:%{back%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_IDY !!= @CODE@ idy:idy
 :%{front%}        NMN_LUGU/IDY ;
-%<com%>p:%{front%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}vi NMN_ENIN        ;
+%<com%>:%{front%}%^WGStem%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}vi NMN_ENIN        ;
 
 LEXICON A_RUNO
 :%{back%}	NMN_RUNO/HÖRÖ ;
-%<com%>p:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}vi NMN_ENIN        ;
+%<com%>:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_RUADO
 :%{back%}	NMN_RUADO/KYNDÖ ;
-%<com%>p:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}vi NMN_ENIN        ;
+%<com%>:%{back%}%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}vi NMN_ENIN        ;
 
-LEXICON A_PAPPI !!= @CODE@ pappi:pappi
-:%{back%} NMN_PAPPI/HÄKKI ;
+!!LEXICON A_PAPPI !!= @CODE@ pappi:pappi
+!!:%{back%} NMN_PAPPI/HÄKKI ;
 
 LEXICON A_HÄKKI !!= @CODE@ häkki:häkki
 :%{front%} NMN_PAPPI/HÄKKI ;
 
 LEXICON A_ARTELI !!= @CODE@ 
 :%{back%}     NMN_ARTELI/LEIRI ;
-LEXICON A_LEIRI !!= @CODE@ 
-:%{front%}     NMN_ARTELI/LEIRI ;
+!!LEXICON A_LEIRI !!= @CODE@ 
+!!:%{front%}     NMN_ARTELI/LEIRI ;
 
 LEXICON A_ALUS !!= @CODE@ alus:aluks
 :%{back%} NMN_ALUS/ILVES   ;
-%<com%>p:%{back%}e%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}i NMN_ENIN        ;
+%<com%>:%{back%}e%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}i NMN_ENIN        ;
 
-LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
-:%{back%}	 NMN_SUALIŠ ;
-+Der/in%<sup%>erl:%{back%}vi NMN_ENIN        ;
+!!LEXICON A_SUALIŠ !!= @CODE@ suališ:suali
+!!:%{back%}	 NMN_SUALIŠ ;
+!!+Der/in%<sup%>:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_KUURNIS !!= @CODE@ kuurnis:kuurne
 :%{back%}      NMN_KUURNIS ;
 
 LEXICON A_PUHTAHUS !!= @CODE@ puhtahus:puhtahu
 :%{back%}	NMN_PUHTAHUS/VÄHYS ;
-LEXICON A_VÄHYS !!= @CODE@ vähys:vähy
-:%{front%}	NMN_PUHTAHUS/VÄHYS ;
+!!LEXICON A_VÄHYS !!= @CODE@ vähys:vähy
+!!:%{front%}	NMN_PUHTAHUS/VÄHYS ;
 
 LEXICON A_OLUT !!= @CODE@ olut:olu
 :%{back%}	 NMN_OLUT ;
@@ -57198,34 +57208,34 @@ LEXICON A_OLUT !!= @CODE@ olut:olu
 !! !TWO-SYLLABLE VOWEL-FINAL STEM WITH UNIQUE %<nom%>%<sg%> VOWEL
 LEXICON A_PÄIVY !!= @CODE@ päivy:päivä
 :%{front%} NMN_KOIRU/PÄIVY ;
-%<com%>p:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_MUARJU !!= @CODE@ muarju:muarja
 :%{back%}	NMN_MUARJU/PIÄSTÄNDY ;
-%<com%>p:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}%^RmVow%>i NMN_ENIN        ;
 
-LEXICON A_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
-:%{front%}	NMN_MUARJU/PIÄSTÄNDY ;
-%<com%>p:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}%^RmVow%>i NMN_ENIN        ;
+!!LEXICON A_PIÄSTÄNDY !!= @CODE@ piäständy:piäständä
+!!:%{front%}	NMN_MUARJU/PIÄSTÄNDY ;
+!!%<com%>:%{front%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
+!!+Der/in%<sup%>:%{front%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_AKKU !!= @CODE@ akku:akka
 :%{back%}	NMN_AKKU ;
-%<com%>p:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 LEXICON A_KOIRU
 :%{back%} NMN_KOIRU/PÄIVY ;
-%<com%>p:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}%^RmVow%>i NMN_ENIN        ;
+%<com%>:%{back%}%^E1%>mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}%^RmVow%>i NMN_ENIN        ;
 
 
 LEXICON A_VALGEI !!= @CODE@ valgei:valge
 :%{back%} NMN_VALGEI/LIBEI        ;
-%<com%>p:%{back%}%>emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}vi NMN_ENIN        ;
+%<com%>:%{back%}%>emb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}vi NMN_ENIN        ;
 
 LEXICON A_RAHMANNOI !!= @CODE@ rahmannoi:rahmannoi
 :%{back%} NMN_RAHMANNOI        ;
@@ -57245,8 +57255,8 @@ LEXICON A_PEZII
 
 LEXICON A_KONDII
 :%{back%} NMN_KONDII/STIPENDII ;
-LEXICON A_STIPENDII
-:%{front%} NMN_KONDII/STIPENDII ;
+!!LEXICON A_STIPENDII
+!!:%{front%} NMN_KONDII/STIPENDII ;
 
 LEXICON A_KESTÄY !!= @CODE@ kestäy:kestä
 :%{front%} NMN_KESTÄY ;
@@ -57269,20 +57279,20 @@ LEXICON A_HUOLETOI/JIÄTÖI !!= @CODE@ huoletoi:huolet
 :	NMN_HUOLETOI/JIÄTÖI   ;
 +Der/MWN: N_HUOLETOI ; 
 +Der/MWN%<n%>:t%{oö%}m%{aä%} Adj-NB-i ; !2012-09-27 unknown -loi vs -i
-%<com%>p:t%{oö%}memb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:t%{oö%}mi NMN_ENIN        ;
+%<com%>:t%{oö%}memb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:t%{oö%}mi NMN_ENIN        ;
 
 LEXICON A_KARJALAINE !!= @CODE@ karjalaine:karjala
 :%{back%}z%{uy%} N_PUHTAHUS ;
 :%{back%}	NMN_KARJALAINE/LIYGILÄINE	 ;
-%<com%>p:%{back%}zemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}zi NMN_ENIN        ;
+%<com%>:%{back%}zemb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}zi NMN_ENIN        ;
 
 LEXICON A_LIYGILÄINE !!= @CODE@ liygiläine:liygilä
 :%{front%}z%{uy%} N_PUHTAHUS ;
 :%{front%}	NMN_KARJALAINE/LIYGILÄINE ;
-%<com%>p:%{front%}zemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}zi NMN_ENIN        ;
+%<com%>:%{front%}zemb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}zi NMN_ENIN        ;
 
 LEXICON A_NAINE !!= @CODE@ naine:nai
 :%{back%} A_NAINE/KIELINE_01 ;
@@ -57291,38 +57301,38 @@ LEXICON A_KIELINE !!= @CODE@ kieline:kieli
 LEXICON A_NAINE/KIELINE_01 !!= @CODE@ kieline:kieli naine:nai
 %<n%>:z%{uy%} NMN_PUHTAHUS/VÄHYS ;
 : NMN_NAINE/KIELINE ;
-%<com%>p:zemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:zi NMN_ENIN        ;
+%<com%>:zemb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:zi NMN_ENIN        ;
 
 LEXICON A_TOINE !!= @CODE@ toine:to
 :%{back%} NMN_TOINE ;
-%<com%>p:%{back%}izemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}izi NMN_ENIN        ;
+%<com%>:%{back%}izemb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}izi NMN_ENIN        ;
 LEXICON A_TOINE-PL !!= @CODE@ toine:to
 :%{back%} NMN_TOINE-PL ;
 
 !! !THREE-SYLLABLE STEMS WITH TWO-SYLLABLE NOMINATIVE SINGULAR
-LEXICON A_KARJAL !!= @CODE@ karjal:karjal
-:%{back%}     NMN_KARJAL ;
-%<com%>p:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}i NMN_ENIN        ;
+!!LEXICON A_KARJAL !!= @CODE@ karjal:karjal
+!!:%{back%}     NMN_KARJAL ;
+!!%<com%>:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
+!!+Der/in%<sup%>:%{back%}i NMN_ENIN        ;
 
 LEXICON A_MADAL !!= @CODE@ madal:madal
 :%{back%}%{uy%} N_PUHTAHUS ;
 :%{back%}	NMN_MADAL ;
-%<com%>p:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}i NMN_ENIN        ;
+%<com%>:%{back%}emb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}i NMN_ENIN        ;
 
 LEXICON A_PIIRAI !!= @CODE@ piirai:piira 
 :%{back%}	NMN_PIIRAI/VERÄI   ;
-LEXICON A_VERÄI !!= @CODE@ veräi:verä 
-:%{front%}	NMN_PIIRAI/VERÄI   ;
+!!LEXICON A_VERÄI !!= @CODE@ veräi:verä 
+!!:%{front%}	NMN_PIIRAI/VERÄI   ;
 
 LEXICON A_RAIŠ !!= @CODE@ raiš:ra
 :%{back%}     NMN_RAIŠ   ;
 
-LEXICON A_TOVESTEH !!= @CODE@ pereh:pereh
-:%{back%}	NMN_TOVESTEH/PEREH	;
+!!LEXICON A_TOVESTEH !!= @CODE@ pereh:pereh
+!!:%{back%}	NMN_TOVESTEH/PEREH	;
 
 LEXICON A_PEREH !!= @CODE@ pereh:pereh
 :%{front%}	NMN_TOVESTEH/PEREH	;
@@ -57336,22 +57346,22 @@ LEXICON A_PESSYH !!= @CODE@ pessyh:pessy
 
 LEXICON A_ARMAS !!= @CODE@ armas:arma
 :%{back%} NMN_ARMAS/EVAES        ;
-%<com%>p:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}hi NMN_ENIN        ;
+%<com%>:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}hi NMN_ENIN        ;
 
 LEXICON A_VARVAS !!= @CODE@ varvas:varva
 :%{back%} NMN_VARVAS        ;
-%<com%>p:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}hi NMN_ENIN        ;
+%<com%>:%{back%}h%{aä%}mb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}hi NMN_ENIN        ;
 
 LEXICON A_TUORES !!= @CODE@ tuores:tuore
 !!= * Yaml: __A-tuores__
 :%{back%} NMN_TUORES ;
-%<com%>p:%{back%}hemb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}hi NMN_ENIN        ;
+%<com%>:%{back%}hemb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}hi NMN_ENIN        ;
 
-LEXICON A_SUURIM !!= @CODE@ suurim:suurim
-:%{back%}	NMN_SUURIM ;
+!!LEXICON A_SUURIM !!= @CODE@ suurim:suurim
+!!:%{back%}	NMN_SUURIM ;
 
 LEXICON A_SUARI !!= @CODE@ suari:suar
 :%{back%} A_SUARI/KIELI_01 ;
@@ -57360,34 +57370,34 @@ LEXICON A_KIELI !!= @CODE@ kieli:kiel
 :%{front%} A_SUARI/KIELI_01 ;
 LEXICON A_SUARI/KIELI_01 !!= @CODE@ suari:suar
 :	NMN_SUARI/KIELI	;
-%<com%>p:emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:i NMN_ENIN        ;
+%<com%>:emb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:i NMN_ENIN        ;
 
 LEXICON A_VUOZI !!= @CODE@ vuozi:vuod
 :%{back%}	NMN_VUOZI/VEZI ;
-%<com%>p:%{back%}%^WGStem%>emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{back%}%^WGStem%>i NMN_ENIN        ;
+%<com%>:%{back%}%^WGStem%>emb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{back%}%^WGStem%>i NMN_ENIN        ;
 
 LEXICON A_VEZI !!= @CODE@ vezi:ved
 :%{front%}     NMN_VUOZI/VEZI ;
 
 LEXICON A_NIMI !!= @CODE@ nimi:nim
 :%{front%}        NMN_HANGI/NIMI  ;
-%<com%>p:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}i NMN_ENIN        ;
+%<com%>:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}i NMN_ENIN        ;
 
 LEXICON A_JÄLGI  !!= @CODE@ jälgi:jälg
 !! front vowel
 !! gradation Yes
 :%{front%}        NMN_JÄLGI  ;
-%<com%>p:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
-+Der/in%<sup%>erl:%{front%}i NMN_ENIN        ;
+%<com%>:%{front%}emb NMN_PAREMBI/ENÄMBI        ;
++Der/in%<sup%>:%{front%}i NMN_ENIN        ;
 
 
 
 !! !TWO-SYLLABLE WORD WITH CONSONANT-FINAL STEM
-LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
-:%{back%} NMN_VANUIN	 ;
+!!LEXICON A_VANUIN !!= @CODE@ vanuin:vanui
+!!:%{back%} NMN_VANUIN	 ;
 
 LEXICON A_VAŽEN !!= @CODE@ važen:važe
 :%{back%} NMN_VAŽEN   ;
@@ -57416,13 +57426,13 @@ LEXICON Adj-NB-i
 %<sg%>: SG-ACC/APR/COM/GENSUF ;
 %<pl%>: PLNOMSUF ;
 
-LEXICON Adj-NB-loi
-! These cases are symmetrically marked for number
-%<sg%>: Adj-NB-01 ;
-%<pl%>:%>loi Adj-NB-01 ;
-! The next two share the same stem vowel
-%<sg%>: SG-ACC/APR/COM/GENSUF ;
-%<pl%>: PLNOMSUF ;
+!!LEXICON Adj-NB-loi
+!!! These cases are symmetrically marked for number
+!!%<sg%>: Adj-NB-01 ;
+!!%<pl%>:%>loi Adj-NB-01 ;
+!!! The next two share the same stem vowel
+!!%<sg%>: SG-ACC/APR/COM/GENSUF ;
+!!!!%<pl%>: PLNOMSUF ;
 
 LEXICON Adj-NB-01
 %<ess%>:%^WGStem%>nn%{uy%} K ;
@@ -57475,16 +57485,16 @@ LEXICON ADV-TEMP_
 %<temp%>: K ;
 
 LEXICON ADV-INDEF-MANNER
-%<pri%>ef+Manner: K ;
+%<pri%>+Manner: K ;
 
 LEXICON ADV-INDEF-SPAT-IS-INE
-%<pri%>ef%<ine%>: K ;
+%<pri%>%<ine%>: K ;
 
 LEXICON ADV-INDEF-SPAT-IS-LAT
-%<pri%>ef+Lat: K ;
+%<pri%>+Lat: K ;
 
 LEXICON ADV-INDEF-TEMP
-%<pri%>ef%<temp%>: K ;
+%<pri%>%<temp%>: K ;
 
 LEXICON ADV-INTERR-MANNER
 %<itg%>+Manner: K ;
@@ -58036,8 +58046,8 @@ LEXICON N_SIVE-SG
 LEXICON N_SIVE-PL
 :%{front%}	NMN_LATE/SIVE-PL	;
 
-LEXICON N_HARDIE_SUB
-: N_HARDIE ;
+!!LEXICON N_HARDIE_SUB
+!!: N_HARDIE ;
 LEXICON N_HARDIE !!= @CODE@ hardie:hardie
 !! Gradation NA
 !! Harmony: Back
@@ -58411,9 +58421,9 @@ LEXICON N_SAMMAL-SG
 LEXICON N_SAMMAL-PL
 :%{back%} NMN_SAMMAL-PL ;
 
-LEXICON N_TVER !!= @CODE@ tver:tver
- N_TVER-SG ;
- N_TVER-PL ;
+!!LEXICON N_TVER !!= @CODE@ tver:tver
+!! N_TVER-SG ;
+!! N_TVER-PL ;
 
 LEXICON N_TVER-SG
 :%{front%} NMN_TVER-SG ;
@@ -58793,12 +58803,12 @@ LEXICON N_ARMAS-SG
 LEXICON N_ARMAS-PL
 :%{back%} NMN_ARMAS/EVAES-PL	;
 
-LEXICON N_EVAES !!= @CODE@ eväs:evä
-!! Gradation Yes
-!! Harmony: Front
-:s ATTESTED-NOUN-STEM ;
-    N_EVAES-SG        ;
-    N_EVAES-PL        ;
+!!LEXICON N_EVAES !!= @CODE@ eväs:evä
+!!!! Gradation Yes
+!!!! Harmony: Front
+!!:s ATTESTED-NOUN-STEM ;
+!!    N_EVAES-SG        ;
+!!    N_EVAES-PL        ;
 LEXICON N_EVAES-SG
 :%{front%} NMN_ARMAS/EVAES-SG	;
 LEXICON N_EVAES-PL
@@ -58839,12 +58849,12 @@ LEXICON N_PESSYH-SG
 LEXICON N_PESSYH-PL
 :%{front%} NMN_TULLUH/PESSYH-PL ;
 
-LEXICON N_TULLUH !!= @CODE@ tulluh
-!! Gradation NA
-!! Harmony: Front
-!: ATTESTED-NOUN-STEM ; Work needed
- N_TULLUH-SG ;
- N_TULLUH-PL ;
+!!LEXICON N_TULLUH !!= @CODE@ tulluh
+!!!! Gradation NA
+!!!! Harmony: Front
+!!!: ATTESTED-NOUN-STEM ; Work needed
+!! N_TULLUH-SG ;
+!! N_TULLUH-PL ;
 LEXICON N_TULLUH-SG
 :%{back%} NMN_TULLUH/PESSYH-SG ;
 LEXICON N_TULLUH-PL
@@ -58863,12 +58873,12 @@ LEXICON N_BEMMEL-SG
 LEXICON N_BEMMEL-PL
 :%{front%} NMN_BEMMEL-PL	;
 
-LEXICON N_VIDEL !!= @CODE@ videl:videl
-!! Gradation NA
-!! Harmony: Front
-: ATTESTED-NOUN-STEM ;
-    N_VIDEL-SG        ;
-    N_VIDEL-PL        ;
+!!LEXICON N_VIDEL !!= @CODE@ videl:videl
+!!!! Gradation NA
+!!!! Harmony: Front
+!!: ATTESTED-NOUN-STEM ;
+!!    N_VIDEL-SG        ;
+!!    N_VIDEL-PL        ;
 LEXICON N_VIDEL-SG
 :%{front%} NMN_VIDEL-SG	;
 LEXICON N_VIDEL-PL
@@ -58916,12 +58926,12 @@ LEXICON N_TUATANDIM-SG
 LEXICON N_TUATANDIM-PL
 :%{back%} NMN_TUATANDIM-PL ;
 
-LEXICON N_TYTÄRDIM !!= @CODE@ tytärdim:tytärdim
-!! Gradation NA
-!! Harmony: Front
-: ATTESTED-NOUN-STEM ;
-        N_TYTÄRDIM-SG  ;
-        N_TYTÄRDIM-PL  ;
+!!LEXICON N_TYTÄRDIM !!= @CODE@ tytärdim:tytärdim
+!!!! Gradation NA
+!!!! Harmony: Front
+!!: ATTESTED-NOUN-STEM ;
+!!        N_TYTÄRDIM-SG  ;
+!!        N_TYTÄRDIM-PL  ;
 
 LEXICON N_TYTÄRDIM-SG
 :%{front%} NMN_TYTÄRDIM-SG ;
@@ -58942,12 +58952,12 @@ LEXICON N_SIEMEN-PL
         N_PAIMEN-PL  ;
 
 
-LEXICON N_PAIMEN !!= @CODE@ paimen:paimen
-!! Gradation NA
-!! Harmony: Back
-: ATTESTED-NOUN-STEM ;
-        N_PAIMEN-SG  ;
-        N_PAIMEN-PL  ;
+!!LEXICON N_PAIMEN !!= @CODE@ paimen:paimen
+!!!! Gradation NA
+!!!! Harmony: Back
+!!: ATTESTED-NOUN-STEM ;
+!!        N_PAIMEN-SG  ;
+!!        N_PAIMEN-PL  ;
 
 LEXICON N_PAIMEN-SG
 :%{back%} NMN_PIENAR-SG ;
@@ -58970,13 +58980,13 @@ LEXICON N_SALBOIN-PL
 :%{back%} NMN_SALBOIN-PL ;
 
 
-LEXICON N_ENIN !!= @CODE@ enin:eni
-!! Gradation NA
-!! Harmony: Front
-:n ATTESTED-NOUN-STEM ;
-        N_ENIN-SG  ;
-        N_ENIN-PL  ;
-
+!!LEXICON N_ENIN !!= @CODE@ enin:eni
+!!!! Gradation NA
+!!!! Harmony: Front
+!!:n ATTESTED-NOUN-STEM ;
+!!        N_ENIN-SG  ;
+!!        N_ENIN-PL  ;
+!!
 LEXICON N_ENIN-SG
 :%{front%} NMN_ENIN-SG ;
 
@@ -59010,12 +59020,12 @@ LEXICON N_PIENAR-SG
 LEXICON N_PIENAR-PL
 :%{back%} NMN_PIENAR-PL ;
 
-LEXICON N_TYTÄR !!= @CODE@ tytär:tyttär
-!! Gradation Yes
-!! Harmony: Front
-:%^WGStem ATTESTED-NOUN-STEM ;
-        N_TYTÄR-SG  ;
-        N_TYTÄR-PL  ;
+!!LEXICON N_TYTÄR !!= @CODE@ tytär:tyttär
+!!!! Gradation Yes
+!!!! Harmony: Front
+!!:%^WGStem ATTESTED-NOUN-STEM ;
+!!        N_TYTÄR-SG  ;
+!!        N_TYTÄR-PL  ;
 
 LEXICON N_TYTÄR-SG
 :%{front%} NMN_TYTÄR-SG ;
@@ -59025,11 +59035,11 @@ LEXICON N_TYTÄR-PL
 
 !! !NOMINAL DECLENSION BEGINS
 
-LEXICON NMN_MUAMO !!= @CODE@ muamo:muama
-!! Back vowel
-!! gradation NA
- NMN_MUAMO-SG ;
- NMN_MUAMO-PL ;
+!!LEXICON NMN_MUAMO !!= @CODE@ muamo:muama
+!!!! Back vowel
+!!!! gradation NA
+!! NMN_MUAMO-SG ;
+!! NMN_MUAMO-PL ;
 
 LEXICON NMN_MUAMO-SG
 :%^A2O SGNOMSUF ;
@@ -59071,9 +59081,9 @@ LEXICON NMN_TUATTO-PL
 %<pl%>:%^A2O%>l%{oö%}i%^WGStem OBLIQUE-CASES-TYPICALLY-WITH-WEAK-GRADE ;
 %<pl%>:%^A2O%>l%{oö%}i OBLIQUE-CASES-TYPICALLY-WITH-STRONG-GRADE ;
 
-LEXICON NMN_DIÄDÖ !!= @CODE@ diädö:diädä
- NMN_DIÄDÖ-SG ;
- NMN_DIÄDÖ-PL ;
+!!LEXICON NMN_DIÄDÖ !!= @CODE@ diädö:diädä
+!! NMN_DIÄDÖ-SG ;
+!! NMN_DIÄDÖ-PL ;
 
 LEXICON NMN_DIÄDÖ-SG
 :%^A2O SGNOMSUF ;
@@ -59106,10 +59116,10 @@ LEXICON NMN_MUARJU/PIÄSTÄNDY-PL
 :%^A2O%>i PLINSSUF ;
 %<pl%>:%^A2O%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_SUAJU/XX !!= @CODE@ muarju:muarja
-!! gradation NA
- NMN_SUAJU/XX-SG ;
- NMN_SUAJU/XX-PL ;
+!!LEXICON NMN_SUAJU/XX !!= @CODE@ muarju:muarja
+!!!! gradation NA
+!! NMN_SUAJU/XX-SG ;
+!! NMN_SUAJU/XX-PL ;
 
 LEXICON NMN_SUAJU/XX-SG
 :%^A2UÄ2Y SGNOMSUF ;
@@ -59166,9 +59176,9 @@ LEXICON NMN_KNIIGU-PL
 :%^A2O%>i PLINSSUF ;
 %<pl%>:%^A2O%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
-        NMN_LAPSI-SG  ;
-	NMN_LAPSI-PL  ;
+!!LEXICON NMN_LAPSI !!= @CODE@ lapsi:laps lapsi:laps
+!!        NMN_LAPSI-SG  ;
+!!	NMN_LAPSI-PL  ;
 
 LEXICON NMN_LAPSI-SG
 :i SGNOMSUF ;
@@ -59186,19 +59196,19 @@ LEXICON NMN_LAPSI-PL
 ! NMN_VEZI-SG ;
 ! NMN_VEZI-PL ;
 
-LEXICON NMN_VEZI-SG
-:%^D2Z%>i SGNOMSUF ;
-:e%^WGStem SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
-: SGPARSUF_dU ;
-%<sg%>:e%^WGStem OBLIQUE-CASES-TYPICALLY-WITH-WEAK-GRADE ;
-%<sg%>:e OBLIQUE-CASES-TYPICALLY-WITH-STRONG-GRADE ;
-
-LEXICON NMN_VEZI-PL
-:e%^WGStem PLNOMSUF-USUALLY-WEAK ;
-:%^D2Z%>i PL-GEN/COM/APRSUF_EN ;		! vezien
-!:%^D2Z%>i PLPARSUF_Zero ;
-:%^D2Z%>i PLINSSUF ;
-%<pl%>:%^D2Z%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+!!LEXICON NMN_VEZI-SG
+!!:%^D2Z%>i SGNOMSUF ;
+!!:e%^WGStem SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+!!: SGPARSUF_dU ;
+!!%<sg%>:e%^WGStem OBLIQUE-CASES-TYPICALLY-WITH-WEAK-GRADE ;
+!!%<sg%>:e OBLIQUE-CASES-TYPICALLY-WITH-STRONG-GRADE ;
+!!
+!!LEXICON NMN_VEZI-PL
+!!:e%^WGStem PLNOMSUF-USUALLY-WEAK ;
+!!:%^D2Z%>i PL-GEN/COM/APRSUF_EN ;		! vezien
+!!!:%^D2Z%>i PLPARSUF_Zero ;
+!!:%^D2Z%>i PLINSSUF ;
+!!%<pl%>:%^D2Z%>i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 :%^D2Z%>i%>l%{oö%}i PL-GEN/COM/APRSUF_EN ; 
 :%^D2Z%>i%>l%{oö%}i PLPARSUF_Zero ;
@@ -59269,11 +59279,11 @@ LEXICON NMN_JÄLGI-PL
 :il%{oö%}i PLINSSUF ;
 %<pl%>:il%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_JOGI !!= @CODE@ jogi:jog
-!! Back Vowel
-!! Gradation Yes
-	NMN_JOGI-SG	;
-	NMN_JOGI-PL	;
+!!LEXICON NMN_JOGI !!= @CODE@ jogi:jog
+!!!! Back Vowel
+!!!! Gradation Yes
+!!	NMN_JOGI-SG	;
+!!	NMN_JOGI-PL	;
 
 LEXICON NMN_JOGI-SG
 :i SGNOMSUF ;
@@ -59315,9 +59325,9 @@ LEXICON NMN_SUARI/KIELI-PL
 %<pl%>:il%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 
-LEXICON NMN_KIELI
-	NMN_KIELI-SG ;
-	NMN_KIELI-PL ;
+!!LEXICON NMN_KIELI
+!!	NMN_KIELI-SG ;
+!!	NMN_KIELI-PL ;
 LEXICON NMN_KIELI-SG
 :i SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
@@ -59355,9 +59365,9 @@ LEXICON NMN_YKSI-PL
 %<pl%>:ksi OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 
-LEXICON NMN_NELLI  !!= @CODE@ nelli:nell
-	NMN_NELLI-SG ;
-	NMN_NELLI-PL ;
+!!LEXICON NMN_NELLI  !!= @CODE@ nelli:nell
+!!	NMN_NELLI-SG ;
+!!	NMN_NELLI-PL ;
 
 LEXICON NMN_NELLI-SG
 :i SGNOMSUF ;
@@ -59398,8 +59408,8 @@ LEXICON NMN_VUOZI/VEZI-PL
 
 LEXICON NMN_PAREMBI/ENÄMBI !!= @CODE@ parembi:paremb
 !!€gt-norm: Adjective comparative
-!!€ tuorehembi: tuores%<adj%>%<com%>p%<sg%>%<nom%>
-!!$ tuorehembembannu: tuores%<adj%>%<com%>p+Der/mbi%<comp%>%<sg%>%<ess%>
+!!€ tuorehembi: tuores%<adj%>%<com%>%<sg%>%<nom%>
+!!$ tuorehembembannu: tuores%<adj%>%<com%>+Der/mbi%<comp%>%<sg%>%<ess%>
  NMN_PAREMBI/ENÄMBI-SG ;
  NMN_PAREMBI/ENÄMBI-PL ;
 
@@ -59574,11 +59584,11 @@ LEXICON NMN_MEČČY-PL
 %<pl%>:%^RmVow%>i OBLIQUE-CASES-TYPICALLY-WITH-STRONG-GRADE ;
 
 
-LEXICON NMN_IŽÄNDY !!= @CODE@ ižändy:ižändä
-!! Gradation No
-!! VowelHarmony Front
- NMN_IŽÄNDY-SG ;
- NMN_IŽÄNDY-PL ;
+!!LEXICON NMN_IŽÄNDY !!= @CODE@ ižändy:ižändä
+!!!! Gradation No
+!!!! VowelHarmony Front
+!! NMN_IŽÄNDY-SG ;
+!! NMN_IŽÄNDY-PL ;
 
 LEXICON NMN_IŽÄNDY-SG
 :%^A2UÄ2Y SGNOMSUF ;
@@ -59738,9 +59748,9 @@ LEXICON NMN_KONDII/STIPENDII-PL
 %<pl%>:e%>l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 
-LEXICON NMN_SEIČČIE !!= @CODE@ seiččie:seičče
-	NMN_SEIČČIE-SG	;
-	NMN_SEIČČIE-PL	;
+!!LEXICON NMN_SEIČČIE !!= @CODE@ seiččie:seičče
+!!	NMN_SEIČČIE-SG	;
+!!	NMN_SEIČČIE-PL	;
 
 LEXICON NMN_SEIČČIE-SG
 :%>e SGNOMSUF ;
@@ -59851,17 +59861,17 @@ LEXICON NMN_RUNO/HÖRÖ-PL
 !	NMN_HÖRÖ-SG ;
 !	NMN_HÖRÖ-PL ;
 
-LEXICON NMN_HÖRÖ-SG
-	SGNOMSUF ;
- 	SGPARSUF_O ;
-	SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
-%<sg%>: 	OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
-LEXICON NMN_HÖRÖ-PL
- PLNOMSUF-USUALLY-WEAK ;
-:l%{oö%}i PL-GEN/COM/APRSUF_N ;
-:l%{oö%}i PLPARSUF_Zero ;
-:l%{oö%}i PLINSSUF ;
-%<pl%>:l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+!!LEXICON NMN_HÖRÖ-SG
+!!	SGNOMSUF ;
+!! 	SGPARSUF_O ;
+!!	SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+!!%<sg%>: 	OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
+!!LEXICON NMN_HÖRÖ-PL
+!! PLNOMSUF-USUALLY-WEAK ;
+!!:l%{oö%}i PL-GEN/COM/APRSUF_N ;
+!!:l%{oö%}i PLPARSUF_Zero ;
+!!:l%{oö%}i PLINSSUF ;
+!!%<pl%>:l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
 LEXICON NMN_RUADO/KYNDÖ !!= @CODE@ ruado:ruado
 !! Gradation Yes
@@ -59881,9 +59891,9 @@ LEXICON NMN_RUADO/KYNDÖ-PL
 :l%{oö%}i PLINSSUF ;
 %<pl%>:l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
-	NMN_KYNDÖ-SG ;
-	NMN_KYNDÖ-PL ;
+!!LEXICON NMN_KYNDÖ !!= @CODE@ kyndö:kyndö
+!!	NMN_KYNDÖ-SG ;
+!!	NMN_KYNDÖ-PL ;
 
 LEXICON NMN_KYNDÖ-SG
 	SGNOMSUF ;
@@ -60091,9 +60101,9 @@ LEXICON NMN_SUURIM-PL
 :i PL-GEN/COM/APRSUF_EN ;
 :i PLPARSUF_i ;
 
-LEXICON NMN_TUATANDIM
-        NMN_TUATANDIM-SG   ;
-        NMN_TUATANDIM-PL   ;
+!!LEXICON NMN_TUATANDIM
+!!        NMN_TUATANDIM-SG   ;
+!!        NMN_TUATANDIM-PL   ;
 
 LEXICON NMN_TUATANDIM-SG
  SGNOMSUF ;
@@ -60169,9 +60179,9 @@ LEXICON NMN_ENIN-PL
 
 
 !! ! Nominative singular in "r"
-LEXICON NMN_PIENAR
-	NMN_PIENAR-SG	;
-	NMN_PIENAR-PL	;
+!!LEXICON NMN_PIENAR
+!!	NMN_PIENAR-SG	;
+!!	NMN_PIENAR-PL	;
 
 LEXICON NMN_PIENAR-SG
 :%^WGStem SGNOMSUF ;
@@ -60432,9 +60442,9 @@ LEXICON NMN_OLUT-PL
 :i PLINSSUF ;
 %<pl%>:i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_KEVÄT !!= * @CODE@ kevät:kevä
- NMN_KEVÄT-SG ;
- NMN_KEVÄT-PL ;
+!!LEXICON NMN_KEVÄT !!= * @CODE@ kevät:kevä
+!! NMN_KEVÄT-SG ;
+!! NMN_KEVÄT-PL ;
 
 LEXICON NMN_KEVÄT-SG
 :t SGNOMSUF ;
@@ -60500,9 +60510,9 @@ LEXICON NMN_TOVESTEH/PEREH-PL
 :i PLINSSUF ;
 %<pl%>:i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_HUIKEH/LIIKEH !!= @CODE@ liikeh:liikkeh
-	NMN_HUIKEH/LIIKEH-SG	;
-	NMN_HUIKEH/LIIKEH-PL	;
+!!LEXICON NMN_HUIKEH/LIIKEH !!= @CODE@ liikeh:liikkeh
+!!	NMN_HUIKEH/LIIKEH-SG	;
+!!!!	NMN_HUIKEH/LIIKEH-PL	;
 LEXICON NMN_HUIKEH/LIIKEH-SG
 :%^WGStem SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
@@ -60515,9 +60525,9 @@ LEXICON NMN_HUIKEH/LIIKEH-PL
 :i PLINSSUF ;
 %<pl%>:i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_LATE/SIVE !!= @CODE@ sive:side
-	NMN_LATE/SIVE-SG	;
-	NMN_LATE/SIVE-PL	;
+!!LEXICON NMN_LATE/SIVE !!= @CODE@ sive:side
+!!	NMN_LATE/SIVE-SG	;
+!!	NMN_LATE/SIVE-PL	;
 LEXICON NMN_LATE/SIVE-SG
  SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
@@ -60530,9 +60540,9 @@ LEXICON NMN_LATE/SIVE-PL
 :i PLINSSUF ;
 %<pl%>:i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_PENGER !!= @CODE@ penger:penger
-	NMN_PENGER-SG	;
-	NMN_PENGER-PL	;
+!!LEXICON NMN_PENGER !!= @CODE@ penger:penger
+!!	NMN_PENGER-SG	;
+!!	NMN_PENGER-PL	;
 LEXICON NMN_PENGER-SG
  SGNOMSUF ;
 :e SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
@@ -60619,9 +60629,9 @@ LEXICON NMN_REBOI/JÄNÖI-PL
 :%^ILoss%>l%{oö%}i PLINSSUF ;
 %<pl%>:%^ILoss%>l%{oö%}i OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_PÖČÖI !!= @CODE@ pöčöi:pöččö
-        NMN_PÖČÖI-SG ;
-        NMN_PÖČÖI-PL ;
+!!LEXICON NMN_PÖČÖI !!= @CODE@ pöčöi:pöččö
+!!        NMN_PÖČÖI-SG ;
+!!        NMN_PÖČÖI-PL ;
 LEXICON NMN_PÖČÖI-SG
 :%^WGStemi SGNOMSUF ;
 :%^WGStemi SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
@@ -60746,15 +60756,15 @@ LEXICON NMN_VANUIN-PL
 :mi PLINSSUF ;
 %<pl%>:mi OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 
-LEXICON NMN_SAMMUTIN/KEITIN !!= @CODE@ sammutin:sammutti
-!! Gradation Yes
-!! (Nominative and partitive singular forms are weak grade)
-!! Back	     Vowel
-!! Stem	     consonant n/m
-!! Singular stem vowel 0/0/e
-!! Plural stem vowel i
- NMN_SAMMUTIN/KEITIN-SG ;
- NMN_SAMMUTIN/KEITIN-PL ;
+!!LEXICON NMN_SAMMUTIN/KEITIN !!= @CODE@ sammutin:sammutti
+!!!! Gradation Yes
+!!!! (Nominative and partitive singular forms are weak grade)
+!!!! Back	     Vowel
+!!!! Stem	     consonant n/m
+!!!! Singular stem vowel 0/0/e
+!!!! Plural stem vowel i
+!! NMN_SAMMUTIN/KEITIN-SG ;
+!! NMN_SAMMUTIN/KEITIN-PL ;
 
 LEXICON NMN_SAMMUTIN/KEITIN-SG	
 :%^WGStemn SGNOMSUF ;
@@ -60807,7 +60817,7 @@ LEXICON NMN_TAIGIN !!= @CODE@ taigin:taigin
 
 LEXICON NMN_TAIGIN-SG	
 : SGNOMSUF ;
-:a SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
+0:a SG-ACC/APR/COM/GENSUF-USUALLY-WEAK ;
 :%{ui%} SGPARSUF_A2 ;
 %<sg%>:a OBLIQUE-CASES-NOT-GENITIVE-DERIVATIVES ;
 LEXICON NMN_TAIGIN-PL	
@@ -61011,8 +61021,8 @@ LEXICON PLPARSUF_i
 LEXICON PLPARSUF_dU
 %<pl%>%<par%>:%>d%{uy%} K ;
 
-LEXICON ILLSUF_he
-%<ill%>:%>he K ;
+!!LEXICON ILLSUF_he
+!!%<ill%>:%>he K ;
 
 LEXICON Noun-NB-01
 %<ade%>:%^WGStem%>l K ;
@@ -61293,71 +61303,71 @@ LEXICON PRON-DEM_NET !!= @CODE@ net:n
 %<dem%>%<dep%>%<pl%>%<ill%>:iih K ;
 
 !! !INDEFINITE
-LEXICON PRON-INDEF_ !!= @CODE@ Still requires work
-%<pri%>ef: K ;
+!!LEXICON PRON-INDEF_ !!= @CODE@ Still requires work
+!!%<pri%>: K ;
 
 LEXICON PRON-INDEF_KEN !!= @CODE@ kentahto:ke
-%<pri%>ef%<sg%>%<abl%>:lpäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ade%>:l TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<all%>:lle TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<com%>:nenke TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ela%>:nespäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<gen%>:nen TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ill%>:neh TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ine%>:nes TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<nom%>:n TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<par%>:dä TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<tra%>:nekse TAHTO/LIENNE ;
+%<pri%>%<sg%>%<abl%>:lpäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ade%>:l TAHTO/LIENNE ;
+%<pri%>%<sg%>%<all%>:lle TAHTO/LIENNE ;
+%<pri%>%<sg%>%<com%>:nenke TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ela%>:nespäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<gen%>:nen TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ill%>:neh TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ine%>:nes TAHTO/LIENNE ;
+%<pri%>%<sg%>%<nom%>:n TAHTO/LIENNE ;
+%<pri%>%<sg%>%<par%>:dä TAHTO/LIENNE ;
+%<pri%>%<sg%>%<tra%>:nekse TAHTO/LIENNE ;
 
 LEXICON PRON-INDEF_KUDAI !!= @CODE@ kudaitahto:kuda
-%<pri%>ef%<sg%>%<abl%>:%>malpäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ade%>:%>mal TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<all%>:%>male TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ela%>:%>maspäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<gen%>:%>man TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ill%>:%>mah TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ine%>:%>mas TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<nom%>:i TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<par%>:idu TAHTO/LIENNE ;
+%<pri%>%<sg%>%<abl%>:%>malpäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ade%>:%>mal TAHTO/LIENNE ;
+%<pri%>%<sg%>%<all%>:%>male TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ela%>:%>maspäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<gen%>:%>man TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ill%>:%>mah TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ine%>:%>mas TAHTO/LIENNE ;
+%<pri%>%<sg%>%<nom%>:i TAHTO/LIENNE ;
+%<pri%>%<sg%>%<par%>:idu TAHTO/LIENNE ;
 
 
 LEXICON PRON-INDEF_MI !!= @CODE@ mitahto:mi
-%<pri%>ef%<sg%>%<abl%>:%>lpäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ade%>:%>l TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ade%>:%>l»tah K ;
-%<pri%>ef%<sg%>%<all%>:%>lle TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<all%>:%>lle»tah K ;
-%<pri%>ef%<sg%>%<gen%>:%>n TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ill%>:%>h TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ill%>:%>h»tah K ;
-%<pri%>ef%<sg%>%<ine%>:%>s TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<nom%>: TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<par%>:%>dä TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<tra%>:%>kse TAHTO/LIENNE ;
+%<pri%>%<sg%>%<abl%>:%>lpäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ade%>:%>l TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ade%>:%>l»tah K ;
+%<pri%>%<sg%>%<all%>:%>lle TAHTO/LIENNE ;
+%<pri%>%<sg%>%<all%>:%>lle»tah K ;
+%<pri%>%<sg%>%<gen%>:%>n TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ill%>:%>h TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ill%>:%>h»tah K ;
+%<pri%>%<sg%>%<ine%>:%>s TAHTO/LIENNE ;
+%<pri%>%<sg%>%<nom%>: TAHTO/LIENNE ;
+%<pri%>%<sg%>%<par%>:%>dä TAHTO/LIENNE ;
+%<pri%>%<sg%>%<tra%>:%>kse TAHTO/LIENNE ;
 
 LEXICON PRON-INDEF_MITTUINE !!= @CODE@ mittuinetahto:mittu
-%<pri%>ef%<sg%>%<abl%>:%>malpäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ade%>:%>mal TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<all%>:%>male TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ela%>:%>maspäi TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ess%>:%>mannu TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<gen%>:%>man TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ill%>:%>mah TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<ine%>:%>mas TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<nom%>:ine TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<par%>:%>mua TAHTO/LIENNE ;
-%<pri%>ef%<sg%>%<tra%>:%>makse TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<abl%>:%>milpäi TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<ade%>:%>mil TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<all%>:%>mile TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<ela%>:%>mispäi TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<ess%>:%>minnu TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<gen%>:%>mien TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<ill%>:%>mih TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<ine%>:%>mis TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<nom%>:%>mat TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<par%>:%>mii TAHTO/LIENNE ;
-%<pri%>ef%<pl%>%<tra%>:%>mikse TAHTO/LIENNE ;
+%<pri%>%<sg%>%<abl%>:%>malpäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ade%>:%>mal TAHTO/LIENNE ;
+%<pri%>%<sg%>%<all%>:%>male TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ela%>:%>maspäi TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ess%>:%>mannu TAHTO/LIENNE ;
+%<pri%>%<sg%>%<gen%>:%>man TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ill%>:%>mah TAHTO/LIENNE ;
+%<pri%>%<sg%>%<ine%>:%>mas TAHTO/LIENNE ;
+%<pri%>%<sg%>%<nom%>:ine TAHTO/LIENNE ;
+%<pri%>%<sg%>%<par%>:%>mua TAHTO/LIENNE ;
+%<pri%>%<sg%>%<tra%>:%>makse TAHTO/LIENNE ;
+%<pri%>%<pl%>%<abl%>:%>milpäi TAHTO/LIENNE ;
+%<pri%>%<pl%>%<ade%>:%>mil TAHTO/LIENNE ;
+%<pri%>%<pl%>%<all%>:%>mile TAHTO/LIENNE ;
+%<pri%>%<pl%>%<ela%>:%>mispäi TAHTO/LIENNE ;
+%<pri%>%<pl%>%<ess%>:%>minnu TAHTO/LIENNE ;
+%<pri%>%<pl%>%<gen%>:%>mien TAHTO/LIENNE ;
+%<pri%>%<pl%>%<ill%>:%>mih TAHTO/LIENNE ;
+%<pri%>%<pl%>%<ine%>:%>mis TAHTO/LIENNE ;
+%<pri%>%<pl%>%<nom%>:%>mat TAHTO/LIENNE ;
+%<pri%>%<pl%>%<par%>:%>mii TAHTO/LIENNE ;
+%<pri%>%<pl%>%<tra%>:%>mikse TAHTO/LIENNE ;
 
 LEXICON TAHTO/LIENNE
 :»lienne K ;
@@ -61365,49 +61375,49 @@ LEXICON TAHTO/LIENNE
 :»tah K ;
 
 LEXICON PRON-INDEF_NIMI !!= @CODE@ nimi:ni«mi
-%<pri%>ef%<neg%>%<pl%>%<nom%>:t K ;
-%<pri%>ef%<neg%>%<sg%>%<ela%>:späi K ;
-%<pri%>ef%<neg%>%<sg%>%<gen%>:n K ;
-%<pri%>ef%<neg%>%<sg%>%<ill%>:h K ;
-%<pri%>ef%<neg%>%<sg%>%<ine%>:s K ;
-%<pri%>ef%<neg%>%<sg%>%<nom%>: K ;
-%<pri%>ef%<neg%>%<sg%>%<par%>:dä K ;
-%<pri%>ef%<neg%>%<sg%>%<tra%>:kse K ;
+%<pri%>%<neg%>%<pl%>%<nom%>:t K ;
+%<pri%>%<neg%>%<sg%>%<ela%>:späi K ;
+%<pri%>%<neg%>%<sg%>%<gen%>:n K ;
+%<pri%>%<neg%>%<sg%>%<ill%>:h K ;
+%<pri%>%<neg%>%<sg%>%<ine%>:s K ;
+%<pri%>%<neg%>%<sg%>%<nom%>: K ;
+%<pri%>%<neg%>%<sg%>%<par%>:dä K ;
+%<pri%>%<neg%>%<sg%>%<tra%>:kse K ;
 
 LEXICON PRON-INDEF_NIKEN !!= @CODE@ niken:ni«ke
-%<pri%>ef%<neg%>%<sg%>%<abl%>:lpäi K ;
-%<pri%>ef%<neg%>%<sg%>%<ade%>:l K ;
-%<pri%>ef%<neg%>%<sg%>%<all%>:lle K ;
-%<pri%>ef%<neg%>%<sg%>%<com%>:nenke K ;
-%<pri%>ef%<neg%>%<sg%>%<ela%>:nespäi K ;
-%<pri%>ef%<neg%>%<sg%>%<gen%>:nen K ;
-%<pri%>ef%<neg%>%<sg%>%<ill%>:neh K ;
-%<pri%>ef%<neg%>%<sg%>%<ine%>:nes K ;
-%<pri%>ef%<neg%>%<sg%>%<nom%>:n K ;
-%<pri%>ef%<neg%>%<sg%>%<par%>:dä K ;
-%<pri%>ef%<neg%>%<sg%>%<tra%>:nekse K ;
+%<pri%>%<neg%>%<sg%>%<abl%>:lpäi K ;
+%<pri%>%<neg%>%<sg%>%<ade%>:l K ;
+%<pri%>%<neg%>%<sg%>%<all%>:lle K ;
+%<pri%>%<neg%>%<sg%>%<com%>:nenke K ;
+%<pri%>%<neg%>%<sg%>%<ela%>:nespäi K ;
+%<pri%>%<neg%>%<sg%>%<gen%>:nen K ;
+%<pri%>%<neg%>%<sg%>%<ill%>:neh K ;
+%<pri%>%<neg%>%<sg%>%<ine%>:nes K ;
+%<pri%>%<neg%>%<sg%>%<nom%>:n K ;
+%<pri%>%<neg%>%<sg%>%<par%>:dä K ;
+%<pri%>%<neg%>%<sg%>%<tra%>:nekse K ;
 
 LEXICON PRON-INDEF_NIMITTUINE !!= @CODE@ nimittuine:ni«mittu
-%<pri%>ef%<neg%>%<sg%>%<abl%>:%>malpäi K ;
-%<pri%>ef%<neg%>%<sg%>%<ade%>:%>mal K ;
-%<pri%>ef%<neg%>%<sg%>%<all%>:%>male K ;
-%<pri%>ef%<neg%>%<sg%>%<ela%>:%>maspäi K ;
-%<pri%>ef%<neg%>%<sg%>%<ess%>:%>mannu K ;
-%<pri%>ef%<neg%>%<sg%>%<gen%>:%>man K ;
-%<pri%>ef%<neg%>%<sg%>%<ill%>:%>mah K ;
-%<pri%>ef%<neg%>%<sg%>%<ine%>:%>mas K ;
-%<pri%>ef%<neg%>%<sg%>%<nom%>:ine K ;
-%<pri%>ef%<neg%>%<sg%>%<par%>:%>mua K ;
-%<pri%>ef%<neg%>%<pl%>%<abl%>:%>milpäi K ;
-%<pri%>ef%<neg%>%<pl%>%<ade%>:%>mil K ;
-%<pri%>ef%<neg%>%<pl%>%<all%>:%>mile K ;
-%<pri%>ef%<neg%>%<pl%>%<ela%>:%>mispäi K ;
-%<pri%>ef%<neg%>%<pl%>%<ess%>:%>minnu K ;
-%<pri%>ef%<neg%>%<pl%>%<gen%>:%>mien K ;
-%<pri%>ef%<neg%>%<pl%>%<ill%>:%>mih K ;
-%<pri%>ef%<neg%>%<pl%>%<ine%>:%>mis K ;
-%<pri%>ef%<neg%>%<pl%>%<nom%>:%>mat K ;
-%<pri%>ef%<neg%>%<pl%>%<par%>:%>mii K ;
+%<pri%>%<neg%>%<sg%>%<abl%>:%>malpäi K ;
+%<pri%>%<neg%>%<sg%>%<ade%>:%>mal K ;
+%<pri%>%<neg%>%<sg%>%<all%>:%>male K ;
+%<pri%>%<neg%>%<sg%>%<ela%>:%>maspäi K ;
+%<pri%>%<neg%>%<sg%>%<ess%>:%>mannu K ;
+%<pri%>%<neg%>%<sg%>%<gen%>:%>man K ;
+%<pri%>%<neg%>%<sg%>%<ill%>:%>mah K ;
+%<pri%>%<neg%>%<sg%>%<ine%>:%>mas K ;
+%<pri%>%<neg%>%<sg%>%<nom%>:ine K ;
+%<pri%>%<neg%>%<sg%>%<par%>:%>mua K ;
+%<pri%>%<neg%>%<pl%>%<abl%>:%>milpäi K ;
+%<pri%>%<neg%>%<pl%>%<ade%>:%>mil K ;
+%<pri%>%<neg%>%<pl%>%<all%>:%>mile K ;
+%<pri%>%<neg%>%<pl%>%<ela%>:%>mispäi K ;
+%<pri%>%<neg%>%<pl%>%<ess%>:%>minnu K ;
+%<pri%>%<neg%>%<pl%>%<gen%>:%>mien K ;
+%<pri%>%<neg%>%<pl%>%<ill%>:%>mih K ;
+%<pri%>%<neg%>%<pl%>%<ine%>:%>mis K ;
+%<pri%>%<neg%>%<pl%>%<nom%>:%>mat K ;
+%<pri%>%<neg%>%<pl%>%<par%>:%>mii K ;
 
 
 !! !INTERROGATIVE
@@ -61577,9 +61587,9 @@ LEXICON PROP_KALA !!= @CODE@
 !! Plural stem in oi
 %<np%>:%{back%} NMN_KALA ;
 
-LEXICON PROP-FEM_KALA !!= @CODE@ 
-%<np%>:%{back%} NMN_KALA ;
-%<np%>: HUMAN-PROP-DERIVATION ;
+!!LEXICON PROP-FEM_KALA !!= @CODE@ 
+!!%<np%>:%{back%} NMN_KALA ;
+!!%<np%>: HUMAN-PROP-DERIVATION ;
 
 LEXICON PROP_KALA_MAL !!= @CODE@ 
 %<np%>:%{back%} NMN_KALA ;
@@ -61630,8 +61640,8 @@ LEXICON PROP_ARTELI-SG !!= @CODE@
 LEXICON PROP_ARTELI-PL !!= @CODE@
 %<np%>:%{back%} NMN_ARTELI/LEIRI-PL ;
 
-LEXICON PROP-PLC_ARTELI !!= @CODE@
-%<np%>:%{back%} NMN_ARTELI/LEIRI ;
+!!LEXICON PROP-PLC_ARTELI !!= @CODE@
+!!%<np%>:%{back%} NMN_ARTELI/LEIRI ;
 
 LEXICON PROP_LEIRI !!= @CODE@
 !! Gradation NA
@@ -61647,8 +61657,8 @@ LEXICON PROP_LEIRI-SG !!= @CODE@
 LEXICON PROP_LEIRI-PL !!= @CODE@
 %<np%>:%{front%} NMN_ARTELI/LEIRI-PL ;
 
-LEXICON PROP-PLC_LEIRI !!= @CODE@
-%<np%>:%{front%} NMN_ARTELI/LEIRI ;
+!!LEXICON PROP-PLC_LEIRI !!= @CODE@
+!!%<np%>:%{front%} NMN_ARTELI/LEIRI ;
 
 
 LEXICON PROP_NIMI !!= @CODE@ nimi:nim
@@ -61658,8 +61668,8 @@ LEXICON PROP_NIMI !!= @CODE@ nimi:nim
 !! Plural stem in i
 %<np%>:%{front%} NMN_HANGI/NIMI ;
 
-LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
-%<np%>:%{front%} NMN_HANGI/NIMI ;
+!!LEXICON PROP-PLC_NIMI !!= @CODE@ nimi:nim
+!!%<np%>:%{front%} NMN_HANGI/NIMI ;
 
 LEXICON PROP_JÄLGI !!= @CODE@ 
 !! Gradation Yes
@@ -61925,8 +61935,8 @@ LEXICON PROP-PLC_TVER !!= __@CODE@__ Tver:Tver
 
 LEXICON PROP_TAIGIN
 %<np%>:   NMN_TAIGIN  ;
-LEXICON PROP-MAL_TAIGIN
-%<np%>:   NMN_TAIGIN  ;
+!!LEXICON PROP-MAL_TAIGIN
+!!%<np%>:   NMN_TAIGIN  ;
 
 LEXICON PROP-PLC_TAIGIN !!= __@CODE@__
 %<np%>:%{back%} NMN_TAIGIN  ;
@@ -62007,8 +62017,8 @@ LEXICON NUM_MUARJU  !!= __@CODE@__ muarju:muarja
 %<num%>%<card%>:%{back%} NMN_MUARJU/PIÄSTÄNDY ;
 :%{back%} ORD_01_BACK ;
 
-LEXICON NUM_SÄYNÄ
-%<num%>%<card%>:%{front%} NMN_OZA/SÄYNÄ ;
+!!LEXICON NUM_SÄYNÄ
+!!%<num%>%<card%>:%{front%} NMN_OZA/SÄYNÄ ;
 
 LEXICON NUM_SADA
 @U.NUM-TYPE.CARD@@U.DECL-NX.SG@%<num%>%<card%>%<sg%>0:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@%{back%}%^WGStem00 NUM-USUALLY-WEAK ;
@@ -62101,8 +62111,8 @@ LEXICON NUM_TUHAT_01 !!= @CODE@ tuhat:tuha
 @U.NUM-TYPE.CARD@@U.DECL-NX.PL@%<num%>%<card%>%<pl%>:@U.NUM-TYPE.CARD@@U.DECL-NX.PL@nzi NUM-USUALLY-STRONG ;
 :nde ORD_01_BACK ;
 
-LEXICON NUM_KARJALAINE !!= @CODE@ 
-%<ind%>%<num%>:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
+!!LEXICON NUM_KARJALAINE !!= @CODE@ 
+!!%<ind%>%<num%>:%{back%} NMN_KARJALAINE/LIYGILÄINE ;
 
 LEXICON NUM_KUUZI !!= @CODE@ kuuzi:kuud
 @U.NUM-TYPE.CARD@@U.DECL-NX.SG@%<num%>%<card%>%<sg%>:@U.NUM-TYPE.CARD@@U.DECL-NX.SG@%^D2Z%>i NUM-NOM ;
@@ -62271,8 +62281,8 @@ LEXICON NUM-SG-PAR_a
 LEXICON NUM-SG-PAR_ä
 @U.DECL-CX.PAR@%<par%>0:@U.DECL-CX.PAR@%>ä SUBSEQUENT-NUM_OPT ;
 
-LEXICON NUM-SG-PAR_du
-@U.DECL-CX.PAR@%<par%>00:@U.DECL-CX.PAR@%>du SUBSEQUENT-NUM_OPT ;
+!!LEXICON NUM-SG-PAR_du
+!!@U.DECL-CX.PAR@%<par%>00:@U.DECL-CX.PAR@%>du SUBSEQUENT-NUM_OPT ;
 
 LEXICON NUM-SG-PAR_dy
 @U.DECL-CX.PAR@%<par%>00:@U.DECL-CX.PAR@%>dy SUBSEQUENT-NUM_OPT ;
@@ -62369,7 +62379,7 @@ LEXICON PropNameMaleDer-Ovich
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Abdʼejev:Abdʼejev
 LEXICON Deriv-RUS-V_SURMAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 :a PROP_KUDO_SURFEM ;
 
 !! Bagrij:Bagr
@@ -62398,21 +62408,21 @@ LEXICON Deriv-RUS-IN_SURMAL
 
 
 LEXICON PROP_KAL_SURMAL
-%<n%>%<np%>: # ;
+%<np%>: # ;
 
 LEXICON PROP_KUDO_SURFEM
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 LEXICON PROP_OSTAI_FEM
-%<n%>%<np%>:%>%{ijPRC%} NMN_OSTAI ;
+%<np%>:%>%{ijPRC%} NMN_OSTAI ;
 LEXICON PROP_OSTAI_MAL
-%<n%>%<np%>:%>%{ijPRC%} NMN_OSTAI ;
+%<np%>:%>%{ijPRC%} NMN_OSTAI ;
 
 LEXICON CYRL-CONS_SUR
  PROP_KAL_SUR ;
 
 LEXICON PROP_KAL_SUR
-%<n%>%<np%>: # ;
+%<np%>: # ;
 
 
 
@@ -62432,7 +62442,7 @@ LEXICON CYRL-SIBILANT_SUR
  PROP_OŠ_SUR ;
 
 LEXICON PROP_OŠ_SUR
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON CYRL-VOW_SUR
  PROP_KUDO_SUR ;
@@ -62441,13 +62451,13 @@ LEXICON CYRL-A_SUR
  PROP_KUDO_SUR ;
 
 LEXICON PROP_KUDO_SUR
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 LEXICON PROP_PAGIZII_MAL
-%<n%>%<np%>: NMN_PAGIZII ;
+%<np%>: NMN_PAGIZII ;
 
 LEXICON PROP_PAGIZII_SURMAL
-%<n%>%<np%>: NMN_PAGIZII ;
+%<np%>: NMN_PAGIZII ;
 
 
 
@@ -62455,125 +62465,125 @@ LEXICON PROP_PAGIZII_SURMAL
 !! PLACE NAMES FROM TEMPLATES !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-PLC_KAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP-PLC_KIT
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP-PLC_OŠ
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP-PLC_KUDO
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Erzya settlements !!
 !!!!!!!!!!!!!!!!!!!!!!!
 LEXICON PROP-SETTLEMENT_KAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP-SETTLEMENT_KIT
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP-SETTLEMENT_OŠ
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP-SETTLEMENT_PANGO
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP-SETTLEMENT_KUDO
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 !!!!!!!!!!!!!!!!
 !! Divinities !!
 !!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_DIVINITY
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_DIVINITY
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_PANGO_DIVINITY
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_DIVINITY
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 !!!!!!!!!!!!!!!!!!!!
 !! Constellations !!
 !!!!!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_CONSTELLATION
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_CONSTELLATION
-%<n%>%<np%>: NMN_ABRAMOV  ;
+%<np%>: NMN_ABRAMOV  ;
 
 LEXICON PROP_OŠ-PL_CONSTELLATION
-%<n%>%<np%>%<pl%>: NMN_ABRAMOV-PL ;
+%<np%>%<pl%>: NMN_ABRAMOV-PL ;
 
 LEXICON PROP_PANGO_CONSTELLATION
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_CONSTELLATION
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 LEXICON PROP_KUDO-PL_CONSTELLATION
-%<n%>%<np%>%<pl%>: NMN_KALA-PL ; 
+%<np%>%<pl%>: NMN_KALA-PL ; 
 
 LEXICON PROP_TJeŠTJe_CONSTELLATION
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 
 !!!!!!!!!!!!!!!!
 !! TEXT NAMES !!
 !!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_TXT
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_TXT
-%<n%>%<np%>: NMN_ABRAMOV  ;
+%<np%>: NMN_ABRAMOV  ;
 
 LEXICON PROP_KUDO_TXT
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 !!!!!!!!!!!!!!
 !! HOLIDAYS !!
 !!!!!!!!!!!!!!
 LEXICON PROP_KAL_HOLIDAY
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_HOLIDAY
-%<n%>%<np%>: NMN_ABRAMOV  ;
+%<np%>: NMN_ABRAMOV  ;
 
 LEXICON PROP_KUDO_HOLIDAY
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 
 !!!!!!!!!!!!!!!!!
 !! RIVER NAMES !!
 !!!!!!!!!!!!!!!!!
 LEXICON PROP_KAL_RIVERS
-%<n%>%<np%>+Rvr: NMN_ABRAMOV ;
+%<np%>+Rvr: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_RIVERS
-%<n%>%<np%>+Rvr: NMN_ABRAMOV  ;
+%<np%>+Rvr: NMN_ABRAMOV  ;
 
 LEXICON PROP_KUDO_RIVERS
-%<n%>%<np%>+Rvr: NMN_KALA ;
+%<np%>+Rvr: NMN_KALA ;
 
 
 !!
 LEXICON PROP_KAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_LAK
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_KIT
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_TJeŠTJe
  N_RUNO ;
@@ -62582,28 +62592,28 @@ LEXICON PROP_TINGJe
  N_RUNO ;
 
 LEXICON PROP_PANGO
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 
 
 LEXICON PROP_KAL_MAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 LEXICON PROP_ABRAMOV_MAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 LEXICON PROP_ABRAMOV_FEM
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_LAK_MAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_KIT_MAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_MAL
-%<n%>%<np%>: NMN_ABRAMOV  ;
+%<np%>: NMN_ABRAMOV  ;
 
 LEXICON PROP_TJeŠTJe_MAL
  PROP_PANGO_MAL ;
@@ -62612,22 +62622,22 @@ LEXICON PROP_TINGJe_MAL
  PROP_PANGO_MAL ;
 
 LEXICON PROP_PANGO_MAL
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_MAL
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 LEXICON PROP_KAL_FEM
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_LAK_FEM
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_KIT_FEM
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_OŠ_FEM
-%<n%>%<np%>: NMN_ABRAMOV  ;
+%<np%>: NMN_ABRAMOV  ;
 
 LEXICON PROP_TJeŠTJe_FEM
  PROP_PANGO_FEM ;
@@ -62636,22 +62646,22 @@ LEXICON PROP_TINGJe_FEM
  PROP_PANGO_FEM ;
 
 LEXICON PROP_PANGO_FEM
-%<n%>%<np%>: NMN_RUNO/HÖRÖ ;
+%<np%>: NMN_RUNO/HÖRÖ ;
 
 LEXICON PROP_KUDO_FEM
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 
 LEXICON PROP_OŠ_PATRMAL
-%<n%>%<np%>: NMN_ABRAMOV ;
+%<np%>: NMN_ABRAMOV ;
 
 LEXICON PROP_KUDO_PATRFEM
-%<n%>%<np%>: NMN_KALA ;
+%<np%>: NMN_KALA ;
 
 !! DECLENSION LIMITATIONS
 
 LEXICON PROP_KUDO-PL
-%<n%>%<np%>%<pl%>: NMN_KALA-PL ;
+%<np%>%<pl%>: NMN_KALA-PL ;
 
 LEXICON PROP_KUDO_SUB
 : PROP_KUDO ;
@@ -64817,9 +64827,9 @@ LEXICON INDPRSPL3_jäh
 %<pri%>%<pri%>%<p3%>%<pl%>:%>jäh K ;
 %<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>jä K ;
 
-LEXICON INDPRSPL3_hAh
-%<pri%>%<pri%>%<p3%>%<pl%>:%>h%{aä%}h K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>h%{aä%} K ;
+!!LEXICON INDPRSPL3_hAh
+!!%<pri%>%<pri%>%<p3%>%<pl%>:%>h%{aä%}h K ;
+!!!!%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>h%{aä%} K ;
 LEXICON INDPRSPL3_hah
 %<pri%>%<pri%>%<p3%>%<pl%>:%>hah K ;
 %<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>ha K ;
@@ -64827,9 +64837,9 @@ LEXICON INDPRSPL3_häh
 %<pri%>%<pri%>%<p3%>%<pl%>:%>häh K ;
 %<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>hä K ;
 
-LEXICON INDPRSPL3_vvAh
-%<pri%>%<pri%>%<p3%>%<pl%>:%>vv%{aä%}h K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>vv%{aä%} K ;
+!!LEXICON INDPRSPL3_vvAh
+!!%<pri%>%<pri%>%<p3%>%<pl%>:%>vv%{aä%}h K ;
+!!%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>vv%{aä%} K ;
 LEXICON INDPRSPL3_vvah
 %<pri%>%<pri%>%<p3%>%<pl%>:%>vvah K ;
 %<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>vva K ;
@@ -64843,9 +64853,9 @@ LEXICON INDPRSPL3_DAh
 LEXICON INDPRSPL3_dah
 %<pri%>%<pri%>%<p3%>%<pl%>:%>da%^WGStemh K ;
 %<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>da%^WGStem K ;
-LEXICON INDPRSPL3_däh
-%<pri%>%<pri%>%<p3%>%<pl%>:%>dä%^WGStemh K ;
-%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>dä%^WGStem K ;
+!!LEXICON INDPRSPL3_däh
+!!%<pri%>%<pri%>%<p3%>%<pl%>:%>dä%^WGStemh K ;
+!!%<pri%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>dä%^WGStem K ;
 
 LEXICON INDPRSPL3_tAh
 %<pri%>%<pri%>%<p3%>%<pl%>:%>t%{aä%}h K ;
@@ -64994,8 +65004,8 @@ LEXICON INDPRTCONNEG_nuh
 LEXICON INDPRTCONNEG_nyh
 %<pri%>%<past%>%<conneg%>:%>%{lnrs%}yh K ;
 
-LEXICON INDPRTCONNEG_nnUh
-%<pri%>%<past%>%<conneg%>:%>n%{lnrs%}%{uy%}h K ;
+!!LEXICON INDPRTCONNEG_nnUh
+!!%<pri%>%<past%>%<conneg%>:%>n%{lnrs%}%{uy%}h K ;
 LEXICON INDPRTCONNEG_nnuh
 %<pri%>%<past%>%<conneg%>:%>n%{lnrs%}uh K ;
 LEXICON INDPRTCONNEG_nnyh
@@ -65015,8 +65025,8 @@ LEXICON INDPRTCONNEGPL3_tu
 LEXICON INDPRTCONNEGPL3_ty
 %<pri%>%<past%>%<conneg%>%<p3%>%<pl%>:%>ty K ;
 
-LEXICON INDPRTCONNEGPL3_ttU
-%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>:%>tt%{uy%} K ;
+!!LEXICON INDPRTCONNEGPL3_ttU
+!!%<pri%>%<past%>%<conneg%>%<p3%>%<pl%>:%>tt%{uy%} K ;
 LEXICON INDPRTCONNEGPL3_ttu
 %<pri%>%<past%>%<conneg%>%<p3%>%<pl%>:%>ttu K ;
 LEXICON INDPRTCONNEGPL3_tty
@@ -65157,15 +65167,15 @@ LEXICON CONDPRS_S_FRONT
 %<cni%>%<pri%>%<p2%>%<pl%>:%>zittö K ;
 %<cni%>%<pri%>%<conneg%>:%>s K ;
 
-LEXICON CONDPRSPL3
-%<cni%>%<pri%>%<p3%>%<pl%>:%>%{aä%}s K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>%{aä%}s K ;
-LEXICON CONDPRSPL3_BACK
-%<cni%>%<pri%>%<p3%>%<pl%>:as K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:as K ;
-LEXICON CONDPRSPL3_FRONT
-%<cni%>%<pri%>%<p3%>%<pl%>:äs K ;
-%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:äs K ;
+!!LEXICON CONDPRSPL3
+!!%<cni%>%<pri%>%<p3%>%<pl%>:%>%{aä%}s K ;
+!!%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:%>%{aä%}s K ;
+!!LEXICON CONDPRSPL3_BACK
+!!%<cni%>%<pri%>%<p3%>%<pl%>:as K ;
+!!%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:as K ;
+!!LEXICON CONDPRSPL3_FRONT
+!!%<cni%>%<pri%>%<p3%>%<pl%>:äs K ;
+!!%<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>:äs K ;
 
 LEXICON CONDPRSPL3_DAs
 %<cni%>%<pri%>%<p3%>%<pl%>:%>%{dtlnr%}%{aä%}s K ;
@@ -65253,14 +65263,14 @@ LEXICON VR_CONDPRSPL3_Ettäzihes
 %<cni%>%<pri%>%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>ttäzihes K ;
 
 !! !CONDITIONAL PRETERITE
-LEXICON CONDPRT
-%<cni%>%<past%>%<p1%>%<sg%>:%>zin K ;
-%<cni%>%<past%>%<p2%>%<sg%>:%>zit K ;
-%<cni%>%<past%>%<p3%>%<sg%>:%>s K ;
-%<cni%>%<past%>%<p3%>%<sg%>:%>z K ;
-%<cni%>%<past%>%<p1%>%<pl%>:%>zimm%{oö%} K ;
-%<cni%>%<past%>%<p2%>%<pl%>:%>zitt%{oö%} K ;
-
+!!LEXICON CONDPRT
+!!%<cni%>%<past%>%<p1%>%<sg%>:%>zin K ;
+!!%<cni%>%<past%>%<p2%>%<sg%>:%>zit K ;
+!!%<cni%>%<past%>%<p3%>%<sg%>:%>s K ;
+!!%<cni%>%<past%>%<p3%>%<sg%>:%>z K ;
+!!%<cni%>%<past%>%<p1%>%<pl%>:%>zimm%{oö%} K ;
+!!%<cni%>%<past%>%<p2%>%<pl%>:%>zitt%{oö%} K ;
+!!
 LEXICON CONDPRT_nUs
 %<cni%>%<past%>%<p1%>%<sg%>:%>%{lnrs%}%{uy%}%^WGStem%>zin K ;
 %<cni%>%<past%>%<p2%>%<sg%>:%>%{lnrs%}%{uy%}%^WGStem%>zit K ;
@@ -65319,9 +65329,9 @@ LEXICON CONDPRTPL3_DAnnUs
 LEXICON CONDPRTPL3_Dannus
 %<cni%>%<past%>%<p3%>%<pl%>:%>dan%{lnrs%}us K ;
 %<cni%>%<past%>%<conneg%>%<p3%>%<pl%>:%>dan%{lnrs%}us K ;
-LEXICON CONDPRTPL3_Dännys
-%<cni%>%<past%>%<p3%>%<pl%>:%>dän%{lnrs%}ys K ;
-%<cni%>%<past%>%<conneg%>%<p3%>%<pl%>:%>dän%{lnrs%}ys K ;
+!!LEXICON CONDPRTPL3_Dännys
+!!%<cni%>%<past%>%<p3%>%<pl%>:%>dän%{lnrs%}ys K ;
+!!%<cni%>%<past%>%<conneg%>%<p3%>%<pl%>:%>dän%{lnrs%}ys K ;
 
 LEXICON CONDPRTPL3_tAnnUs
 %<cni%>%<past%>%<p3%>%<pl%>:%^WGStem%>t%{aä%}n%{lnrs%}%{uy%}s K ;
@@ -65388,139 +65398,143 @@ LEXICON VR_CONDPRTPL3_Etähyzihes
 
 
 LEXICON POT_N
-%<post%>t%<p1%>%<sg%>:%>%{lnrs%}en K ;
-%<post%>t%<p2%>%<sg%>:%>%{lnrs%}et K ;
-%<post%>t%<p3%>%<sg%>:%>%{lnrs%}%{oö%}%{uy%} K ;
-%<post%>t%<p1%>%<pl%>:%>%{lnrs%}emm%{oö%} K ;
-%<post%>t%<p2%>%<pl%>:%>%{lnrs%}ett%{oö%} K ;
-%<post%>t%<conneg%>:%>%{lnrs%}e K ;
+%<pot%>%<p1%>%<sg%>:%>%{lnrs%}en K ;
+%<pot%>%<p2%>%<sg%>:%>%{lnrs%}et K ;
+%<pot%>%<p3%>%<sg%>:%>%{lnrs%}%{oö%}%{uy%} K ;
+%<pot%>%<p1%>%<pl%>:%>%{lnrs%}emm%{oö%} K ;
+%<pot%>%<p2%>%<pl%>:%>%{lnrs%}ett%{oö%} K ;
+%<pot%>%<conneg%>:%>%{lnrs%}e K ;
 LEXICON POT_N_BACK
-%<post%>t%<p1%>%<sg%>:%>n%^WGStemen K ;
-%<post%>t%<p2%>%<sg%>:%>n%^WGStemet K ;
-%<post%>t%<p3%>%<sg%>:%>n%^WGStemou K ;
-%<post%>t%<p1%>%<pl%>:%>n%^WGStememmo K ;
-%<post%>t%<p2%>%<pl%>:%>n%^WGStemetto K ;
-%<post%>t%<conneg%>:%>n%^WGSteme K ;
+%<pot%>%<p1%>%<sg%>:%>n%^WGStemen K ;
+%<pot%>%<p2%>%<sg%>:%>n%^WGStemet K ;
+%<pot%>%<p3%>%<sg%>:%>n%^WGStemou K ;
+%<pot%>%<p1%>%<pl%>:%>n%^WGStememmo K ;
+%<pot%>%<p2%>%<pl%>:%>n%^WGStemetto K ;
+%<pot%>%<conneg%>:%>n%^WGSteme K ;
 LEXICON POT_N_FRONT
-%<post%>t%<p1%>%<sg%>:%>n%^WGStemen K ;
-%<post%>t%<p2%>%<sg%>:%>n%^WGStemet K ;
-%<post%>t%<p3%>%<sg%>:%>n%^WGStemöy K ;
-%<post%>t%<p1%>%<pl%>:%>n%^WGStememmö K ;
-%<post%>t%<p2%>%<pl%>:%>n%^WGStemettö K ;
-%<post%>t%<conneg%>:%>n%^WGSteme K ;
+%<pot%>%<p1%>%<sg%>:%>n%^WGStemen K ;
+%<pot%>%<p2%>%<sg%>:%>n%^WGStemet K ;
+%<pot%>%<p3%>%<sg%>:%>n%^WGStemöy K ;
+%<pot%>%<p1%>%<pl%>:%>n%^WGStememmö K ;
+%<pot%>%<p2%>%<pl%>:%>n%^WGStemettö K ;
+%<pot%>%<conneg%>:%>n%^WGSteme K ;
 
 LEXICON POT_nnE_BACK
-%<post%>t%<p1%>%<sg%>:%^WGStem%>nnen K ;
-%<post%>t%<p2%>%<sg%>:%^WGStem%>nnet K ;
-%<post%>t%<p3%>%<sg%>:%^WGStem%>nnou K ;
-%<post%>t%<p1%>%<pl%>:%^WGStem%>nnemmo K ;
-%<post%>t%<p2%>%<pl%>:%^WGStem%>nnetto K ;
-%<post%>t%<conneg%>:%^WGStem%>nne K ;
+%<pot%>%<p1%>%<sg%>:%^WGStem%>nnen K ;
+%<pot%>%<p2%>%<sg%>:%^WGStem%>nnet K ;
+%<pot%>%<p3%>%<sg%>:%^WGStem%>nnou K ;
+%<pot%>%<p1%>%<pl%>:%^WGStem%>nnemmo K ;
+%<pot%>%<p2%>%<pl%>:%^WGStem%>nnetto K ;
+%<pot%>%<conneg%>:%^WGStem%>nne K ;
 LEXICON POT_nnE_FRONT
-%<post%>t%<p1%>%<sg%>:%^WGStem%>nnen K ;
-%<post%>t%<p2%>%<sg%>:%^WGStem%>nnet K ;
-%<post%>t%<p3%>%<sg%>:%^WGStem%>nnöy K ;
-%<post%>t%<p1%>%<pl%>:%^WGStem%>nnemmö K ;
-%<post%>t%<p2%>%<pl%>:%^WGStem%>nnettö K ;
-%<post%>t%<conneg%>:%^WGStem%>nne K ;
+%<pot%>%<p1%>%<sg%>:%^WGStem%>nnen K ;
+%<pot%>%<p2%>%<sg%>:%^WGStem%>nnet K ;
+%<pot%>%<p3%>%<sg%>:%^WGStem%>nnöy K ;
+%<pot%>%<p1%>%<pl%>:%^WGStem%>nnemmö K ;
+%<pot%>%<p2%>%<pl%>:%^WGStem%>nnettö K ;
+%<pot%>%<conneg%>:%^WGStem%>nne K ;
 
 LEXICON POTPL3_DAnneh
-%<post%>t%<p3%>%<pl%>:%>%{dtlnr%}%{aä%}nneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%>%{dtlnr%}%{aä%}nne K ;
+%<pot%>%<p3%>%<pl%>:%>%{dtlnr%}%{aä%}nneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%>%{dtlnr%}%{aä%}nne K ;
 LEXICON POTPL3_Danneh
-%<post%>t%<p3%>%<pl%>:%>danneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%>danne K ;
-LEXICON POTPL3_Dänneh
-%<post%>t%<p3%>%<pl%>:%>dänneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%>dänne K ;
+%<pot%>%<p3%>%<pl%>:%>danneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%>danne K ;
+!!LEXICON POTPL3_Dänneh
+!!%<pot%>%<p3%>%<pl%>:%>dänneh K ;
+!!%<pot%>%<conneg%>%<p3%>%<pl%>:%>dänne K ;
 
 LEXICON POTPL3_DAneh
-%<post%>t%<p3%>%<pl%>:%>d%{aä%}%>neh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%>d%{aä%}%>ne K ;
+%<pot%>%<p3%>%<pl%>:%>d%{aä%}%>neh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%>d%{aä%}%>ne K ;
 LEXICON POTPL3_Daneh
-%<post%>t%<p3%>%<pl%>:%>da%>neh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%>da%>ne K ;
+%<pot%>%<p3%>%<pl%>:%>da%>neh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%>da%>ne K ;
 LEXICON POTPL3_Däneh
-%<post%>t%<p3%>%<pl%>:%>dä%>neh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%>dä%>ne K ;
+%<pot%>%<p3%>%<pl%>:%>dä%>neh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%>dä%>ne K ;
 
-LEXICON POTPL3_taneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%>taneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%>tane K ;
-LEXICON POTPL3_täneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%>täneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%>täne K ;
+!!LEXICON POTPL3_taneh
+!!%<pot%>%<p3%>%<pl%>:%^WGStem%>taneh K ;
+!!%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%>tane K ;
+!!LEXICON POTPL3_täneh
+!!%<pot%>%<p3%>%<pl%>:%^WGStem%>täneh K ;
+!!%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%>täne K ;
 
 LEXICON POTPL3_tAnneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%>t%{aä%}nneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%>t%{aä%}nne K ;
+%<pot%>%<p3%>%<pl%>:%^WGStem%>t%{aä%}nneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%>t%{aä%}nne K ;
 LEXICON POTPL3_tanneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%>tanneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%>tanne K ;
+%<pot%>%<p3%>%<pl%>:%^WGStem%>tanneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%>tanne K ;
 LEXICON POTPL3_tänneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%>tänneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%>tänne K ;
+%<pot%>%<p3%>%<pl%>:%^WGStem%>tänneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%>tänne K ;
 
 LEXICON POTPL3_EtAnneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%^E1%>t%{aä%}nneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>t%{aä%}nne K ;
+%<pot%>%<p3%>%<pl%>:%^WGStem%^E1%>t%{aä%}nneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>t%{aä%}nne K ;
 LEXICON POTPL3_Etanneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%^E1%>tanneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>tanne K ;
+%<pot%>%<p3%>%<pl%>:%^WGStem%^E1%>tanneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>tanne K ;
 LEXICON POTPL3_Etänneh
-%<post%>t%<p3%>%<pl%>:%^WGStem%^E1%>tanneh K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>tänne K ;
+%<pot%>%<p3%>%<pl%>:%^WGStem%^E1%>tanneh K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>:%^WGStem%^E1%>tänne K ;
 
+%<pot%>%<p1%>%<sg%>%<recip%>:%>n%^WGStememm%{oö%}s K ;
+%<pot%>%<p2%>%<sg%>%<recip%>:%>n%^WGStemett%{oö%}s K ;
+%<pot%>%<p3%>%<sg%>%<recip%>:%>n%^WGStemehes K ;
+%<pot%>%<p1%>%<pl%>%<recip%>:%>n%^WGStememm%{oö%}kseh K ;
+%<pot%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemett%{oö%}kseh K ;
+%<pot%>%<conneg%>%<recip%>%<pl%>:%>n%^WGStemehes K ;
+%<pot%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
+%<pot%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
 LEXICON VR_POT_N
-%<post%>t%<p1%>%<sg%>%<refl%>:%>n%^WGStememm%{oö%}s K ;
-%<post%>t%<p2%>%<sg%>%<refl%>:%>n%^WGStemett%{oö%}s K ;
-%<post%>t%<p3%>%<sg%>%<refl%>:%>n%^WGStemehes K ;
-%<post%>t%<p1%>%<pl%>%<refl%>:%>n%^WGStememm%{oö%}kseh K ;
-%<post%>t%<p2%>%<pl%>%<refl%>:%>n%^WGStemett%{oö%}kseh K ;
-%<post%>t%<conneg%>%<refl%>%<pl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p1%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p2%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
+
+0 VR_POT_N_BACK ;
+0 VR_POT_N_FRONT ;
+
 LEXICON VR_POT_N_BACK
-%<post%>t%<p1%>%<sg%>%<refl%>:%>n%^WGStememmos K ;
-%<post%>t%<p2%>%<sg%>%<refl%>:%>n%^WGStemettos K ;
-%<post%>t%<p3%>%<sg%>%<refl%>:%>n%^WGStemehes K ;
-%<post%>t%<p1%>%<pl%>%<refl%>:%>n%^WGStememmokseh K ;
-%<post%>t%<p2%>%<pl%>%<refl%>:%>n%^WGStemettokseh K ;
-%<post%>t%<conneg%>%<refl%>%<pl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p1%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p2%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
+%<pot%>%<p1%>%<sg%>%<recip%>:%>n%^WGStememmos K ;
+%<pot%>%<p2%>%<sg%>%<recip%>:%>n%^WGStemettos K ;
+%<pot%>%<p3%>%<sg%>%<recip%>:%>n%^WGStemehes K ;
+%<pot%>%<p1%>%<pl%>%<recip%>:%>n%^WGStememmokseh K ;
+%<pot%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemettokseh K ;
+%<pot%>%<conneg%>%<recip%>%<pl%>:%>n%^WGStemehes K ;
+%<pot%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
+%<pot%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
 LEXICON VR_POT_N_FRONT
-%<post%>t%<p1%>%<sg%>%<refl%>:%>n%^WGStememmös K ;
-%<post%>t%<p2%>%<sg%>%<refl%>:%>n%^WGStemettös K ;
-%<post%>t%<p3%>%<sg%>%<refl%>:%>n%^WGStemehes K ;
-%<post%>t%<p1%>%<pl%>%<refl%>:%>n%^WGStememmökseh K ;
-%<post%>t%<p2%>%<pl%>%<refl%>:%>n%^WGStemettökseh K ;
-%<post%>t%<conneg%>%<refl%>%<pl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p1%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
-%<post%>t%<conneg%>%<p2%>%<pl%>%<refl%>:%>n%^WGStemehes K ;
+%<pot%>%<p1%>%<sg%>%<recip%>:%>n%^WGStememmös K ;
+%<pot%>%<p2%>%<sg%>%<recip%>:%>n%^WGStemettös K ;
+%<pot%>%<p3%>%<sg%>%<recip%>:%>n%^WGStemehes K ;
+%<pot%>%<p1%>%<pl%>%<recip%>:%>n%^WGStememmökseh K ;
+%<pot%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemettökseh K ;
+%<pot%>%<conneg%>%<recip%>%<pl%>:%>n%^WGStemehes K ;
+%<pot%>%<conneg%>%<p1%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
+%<pot%>%<conneg%>%<p2%>%<pl%>%<recip%>:%>n%^WGStemehes K ;
 
 LEXICON VR_POTPL3_DAnehes
-%<post%>t%<p3%>%<pl%>%<refl%>:%>d%{aä%}%>hes K ;
-%<post%>t%<p3%>%<pl%>%<refl%>:%>d%{aä%}%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%>d%{aä%}%>nehes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}%>hes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+%<pot%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>d%{aä%}%>nehes K ;
 LEXICON VR_POTPL3_Danehes
-%<post%>t%<p3%>%<pl%>%<refl%>:%>da%>hes K ;
-%<post%>t%<p3%>%<pl%>%<refl%>:%>da%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%>da%>nehes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%>da%>hes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%>da%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+%<pot%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>da%>nehes K ;
 LEXICON VR_POTPL3_Dänehes
-%<post%>t%<p3%>%<pl%>%<refl%>:%>dä%>hes K ;
-%<post%>t%<p3%>%<pl%>%<refl%>:%>dä%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
-%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%>dä%>nehes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%>dä%>hes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%>dä%>nehes K ; !!= * __@CODE@__ Shouldn't THIS be the right form
+%<pot%>%<conneg%>%<p3%>%<pl%>%<recip%>:%>dä%>nehes K ;
 
 LEXICON VR_POTPL3_EtAnehes
-%<post%>t%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>t%{aä%}nehes K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%^WGStem%^E1%>t%{aä%}nehes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>t%{aä%}nehes K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^WGStem%^E1%>t%{aä%}nehes K ;
 LEXICON VR_POTPL3_Etanehes
-%<post%>t%<p3%>%<pl%>%<refl%>:%^E1%>tanehes K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tanehes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%^E1%>tanehes K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tanehes K ;
 LEXICON VR_POTPL3_Etänehes
-%<post%>t%<p3%>%<pl%>%<refl%>:%^E1%>tänehes K ;
-%<post%>t%<conneg%>%<p3%>%<pl%>%<refl%>:%^E1%>tänehes K ;
+%<pot%>%<p3%>%<pl%>%<recip%>:%^E1%>tänehes K ;
+%<pot%>%<conneg%>%<p3%>%<pl%>%<recip%>:%^E1%>tänehes K ;
 
 !! !!IMPERATIVE
 LEXICON IMPRT_GA
@@ -65560,15 +65574,15 @@ LEXICON IMPRT_KA
 %<imp%>%<conneg%>%<p1%>%<pl%>:%>k%{ui%}%{aä%}mm%{oö%} K ;
 %<imp%>%<conneg%>%<p2%>%<pl%>:%>k%{ui%}%{aä%} K ;
 %<imp%>%<conneg%>%<p2%>%<pl%>:%>k%{ui%}%{aä%}tt%{oö%} K ;
-LEXICON IMPRT_Ka
-%<imp%>%<p3%>%<sg%>:%>kah K ;
-%<imp%>%<p1%>%<pl%>:%>kuammo K ;
-%<imp%>%<p2%>%<pl%>:%>kua K ;
-%<imp%>%<p2%>%<pl%>:%>kuatto K ;
-%<imp%>%<conneg%>%<p3%>%<sg%>:%>kah K ;
-%<imp%>%<conneg%>%<p1%>%<pl%>:%>kuammo K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>:%>kua K ;
-%<imp%>%<conneg%>%<p2%>%<pl%>:%>kuatto K ;
+!!LEXICON IMPRT_Ka
+!!%<imp%>%<p3%>%<sg%>:%>kah K ;
+!!%<imp%>%<p1%>%<pl%>:%>kuammo K ;
+!!%<imp%>%<p2%>%<pl%>:%>kua K ;
+!!%<imp%>%<p2%>%<pl%>:%>kuatto K ;
+!!%<imp%>%<conneg%>%<p3%>%<sg%>:%>kah K ;
+!!%<imp%>%<conneg%>%<p1%>%<pl%>:%>kuammo K ;
+!!%<imp%>%<conneg%>%<p2%>%<pl%>:%>kua K ;
+!!%<imp%>%<conneg%>%<p2%>%<pl%>:%>kuatto K ;
 LEXICON IMPRT_Kä
 %<imp%>%<p3%>%<sg%>:%>käh K ;
 %<imp%>%<p1%>%<pl%>:%>kiämmö K ;
@@ -65739,8 +65753,8 @@ LEXICON VR_IMPRTPL3_Ettähes
 !%<act%>%<pprs%>:%>v%{uy%} K ;
 !%<act%>%<pprs%>:%>v%{aä%} NMN_KOIRU/PÄIVY ;
 
-LEXICON  ACT-PRSPRC_IU
-%<act%>%<pprs%>:%>%{ijPRC%} NMN_OSTAI ;
+!!LEXICON  ACT-PRSPRC_IU
+!!%<act%>%<pprs%>:%>%{ijPRC%} NMN_OSTAI ;
 
 LEXICON  ACT-PRSPRC_OSTAI
 %<act%>%<pprs%>:%>%{ijPRC%} NMN_OSTAI ;
@@ -66083,3 +66097,32 @@ LEXICON Symbols
   © Noun_symbols_never_inflected    ;
   √ Noun_symbols_never_inflected    ;
   ◊ Noun_symbols_never_inflected    ;
+
+LEXICON Digits
+
+ %0 Digits-end ;
+ 1 Digits-end ;
+ 2 Digits-end ;
+ 3 Digits-end ;
+ 4 Digits-end ;
+ 5 Digits-end ;
+ 6 Digits-end ;
+ 7 Digits-end ;
+ 8 Digits-end ;
+ 9 Digits-end ;
+
+LEXICON Digits-end
+ %0 Digits-end ;
+ 1 Digits-end ;
+ 2 Digits-end ;
+ 3 Digits-end ;
+ 4 Digits-end ;
+ 5 Digits-end ;
+ 6 Digits-end ;
+ 7 Digits-end ;
+ 8 Digits-end ;
+ 9 Digits-end ;
+ %<num%>%<card%>%<sg%>%<nom%>:0  # ;
+ .%<num%>%<ord%>%<sg%>%<nom%>:. # ;
+ #%<num%>%<cmp%>:-  nouns ;
+

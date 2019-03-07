@@ -217,3 +217,397 @@
 8	egläi	egläi	ADV	ADV	_	_	_	_	SpaceAfter=No|PronType=Temp|Weight=500.0
 9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
 
+# sent_id = vepkar-1820.1
+# text = “Karjalan nuorus” Anuksen piiris
+1	“	“	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+2	Karjalan	Plc	PROPN	PROPN	Case=Gen|Number=Sing	3	nmod:poss	_	SpaceBefore=No|Weight=0.01
+3	nuorus	nuorus	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+4	”	”	PUNCT	PUNCT	_	_	_	_	SpaceBefore=No|Weight=500.0
+5	Anuksen	Plc	PROPN	PROPN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	piiris	piiri	NOUN	NOUN	Case=Ela|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
+
+# sent_id = vepkar-1820.2
+# text = Vuvvennu 2017 Karjalan tazavaldu pidäy omassah 97-vuozipäiviä.
+1	Vuvvennu	Vuozi	NOUN	NOUN	Case=Ess|Number=Sing	5	obl	_	SpaceBefore=No|Weight=0.013333333333333334
+2	2017	2017	X	X	_	_	_	_	_
+3	Karjalan	Plc	PROPN	PROPN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=0.01
+4	tazavaldu	tazavaldu	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	Weight=0.0033333333333333335
+5	pidäy	pidiä	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+6	omassah	oma	ADJ	ADJ	Case=Ter|Number=Sing	_	_	_	Weight=500.0
+7	97	97	X	X	_	_	_	_	SpaceAfter=No|_
+8	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
+9	vuozipäiviä	vuozipäivy	NOUN	NOUN	Case=Par|Number=Sing	5	obj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
+10	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+
+# sent_id = vepkar-1820.3
+# text = Pruazniekku pietäh kezäkuul Anuksenlinnas.
+1	Pruazniekku	Pruazniekku	NOUN	NOUN	Case=Nom|Number=Sing	2	nsubj	_	SpaceBefore=No|Weight=0.005
+2	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	kezäkuul	kezäkuu	NOUN	NOUN	Case=Ade|Number=Sing	2	obl	_	Weight=0.005
+4	Anuksenlinnas	Plc	PROPN	PROPN	Case=Ela|Number=Sing	2	obl	_	SpaceAfter=No|Weight=0.01
+5	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+
+# sent_id = vepkar-1820.4
+# text = Pruazniekan piälimäzii pidoloi rodieu suomalasugrilazen nuorižon festivuali “Karjalan nuorus”.
+1	Pruazniekan	Pruazniekku	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceBefore=No|Weight=500.0
+2	piälimäzii	piälimäine	ADJ	ADJ	Case=Par|Number=Plur	3	amod	_	Weight=0.01
+3	pidoloi	pido	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+4	rodieu	roita	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	suomalasugrilazen	suomalasugrilazen	X	X	_	_	_	_	_
+6	nuorižon	nuorižo	NOUN	NOUN	Case=Gen|Number=Sing	7	nmod:poss	_	Weight=0.01
+7	festivuali	festivuali	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+8	“	“	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|Weight=0.01
+9	Karjalan	Plc	PROPN	PROPN	Case=Gen|Number=Sing	10	nmod:poss	_	SpaceBefore=No|Weight=0.3433333333333333
+10	nuorus	nuorus	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+11	”	”	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.023333333333333334
+12	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.04
+
+# sent_id = vepkar-1820.5
+# text = Tämän festivualin hantuzis järjestetäh kaksi matkua Petroskoispäi Anuksen piirih: nuorien pajo- da tansijoukot lähtietäh ezittymäh Anuksen piirin kylih.
+1	Tämän	Tämä	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	SpaceBefore=No|Weight=0.01
+2	festivualin	festivuali	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=500.0
+3	hantuzis	hantuzis	ADV	ADV	_	4	advmod	_	Weight=0.01
+4	järjestetäh	järjestiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0112
+5	kaksi	kaksi	NUM	NUM	Case=Ins|Number=Plur|NumType=Card	_	_	_	Weight=500.0
+6	matkua	matka	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.004
+7	Petroskoispäi	Plc	PROPN	PROPN	Case=Ela|Number=Plur	4	obl	_	Weight=0.0075
+8	Anuksen	Anus	PROPN	PROPN	_	7	flat:name	_	Weight=2.7300000000000004
+9	piirih	piiri	NOUN	NOUN	Case=Ill|Number=Plur	4	obl	_	SpaceAfter=No|Weight=0.0125
+10	:	:	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.015
+11	nuorien	nuori	NOUN	NOUN	Case=Gen|Number=Plur	12	nmod:poss	_	Weight=0.01
+12	pajo	pajo	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+13	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceBefore=No|Weight=0.006
+14	da	da	CCONJ	CCONJ	_	15	cc	_	Weight=0.0122
+15	tansijoukot	tansijoukko	NOUN	NOUN	Case=Nom|Number=Plur	4	obj	_	Weight=0.055
+16	lähtietäh	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Weight=0.12
+17	ezittymäh	ezittymäh	X	X	_	_	_	_	_
+18	Anuksen	Plc	PROPN	PROPN	Case=Gen|Number=Sing	19	nmod:poss	_	Weight=0.01
+19	piirin	piiri	NOUN	NOUN	Case=Gen|Number=Sing	20	nmod:poss	_	Weight=0.01
+20	kylih	kylä	NOUN	NOUN	Case=Ill|Number=Plur	16	obl	_	SpaceAfter=No|Weight=0.006666666666666667
+21	.	.	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.008333333333333333
+
+# sent_id = vepkar-1820.6
+# text = Enzimäine matku oli jo mennyt pyhänpiän, 23. sulakuudu.
+1	Enzimäine	Enzimäine	NUM	NUM	Case=Acc|Number=Sing|NumType=Ord	2	nummod	_	SpaceBefore=No|Weight=0.01
+2	matku	matku	NOUN	NOUN	Case=Nom|Number=Sing	3	nsubj	_	Weight=0.0025
+3	oli	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.01
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.011099999999999994
+5	mennyt	mennyh	ADJ	ADJ	Typo=Yes	_	_	_	Weight=500.0
+6	pyhänpiän	pyhänpiän	ADV	ADV	_	5	advmod	_	SpaceAfter=No|PronType=Temp|Weight=0.01
+7	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.005
+8	23	23	X	X	_	_	_	_	SpaceAfter=No|_
+9	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.013333333333333334
+10	sulakuudu	sulakuu	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	SpaceAfter=No|Weight=0.03
+11	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.03
+
+# sent_id = vepkar-1820.7
+# text = Gostii vastattih Tuuksen kyläs, Koveris da Kotkatjärvel.
+1	Gostii	Gostie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceBefore=No|Weight=0.01
+2	vastattih	vastata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	Weight=0.01
+3	Tuuksen	Tuuksen	X	X	_	_	_	_	_
+4	kyläs	kylä	NOUN	NOUN	Case=Ela|Number=Sing	2	obl	_	SpaceAfter=No|Weight=0.006666666666666667
+5	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.01
+6	Koveris	Koveris	X	X	_	_	_	_	_
+7	da	da	CCONJ	CCONJ	_	8	cc	_	Weight=0.016399999999999998
+8	Kotkatjärvel	Plc	PROPN	PROPN	Case=Ade|Number=Sing	2	obl	_	SpaceAfter=No|Weight=0.03
+9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
+
+# sent_id = vepkar-1820.8
+# text = Koverin eläjii ihaškoitettih Petroskoin taidoškolan Vesläžetjoukon lapset, hyö ozutettih kui ennevahnas nuoret käydih bes’odale, pajatettih, tansittih da kižattih meijän ezi-ižien tabah.
+1	Koverin	Koverin	X	X	_	_	_	_	SpaceBefore=No|_
+2	eläjii	eliä	VERB	VERB	Case=Par|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	_	_	_	Weight=500.0
+3	ihaškoitettih	ihaškoittua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.07
+4	Petroskoin	Plc	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	Weight=0.01
+5	taidoškolan	taido#škola	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	Weight=1.0025
+6	Vesläžetjoukon	Vesläžetjoukon	X	X	_	_	_	_	_
+7	lapset	lapset	NOUN	NOUN	Case=Nom|Number=Plur	10	nsubj	_	SpaceAfter=No|Weight=1.4042857142857146
+8	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.0033333333333333335
+9	hyö	hyö	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+10	ozutettih	ozuttua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.019399999999999997
+11	kui	kui	SCONJ	SCONJ	_	13	mark	_	Weight=0.012838461538461538
+12	ennevahnas	ennevahnas	ADV	ADV	_	13	advmod	_	PronType=Temp|Weight=0.01
+13	nuoret	nuori	NOUN	NOUN	Case=Nom|Number=Plur	10	obj	_	Weight=0.2139428571428571
+14	käydih	kävvä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	Weight=0.01
+15	bes’odale	besʼodu	NOUN	NOUN	Case=All|Number=Sing	14	obl	_	SpaceAfter=No|Weight=0.0007692307692307692
+16	,	,	PUNCT	PUNCT	_	17	punct	_	SpaceBefore=No|Weight=0.0007692307692307692
+17	pajatettih	pajattua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	SpaceAfter=No|Weight=0.02
+18	,	,	PUNCT	PUNCT	_	17	punct	_	SpaceBefore=No|Weight=0.0005
+19	tansittih	tansie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	Weight=0.02
+20	da	da	CCONJ	CCONJ	_	21	cc	_	Weight=0.04350000000000006
+21	kižattih	kižata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	Weight=0.22
+22	meijän	myö	PRON	PRON	Case=Gen|Number=Plur|Person=1|PronType=Prs	23	nmod:poss	_	Weight=0.01
+23	ezi	ezi	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+24	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0011111111111111111
+25	ižien	ižä	NOUN	NOUN	Case=Gen|Number=Plur	26	nmod:poss	_	SpaceBefore=No|Weight=0.01
+26	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	21	obl	_	SpaceAfter=No|Weight=0.0019230769230769232
+27	.	.	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0023076923076923075
+
+# sent_id = vepkar-1820.9
+# text = Tuuksen kul’tuuratalois ezityi Petroskoin konservatourien Istoki-joukko.
+1	Tuuksen	Tuuksen	X	X	_	_	_	_	SpaceBefore=No|_
+2	kul’tuuratalois	kul’tuuratalois	X	X	_	_	_	_	_
+3	ezityi	ezityi	X	X	_	_	_	_	_
+4	Petroskoin	Plc	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	Weight=0.01
+5	konservatourien	konservatourii	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+6	Istoki	Istoki	X	X	_	_	_	_	SpaceAfter=No|_
+7	-	-	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+8	joukko	joukko	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+
+# sent_id = vepkar-1820.10
+# text = Tansijes da pajattajes rahvas ei kylmetty viluhkos kul’tuurutalois.
+1	Tansijes	Tansie	VERB	VERB	VerbForm=Ger	_	_	_	SpaceBefore=No|PronType=Temp|Weight=500.0
+2	da	da	CCONJ	CCONJ	_	3	cc	_	Weight=0.012399999999999996
+3	pajattajes	pajattua	VERB	VERB	VerbForm=Ger	_	_	_	PronType=Temp|Weight=500.0
+4	rahvas	rahvas	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj	_	Weight=0.0033333333333333335
+5	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	6	aux	_	Weight=0.005
+6	kylmetty	kylmiä	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+7	viluhkos	viluhko	ADJ	ADJ	Case=Ela|Number=Sing	8	amod	_	Weight=0.01
+8	kul’tuurutalois	kulʼtuurutaloi	NOUN	NOUN	Case=Ela|Number=Sing	6	obl	_	SpaceAfter=No|Weight=0.01
+9	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+
+# sent_id = vepkar-1820.11
+# text = Murginan jälles kai matkuniekat lähtiettih Kotkatjärvele, sigäläzes kul’tuurutalois ezityttih jo kaksi joukkuo.
+1	Murginan	Murgin	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceBefore=No|Weight=500.0
+2	jälles	jälles	ADV	ADV	_	5	advmod	_	Weight=0.03
+3	kai	kai	PRON	PRON	Case=Gen|Number=Plur	4	nmod:poss	_	Weight=0.0126
+4	matkuniekat	matkuniekku	NOUN	NOUN	Case=Nom|Number=Plur	5	nsubj	_	Weight=0.0033333333333333335
+5	lähtiettih	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Weight=0.0118
+6	Kotkatjärvele	Plc	PROPN	PROPN	Case=All|Number=Sing	5	obl	_	SpaceAfter=No|Weight=0.0033333333333333335
+7	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+8	sigäläzes	sigäläine	ADJ	ADJ	Case=Ela|Number=Sing	9	amod	_	Weight=0.01
+9	kul’tuurutalois	kulʼtuurutaloi	NOUN	NOUN	Case=Ela|Number=Sing	11	obl	_	Weight=0.005
+10	ezityttih	ezi#tytti	NOUN	NOUN	Case=Ill|Number=Plur	11	obl	_	Weight=1.0025
+11	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.21479999999999994
+12	kaksi	kaksi	NUM	NUM	Case=Ins|Number=Plur|NumType=Card	_	_	_	Weight=500.0
+13	joukkuo	joukko	NOUN	NOUN	Case=Par|Number=Sing	11	obj	_	SpaceAfter=No|Weight=0.005
+14	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0075
+
+# sent_id = vepkar-1820.12
+# text = Paiči artistoi matkah lähtiettih karjalazien heimovellet – Vepsän kul’tuuruseurah kuulujat Larisa Čirkova da Galina Lokkina.
+1	Paiči	Paiči	ADV	ADV	_	4	advmod	_	SpaceBefore=No|Weight=0.03
+2	artistoi	artistu	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+3	matkah	matka	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	Weight=0.0033333333333333335
+4	lähtiettih	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Weight=0.01
+5	karjalazien	karjalaine	NOUN	NOUN	Case=Gen|Number=Plur	6	nmod:poss	_	Weight=0.060000000000000005
+6	heimovellet	heimovelli	NOUN	NOUN	Case=Nom|Number=Plur	4	obj	_	Weight=0.005
+7	–	–	PUNCT	PUNCT	_	4	punct	_	Weight=0.01
+8	Vepsän	Vepsä	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=0.01
+9	kul’tuuruseurah	kulʼtuuruseuru	NOUN	NOUN	Case=Ill|Number=Sing	10	obl	_	Weight=0.0025
+10	kuulujat	kuului	ADJ	ADJ	Case=Acc|Number=Plur	_	_	_	Weight=500.0
+11	Larisa	Larisa	PROPN	PROPN	_	_	_	_	Weight=500.0
+12	Čirkova	Čirkov	PROPN	PROPN	_	11	flat:name	_	Weight=0.01
+13	da	da	CCONJ	CCONJ	_	14	cc	_	Weight=0.0115
+14	Galina	Galina	PROPN	PROPN	_	_	_	_	Weight=500.0
+15	Lokkina	Lokkina	X	X	_	_	_	_	SpaceAfter=No|_
+16	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+
+# sent_id = vepkar-1820.13
+# text = Vepsäläzet naizet saneltih omis projektois nuorižonke.
+1	Vepsäläzet	Vepsäläine	ADJ	ADJ	Case=Acc|Number=Plur	2	amod	_	SpaceBefore=No|Weight=0.01
+2	naizet	naine	NOUN	NOUN	Case=Nom|Number=Plur	3	nsubj	_	Weight=0.005
+3	saneltih	sanella	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	omis	oma	ADJ	ADJ	Case=Ela|Number=Plur	5	amod	_	Weight=0.01
+5	projektois	projektu	NOUN	NOUN	Case=Ela|Number=Plur	3	obl	_	Weight=0.01
+6	nuorižonke	nuorižo	NOUN	NOUN	Case=Com|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+7	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
+
+# sent_id = vepkar-1820.14
+# text = Matkah yhtyigi Periodika-julguamo, festivualil sai ostua kniigua, lehtie da žurnualua kanzallizil kielil, saigi tilata Oma Mua -lehti.
+1	Matkah	Matka	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	SpaceBefore=No|Weight=2.759761904761905
+2	yhtyigi	yhtyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.016100000000000003
+3	Periodika	Periodika	X	X	_	_	_	_	SpaceAfter=No|_
+4	-	-	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002857142857142857
+5	julguamo	julguamo	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002727272727272727
+6	,	,	PUNCT	PUNCT	_	8	punct	_	SpaceBefore=No|Weight=0.0018181818181818182
+7	festivualil	festivuali	NOUN	NOUN	Case=Ade|Number=Plur	8	obl	_	Weight=0.0006666666666666666
+8	sai	suaja	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.22099999999999992
+9	ostua	ostua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+10	kniigua	kniigu	NOUN	NOUN	Case=Par|Number=Sing	8	obj	_	SpaceAfter=No|Weight=0.00125
+11	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.0013333333333333333
+12	lehtie	lehti	NOUN	NOUN	Case=Par|Number=Sing	8	obj	_	Weight=0.0026666666666666666
+13	da	da	CCONJ	CCONJ	_	14	cc	_	Weight=0.028700000000000007
+14	žurnualua	žurnualu	NOUN	NOUN	Case=Par|Number=Sing	8	obj	_	Weight=0.004285714285714286
+15	kanzallizil	kanzalline	ADJ	ADJ	Case=Abl|Number=Plur	16	amod	_	Weight=0.01
+16	kielil	kieli	NOUN	NOUN	Case=Ade|Number=Plur	18	obl	_	SpaceAfter=No|Weight=0.0011111111111111111
+17	,	,	PUNCT	PUNCT	_	18	punct	_	SpaceBefore=No|Weight=0.0005263157894736842
+18	saigi	suaha	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	Weight=0.21000000000000002
+19	tilata	tilata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	Weight=0.01
+20	Oma	Oma	ADJ	ADJ	Case=Acc|Number=Sing	21	amod	_	Weight=0.01
+21	Mua	Mua	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+22	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No|Weight=0.0013043478260869564
+23	lehti	lehti	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+24	.	.	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002272727272727273
+
+# sent_id = vepkar-1820.15
+# text = Toine tämänmoine matku Anuksen piirih rodieu 30. sulakuudu.
+1	Toine	Toine	NUM	NUM	Case=Acc|Number=Sing|NumType=Ord	_	_	_	SpaceBefore=No|Weight=500.0
+2	tämänmoine	tämänmoine	ADJ	ADJ	Case=Acc|Number=Sing	3	amod	_	Weight=3.21
+3	matku	matku	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	Weight=0.01
+4	Anuksen	Plc	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	Weight=0.01
+5	piirih	piiri	NOUN	NOUN	Case=Ill|Number=Plur	6	obl	_	Weight=0.0033333333333333335
+6	rodieu	roita	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+7	30	30	X	X	_	_	_	_	SpaceAfter=No|_
+8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+9	sulakuudu	sulakuu	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	SpaceAfter=No|Weight=0.015
+10	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
+
+# sent_id = vepkar-1820.16
+# text = Mägriän kyläh lähtöy Petroskoin valdivonyliopiston Toive-ansambli, Kuittizes ezittyy "Kajahuš", Kuujärves ozuttau spektaklii Čičiliušku-t y ttiteatr u.
+1	Mägriän	Mägriän	X	X	_	_	_	_	SpaceBefore=No|_
+2	kyläh	kylä	NOUN	NOUN	Case=Ill|Number=Sing	17	obl	_	Weight=0.049999999999999996
+3	lähtöy	lähtöy	X	X	_	_	_	_	_
+4	Petroskoin	Plc	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	Weight=0.01
+5	valdivonyliopiston	valdivonyliopisto	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	Toive	Toive	NOUN	NOUN	Case=Nom|Number=Sing	17	nsubj	_	SpaceAfter=No|Weight=0.03666666666666667
+7	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+8	ansambli	ansambli	NOUN	NOUN	Case=Nom|Number=Sing	17	nsubj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0225
+9	,	,	PUNCT	PUNCT	_	17	punct	_	SpaceBefore=No|Weight=0.016
+10	Kuittizes	Plc	PROPN	PROPN	Case=Ela|Number=Sing	17	obl	_	Weight=0.014000000000000002
+11	ezittyy	ezittyy	X	X	_	_	_	_	_
+12	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|Weight=0.008333333333333333
+13	Kajahuš	Kajahuš	X	X	_	_	_	_	SpaceAfter=No|SpaceBefore=No|_
+14	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.004285714285714286
+15	,	,	PUNCT	PUNCT	_	17	punct	_	SpaceBefore=No|Weight=0.0025
+16	Kuujärves	Plc	PROPN	PROPN	Case=Ela|Number=Sing	17	obl	_	Weight=0.00125
+17	ozuttau	ozuttua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+18	spektaklii	spektakli	NOUN	NOUN	Case=Par|Number=Sing	17	obj	_	Weight=0.00125
+19	Čičiliušku	Čičiliušku	PROPN	PROPN	_	_	_	_	SpaceAfter=No|Weight=500.0
+20	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.00375
+21	t	t	X	X	_	_	_	_	SpaceBefore=No|_
+22	y	y	X	X	_	_	_	_	_
+23	ttiteatr	ttiteatr	X	X	_	_	_	_	_
+24	u	u	X	X	_	_	_	_	SpaceAfter=No|_
+25	.	.	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.011428571428571429
+
+# sent_id = vepkar-1820.17
+# text = Omis ruadonerolois nuorižon hyväkse saneltah Karjalan Rahvahan Liiton aktivistat.
+1	Omis	Oma	ADJ	ADJ	Case=Ela|Number=Plur	2	amod	_	SpaceBefore=No|Weight=0.01
+2	ruadonerolois	ruadonero	X	X	Case=Ela|Number=Plur	_	_	_	Weight=500.0
+3	nuorižon	nuorižo	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=0.01
+4	hyväkse	hyvä	ADJ	ADJ	Case=Tra|Number=Sing	_	_	_	Weight=500.0
+5	saneltah	saneltah	X	X	_	_	_	_	_
+6	Karjalan	Plc	PROPN	PROPN	Case=Gen|Number=Sing	7	nmod:poss	_	Weight=0.01
+7	Rahvahan	Rahvas	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	Weight=0.01
+8	Liiton	Liitto	NOUN	NOUN	Case=Gen|Number=Sing	9	nmod:poss	_	Weight=0.01
+9	aktivistat	aktivistu	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
+10	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+
+# sent_id = vepkar-1820.18
+# text = Pidoh tulluot suajah ostua da tilata “Periodikan” julgavoloi.
+1	Pidoh	Pido	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	SpaceBefore=No|Weight=0.0025
+2	tulluot	tulla	VERB	VERB	Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	Weight=500.0
+3	suajah	suaju	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	Weight=0.0025
+4	ostua	ostua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+5	da	da	CCONJ	CCONJ	_	6	cc	_	Weight=0.010899999999999998
+6	tilata	tilata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+7	“	“	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|Weight=0.0025
+8	Periodikan	Periodikan	X	X	_	_	_	_	SpaceAfter=No|SpaceBefore=No|_
+9	”	”	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.01
+10	julgavoloi	julgavo	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	SpaceAfter=No|Weight=0.013333333333333334
+11	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+
+# sent_id = vepkar-1820.19
+# text = Festivualin järjestäjänny on Anuksen karjalazet -liitto, projektua jengal kannattau Kandurahvahien välialovehine kannatuskeskus.
+1	Festivualin	Festivuali	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+2	järjestäjänny	järjestiä	VERB	VERB	Case=Ess|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	_	_	_	Weight=500.0
+3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0108
+4	Anuksen	Plc	PROPN	PROPN	Case=Gen|Number=Sing	5	nmod:poss	_	Weight=0.01
+5	karjalazet	karjalaine	NOUN	NOUN	Case=Nom|Number=Plur	3	obj	_	Weight=0.005
+6	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|Weight=0.0075
+7	liitto	liitto	NOUN	NOUN	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.008
+8	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceBefore=No|Weight=0.005
+9	projektua	projektu	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.03
+10	jengal	jengu	NOUN	NOUN	Case=Ade|Number=Sing	11	obl	_	Weight=0.00125
+11	kannattau	kannattua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.08
+12	Kandurahvahien	Kandurahvas	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+13	välialovehine	välialovehine	X	X	_	_	_	_	_
+14	kannatuskeskus	kannatus#keskus	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
+15	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
+
+# sent_id = vepkar-1820.20
+# text = Festivualin hantuzis pietäh kaksi kilbua nuorih niškoi: Moja Karelija -videos’užietoin kilbu da Karelija – eto mi -karjalan, vepsän da suomen kieldy maltajien kilbu.
+1	Festivualin	Festivuali	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+2	hantuzis	hantuzis	ADV	ADV	_	3	advmod	_	Weight=0.01
+3	pietäh	pidiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	kaksi	kaksi	NUM	NUM	Case=Ins|Number=Plur|NumType=Card	_	_	_	Weight=500.0
+5	kilbua	kilbu	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.002
+6	nuorih	nuori	NOUN	NOUN	Case=Ill|Number=Plur	3	obl	_	Weight=0.00375
+7	niškoi	nišku	NOUN	NOUN	Case=Par|Number=Plur	3	obj	_	SpaceAfter=No|Weight=0.004
+8	:	:	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.00625
+9	Moja	Moja	X	X	_	_	_	_	_
+10	Karelija	Karelija	PROPN	PROPN	_	_	_	_	Weight=500.0
+11	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|Weight=0.011428571428571429
+12	videos	video	NOUN	NOUN	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+13	’	’	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.016666666666666666
+14	užietoin	užietoin	X	X	_	_	_	_	SpaceBefore=No|_
+15	kilbu	kilbu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+16	da	da	CCONJ	CCONJ	_	17	cc	_	Weight=0.015200000000000003
+17	Karelija	Karelija	PROPN	PROPN	_	_	_	_	Weight=500.0
+18	–	–	PUNCT	PUNCT	_	3	punct	_	Weight=0.03
+19	eto	eto	X	X	_	_	_	_	_
+20	mi	mi	PRON	PRON	Case=Nom|Number=Sing	_	_	_	PronType=Interr|Weight=500.0
+21	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|Weight=0.045
+22	karjalan	karjal	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0475
+23	,	,	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.06666666666666667
+24	vepsän	vepsä	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	Weight=0.06999999999999999
+25	da	da	CCONJ	CCONJ	_	26	cc	_	Weight=0.0188
+26	suomen	suomi	NOUN	NOUN	Case=Gen|Number=Sing	27	nmod:poss	_	Weight=0.01
+27	kieldy	kieli	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.12
+28	maltajien	maltai	NOUN	NOUN	Case=Gen|Number=Plur	29	nmod:poss	_	Weight=0.01
+29	kilbu	kilbu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+30	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.135
+
+# sent_id = vepkar-1820.21
+# text = Kilboih voibi yhtyö sulakuun 30. päivässäh.
+1	Kilboih	Kilbu	NOUN	NOUN	Case=Ill|Number=Plur	2	obl	_	SpaceBefore=No|Weight=0.0033333333333333335
+2	voibi	voija	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+3	yhtyö	yhtyö	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+4	sulakuun	sulakuu	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	Weight=0.006666666666666667
+5	30	30	X	X	_	_	_	_	SpaceAfter=No|_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.01
+7	päivässäh	päivy	NOUN	NOUN	Case=Ter|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+
+# sent_id = vepkar-1820.22
+# text = Festivualin jälgimäine pido rodieu 10. kezäkuudu Anuksenlinnas.
+1	Festivualin	Festivuali	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+2	jälgimäine	jälgimäine	ADJ	ADJ	Case=Acc|Number=Sing	3	amod	_	Weight=0.01
+3	pido	pido	NOUN	NOUN	Case=Nom|Number=Sing	4	nsubj	_	Weight=0.0033333333333333335
+4	rodieu	roita	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	10	10	X	X	_	_	_	_	SpaceAfter=No|_
+6	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+7	kezäkuudu	kezäkuu	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.015
+8	Anuksenlinnas	Plc	PROPN	PROPN	Case=Ela|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.02
+9	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+
+# sent_id = vepkar-1820.23
+# text = Suureh konsertah yhtyy petroskoilazien da anukselazien nuorien joukkuo.
+1	Suureh	Suuri	ADJ	ADJ	Case=Ill|Number=Sing	2	amod	_	SpaceBefore=No|Weight=0.81
+2	konsertah	konsertu	NOUN	NOUN	Case=Ill|Number=Sing	3	obl	_	Weight=0.07166666666666667
+3	yhtyy	yhtyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	petroskoilazien	petroskoilaine	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+5	da	da	CCONJ	CCONJ	_	6	cc	_	Weight=0.0102
+6	anukselazien	anukselaine	NOUN	NOUN	Case=Gen|Number=Plur	7	nmod:poss	_	Weight=0.01
+7	nuorien	nuori	NOUN	NOUN	Case=Gen|Number=Plur	8	nmod:poss	_	Weight=0.01
+8	joukkuo	joukko	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	SpaceAfter=No|Weight=0.025
+9	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.03
+
+# sent_id = vepkar-1820.24
+# text = Konsertal roitah ilmoitettu da palkittu iel mainittuloin kilvoin voittajat.
+1	Konsertal	Konsertu	NOUN	NOUN	Case=Ade|Number=Sing	3	obl	_	SpaceBefore=No|Weight=0.01
+2	roitah	roitah	X	X	_	_	_	_	_
+3	ilmoitettu	ilmoittua	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0102
+4	da	da	CCONJ	CCONJ	_	5	cc	_	Weight=0.012199999999999997
+5	palkittu	palkita	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.02
+6	iel	iel	ADV	ADV	_	5	advmod	_	PronType=Temp|Weight=0.01
+7	mainittuloin	mainita	VERB	VERB	Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.0
+8	kilvoin	kilvoin	X	X	_	_	_	_	_
+9	voittajat	voittai	NOUN	NOUN	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No|Weight=0.013333333333333334
+10	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
+
+Tokens: 0 Sentences: 24
+Unknowns / OOV: 0 = 0 %
+CPU time: 1.66580467 Real time: 1.757545905187726
+Tokens per timeunit: 0.0
+Sentences per timeunit: 13.655404350554658
