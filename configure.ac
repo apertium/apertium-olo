@@ -12,10 +12,13 @@ m4_define([required_lttoolbox_version], [3.3.2])
 PKG_CHECK_MODULES(APERTIUM, apertium >= required_apertium_version)
 PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttoolbox_version)
 
+AC_PATH_PROG([ZCAT], [zcat])
 AC_PATH_PROG([CGCOMP], [cg-comp], [false], [$PATH$PATH_SEPARATOR$with_cg_comp/bin])
 AS_IF([test x$CGCOMP = xfalse], [AC_MSG_ERROR([You don't have cg-comp installed])])
 
-
+PKG_CHECK_MODULES([GIELLA_OLO], [giella-olo])
+AC_SUBST([AP_LIB], [`pkg-config --variable=dir giella-olo`])
+AC_SUBST([AP_SRC], [`pkg-config --variable=srcdir giella-olo`])
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-olo.pc])
