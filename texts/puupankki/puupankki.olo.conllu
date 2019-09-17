@@ -97,7 +97,7 @@
 4	vai	vai	CCONJ	CCONJ	_	5	cc	_	Weight=500.0
 5	pieni	pieni	ADJ	ADJ	Case=Acc|Number=Sing	3	conj	_	Weight=500.0
 6	mua	mua	NOUN	NOUN	Case=Acc|Number=Sing	0	root	_	SpaceAfter=No|Weight=500.0
-7	?	?	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.03
+7	?	?	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.03
 
 # sent_id = cairo.cicling.corpus.liv.11
 # text = Ei voidu vallita Peter Smithua, eigo Mary Brownii.
@@ -117,15 +117,15 @@
 # text = Heil ei ole ovvostustu sit, ken sen kirjutti.
 # text_en = They have no idea who wrote it .
 1	Heil	Hyö	PRON	PRON	Case=All|Number=Plur|Person=3|PronType=Prs	0	root	_	SpaceBefore=No|Weight=500.0
-2	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3	3	aux	_	Weight=500.0
-3	ole	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	Weight=0.0106
-4	ovvostustu	ovvostus	NOUN	NOUN	Case=Par|Number=Sing	3	nsubj:cop	_	Weight=500.0
-5	sit	sit	PRON	PRON	Case=Par|Num=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+2	ei	ei	AUX	AUX	Mood=Ind|Number=Sing|Person=3	1	aux	_	Weight=500.0
+3	ole	olla	AUX	AUX	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	Weight=0.0106
+4	ovvostustu	ovvostus	NOUN	NOUN	Case=Par|Number=Sing	1	nsubj:cop	_	Weight=500.0
+5	sit	sit	PRON	PRON	Case=Par|Number=Sing	1	obl	_	SpaceAfter=No|Weight=500.0
 6	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.01
 7	ken	ken	PRON	PRON	Case=Nom|Number=Sing	9	nsubj	_	PronType=Interr|Weight=500.0
 8	sen	se	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	9	obj	_	Weight=500.0
 9	kirjutti	kirjuttua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	SpaceAfter=No|Weight=0.06
-10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002
+10	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002
 
 # sent_id = cairo.cicling.corpus.liv.13
 # text = Midäbo kačot?
@@ -153,7 +153,7 @@
 5	ga	ga	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
 6	hänen	häi	PRON	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	Weight=500.0
 7	velleh	velli	NOUN	NOUN	Case=Ill|Number=Sing	2	orphan	_	Weight=500.0
-8	pyörän	pyöry	X	X	Case=Acc|Number=Sing	3	orphan	_	SpaceAfter=No|Weight=500.0
+8	pyörän	pyöry	NOUN	NOUN	Case=Acc|Number=Sing	3	orphan	_	SpaceAfter=No|Weight=500.0
 9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
 
 # sent_id = cairo.cicling.corpus.liv.16
@@ -162,7 +162,7 @@
 1	Peter	Peter	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	SpaceBefore=No|_
 2	da	da	CCONJ	CCONJ	_	3	cc	_	Weight=0.01
 3	Mari	Mari	PROPN	PROPN	Case=Nom|Number=Sing	1	conj	_	Weight=500.0
-4	sevättihes	sevätä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Reflex=Yes	0	root	_	_
+4	sevättihes	sevätä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Reflex=Yes|Tense=Past|VerbForm=Fin	0	root	_	_
 5	da	da	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
 6	lähtiettih	lähtie	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	Weight=0.01
 7	pertispäi	perti	NOUN	NOUN	Case=Ela|Number=Plur	6	obl	_	SpaceAfter=No|Weight=500.0
@@ -171,51 +171,52 @@
 # sent_id = cairo.cicling.corpus.liv.17
 # text = Hänel olis pidänyh olla prichoskua luadimas, ga häi erähien syylöin periä ei voinnuh sinä piän.
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
-1	Hänel	Häi	PRON	PRON	Case=Abl|Number=Sing|Person=3|PronType=Prs	_	_	_	SpaceBefore=No|Weight=500.0
-2	olis	olla	VERB	VERB	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.013200000000000002
-3	pidänyh	pidiä	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.01
-4	olla	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.01
-5	prichoskua	prichoskua	X	X	_	_	_	_	_
-6	luadimas	luadie	VERB	VERB	_	_	_	_	SpaceAfter=No|Weight=500.0
-7	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.0033333333333333335
+1	Hänel	Häi	PRON	PRON	Case=Abl|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceBefore=No|Weight=500.0
+2	olis	olla	AUX	AUX	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	Weight=0.013200000000000002
+3	pidänyh	pidiä	AUX	AUX	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	Weight=0.01
+4	olla	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	prichoskua	prichosku	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	_
+6	luadimas	luadie	VERB	VERB	Case=Ine|VerbForm=Inf	4	xcomp	_	SpaceAfter=No|Weight=500.0
+7	,	,	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.0033333333333333335
 8	ga	ga	CCONJ	CCONJ	_	9	cc	_	Weight=0.81
-9	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
-10	erähien	eräs	ADJ	ADJ	Case=Gen|Number=Plur	_	_	_	Weight=500.0
-11	syylöin	syy	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
-12	periä	periä	ADP	ADP	AdpType=Pre	_	_	_	Weight=500.0
-13	ei voinnuh	ei voinnuh	X	X	_	_	_	_	_
-14	sinä	sinä	PRON	PRON	Case=Ess|Number=Sing|PronType=Dem	15	det	_	Weight=500.0
-15	piän	päivy	NOUN	NOUN	Case=Ess|Number=Sing	14	obl	_	SpaceAfter=No|Weight=0.11
-16	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0014285714285714286
+9	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Weight=500.0
+10	erähien	eräs	ADJ	ADJ	Case=Gen|Number=Plur	11	amod	_	Weight=500.0
+11	syylöin	syy	NOUN	NOUN	Case=Gen|Number=Plur	14	obl	_	Weight=500.0
+12	periä	periä	ADP	ADP	AdpType=Post	11	case	_	Weight=500.0
+13	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	14	aux	_	_
+14	voinnuh	voija	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+15	sinä	sinä	PRON	PRON	Case=Ess|Number=Sing|PronType=Dem	16	det	_	Weight=500.0
+16	piän	päivy	NOUN	NOUN	Case=Ess|Number=Sing	14	obl	_	SpaceAfter=No|Weight=0.11
+17	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0014285714285714286
 
 # sent_id = cairo.cicling.corpus.liv.18
 # text = En ehtinyh hänele jälles, sendäh ku häi juoksi ylen terväh.
 # text_en = I was n't able to keep up , because he ran too fast .
-1	En	Ei	AUX	AUX	Number=Sing|Person=1|Polarity=Neg	_	_	_	SpaceBefore=No|Weight=500.0
+1	En	Ei	AUX	AUX	Number=Sing|Person=1|Polarity=Neg	2	aux	_	SpaceBefore=No|Weight=500.0
 2	ehtinyh	ehtie	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010700000000000001
-3	hänele	häi	PRON	PRON	Case=All|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
-4	jälles	jälles	ADV	ADV	_	_	_	_	SpaceAfter=No|Weight=500.0
+3	hänele	häi	PRON	PRON	Case=All|Number=Sing|Person=3|PronType=Prs	2	obl	_	Weight=500.0
+4	jälles	jälles	ADV	ADV	_	2	advmod	_	SpaceAfter=No|Weight=500.0
 5	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.01
-6	sendäh	sendäh	ADV	ADV	_	_	_	_	Weight=500.0
-7	ku	ku	SCONJ	SCONJ	_	9	mark	_	Weight=0.004
-8	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.0
+6	sendäh	sendäh	ADV	ADV	_	7	compound	_	Weight=500.0
+7	ku	ku	SCONJ	SCONJ	_	9	obl	_	Weight=0.004
+8	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Weight=500.0
 9	juoksi	juosta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.07
-10	ylen	ylen	ADV	ADV	_	_	_	_	Weight=500.0
-11	terväh	terväh	ADV	ADV	_	_	_	_	SpaceAfter=No|Weight=500.0
+10	ylen	ylen	ADV	ADV	_	11	advmod	_	Weight=500.0
+11	terväh	terväh	ADV	ADV	_	9	advmod	_	SpaceAfter=No|Weight=500.0
 12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.006
 
 # sent_id = cairo.cicling.corpus.liv.19
 # text = Tämä on kirjaine Peteras da se tuodih egläi.
 # text_en = This letter is from Peter and it was delivered yesterday .
-1	Tämä	Tämä	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	SpaceBefore=No|Weight=0.0033333333333333335
-2	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0105
-3	kirjaine	kirjaine	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
-4	Peteras	Peteras	X	X	_	_	_	_	_
+1	Tämä	Tämä	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	SpaceBefore=No|Weight=0.0033333333333333335
+2	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Weight=0.0105
+3	kirjaine	kirjaine	NOUN	NOUN	Case=Acc|Number=Sing	0	root	_	Weight=500.0
+4	Peteras	Peter	PROPN	PROPN	Case=Ela|Number=Sing	3	obl	_	_
 5	da	da	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
-6	se	se	INTJ	INTJ	_	_	_	_	Weight=500.0
-7	tuodih	tuvva	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.05
-8	egläi	egläi	ADV	ADV	_	_	_	_	SpaceAfter=No|PronType=Temp|Weight=500.0
-9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
+6	se	se	PRON	PRON	Case=Nom|Number=Sing	7	nsubj	_	Weight=500.0
+7	tuodih	tuvva	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.05
+8	egläi	egläi	ADV	ADV	_	7	advmod	_	SpaceAfter=No|PronType=Temp|Weight=500.0
+9	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
 
 # sent_id = vepkar-1820.1
 # text = “Karjalan nuorus” Anuksen piiris

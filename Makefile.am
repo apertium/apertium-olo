@@ -1,6 +1,4 @@
 
-RELEASE=0.0
-VERSION=0.0.0
 LANG1=olo
 BASENAME=apertium-$(LANG1)
 
@@ -12,22 +10,25 @@ TARGETS_COMMON =			\
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
 
-.deps/$(LANG1).gen.twol.hfst: $(BASENAME).$(LANG1).gen.twol .deps/.d
-	hfst-twolc --resolve $< -o $@
+# -------------------
+# Livvi analysis:
+# -------------------
 
-.deps/$(LANG1).morf.twol.hfst: $(BASENAME).$(LANG1).morf.twol .deps/.d
-	hfst-twolc --resolve $< -o $@
+.deps/$(LANG1).automorf.hfst: $(AP_SRC)/apertium-und.olo-und.LR.att.gz .deps/.d
+	$(ZCAT) $< | hfst-txt2fst > $@
 
-.deps/$(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc .deps/.d
-	hfst-lexc $< -o $@ --alignStrings
+$(LANG1).automorf.hfst: .deps/$(LANG1).automorf.hfst
+	hfst-fst2fst -O -i $< -o $@
 
-$(LANG1).autogen.hfst: .deps/$(LANG1).lexc.hfst
-	hfst-fst2fst -f olw -o $@ -i $<
+# -------------------
+# Inari Saami generation:
+# ---------------------
 
-$(LANG1).automorf.hfst: .deps/$(LANG1).lexc.hfst .deps/$(LANG1).morf.twol.hfst
-	hfst-compose-intersect .deps/$(LANG1).lexc.hfst .deps/$(LANG1).morf.twol.hfst  |\
-		hfst-invert |\
- 		hfst-fst2fst -f olw -o $@
+.deps/$(LANG1).autogen.hfst: $(AP_SRC)/apertium-olo.olo.RL.att.gz .deps/.d
+	$(ZCAT) $< | hfst-txt2fst > $@
+
+$(LANG1).autogen.hfst: .deps/$(LANG1).autogen.hfst
+	hfst-fst2fst -O -i $< -o $@
 
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
 	$(CGCOMP) $< $@
