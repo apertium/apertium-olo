@@ -605,9 +605,3 @@
 8	kilvoin	kilvoin	X	X	_	_	_	_	_
 9	voittajat	voittai	NOUN	NOUN	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No|Weight=0.013333333333333334
 10	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
-
-Tokens: 0 Sentences: 24
-Unknowns / OOV: 0 = 0 %
-CPU time: 1.66580467 Real time: 1.757545905187726
-Tokens per timeunit: 0.0
-Sentences per timeunit: 13.655404350554658
