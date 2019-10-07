@@ -666,114 +666,57 @@
 18	Virtaranta	Virtaranta	PROPN	PROPN	Case=Nom|Number=Sing	17	flat:name	_	SpaceAfter=No|_
 19	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.075
 
-DEBG
 # sent_id = vepkar-2316.5
 # text = – Virtaranta “paloi” tverinkarjalan kieleh.
 1	–	–	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.0075
-2	Virtaranta	Virtaranta	X	X	_	_	_	_	_
+2	Virtaranta	Virtaranta	PROPN	PROPN	Case=Nom|Number=Sing	4	nsubj	_	_
 3	“	“	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|Weight=0.002
-4	paloi	palat	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.2
-4	paloi	pala	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.2
 4	paloi	palua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
 5	”	”	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.002
-6	tverinkarjalan	tverinkarjalan	X	X	_	_	_	_	_
+6	tverinkarjalan	tverinkarjala	NOUN	NOUN	Case=Gen|Number=Sing	7	nmod:poss	_	_
 7	kieleh	kieli	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.0075
 8	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
 
-DEBG
 # sent_id = vepkar-2316.6
 # text = Tverinkarjalazet voidas sanuo händy omakse Lönnrotakse, sanou Tapio Mustonen, “Tverinkarjalazien ystävien” vuozien 2010-2014 piämies.
-1	Tverinkarjalazet	Tverinkarjalaine	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0571428571429
-1	Tverinkarjalazet	Tverinkarjalaine	NOUN	NOUN	Case=Nom|Number=Plur	2	nsubj	_	SpaceBefore=No|Weight=0.0014285714285714286
-2	voidas	voidua	VERB	VERB	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0124
-2	voidas	voidua	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.21239999999999998
-2	voidas	voija	VERB	VERB	Connegative=Yes|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.4124
-2	voidas	voija	VERB	VERB	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.6124000000000003
-2	voidas	voidua	VERB	VERB	Connegative=Yes|Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Weight=0.6600000000000001
-2	voidas	voidua	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Weight=0.6606000000000001
-2	voidas	voija	VERB	VERB	Connegative=Yes|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Weight=0.6612000000000002
-2	voidas	voija	VERB	VERB	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Weight=0.6618000000000002
-3	sanuo	sanuo	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
-4	händy	häi	PRON	PRON	Case=Par|Number=Sing|Person=3|PronType=Prs	_	_	_	Weight=500.1333333333333
-4	händy	händy	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.1333333333333
-4	händy	händy	NOUN	NOUN	Case=Nom|Number=Sing	8	nsubj	_	Weight=0.006666666666666667
-5	omakse	oma	ADJ	ADJ	Case=Tra|Number=Sing	_	_	_	Weight=500.0
-6	Lönnrotakse	Lönnrotakse	X	X	_	_	_	_	SpaceAfter=No|_
-7	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.0071428571428571435
+1	Tverinkarjalazet	Tverinkarjalaine	NOUN	NOUN	Case=Nom|Number=Plur	3	nsubj	_	SpaceBefore=No|Weight=0.0014285714285714286
+2	voidas	voija	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	Weight=0.6124000000000003
+3	sanuo	sanuo	VERB	VERB	VerbForm=Inf	0	root	_	Weight=500.0
+4	händy	häi	PRON	PRON	Case=Par|Number=Sing|Person=3|PronType=Prs	3	obj	_	Weight=500.1333333333333
+5	omakse	oma	ADJ	ADJ	Case=Tra|Number=Sing	6	amod	_	Weight=500.0
+6	Lönnrotakse	Lönnrot	PROPN	PROPN	Case=Tra|Number=Sing	3	obl	_	SpaceAfter=No|_
 7	,	,	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.005714285714285714
-7	,	,	PUNCT	PUNCT	_	8	punct	_	SpaceBefore=No|Weight=0.0014285714285714286
-8	sanou	sanuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0148
-8	sanou	sanuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.06
-9	Tapio	Tapio	X	X	_	_	_	_	_
-10	Mustonen	Mustonen	X	X	_	_	_	_	SpaceAfter=No|_
-11	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.015
-11	,	,	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.013333333333333334
-11	,	,	PUNCT	PUNCT	_	8	punct	_	SpaceBefore=No|Weight=0.003333333333333333
-12	“	“	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|Weight=0.02
-12	“	“	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|Weight=0.018
-12	“	“	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|Weight=0.005
+8	sanou	sanuo	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	Weight=0.06
+9	Tapio	Tapio	PROPN	PROPN	_	8	nsubj	_	_
+10	Mustonen	Mustonen	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No|_
+11	,	,	PUNCT	PUNCT	_	20	punct	_	SpaceBefore=No|Weight=0.003333333333333333
+12	“	“	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No|Weight=0.005
 13	Tverinkarjalazien	Tverinkarjalaine	NOUN	NOUN	Case=Gen|Number=Plur	14	nmod:poss	_	SpaceBefore=No|Weight=0.01
-14	ystävien	ystävy	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
-15	”	”	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.0325
-15	”	”	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.03
-15	”	”	PUNCT	PUNCT	_	8	punct	_	SpaceBefore=No|Weight=0.01
-16	vuozien	vuozi	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
-17	2010	2010	X	X	_	_	_	_	SpaceAfter=No|_
-18	-	-	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.05333333333333334
-18	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.049999999999999996
-18	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.016666666666666666
-19	2014	2014	X	X	_	_	_	_	SpaceBefore=No|_
-20	piämies	piämies	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
-20	piämies	piämies	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
-20	piämies	piä#mies	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
-20	piämies	piä#mies	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0
-21	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.095
-21	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.09
+14	ystävien	ystävy	NOUN	NOUN	Case=Gen|Number=Plur	20	nmod:poss	_	SpaceAfter=No|Weight=500.0
+15	”	”	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.0325
+16	vuozien	vuozi	NOUN	NOUN	Case=Gen|Number=Plur	20	nmod	_	Weight=500.0
+17	2010	2010	NUM	NUM	_	16	nummod	_	SpaceAfter=No|_
+18	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.05333333333333334
+19	2014	2014	NUM	NUM	_	17	conj	_	SpaceBefore=No|_
+20	piämies	piämies	NOUN	NOUN	Case=Nom|Number=Sing	9	appos	_	SpaceAfter=No|Weight=500.0
 21	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.026000000000000002
 
-DEBG
 # sent_id = vepkar-2316.7
 # text = Liiton piätavoittehennu on avvuttua eri tabah tverinkarjalazien kielen da kul’tuuran säilyttämisty da kehittämisty.
-1	Liiton	Liitto	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceBefore=No|Weight=500.8
-1	Liiton	Liitto	NOUN	NOUN	Case=Ins|Number=Sing	_	_	_	SpaceBefore=No|Weight=500.8
 1	Liiton	Liitto	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|Weight=0.01
-2	piätavoittehennu	piä#tavoiteh	NOUN	NOUN	Case=Ess|Number=Sing	3	obl	_	Weight=1.005
-2	piätavoittehennu	piä#tavoiteh	NOUN	NOUN	Case=Ess|Number=Sing	4	obl	_	Weight=1.01
-2	piätavoittehennu	piä#tavoiteh	NOUN	NOUN	Case=Ess|Number=Sing	11	obl	_	Weight=1.045
-2	piätavoittehennu	piä#tavoiteh	NOUN	NOUN	Case=Ess|Number=Sing	13	obl	_	Weight=1.055
-3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
-4	avvuttua	avvuttua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
-5	eri	eri	ADJ	ADJ	Guess=Yes	_	_	_	Weight=500.0
-6	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	3	obl	_	Weight=0.015
-6	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	Weight=0.01
-6	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	11	obl	_	Weight=0.025
-6	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	13	obl	_	Weight=0.035
-7	tverinkarjalazien	tverinkarjalaine	NOUN	NOUN	Case=Gen|Number=Plur	8	nmod:poss	_	Weight=0.01
-8	kielen	kieli	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.25
-8	kielen	kieli	NOUN	NOUN	Case=Ins|Number=Sing	_	_	_	Weight=500.25
-8	kielen	kieli	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	Weight=0.0125
+2	piätavoittehennu	piä#tavoiteh	NOUN	NOUN	Case=Ess|Number=Sing	0	root	_	Weight=1.005
+3	on	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	Weight=0.01
+4	avvuttua	avvuttua	VERB	VERB	VerbForm=Inf	2	csubj:cop	_	Weight=500.0
+5	eri	eri	ADJ	ADJ	Guess=Yes	6	amod	_	Weight=500.0
+6	tabah	taba	NOUN	NOUN	Case=Ill|Number=Sing	2	obl	_	Weight=0.015
+7	tverinkarjalazien	tverinkarjalaine	ADJ	ADJ	Case=Gen|Number=Plur	8	amod	_	Weight=0.01
+8	kielen	kieli	NOUN	NOUN	Case=Gen|Number=Sing	11	nmod:poss	_	Weight=0.0125
 9	da	da	CCONJ	CCONJ	_	10	cc	_	Weight=0.0117
-9	da	da	ADV	ADV	_	3	advmod	_	Weight=2.4600000000000004
-9	da	da	ADV	ADV	_	4	advmod	_	Weight=2.45
-9	da	da	ADV	ADV	_	11	advmod	_	Weight=2.4200000000000004
-9	da	da	ADV	ADV	_	13	advmod	_	Weight=2.4400000000000004
-10	kul’tuuran	kulʼtuuru	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=501.26666666666665
-10	kul’tuuran	kulʼtuuru	NOUN	NOUN	Case=Ins|Number=Sing	_	_	_	Weight=501.26666666666665
-10	kul’tuuran	kulʼtuuru	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	_	Weight=0.8233333333333334
-10	kul’tuuran	kulʼtuuru	NOUN	NOUN	Case=Gen|Number=Sing	11	nmod:poss	_	Weight=0.01
-11	säilyttämisty	säilyttiä	VERB	VERB	Case=Par|Number=Sing	_	_	_	Deriv=Mine|Weight=500.53333333333336
-11	säilyttämisty	säilyttämine	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	Weight=0.02666666666666667
+10	kul’tuuran	kulʼtuuru	NOUN	NOUN	Case=Gen|Number=Sing	8	conj	_	Weight=0.01
+11	säilyttämisty	säilyttämine	NOUN	NOUN	Case=Par|Number=Sing	2	obj	_	Weight=0.02666666666666667
 12	da	da	CCONJ	CCONJ	_	13	cc	_	Weight=0.011899999999999999
-12	da	da	ADV	ADV	_	3	advmod	_	Weight=1.6900000000000002
-12	da	da	ADV	ADV	_	4	advmod	_	Weight=1.6800000000000002
-12	da	da	ADV	ADV	_	11	advmod	_	Weight=1.61
-12	da	da	ADV	ADV	_	13	advmod	_	Weight=1.61
-13	kehittämisty	kehittiä	VERB	VERB	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Deriv=Mine|Weight=501.0
-13	kehittämisty	kehittämine	NOUN	NOUN	Case=Par|Number=Sing	3	obj	_	SpaceAfter=No|Weight=0.05
-14	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.055
-14	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.05
-14	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
-14	.	.	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
+13	kehittämisty	kehittämine	NOUN	NOUN	Case=Par|Number=Sing	11	conj	_	SpaceAfter=No|Weight=0.05
+14	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
 
 DEBG
 # sent_id = vepkar-2316.8
