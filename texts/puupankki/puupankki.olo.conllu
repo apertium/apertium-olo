@@ -81,11 +81,11 @@
 2	voitti	voittua	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
 3	bronzumedalin	bronzu#medali	NOUN	NOUN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.006666666666666667
-5	Peter	Peter	PROPN	PROPN	Case=Nom|Number=Sing	1	orphan	_	_
-6	hobjumedalin	hobju#medali	NOUN	NOUN	Case=Acc|Number=Sing	3	orphan	_	_
+5	Peter	Peter	PROPN	PROPN	Case=Nom|Number=Sing	1	conj	_	_
+6	hobjumedalin	hobju#medali	NOUN	NOUN	Case=Acc|Number=Sing	5	orphan	_	_
 7	da	da	CCONJ	CCONJ	_	8	cc	_	Weight=0.01
-8	Jane	Jane	PROPN	PROPN	Case=Nom|Number=Sing	1	orphan	_	_
-9	kuldumedalin	kuldu#medali	NOUN	NOUN	Case=Acc|Number=Sing	3	orphan	_	SpaceAfter=No
+8	Jane	Jane	PROPN	PROPN	Case=Nom|Number=Sing	1	conj	_	_
+9	kuldumedalin	kuldu#medali	NOUN	NOUN	Case=Acc|Number=Sing	8	orphan	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.04
 
 # sent_id = cairo.cicling.corpus.liv.10
@@ -152,8 +152,8 @@
 4	,	,	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.006666666666666667
 5	ga	ga	CCONJ	CCONJ	_	6	cc	_	Weight=0.01
 6	hänen	häi	PRON	PRON	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	Weight=500.0
-7	velleh	velli	NOUN	NOUN	Case=Ill|Number=Sing	2	orphan	_	Weight=500.0
-8	pyörän	pyöry	NOUN	NOUN	Case=Acc|Number=Sing	3	orphan	_	SpaceAfter=No|Weight=500.0
+7	velleh	velli	NOUN	NOUN	Case=Ill|Number=Sing	2	conj	_	Weight=500.0
+8	pyörän	pyöry	NOUN	NOUN	Case=Acc|Number=Sing	7	orphan	_	SpaceAfter=No|Weight=500.0
 9	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
 
 # sent_id = cairo.cicling.corpus.liv.16
