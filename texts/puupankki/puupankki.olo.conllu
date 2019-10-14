@@ -1603,3 +1603,948 @@
 7	elämäh	elämy	VERB	VERB	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No|Deriv=Ma|Weight=500.0
 8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.045
 
+# sent_id = vepkar-1805.1
+# text = Arbuamatoi muailmu
+1	Arbuamatoi	Arbuamatoi	ADJ	ADJ	Case=Nom|Number=Sing	2	amod	_	SpaceBefore=No|Weight=3.21
+2	muailmu	muailmu	NOUN	NOUN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|Weight=500.0
+
+# sent_id = vepkar-1805.2
+# text = Kogo muailmas arbaituksii pietäh hyvin muinazennu kanzanrunohuon lajinnu.
+1	Kogo	kogo	ADJ	ADJ	_	2	amod	_	SpaceBefore=No|Weight=0.03
+2	muailmas	muailmu	NOUN	NOUN	Case=Ine|Number=Sing	4	obl	_	Weight=3.21
+3	arbaituksii	arbaitus	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	Weight=500.0
+4	pietäh	pidiä	VERB	VERB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	Weight=0.01
+5	hyvin	hyvin	ADV	ADV	_	6	advmod	_	Weight=0.01
+6	muinazennu	muinaine	ADJ	ADJ	Case=Ess|Number=Sing	8	amod	_	Weight=500.0
+7	kanzanrunohuon	kanzanrunohuz	NOUN	X	Case=Gen|Number=Sing	8	nmod:poss	_	_
+8	lajinnu	laji	NOUN	X	Case=Ess|Number=Sing	4	obl	_	SpaceAfter=No|_
+9	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+
+# sent_id = vepkar-1805.3
+# text = Karjalazisgi tekstois löydyy ennevahnallizii miiffizii piirdehii da luguloin elementoi.
+1	Karjalazisgi	Karjalaine	NOUN	NOUN	Case=Ela|Number=Plur	3	obl	_	SpaceBefore=No|Weight=3.21
+2	tekstois	tekstu	NOUN	NOUN	Case=Ela|Number=Plur	3	obl	_	Weight=0.005
+3	löydyy	löydyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	ennevahnallizii	ennevahnalline	ADJ	ADJ	Case=Par|Number=Plur	6	amod	_	Weight=500.0
+5	miiffizii	miiffine	ADJ	X	Case=Par|Number=Plur	6	amod	_	_
+6	piirdehii	piirde	ADJ	X	Case=Par|Number=Plur	3	obj	_	_
+7	da	da	CCONJ	CCONJ	_	8	cc	_	Weight=0.0104
+8	luguloin	lugu	NOUN	NOUN	Case=Gen|Number=Plur	9	nmod:poss	_	Weight=0.01
+9	elementoi	elementu	NOUN	NOUN	Case=Par|Number=Plur	6	conj	_	SpaceAfter=No|Weight=0.03
+10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
+
+# sent_id = vepkar-1805.4
+# text = Karjalazet arbaitukset puaksuh kuuluttih ritualoih, niidy sanottih svuad’bas da muah pannes.
+1	Karjalazet	Karjalaine	ADJ	ADJ	Case=Nom|Number=Plur	2	amod	_	SpaceBefore=No|Weight=2.2266666666666666
+2	arbaitukset	arbaitus	NOUN	NOUN	Case=Nom|Number=Plur	4	nsubj	_	Weight=0.005
+3	puaksuh	puaksuh	ADV	ADV	_	4	advmod	_	Weight=0.01
+4	kuuluttih	kuuluo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0104
+5	ritualoih	ritualu	NOUN	NOUN	Case=Ill|Number=Plur	4	obl	_	SpaceAfter=No|Weight=0.0033333333333333335
+6	,	,	PUNCT	PUNCT	_	8	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+7	niidy	net	PRON	PRON	Case=Par|Number=Plur|PronType=Dem	8	obj	_	Weight=500.0
+8	sanottih	sanuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	Weight=0.04
+9	svuad’bas	svuadʼbu	NOUN	NOUN	Case=Ine|Number=Sing	8	obl	_	Weight=0.002
+10	da	da	CCONJ	CCONJ	_	11	cc	_	Weight=0.011800000000000001
+11	muah	mua	NOUN	NOUN	Case=Ill|Number=Sing	12	obl	_	Weight=0.0040999999999999995
+12	pannes	panna	VERB	VERB	VerbForm=Ger	9	conj	_	SpaceAfter=No|PronType=Temp|Weight=500.0
+13	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.045
+
+# sent_id = vepkar-1805.5
+# text = Toiči mečästäjät meččäh mennes arbailtih – uskottih, gu nenga tulou parembi sualis.
+1	Toiči	Toiči	ADV	ADV	_	5	advmod	_	SpaceBefore=No|Weight=0.03
+2	mečästäjät	mečästäjä	NOUN	VERB	Case=Nom|Number=Plur	5	nsubj	_	Weight=500.0
+3	meččäh	meččy	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	Weight=0.8025
+4	mennes	mennä	VERB	VERB	VerbForm=Ger	5	advcl	_	PronType=Temp|Weight=500.0
+5	arbailtih	arbailla	VERB	X	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	–	–	PUNCT	PUNCT	_	7	punct	_	Weight=0.0025
+7	uskottih	uskuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|Weight=0.04
+8	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceBefore=No|Weight=0.004285714285714286
+9	gu	gu	ADV	ADV	_	11	advmod	_	Weight=0.02
+10	nenga	nenga	ADV	ADV	_	11	advmod	_	Weight=0.01
+11	tulou	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	Weight=0.04
+12	parembi	parembi	ADJ	ADJ	Case=Nom|Number=Sing	13	amod	_	Weight=500.004
+13	sualis	sualis	NOUN	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	nsubj	_	SpaceAfter=No|_
+14	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.05
+
+# sent_id = vepkar-1805.6
+# text = Uskomuksien mugah arbaituksii voibi arbaittua vaigu huondespuoles, illal saneltih suarnoi.
+1	Uskomuksien	Uskomus	NOUN	NOUN	Case=Gen|Number=Plur	5	obl	_	SpaceBefore=No|Weight=500.0
+2	mugah	mugah	ADP	ADP	AdpType=Post	1	case	_	Weight=0.004633333333333333
+3	arbaituksii	arbaitus	NOUN	NOUN	Case=Par|Number=Plur	5	obj	_	Weight=500.0
+4	voibi	voija	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	Weight=0.0106
+5	arbaittua	arbaittua	VERB	VERB	VerbForm=Inf	0	root	_	Weight=500.0
+6	vaigu	vaigu	ADV	ADV	_	5	advmod	_	Weight=1.61
+7	huondespuoles	huondes#puoli	NOUN	NOUN	Case=Ine|Number=Sing	5	obl	_	SpaceAfter=No|Weight=4.340000000000001
+8	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+9	illal	illal	ADV	ADV	_	10	advmod	_	PronType=Temp|Weight=5.77
+10	saneltih	sanella	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	Weight=0.06
+11	suarnoi	suarnu	NOUN	NOUN	Case=Par|Number=Plur	10	obj	_	SpaceAfter=No|Weight=0.0016666666666666668
+12	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
+
+# sent_id = vepkar-1805.7
+# text = Illal ei suannuh arbailla – varattih Arbaituksen akkua, ku häi tulou yön aigua da ähkiäy bokkah.
+1	Illal	Illal	ADV	ADV	_	4	advmod	_	SpaceBefore=No|PronType=Temp|Weight=5.906666666666666
+2	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	4	aux	_	_
+3	suannuh	suaha	AUX	AUX	Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+4	arbailla	arbailla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.011000000000000001
+5	–	–	PUNCT	PUNCT	_	6	punct	_	Weight=0.023333333333333334
+6	varattih	varata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	Weight=0.02
+7	Arbaituksen	Arbaitus	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	Weight=0.01
+8	akkua	akku	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	SpaceAfter=No|Weight=0.0025
+9	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.005
+10	ku	ku	SCONJ	SCONJ	_	12	mark	_	Weight=0.0025
+11	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Weight=0.001
+12	tulou	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	Weight=0.06
+13	yön	yö	NOUN	NOUN	Case=Gen|Number=Sing	14	nmod:poss	_	Weight=0.01
+14	aigua	aigu	NOUN	NOUN	Case=Par|Number=Sing	12	obl	_	Weight=0.002
+15	da	da	CCONJ	CCONJ	_	16	cc	_	Weight=0.01800000000000001
+16	ähkiäy	ähkie	VERB	X	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+17	bokkah	bokku	NOUN	NOUN	Case=Ill|Number=Sing	16	obl	_	SpaceAfter=No|Weight=0.00625
+18	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.07
+
+# sent_id = vepkar-1805.8
+# text = Ku unohtannet tämän dielon, sit Arbaituksen akku vältämättäh tulou da prižmiy sinuu mustoittamah semmostu arbaitustu, kudamua häi iče ei musta.
+1	Ku	Ku	SCONJ	SCONJ	_	2	mark	_	SpaceBefore=No|Weight=0.02666666666666667
+2	unohtannet	unohtoa	VERB	X	Mood=Pot|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+3	tämän	tämä	PRON	PRON	Case=Gen|Number=Sing|PronType=Dem	4	det	_	Weight=2.41
+4	dielon	dielo	NOUN	NOUN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No|Weight=500.0
+5	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.0125
+6	sit	sit	ADV	ADV	_	10	advmod	_	Weight=0.04
+7	Arbaituksen	Arbaitus	NOUN	NOUN	Case=Gen|Number=Sing	8	nmod:poss	_	Weight=0.01
+8	akku	akku	NOUN	NOUN	Case=Nom|Number=Sing	10	nsubj	_	Weight=0.00125
+9	vältämättäh	vältämättäh	ADV	ADV	_	10	advmod	_	Weight=0.01
+10	tulou	tulla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	Weight=0.02
+11	da	da	CCONJ	CCONJ	_	12	cc	_	Weight=0.0162
+12	prižmiy	prižmie	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.02
+13	sinuu	sinä	PRON	PRON	Case=Par|Number=Sing|Person=2|PronType=Prs	12	obj	_	Weight=500.0
+14	mustoittamah	mustoittua	VERB	VERB	Case=Ill|VerbForm=Inf	12	ccomp	_	Deriv=Ma|Weight=500.0
+15	semmostu	semmoine	ADJ	ADJ	Case=Par|Number=Sing	16	amod	_	Weight=0.3225
+16	arbaitustu	arbaitus	NOUN	NOUN	Case=Par|Number=Sing	14	obj	_	SpaceAfter=No|Weight=0.0025
+17	,	,	PUNCT	PUNCT	_	22	punct	_	SpaceBefore=No|Weight=0.005555555555555556
+18	kudamua	kudai	PRON	PRON	Case=Par|Number=Sing|PronType=Rel	22	obj	_	Weight=500.0
+19	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	Weight=0.0009523809523809524
+20	iče	iče	PRON	PRON	Case=Nom|Reflex=Yes	19	fixed	_	Weight=500.0079
+21	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	22	aux	_	Weight=0.0007357142857142857
+22	musta	mustua	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	SpaceAfter=No|Weight=0.5131999999999999
+23	.	.	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0007142857142857143
+
+# sent_id = vepkar-1805.9
+# text = Gu semmostu ei tule piäh, uskottih, ku häi voibi syvvä ristikanzan.
+1	Gu	Gu	ADV	ADV	_	4	advmod	_	SpaceBefore=No|Weight=1.6300000000000001
+2	semmostu	semmoine	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=500.0
+3	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	4	aux	_	Weight=0.004108333333333334
+4	tule	tulla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.41600000000000004
+5	piäh	piä	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.4084999999999996
+6	,	,	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.0025
+7	uskottih	uskuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	SpaceAfter=No|Weight=0.03
+8	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.0044444444444444444
+9	ku	ku	SCONJ	SCONJ	_	12	mark	_	Weight=0.002142857142857143
+10	häi	häi	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Weight=0.000625
+11	voibi	voija	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	Weight=0.01
+12	syvvä	syvvä	VERB	VERB	VerbForm=Inf	7	ccomp	_	Weight=500.222
+13	ristikanzan	ristikanzu	NOUN	NOUN	Case=Gen|Number=Sing	12	obj	_	SpaceAfter=No|Weight=0.000625
+14	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0014285714285714286
+
+# sent_id = vepkar-1805.10
+# text = Arbaituksen akku oli ylen viizas, kaikkien arbaituksien tiedäi, hänes oli ylen jygei piästä eroh.
+1	Arbaituksen	Arbaitus	NOUN	NOUN	Case=Gen|Number=Sing	2	nmod:poss	_	SpaceBefore=No|Weight=0.01
+2	akku	akku	NOUN	NOUN	Case=Nom|Number=Sing	5	nsubj:cop	_	Weight=0.0025
+3	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	Weight=784.0157
+4	ylen	ylen	ADV	ADV	_	5	advmod	_	Weight=0.01
+5	viizas	viizas	ADJ	ADJ	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No|Weight=552.9666666666667
+6	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.0075
+7	kaikkien	kaikki	ADJ	ADJ	Case=Gen|Number=Plur	8	amod	_	Weight=0.81
+8	arbaituksien	arbaitus	NOUN	NOUN	Case=Gen|Number=Plur	9	nmod:poss	_	Weight=0.01
+9	tiedäi	tiedäi	NOUN	NOUN	Case=Nom|Number=Sing	5	appos	_	SpaceAfter=No|Weight=0.005
+10	,	,	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.002857142857142857
+11	hänes	häi	PRON	PRON	Case=Ine|Number=Sing|Person=3|PronType=Prs	14	obl	_	Weight=500.0
+12	oli	olla	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	Weight=0.03
+13	ylen	ylen	ADV	ADV	_	14	advmod	_	Weight=0.02
+14	jygei	jygei	ADJ	ADJ	Case=Nom|Number=Sing	5	parataxis	_	Weight=500.0
+15	piästä	piästä	VERB	VERB	VerbForm=Inf	14	xcomp:ds	_	Weight=500.818
+16	eroh	ero	NOUN	NOUN	Case=Ill|Number=Sing	15	obl	_	SpaceAfter=No|Weight=0.001
+17	.	.	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002
+
+# sent_id = vepkar-1805.11
+# text = Semmostu mifolougistu personuažua ei ole toizis kul’tuurois, on vaigu karjalazes.
+1	Semmostu	Semmoine	ADJ	ADJ	Case=Par|Number=Sing	3	amod	_	SpaceBefore=No|Weight=500.0
+2	mifolougistu	mifolougine	ADJ	X	Case=Par|Number=Sing	3	amod	_	_
+3	personuažua	personuažu	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	Weight=500.0
+4	ei	ei	INTJ	INTJ	_	_	_	_	Weight=500.00056666666666
+4	ei	ei	VERB	VERB	Number=Plur|Person=3|Polarity=Neg	_	_	_	Weight=500.00056666666666
+4	ei	ei	VERB	VERB	Number=Sing|Person=3|Polarity=Neg	_	_	_	Weight=500.00056666666666
+4	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	5	aux	_	Weight=0.0033333333333333335
+4	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	9	aux	_	Weight=0.025
+4	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	5	aux	_	Weight=0.003616666666666667
+4	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	9	aux	_	Weight=0.025283333333333335
+5	ole	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0104
+5	ole	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	Weight=0.04
+6	toizis	toine	PRON	PRON	Case=Ela|Number=Plur	_	_	_	Weight=509.6
+6	toizis	toine	PRON	PRON	Case=Ine|Number=Plur	_	_	_	Weight=509.6
+6	toizis	toine	ADJ	ADJ	Case=Ela|Number=Plur	7	amod	_	Weight=6.41
+6	toizis	toine	ADJ	ADJ	Case=Ine|Number=Plur	7	amod	_	Weight=8.01
+6	toizis	toine	NUM	NUM	Case=Ela|Number=Plur|NumType=Ord	7	nummod	_	Weight=3.21
+6	toizis	toine	NUM	NUM	Case=Ine|Number=Plur|NumType=Ord	7	nummod	_	Weight=4.8100000000000005
+7	kul’tuurois	kulʼtuuru	NOUN	NOUN	Case=Ela|Number=Plur	4	obl	_	SpaceAfter=No|Weight=0.01
+7	kul’tuurois	kulʼtuuru	NOUN	NOUN	Case=Ela|Number=Plur	5	obl	_	SpaceAfter=No|Weight=0.006666666666666667
+7	kul’tuurois	kulʼtuuru	NOUN	NOUN	Case=Ela|Number=Plur	9	obl	_	SpaceAfter=No|Weight=0.01
+7	kul’tuurois	kulʼtuuru	NOUN	NOUN	Case=Ine|Number=Plur	4	obl	_	SpaceAfter=No|Weight=3.4766666666666666
+7	kul’tuurois	kulʼtuuru	NOUN	NOUN	Case=Ine|Number=Plur	5	obl	_	SpaceAfter=No|Weight=3.4733333333333336
+7	kul’tuurois	kulʼtuuru	NOUN	NOUN	Case=Ine|Number=Plur	9	obl	_	SpaceAfter=No|Weight=3.4766666666666666
+8	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.013333333333333334
+8	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.01
+8	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.0033333333333333335
+9	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0108
+9	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Weight=0.04
+10	vaigu	vaigu	INTJ	INTJ	_	_	_	_	Weight=503.2024
+10	vaigu	vaigu	CCONJ	CCONJ	_	11	cc	_	Weight=0.0124
+10	vaigu	vaigu	ADV	ADV	_	4	advmod	_	Weight=3.2600000000000002
+10	vaigu	vaigu	ADV	ADV	_	5	advmod	_	Weight=3.25
+10	vaigu	vaigu	ADV	ADV	_	9	advmod	_	Weight=3.21
+11	karjalazes	karjalaine	ADJ	ADJ	Case=Ela|Number=Sing	_	_	_	SpaceAfter=No|Weight=522.08
+11	karjalazes	karjalaine	ADJ	ADJ	Case=Ine|Number=Sing	_	_	_	SpaceAfter=No|Weight=522.08
+11	karjalazes	karjalaine	NOUN	NOUN	Case=Ela|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.035
+11	karjalazes	karjalaine	NOUN	NOUN	Case=Ela|Number=Sing	5	obl	_	SpaceAfter=No|Weight=0.03
+11	karjalazes	karjalaine	NOUN	NOUN	Case=Ela|Number=Sing	9	obl	_	SpaceAfter=No|Weight=0.004
+11	karjalazes	karjalaine	NOUN	NOUN	Case=Ine|Number=Sing	4	obl	_	SpaceAfter=No|Weight=11.075000000000001
+11	karjalazes	karjalaine	NOUN	NOUN	Case=Ine|Number=Sing	5	obl	_	SpaceAfter=No|Weight=11.07
+11	karjalazes	karjalaine	NOUN	NOUN	Case=Ine|Number=Sing	9	obl	_	SpaceAfter=No|Weight=11.044
+12	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.04
+12	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
+12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.006
+
+DEBG
+# sent_id = vepkar-1805.12
+# text = Parahannu aijannu arbuamizeh on talven Synnynmuanaigu, konzu mennyh da tulii aigu vastavutah.
+1	Parahannu	Paras	ADJ	ADJ	Case=Ess|Number=Sing	2	amod	_	SpaceBefore=No|Weight=0.01
+2	aijannu	äijä	PRON	PRON	Case=Ess|Number=Sing	_	_	_	Weight=546.6666666666666
+2	aijannu	aidu	NOUN	NOUN	Case=Ess|Number=Sing	4	obl	_	Weight=0.006666666666666667
+2	aijannu	aidu	NOUN	NOUN	Case=Ess|Number=Sing	9	obl	_	Weight=0.035
+2	aijannu	aidu	NOUN	NOUN	Case=Ess|Number=Sing	11	obl	_	Weight=0.045
+2	aijannu	aidu	NOUN	NOUN	Case=Ess|Number=Sing	13	obl	_	Weight=0.055
+2	aijannu	aigu	NOUN	NOUN	Case=Ess|Number=Sing	4	obl	_	Weight=23.340000000000003
+2	aijannu	aigu	NOUN	NOUN	Case=Ess|Number=Sing	9	obl	_	Weight=23.368333333333336
+2	aijannu	aigu	NOUN	NOUN	Case=Ess|Number=Sing	11	obl	_	Weight=23.378333333333337
+2	aijannu	aigu	NOUN	NOUN	Case=Ess|Number=Sing	13	obl	_	Weight=23.388333333333335
+3	arbuamizeh	arbuamine	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	Weight=0.0033333333333333335
+3	arbuamizeh	arbuamine	NOUN	NOUN	Case=Ill|Number=Sing	9	obl	_	Weight=0.03
+3	arbuamizeh	arbuamine	NOUN	NOUN	Case=Ill|Number=Sing	11	obl	_	Weight=0.04
+3	arbuamizeh	arbuamine	NOUN	NOUN	Case=Ill|Number=Sing	13	obl	_	Weight=0.05
+4	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0114
+4	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	Weight=0.05
+4	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	Weight=0.09
+5	talven	talvi	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=501.72
+5	talven	talvi	NOUN	NOUN	Case=Ins|Number=Sing	_	_	_	Weight=501.72
+5	talven	talvi	NOUN	NOUN	Case=Gen|Number=Sing	4	obj	_	Weight=1.602
+5	talven	talvi	NOUN	NOUN	Case=Gen|Number=Sing	6	nmod:poss	_	Weight=0.01
+6	Synnynmuanaigu	Synnynmuanaigu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+6	Synnynmuanaigu	Synnynmuanaigu	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+7	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.01
+7	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+7	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceBefore=No|Weight=0.013333333333333334
+7	,	,	PUNCT	PUNCT	_	13	punct	_	SpaceBefore=No|Weight=0.02
+8	konzu	konzu	SCONJ	SCONJ	_	9	mark	_	Weight=0.0016666666666666668
+8	konzu	konzu	SCONJ	SCONJ	_	11	mark	_	Weight=0.005
+8	konzu	konzu	SCONJ	SCONJ	_	13	mark	_	Weight=0.008333333333333333
+9	mennyh	mennyh	ADJ	ADJ	Case=Acc|Number=Sing	_	_	_	Weight=500.2019
+9	mennyh	mennyh	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	Weight=500.2019
+9	mennyh	mennä	VERB	VERB	Tense=Past|VerbForm=Part|Voice=Act	_	_	_	Weight=500.2019
+9	mennyh	mennä	VERB	VERB	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	Weight=500.2019
+9	mennyh	mennä	VERB	VERB	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	_	_	_	Weight=500.2019
+9	mennyh	mennä	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0119
+9	mennyh	mennä	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.05
+9	mennyh	mennä	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	Weight=0.04
+10	da	da	CCONJ	CCONJ	_	11	cc	_	Weight=0.012899999999999995
+10	da	da	ADV	ADV	_	4	advmod	_	Weight=4.06
+10	da	da	ADV	ADV	_	9	advmod	_	Weight=4.01
+10	da	da	ADV	ADV	_	11	advmod	_	Weight=4.01
+10	da	da	ADV	ADV	_	13	advmod	_	Weight=4.03
+11	tulii	tulla	VERB	VERB	Case=Acc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	_	_	_	Weight=505.43333333333334
+11	tulii	tulla	VERB	VERB	Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	_	_	_	Weight=505.43333333333334
+11	tulii	tuli	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	Weight=3.2350000000000003
+11	tulii	tuli	NOUN	NOUN	Case=Par|Number=Plur	9	obj	_	Weight=3.2022222222222223
+11	tulii	tulii	ADJ	ADJ	Case=Acc|Number=Sing	12	amod	_	Weight=2.2433333333333327
+11	tulii	tulii	ADJ	ADJ	Case=Nom|Number=Sing	12	amod	_	Weight=3.843333333333333
+12	aigu	aigu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+12	aigu	aigu	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+13	vastavutah	vastavuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	SpaceAfter=No|Weight=784.0139
+13	vastavutah	vastavuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|Weight=0.09
+13	vastavutah	vastavuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No|Weight=0.04
+14	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.05
+14	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.008333333333333333
+14	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
+14	.	.	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0016666666666666668
+
+DEBG
+# sent_id = vepkar-1805.13
+# text = Myöhembäite arbaituksii saneltih enimilleh ilokse.
+1	Myöhembäite	Myöhembäite	X	X	_	_	_	_	SpaceBefore=No|_
+2	arbaituksii	arbaitus	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	Weight=500.0
+3	saneltih	sanella	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	enimilleh	enin	ADJ	ADJ	Case=All|Number=Plur|Number[psor]=Sing|Person[psor]=3	_	_	_	Weight=500.0
+5	ilokse	ilo	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0002
+5	ilokse	ilokse	ADV	ADV	_	3	advmod	_	SpaceAfter=No|Weight=0.02
+6	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+
+DEBG
+# sent_id = vepkar-1805.14
+# text = Niilöin vuoh lapset opastuttih ellendämäh muailmua da miettimäh muailmoin eri dieloloi.
+1	Niilöin	Net	PRON	PRON	Case=Gen|Number=Plur|PronType=Dem	2	nmod:poss	_	SpaceBefore=No|Weight=0.01
+2	vuoh	vuoh	PRON	PRON	Case=Abe|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Abl|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Ade|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=All|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Com|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Ill|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Ine|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Par|Number=Plur	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Abe|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Abl|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Ade|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=All|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Com|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Ill|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Ine|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Nom|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Par|Number=Sing	_	_	_	Weight=510.8
+2	vuoh	vuoh	PRON	PRON	Case=Gen|Number=Plur	3	nmod:poss	_	Weight=4.41
+2	vuoh	vuoh	PRON	PRON	Case=Gen|Number=Sing	3	nmod:poss	_	Weight=7.61
+2	vuoh	vuo	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	Weight=6.409999999999999
+2	vuoh	vuo	NOUN	NOUN	Case=Ill|Number=Sing	5	obl	_	Weight=6.414999999999999
+2	vuoh	vuo	NOUN	NOUN	Case=Ill|Number=Sing	8	obl	_	Weight=6.43
+3	lapset	lapset	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	Weight=500.1333333333333
+3	lapset	lapsi	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	Weight=500.1333333333333
+3	lapset	lapset	NOUN	NOUN	Case=Nom|Number=Plur	4	nsubj	_	Weight=0.0033333333333333335
+3	lapset	lapsi	NOUN	NOUN	Case=Nom|Number=Plur	4	nsubj	_	Weight=0.06999999999999999
+4	opastuttih	opastuo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	ellendämäh	ellendiä	VERB	VERB	Case=Ill|VerbForm=Inf	_	_	_	Deriv=Ma|Weight=500.0
+6	muailmua	muailmu	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=0.006666666666666667
+6	muailmua	mua#ilmu	NOUN	NOUN	Case=Par|Number=Sing	4	obj	_	Weight=1.14
+7	da	da	CCONJ	CCONJ	_	8	cc	_	Weight=0.0106
+7	da	da	ADV	ADV	_	4	advmod	_	Weight=0.8300000000000001
+7	da	da	ADV	ADV	_	5	advmod	_	Weight=0.8200000000000001
+7	da	da	ADV	ADV	_	8	advmod	_	Weight=0.81
+8	miettimäh	miettie	VERB	VERB	Case=Ill|VerbForm=Inf	_	_	_	Deriv=Ma|Weight=500.0
+9	muailmoin	muailmu	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+9	muailmoin	muailmu	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=500.0
+9	muailmoin	mua#ilmu	NOUN	NOUN	Case=Gen|Number=Plur	_	_	_	Weight=501.0
+9	muailmoin	mua#ilmu	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=501.0
+10	eri	eri	ADJ	ADJ	Guess=Yes	_	_	_	Weight=500.0
+11	dieloloi	dielo	NOUN	NOUN	Case=Par|Number=Plur	4	obj	_	SpaceAfter=No|Weight=0.035
+12	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.04
+12	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
+12	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
+
+DEBG
+# sent_id = vepkar-1805.15
+# text = Tavallizele ristikanzale on ylen jygei kerras arvata, mis on pagin vahnas arbaitukses, gu tekstas nimidä ei sanottu kohti da sen ližäkse käytettih erilazii metaaforoi.
+1	Tavallizele	Tavalline	ADJ	ADJ	Case=All|Number=Sing	2	amod	_	SpaceBefore=No|Weight=0.01
+2	ristikanzale	ristikanzu	NOUN	NOUN	Case=All|Number=Sing	3	obl	_	Weight=0.0025
+2	ristikanzale	ristikanzu	NOUN	NOUN	Case=All|Number=Sing	7	obl	_	Weight=0.0125
+2	ristikanzale	ristikanzu	NOUN	NOUN	Case=All|Number=Sing	10	obl	_	Weight=0.02666666666666667
+2	ristikanzale	ristikanzu	NOUN	NOUN	Case=All|Number=Sing	18	obl	_	Weight=0.08
+2	ristikanzale	ristikanzu	NOUN	NOUN	Case=All|Number=Sing	19	obl	_	Weight=0.085
+2	ristikanzale	ristikanzu	NOUN	NOUN	Case=All|Number=Sing	23	obl	_	Weight=0.105
+3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0147
+3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Weight=0.04
+3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.07
+3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	Weight=0.16
+3	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	Weight=0.2
+4	ylen	ylen	ADV	ADV	_	3	advmod	_	Weight=0.01
+4	ylen	ylen	ADV	ADV	_	7	advmod	_	Weight=0.03
+4	ylen	ylen	ADV	ADV	_	10	advmod	_	Weight=0.06
+4	ylen	ylen	ADV	ADV	_	18	advmod	_	Weight=0.14
+4	ylen	ylen	ADV	ADV	_	19	advmod	_	Weight=0.15
+4	ylen	ylen	ADV	ADV	_	23	advmod	_	Weight=0.19
+5	jygei	jygei	ADJ	ADJ	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+5	jygei	jygei	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+6	kerras	kerras	ADV	ADV	_	3	advmod	_	Weight=0.03
+6	kerras	kerras	ADV	ADV	_	7	advmod	_	Weight=0.01
+6	kerras	kerras	ADV	ADV	_	10	advmod	_	Weight=0.04
+6	kerras	kerras	ADV	ADV	_	18	advmod	_	Weight=0.12
+6	kerras	kerras	ADV	ADV	_	19	advmod	_	Weight=0.13
+6	kerras	kerras	ADV	ADV	_	23	advmod	_	Weight=0.17
+7	arvata	arvata	VERB	VERB	VerbForm=Inf	_	_	_	SpaceAfter=No|Weight=500.2051
+7	arvata	arvata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	SpaceAfter=No|Weight=784.0151
+7	arvata	arvata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|Weight=0.04
+7	arvata	arvata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|Weight=0.03
+7	arvata	arvata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	SpaceAfter=No|Weight=0.12
+7	arvata	arvata	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	SpaceAfter=No|Weight=0.16
+8	,	,	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.0125
+8	,	,	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.0025
+8	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.005
+8	,	,	PUNCT	PUNCT	_	18	punct	_	SpaceBefore=No|Weight=0.03333333333333333
+8	,	,	PUNCT	PUNCT	_	19	punct	_	SpaceBefore=No|Weight=0.03666666666666667
+8	,	,	PUNCT	PUNCT	_	23	punct	_	SpaceBefore=No|Weight=0.049999999999999996
+9	mis	mis	INTJ	INTJ	_	_	_	_	Weight=500.0
+9	mis	mi	PRON	PRON	Case=Ine|Number=Sing	_	_	_	PronType=Interr|Weight=500.0
+10	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0172
+10	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.07
+10	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	Weight=0.03
+10	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	Weight=0.09
+10	on	olla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	Weight=0.13
+11	pagin	pagin	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.31111111111113
+11	pagin	pagin	NOUN	NOUN	Case=Nom|Number=Sing	18	nsubj	_	Weight=0.007777777777777778
+12	vahnas	vahnu	ADJ	ADJ	Case=Ela|Number=Sing	13	amod	_	Weight=0.01
+12	vahnas	vahnu	ADJ	ADJ	Case=Ine|Number=Sing	13	amod	_	Weight=1.61
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No|Weight=0.03333333333333333
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	7	obl	_	SpaceAfter=No|Weight=0.02
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	10	obl	_	SpaceAfter=No|Weight=0.003333333333333333
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	18	obl	_	SpaceAfter=No|Weight=0.00625
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	19	obl	_	SpaceAfter=No|Weight=0.0075
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	23	obl	_	SpaceAfter=No|Weight=0.0125
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	SpaceAfter=No|Weight=28.700000000000006
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	7	obl	_	SpaceAfter=No|Weight=28.68666666666667
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	10	obl	_	SpaceAfter=No|Weight=28.670000000000005
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	18	obl	_	SpaceAfter=No|Weight=28.672916666666673
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	19	obl	_	SpaceAfter=No|Weight=28.67416666666667
+13	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	23	obl	_	SpaceAfter=No|Weight=28.67916666666667
+14	,	,	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.03666666666666667
+14	,	,	PUNCT	PUNCT	_	7	punct	_	SpaceBefore=No|Weight=0.023333333333333334
+14	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.0044444444444444444
+14	,	,	PUNCT	PUNCT	_	18	punct	_	SpaceBefore=No|Weight=0.0044444444444444444
+14	,	,	PUNCT	PUNCT	_	19	punct	_	SpaceBefore=No|Weight=0.005555555555555556
+14	,	,	PUNCT	PUNCT	_	23	punct	_	SpaceBefore=No|Weight=0.01
+15	gu	gu	PRON	PRON	Case=Abe|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Abl|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Ade|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=All|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Com|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Ill|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Ine|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Par|Number=Plur	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Abe|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Abl|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Ade|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=All|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Com|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Ill|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Ine|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Nom|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	PRON	PRON	Case=Par|Number=Sing	_	_	_	Weight=503.2163
+15	gu	gu	ADV	ADV	_	3	advmod	_	Weight=3.3200000000000003
+15	gu	gu	ADV	ADV	_	7	advmod	_	Weight=3.2800000000000002
+15	gu	gu	ADV	ADV	_	10	advmod	_	Weight=3.25
+15	gu	gu	ADV	ADV	_	18	advmod	_	Weight=3.2300000000000004
+15	gu	gu	ADV	ADV	_	19	advmod	_	Weight=3.24
+15	gu	gu	ADV	ADV	_	23	advmod	_	Weight=3.2800000000000002
+15	gu	gu	PRON	PRON	Case=Gen|Number=Plur	16	nmod:poss	_	Weight=0.026300000000000004
+15	gu	gu	PRON	PRON	Case=Gen|Number=Sing	16	nmod:poss	_	Weight=1.6263
+16	tekstas	tekstu	NOUN	NOUN	Case=Ela|Number=Sing	3	obl	_	Weight=0.065
+16	tekstas	tekstu	NOUN	NOUN	Case=Ela|Number=Sing	7	obl	_	Weight=0.045
+16	tekstas	tekstu	NOUN	NOUN	Case=Ela|Number=Sing	10	obl	_	Weight=0.0075
+16	tekstas	tekstu	NOUN	NOUN	Case=Ela|Number=Sing	18	obl	_	Weight=0.0014285714285714286
+16	tekstas	tekstu	NOUN	NOUN	Case=Ela|Number=Sing	19	obl	_	Weight=0.002142857142857143
+16	tekstas	tekstu	NOUN	NOUN	Case=Ela|Number=Sing	23	obl	_	Weight=0.005
+16	tekstas	tekstu	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	Weight=51.97928571428572
+16	tekstas	tekstu	NOUN	NOUN	Case=Ine|Number=Sing	7	obl	_	Weight=51.95928571428573
+16	tekstas	tekstu	NOUN	NOUN	Case=Ine|Number=Sing	10	obl	_	Weight=51.921785714285726
+16	tekstas	tekstu	NOUN	NOUN	Case=Ine|Number=Sing	18	obl	_	Weight=51.915714285714294
+16	tekstas	tekstu	NOUN	NOUN	Case=Ine|Number=Sing	19	obl	_	Weight=51.91642857142858
+16	tekstas	tekstu	NOUN	NOUN	Case=Ine|Number=Sing	23	obl	_	Weight=51.91928571428573
+17	nimidä	nimidä	PRON	PRON	Case=Par|Number=Sing|Polarity=Neg|PronType=Ind	_	_	_	Weight=500.0
+18	ei	ei	INTJ	INTJ	_	_	_	_	Weight=500.00012857142855
+18	ei	ei	VERB	VERB	Number=Plur|Person=3|Polarity=Neg	_	_	_	Weight=500.00012857142855
+18	ei	ei	VERB	VERB	Number=Sing|Person=3|Polarity=Neg	_	_	_	Weight=500.00012857142855
+18	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	19	aux	_	Weight=0.0007142857142857143
+18	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	23	aux	_	Weight=0.0035714285714285718
+18	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	19	aux	_	Weight=0.0007785714285714286
+18	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	23	aux	_	Weight=0.003635714285714286
+19	sanottu	sanuo	VERB	VERB	Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.2189
+19	sanottu	sanuo	VERB	VERB	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.2189
+19	sanottu	sanuo	VERB	VERB	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.2189
+19	sanottu	sanuo	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0289
+19	sanottu	sanuo	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.16
+19	sanottu	sanuo	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	Weight=0.12
+19	sanottu	sanuo	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.09
+19	sanottu	sanuo	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	conj	_	Weight=0.04
+20	kohti	kohti	ADP	ADP	AdpType=Pre	_	_	_	Weight=500.0228
+20	kohti	kohti	ADV	ADV	_	3	advmod	_	Weight=0.17
+20	kohti	kohti	ADV	ADV	_	7	advmod	_	Weight=0.13
+20	kohti	kohti	ADV	ADV	_	10	advmod	_	Weight=0.1
+20	kohti	kohti	ADV	ADV	_	18	advmod	_	Weight=0.02
+20	kohti	kohti	ADV	ADV	_	19	advmod	_	Weight=0.01
+20	kohti	kohti	ADV	ADV	_	23	advmod	_	Weight=0.03
+21	da	da	CCONJ	CCONJ	_	22	cc	_	Weight=0.035299999999999984
+21	da	da	ADV	ADV	_	3	advmod	_	Weight=0.98
+21	da	da	ADV	ADV	_	7	advmod	_	Weight=0.9400000000000001
+21	da	da	ADV	ADV	_	10	advmod	_	Weight=0.91
+21	da	da	ADV	ADV	_	18	advmod	_	Weight=0.8300000000000001
+21	da	da	ADV	ADV	_	19	advmod	_	Weight=0.8200000000000001
+21	da	da	ADV	ADV	_	23	advmod	_	Weight=0.8200000000000001
+22	sen ližäkse	sen ližäkse	ADV	ADV	_	3	advmod	_	Weight=0.19
+22	sen ližäkse	sen ližäkse	ADV	ADV	_	7	advmod	_	Weight=0.15
+22	sen ližäkse	sen ližäkse	ADV	ADV	_	10	advmod	_	Weight=0.12
+22	sen ližäkse	sen ližäkse	ADV	ADV	_	18	advmod	_	Weight=0.04
+22	sen ližäkse	sen ližäkse	ADV	ADV	_	19	advmod	_	Weight=0.03
+22	sen ližäkse	sen ližäkse	ADV	ADV	_	23	advmod	_	Weight=0.01
+23	käytettih	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0365
+23	käytettih	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	Weight=0.2
+23	käytettih	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	Weight=0.16
+23	käytettih	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.13
+23	käytettih	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	Weight=0.04
+24	erilazii	erilaine	ADJ	ADJ	Case=Par|Number=Plur	_	_	_	Weight=500.0
+25	metaaforoi	metaaforoi	X	X	_	_	_	_	SpaceAfter=No|_
+26	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.115
+26	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.095
+26	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.02
+26	.	.	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005714285714285714
+26	.	.	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.005
+26	.	.	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.002142857142857143
+
+DEBG
+# sent_id = vepkar-1805.16
+# text = Ennevahnas opastettih arbuamah jo pienete olles.
+1	Ennevahnas	Ennevahnas	ADV	ADV	_	2	advmod	_	SpaceBefore=No|PronType=Temp|Weight=0.01
+1	Ennevahnas	Ennevahnas	ADV	ADV	_	4	advmod	_	SpaceBefore=No|PronType=Temp|Weight=0.03
+2	opastettih	opastua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010600000000000002
+2	opastettih	opastua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.02
+3	arbuamah	arbuamah	X	X	_	_	_	_	_
+4	jo	jo	INTJ	INTJ	_	_	_	_	Weight=500.6016
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0116
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.21160000000000007
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.41159999999999985
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.4204
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.42079999999999995
+4	jo	juvvakseh	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	Weight=0.4211999999999999
+4	jo	jo	ADV	ADV	_	2	advmod	_	PronType=Temp|Weight=0.6212
+5	pienete	pienete	X	X	_	_	_	_	_
+6	olles	olles	X	X	_	_	_	_	SpaceAfter=No|_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.025
+7	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+
+DEBG
+# sent_id = vepkar-1805.17
+# text = Sen ližäkse lapset hyvin tiettih kai vešit, kudamat kuvattih tekstois, gu net kuuluttih jogapäiväzeh elaigah.
+1	Sen ližäkse	Sen ližäkse	ADV	ADV	_	4	advmod	_	SpaceBefore=No|Weight=0.03
+1	Sen ližäkse	Sen ližäkse	ADV	ADV	_	9	advmod	_	SpaceBefore=No|Weight=0.08
+1	Sen ližäkse	Sen ližäkse	ADV	ADV	_	14	advmod	_	SpaceBefore=No|Weight=0.13
+2	lapset	lapset	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	Weight=503.53333333333336
+2	lapset	lapsi	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	Weight=503.53333333333336
+2	lapset	lapset	NOUN	NOUN	Case=Nom|Number=Plur	4	nsubj	_	Weight=0.005
+2	lapset	lapset	NOUN	NOUN	Case=Nom|Number=Plur	9	nsubj	_	Weight=0.023333333333333334
+2	lapset	lapset	NOUN	NOUN	Case=Nom|Number=Plur	14	nsubj	_	Weight=0.06
+2	lapset	lapsi	NOUN	NOUN	Case=Nom|Number=Plur	4	nsubj	_	Weight=1.771666666666667
+2	lapset	lapsi	NOUN	NOUN	Case=Nom|Number=Plur	9	nsubj	_	Weight=1.7900000000000005
+2	lapset	lapsi	NOUN	NOUN	Case=Nom|Number=Plur	14	nsubj	_	Weight=1.826666666666667
+3	hyvin	hyvä	ADJ	ADJ	Case=Ins|Number=Plur	_	_	_	Weight=500.0018
+3	hyvin	hyvä	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=500.0018
+3	hyvin	hyvin	ADV	ADV	_	4	advmod	_	Weight=0.01
+3	hyvin	hyvin	ADV	ADV	_	9	advmod	_	Weight=0.06
+3	hyvin	hyvin	ADV	ADV	_	14	advmod	_	Weight=0.11
+4	tiettih	tietiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Weight=0.0115
+4	tiettih	tietiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	Weight=0.05
+4	tiettih	tietiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	Weight=0.1
+5	kai	kai	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Abe|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Abl|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Ade|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=All|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Com|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Gen|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Ill|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Ine|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Par|Number=Plur	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Abe|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Abl|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Ade|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=All|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Com|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Gen|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Ill|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Ine|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Nom|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	PRON	PRON	Case=Par|Number=Sing	_	_	_	Weight=500.0016
+5	kai	kai	ADV	ADV	_	4	advmod	_	Weight=0.01
+5	kai	kai	ADV	ADV	_	9	advmod	_	Weight=0.04
+5	kai	kai	ADV	ADV	_	14	advmod	_	Weight=0.09
+6	vešit	vešit	X	X	_	_	_	_	SpaceAfter=No|_
+7	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.0075
+7	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.005
+7	,	,	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.023333333333333334
+8	kudamat	kudai	PRON	PRON	Case=Acc|Number=Plur|PronType=Rel	_	_	_	Weight=500.0
+8	kudamat	kudai	PRON	PRON	Case=Nom|Number=Plur|PronType=Rel	_	_	_	Weight=500.0
+9	kuvattih	kuvata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.012
+9	kuvattih	kuvata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.05
+9	kuvattih	kuvata	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	Weight=0.05
+10	tekstois	tekstu	NOUN	NOUN	Case=Ela|Number=Plur	4	obl	_	SpaceAfter=No|Weight=0.02
+10	tekstois	tekstu	NOUN	NOUN	Case=Ela|Number=Plur	9	obl	_	SpaceAfter=No|Weight=0.0016666666666666668
+10	tekstois	tekstu	NOUN	NOUN	Case=Ela|Number=Plur	14	obl	_	SpaceAfter=No|Weight=0.008
+10	tekstois	tekstu	NOUN	NOUN	Case=Ine|Number=Plur	4	obl	_	SpaceAfter=No|Weight=5.860000000000001
+10	tekstois	tekstu	NOUN	NOUN	Case=Ine|Number=Plur	9	obl	_	SpaceAfter=No|Weight=5.841666666666669
+10	tekstois	tekstu	NOUN	NOUN	Case=Ine|Number=Plur	14	obl	_	SpaceAfter=No|Weight=5.848000000000002
+11	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.023333333333333334
+11	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceBefore=No|Weight=0.0033333333333333335
+11	,	,	PUNCT	PUNCT	_	14	punct	_	SpaceBefore=No|Weight=0.005
+12	gu	gu	PRON	PRON	Case=Abe|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Abl|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Ade|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=All|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Com|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Gen|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Ill|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Ine|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Par|Number=Plur	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Abe|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Abl|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Ade|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=All|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Com|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Gen|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Ill|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Ine|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Nom|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	PRON	PRON	Case=Par|Number=Sing	_	_	_	Weight=500.0035
+12	gu	gu	ADV	ADV	_	4	advmod	_	Weight=0.08
+12	gu	gu	ADV	ADV	_	9	advmod	_	Weight=0.03
+12	gu	gu	ADV	ADV	_	14	advmod	_	Weight=0.02
+13	net	net	PRON	PRON	Case=Nom|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+14	kuuluttih	kuuluo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0145
+14	kuuluttih	kuuluo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Weight=0.1
+14	kuuluttih	kuuluo	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	Weight=0.05
+15	jogapäiväzeh	jogapäiväine	ADJ	ADJ	Case=Ill|Number=Sing	16	amod	_	Weight=0.01
+16	elaigah	elaigu	NOUN	NOUN	Case=Nom|Number=Sing|Person[psor]=3	_	_	_	SpaceAfter=No|Weight=518.36
+16	elaigah	elaigu	NOUN	NOUN	Case=Ill|Number=Sing	4	obl	_	SpaceAfter=No|Weight=0.06
+16	elaigah	elaigu	NOUN	NOUN	Case=Ill|Number=Sing	9	obl	_	SpaceAfter=No|Weight=0.014000000000000002
+16	elaigah	elaigu	NOUN	NOUN	Case=Ill|Number=Sing	14	obl	_	SpaceAfter=No|Weight=0.0025
+17	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.065
+17	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.016
+17	.	.	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.00375
+
+DEBG
+# sent_id = vepkar-1805.18
+# text = Tarkah kuunneltes arbaitukses ainos löydyy semmozii piirdehii, mit avvutetah ellendämäh da arbuamah.
+1	Tarkah	Tarkah	ADV	ADV	_	5	advmod	_	SpaceBefore=No|Weight=0.04
+1	Tarkah	Tarkah	ADV	ADV	_	10	advmod	_	SpaceBefore=No|Weight=0.09
+1	Tarkah	Tarkah	ADV	ADV	_	11	advmod	_	SpaceBefore=No|Weight=0.1
+2	kuunneltes	kuunneltes	X	X	_	_	_	_	_
+3	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	5	obl	_	Weight=0.006666666666666667
+3	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	10	obl	_	Weight=0.035
+3	arbaitukses	arbaitus	NOUN	NOUN	Case=Ela|Number=Sing	11	obl	_	Weight=0.04
+3	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	5	obl	_	Weight=6.54
+3	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	10	obl	_	Weight=6.568333333333333
+3	arbaitukses	arbaitus	NOUN	NOUN	Case=Ine|Number=Sing	11	obl	_	Weight=6.573333333333333
+4	ainos	ainos	ADV	ADV	_	5	advmod	_	Weight=0.01
+4	ainos	ainos	ADV	ADV	_	10	advmod	_	Weight=0.06
+4	ainos	ainos	ADV	ADV	_	11	advmod	_	Weight=0.07
+5	löydyy	löydyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.0105
+5	löydyy	löydyö	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	Weight=0.05
+6	semmozii	semmoine	ADJ	ADJ	Case=Par|Number=Plur	_	_	_	Weight=500.0
+7	piirdehii	piirdehii	X	X	_	_	_	_	SpaceAfter=No|_
+8	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.01
+8	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+8	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceBefore=No|Weight=0.01
+9	mit	mi	PRON	PRON	Case=Nom|Number=Plur	_	_	_	PronType=Interr|Weight=500.0
+10	avvutetah	avvuttua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.011
+10	avvutetah	avvuttua	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Weight=0.05
+11	ellendämäh	ellendiä	VERB	VERB	Case=Ill|VerbForm=Inf	_	_	_	Deriv=Ma|Weight=500.0
+12	da	da	CCONJ	CCONJ	_	13	cc	_	Weight=0.0119
+12	da	da	ADV	ADV	_	5	advmod	_	Weight=0.8700000000000001
+12	da	da	ADV	ADV	_	10	advmod	_	Weight=0.8200000000000001
+12	da	da	ADV	ADV	_	11	advmod	_	Weight=0.81
+13	arbuamah	arbuamah	X	X	_	_	_	_	SpaceAfter=No|_
+14	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.045
+14	.	.	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.008
+14	.	.	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.006
+
+DEBG
+# sent_id = vepkar-1805.19
+# text = Enimytten karjalazis arbaituksis voibi tiijustua kyläläzien talolois da jogapäiväzis veššilöis, kui, ezimerkikse, käziastii, kuožali, čirpi, sieglu.
+1	Enimytten	Enimytten	X	X	_	_	_	_	SpaceBefore=No|_
+2	karjalazis	karjalaine	ADJ	ADJ	Case=Ela|Number=Plur	3	amod	_	Weight=1.01
+2	karjalazis	karjalaine	ADJ	ADJ	Case=Ine|Number=Plur	3	amod	_	Weight=2.6100000000000003
+2	karjalazis	karjalaine	NOUN	NOUN	Case=Ela|Number=Plur	4	obl	_	Weight=3.2025
+2	karjalazis	karjalaine	NOUN	NOUN	Case=Ela|Number=Plur	5	obl	_	Weight=3.2037500000000003
+2	karjalazis	karjalaine	NOUN	NOUN	Case=Ine|Number=Plur	4	obl	_	Weight=3.7025
+2	karjalazis	karjalaine	NOUN	NOUN	Case=Ine|Number=Plur	5	obl	_	Weight=3.7037500000000003
+3	arbaituksis	arbaitus	NOUN	NOUN	Case=Ela|Number=Plur	4	obl	_	Weight=0.00125
+3	arbaituksis	arbaitus	NOUN	NOUN	Case=Ela|Number=Plur	5	obl	_	Weight=0.0025
+3	arbaituksis	arbaitus	NOUN	NOUN	Case=Ine|Number=Plur	4	obl	_	Weight=0.30125
+3	arbaituksis	arbaitus	NOUN	NOUN	Case=Ine|Number=Plur	5	obl	_	Weight=0.30250000000000005
+4	voibi	voija	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+5	tiijustua	tiijustua	VERB	VERB	VerbForm=Inf	_	_	_	Weight=500.0
+6	kyläläzien	kyläläine	ADJ	ADJ	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+7	talolois	taloi	NOUN	NOUN	Case=Ela|Number=Plur	4	obl	_	Weight=0.00375
+7	talolois	taloi	NOUN	NOUN	Case=Ela|Number=Plur	5	obl	_	Weight=0.0025
+7	talolois	taloi	NOUN	NOUN	Case=Ine|Number=Plur	4	obl	_	Weight=0.50375
+7	talolois	taloi	NOUN	NOUN	Case=Ine|Number=Plur	5	obl	_	Weight=0.5025
+8	da	da	CCONJ	CCONJ	_	9	cc	_	Weight=0.0107
+8	da	da	ADV	ADV	_	4	advmod	_	Weight=1.6400000000000001
+8	da	da	ADV	ADV	_	5	advmod	_	Weight=1.6300000000000001
+9	jogapäiväzis	jogapäiväine	ADJ	ADJ	Case=Ela|Number=Plur	_	_	_	Weight=500.0
+9	jogapäiväzis	jogapäiväine	ADJ	ADJ	Case=Ine|Number=Plur	_	_	_	Weight=500.0
+10	veššilöis	veššilöis	X	X	_	_	_	_	SpaceAfter=No|_
+11	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.00875
+11	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.0075
+12	kui	kui	SCONJ	SCONJ	_	_	_	_	SpaceAfter=No|Weight=500.0015
+12	kui	kui	ADV	ADV	_	4	advmod	_	SpaceAfter=No|PronType=Interr|Weight=0.08
+12	kui	kui	ADV	ADV	_	5	advmod	_	SpaceAfter=No|PronType=Interr|Weight=0.07
+13	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.012857142857142857
+13	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.011428571428571429
+14	ezimerkikse	ezimerki	NOUN	NOUN	Case=Tra|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0019
+14	ezimerkikse	ezimerki	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0019
+14	ezimerkikse	ezi#merki	NOUN	NOUN	Case=Tra|Number=Plur	_	_	_	SpaceAfter=No|Weight=501.0019
+14	ezimerkikse	ezi#merki	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0019
+14	ezimerkikse	ezi#merkki	NOUN	NOUN	Case=Tra|Number=Plur	_	_	_	SpaceAfter=No|Weight=501.0019
+14	ezimerkikse	ezi#merkki	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	SpaceAfter=No|Weight=501.0019
+14	ezimerkikse	ezimerkikse	ADV	ADV	_	4	advmod	_	SpaceAfter=No|Weight=0.1
+14	ezimerkikse	ezimerkikse	ADV	ADV	_	5	advmod	_	SpaceAfter=No|Weight=0.09
+15	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.018333333333333333
+15	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.016666666666666666
+16	käziastii	käziastii	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+16	käziastii	käziastii	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+17	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.026000000000000002
+17	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.024
+18	kuožali	kuožali	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+18	kuožali	kuožali	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+19	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.0375
+19	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.035
+20	čirpi	čirpi	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+20	čirpi	čirpi	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+21	,	,	PUNCT	PUNCT	_	4	punct	_	SpaceBefore=No|Weight=0.05666666666666667
+21	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceBefore=No|Weight=0.05333333333333334
+22	sieglu	sieglu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+22	sieglu	sieglu	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+23	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.095
+23	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.09
+
+DEBG
+# sent_id = vepkar-1805.20
+# text = Sen ližäkse suuri vuitti tekstois kuvuau luonduo: vihmua, tuleniškuu, pyhäil’l’anjyryy, lundu, päivästy, kuudu.
+1	Sen ližäkse	Sen ližäkse	ADV	ADV	_	6	advmod	_	SpaceBefore=No|Weight=0.05
+2	suuri	suuri	ADJ	ADJ	Case=Acc|Number=Sing	3	amod	_	Weight=0.01
+2	suuri	suuri	ADJ	ADJ	Case=Nom|Number=Sing	3	amod	_	Weight=1.61
+3	vuitti	vuitti	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+3	vuitti	vuitti	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+4	tekstois	tekstu	NOUN	NOUN	Case=Ela|Number=Plur	6	obl	_	Weight=0.0022222222222222222
+4	tekstois	tekstu	NOUN	NOUN	Case=Ine|Number=Plur	6	obl	_	Weight=0.18
+5	kuvuau	kuvuau	X	X	_	_	_	_	_
+6	luonduo	luondo	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+6	luonduo	luonduo	VERB	VERB	VerbForm=Inf	_	_	_	SpaceAfter=No|Weight=500.0
+7	:	:	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.0011111111111111111
+8	vihmua	vihmu	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+9	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.00375
+10	tuleniškuu	tulenišku	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+11	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.0071428571428571435
+12	pyhäil	pyhät	NOUN	NOUN	Case=Abl|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.8
+12	pyhäil	pyhä	ADJ	ADJ	Case=Abl|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.8
+12	pyhäil	pyhä	ADJ	ADJ	Case=Ade|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.8
+12	pyhäil	pyhät	NOUN	NOUN	Case=Ade|Number=Plur	6	obl	_	SpaceAfter=No|Weight=0.01
+13	’	’	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.011666666666666667
+14	l’anjyryy	l’anjyryy	X	X	_	_	_	_	SpaceAfter=No|SpaceBefore=No|_
+15	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.018
+16	lundu	lundu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+16	lundu	lundu	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+17	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.0275
+18	päivästy	päiväine	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+19	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.043333333333333335
+20	kuudu	kuu	NOUN	NOUN	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+21	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.075
+
+DEBG
+# sent_id = vepkar-1805.21
+# text = Tämänpäiväzile linnan lapsile perindöllizet arbaitukset ollah vähäelendettävänny, ku hyö nikonzu ei nähty suurdu vuittii nämmis veššilöis.
+1	Tämänpäiväzile	Tämänpäiväine	ADJ	ADJ	Case=All|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+2	linnan	linnu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=501.6
+2	linnan	linnu	NOUN	NOUN	Case=Ins|Number=Sing	_	_	_	Weight=501.6
+2	linnan	linnu	NOUN	NOUN	Case=Gen|Number=Sing	3	nmod:poss	_	Weight=0.01
+3	lapsile	lapset	NOUN	NOUN	Case=All|Number=Plur	6	obl	_	Weight=0.01
+3	lapsile	lapset	NOUN	NOUN	Case=All|Number=Plur	12	obl	_	Weight=0.045
+3	lapsile	lapset	NOUN	NOUN	Case=All|Number=Plur	13	obl	_	Weight=0.05
+3	lapsile	lapsi	NOUN	NOUN	Case=All|Number=Plur	6	obl	_	Weight=24.01
+3	lapsile	lapsi	NOUN	NOUN	Case=All|Number=Plur	12	obl	_	Weight=24.045
+3	lapsile	lapsi	NOUN	NOUN	Case=All|Number=Plur	13	obl	_	Weight=24.05
+4	perindöllizet	perindölline	ADJ	ADJ	Case=Acc|Number=Plur	5	amod	_	Weight=0.01
+4	perindöllizet	perindölline	ADJ	ADJ	Case=Nom|Number=Plur	5	amod	_	Weight=1.61
+5	arbaitukset	arbaitus	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	Weight=502.25
+5	arbaitukset	arbaitus	NOUN	NOUN	Case=Nom|Number=Plur	6	nsubj	_	Weight=0.0025
+5	arbaitukset	arbaitus	NOUN	NOUN	Case=Nom|Number=Plur	12	nsubj	_	Weight=0.035
+5	arbaitukset	arbaitus	NOUN	NOUN	Case=Nom|Number=Plur	13	nsubj	_	Weight=0.04
+6	ollah	olla	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010700000000000001
+6	ollah	olla	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	Weight=0.07
+7	vähäelendettävänny	vähäelendettävänny	X	X	_	_	_	_	SpaceAfter=No|_
+8	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+8	,	,	PUNCT	PUNCT	_	12	punct	_	SpaceBefore=No|Weight=0.013333333333333334
+8	,	,	PUNCT	PUNCT	_	13	punct	_	SpaceBefore=No|Weight=0.016666666666666666
+9	ku	ku	SCONJ	SCONJ	_	12	mark	_	Weight=0.006
+9	ku	ku	SCONJ	SCONJ	_	13	mark	_	Weight=0.008
+10	hyö	häi	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	_	_	_	Weight=500.0
+11	nikonzu	nikonzu	ADV	ADV	_	6	advmod	_	Weight=0.05
+11	nikonzu	nikonzu	ADV	ADV	_	12	advmod	_	Weight=0.01
+11	nikonzu	nikonzu	ADV	ADV	_	13	advmod	_	Weight=0.02
+12	ei	ei	INTJ	INTJ	_	_	_	_	Weight=500.00016
+12	ei	ei	VERB	VERB	Number=Plur|Person=3|Polarity=Neg	_	_	_	Weight=500.00016
+12	ei	ei	VERB	VERB	Number=Sing|Person=3|Polarity=Neg	_	_	_	Weight=500.00016
+12	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	13	aux	_	Weight=0.002
+12	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	13	aux	_	Weight=0.0020800000000000003
+13	nähty	nähtä	VERB	VERB	Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.2014
+13	nähty	nähtä	VERB	VERB	Case=Acc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.2014
+13	nähty	nähtä	VERB	VERB	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	Weight=500.2014
+13	nähty	nähtä	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	conj	_	Weight=784.0114
+13	nähty	nähtä	VERB	VERB	Connegative=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	Weight=0.07
+14	suurdu	suuri	ADJ	ADJ	Case=Par|Number=Sing	15	amod	_	Weight=0.01
+15	vuittii	vuitti	NOUN	NOUN	Case=Par|Number=Plur	6	obj	_	Weight=0.045
+15	vuittii	vuitti	NOUN	NOUN	Case=Par|Number=Plur	13	obj	_	Weight=0.002857142857142857
+15	vuittii	vuitti	NOUN	NOUN	Case=Par|Number=Sing	6	obj	_	Weight=1.9592857142857143
+15	vuittii	vuitti	NOUN	NOUN	Case=Par|Number=Sing	13	obj	_	Weight=1.9171428571428573
+16	nämmis	nämmä	PRON	PRON	Case=Ine|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+16	nämmis	nämä	ADJ	ADJ	Case=Ine|Number=Plur|PronType=Dem	_	_	_	Weight=500.0
+17	veššilöis	veššilöis	X	X	_	_	_	_	SpaceAfter=No|_
+18	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.06
+18	.	.	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.012
+18	.	.	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
+
+DEBG
+# sent_id = vepkar-1805.22
+# text = Tundemattominnu ollah pertin puulaučat, karzin, šiižmu, rukki da äijy midä muudu.
+1	Tundemattominnu	Tundematoi	ADJ	ADJ	Case=Ess|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+1	Tundemattominnu	Tundematoi	ADJ	ADJ	Case=Ess|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+2	ollah	olla	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.010799999999999999
+2	ollah	olla	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	Weight=0.04
+3	pertin	perti	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	Weight=501.6666666666667
+3	pertin	perti	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=501.6666666666667
+3	pertin	perti	NOUN	NOUN	Case=Ins|Number=Sing	_	_	_	Weight=501.6666666666667
+3	pertin	perti	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	Weight=1.6016666666666668
+3	pertin	perti	NOUN	NOUN	Case=Gen|Number=Sing	4	nmod:poss	_	Weight=0.01
+4	puulaučat	puu#laučču	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No|Weight=501.1333333333333
+4	puulaučat	puu#laučču	NOUN	NOUN	Case=Nom|Number=Plur	2	obj	_	SpaceAfter=No|Weight=1.0033333333333334
+5	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.006
+5	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.002
+6	karzin	karzin	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.4016
+6	karzin	karzin	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.4016
+6	karzin	karžin	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.4016
+6	karzin	karžin	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.4016
+6	karzin	kärzy	NOUN	NOUN	Case=Ins|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.4016
+6	karzin	karzie	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	conj	_	SpaceAfter=No|Weight=784.0116
+6	karzin	kärzie	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|Weight=0.21160000000000007
+6	karzin	karzie	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|Weight=0.24000000000000002
+6	karzin	kärzie	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|Weight=0.24080000000000004
+7	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.0125
+7	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.0016666666666666668
+8	šiižmu	šiižmu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+8	šiižmu	šiižmu	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+9	,	,	PUNCT	PUNCT	_	2	punct	_	SpaceBefore=No|Weight=0.023333333333333334
+9	,	,	PUNCT	PUNCT	_	6	punct	_	SpaceBefore=No|Weight=0.006
+10	rukki	rukki	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.0
+10	rukki	rukki	NOUN	NOUN	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+11	da	da	CCONJ	CCONJ	_	12	cc	_	Weight=0.013800000000000002
+11	da	da	ADV	ADV	_	2	advmod	_	Weight=0.89
+11	da	da	ADV	ADV	_	6	advmod	_	Weight=0.8500000000000001
+12	äijy	äijy	ADV	ADV	_	2	advmod	_	Weight=0.1
+12	äijy	äijy	ADV	ADV	_	6	advmod	_	Weight=0.06
+13	midä	midä	PRON	PRON	Case=Abe|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Abl|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Ade|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=All|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Com|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Gen|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Ill|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Ine|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Nom|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Par|Number=Plur	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Abe|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Abl|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Ade|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=All|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Com|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Gen|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Ine|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Nom|Number=Sing	_	_	_	Weight=500.0
+13	midä	midä	PRON	PRON	Case=Par|Number=Sing	_	_	_	Weight=500.0
+13	midä	mi	PRON	PRON	Case=Par|Number=Sing	_	_	_	PronType=Interr|Weight=500.0
+14	muudu	muu	ADJ	ADJ	Case=Par|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+15	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.065
+15	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.0225
+
+DEBG
+# sent_id = vepkar-1805.23
+# text = Erähil kanzoil vahnoin arbaituksien sijah roittihes uvvet arbaitukset.
+1	Erähil	Eräs	PRON	PRON	Case=Abl|Number=Plur	_	_	_	SpaceBefore=No|Weight=506.4
+1	Erähil	Eräs	PRON	PRON	Case=Ade|Number=Plur	_	_	_	SpaceBefore=No|Weight=506.4
+1	Erähil	Eräs	ADJ	ADJ	Case=Abl|Number=Plur	2	amod	_	SpaceBefore=No|Weight=0.01
+1	Erähil	Eräs	ADJ	ADJ	Case=Ade|Number=Plur	2	amod	_	SpaceBefore=No|Weight=3.21
+2	kanzoil	kanza	NOUN	NOUN	Case=Abl|Number=Plur	_	_	_	Weight=500.0
+2	kanzoil	kanza	NOUN	NOUN	Case=Ade|Number=Plur	_	_	_	Weight=500.0
+2	kanzoil	kanzu	NOUN	NOUN	Case=Abl|Number=Plur	_	_	_	Weight=500.0
+2	kanzoil	kanzu	NOUN	NOUN	Case=Ade|Number=Plur	_	_	_	Weight=500.0
+3	vahnoin	vahnu	ADJ	ADJ	Case=Ins|Number=Plur	_	_	_	Weight=501.6
+3	vahnoin	vahnu	ADJ	ADJ	Case=Gen|Number=Plur	4	amod	_	Weight=0.01
+4	arbaituksien	arbaitus	NOUN	NOUN	Case=Gen|Number=Plur	5	nmod:poss	_	Weight=0.01
+5	sijah	sijah	ADV	ADV	_	_	_	_	Weight=500.0
+5	sijah	sija	NOUN	NOUN	Case=Ill|Number=Sing	_	_	_	Weight=500.0
+6	roittihes	roittihes	X	X	_	_	_	_	_
+7	uvvet	uuzi	ADJ	ADJ	Case=Acc|Number=Plur	8	amod	_	Weight=0.01
+7	uvvet	uuzi	ADJ	ADJ	Case=Nom|Number=Plur	8	amod	_	Weight=1.61
+8	arbaitukset	arbaitus	NOUN	NOUN	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
+8	arbaitukset	arbaitus	NOUN	NOUN	Case=Nom|Number=Plur	_	_	_	SpaceAfter=No|Weight=500.0
+9	.	.	PUNCT	PUNCT	_	_	_	_	SpaceAfter=No|SpaceBefore=No|Weight=500.0
+
+DEBG
+# sent_id = vepkar-1805.24
+# text = Karjalazil tämä protsessu pahakse mielekse ei ole kehitynnyh.
+1	Karjalazil	Karjalaine	ADJ	ADJ	Case=Abl|Number=Plur	_	_	_	SpaceBefore=No|Weight=506.4
+1	Karjalazil	Karjalaine	ADJ	ADJ	Case=Ade|Number=Plur	_	_	_	SpaceBefore=No|Weight=506.4
+1	Karjalazil	Karjalaine	NOUN	NOUN	Case=Abl|Number=Plur	_	_	_	SpaceBefore=No|Weight=506.4
+1	Karjalazil	Karjalaine	NOUN	NOUN	Case=Ade|Number=Plur	6	obl	_	SpaceBefore=No|Weight=0.025
+1	Karjalazil	Karjalaine	NOUN	NOUN	Case=Ade|Number=Plur	7	obl	_	SpaceBefore=No|Weight=0.03
+2	tämä	tämä	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	Weight=1.62
+2	tämä	tämä	PRON	PRON	Case=Nom|Number=Sing|PronType=Dem	3	det	_	Weight=0.01
+3	protsessu	protsessu	NOUN	NOUN	Case=Acc|Number=Sing	_	_	_	Weight=500.6
+3	protsessu	protsessu	NOUN	NOUN	Case=Nom|Number=Sing	6	nsubj	_	Weight=0.015
+4	pahakse	paha	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	Weight=501.6
+4	pahakse	paha	ADJ	ADJ	Case=Tra|Number=Sing	5	amod	_	Weight=0.01
+5	mielekse	mieli	NOUN	NOUN	Case=Tra|Number=Sing	_	_	_	Weight=500.0
+6	ei	ei	INTJ	INTJ	_	_	_	_	Weight=500.0001
+6	ei	ei	VERB	VERB	Number=Plur|Person=3|Polarity=Neg	_	_	_	Weight=500.0001
+6	ei	ei	VERB	VERB	Number=Sing|Person=3|Polarity=Neg	_	_	_	Weight=500.0001
+6	ei	ei	AUX	AUX	Number=Plur|Person=3|Polarity=Neg	7	aux	_	Weight=0.005
+6	ei	ei	AUX	AUX	Number=Sing|Person=3|Polarity=Neg	7	aux	_	Weight=0.00505
+7	ole	olla	VERB	VERB	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+8	kehitynnyh	kehitynnyh	ADJ	ADJ	Case=Acc|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+8	kehitynnyh	kehitynnyh	ADJ	ADJ	Case=Nom|Number=Sing	_	_	_	SpaceAfter=No|Weight=500.0
+9	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.015
+9	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.01
+
+DEBG
+# sent_id = vepkar-1805.25
+# text = Arbaituksii vähan käytetäh argielaijas, enimytten vai lapsien keskes.
+1	Arbaituksii	Arbaitus	NOUN	NOUN	Case=Par|Number=Plur	_	_	_	SpaceBefore=No|Weight=500.0
+2	vähan	vähä	ADJ	ADJ	Case=Acc|Number=Sing	_	_	_	Weight=500.0001
+2	vähan	vähä	ADJ	ADJ	Case=Gen|Number=Sing	_	_	_	Weight=500.0001
+2	vähan	vähä	ADJ	ADJ	Case=Ins|Number=Sing	_	_	_	Weight=500.0001
+2	vähan	vähän	ADV	ADV	_	3	advmod	_	Weight=0.01
+3	käytetäh	käyttiä	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Weight=0.01
+4	argielaijas	argi#elaigu	NOUN	NOUN	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No|Weight=1.0033333333333334
+4	argielaijas	argi#elaigu	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	SpaceAfter=No|Weight=1.27
+4	argielaijas	argi#eläi	NOUN	NOUN	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No|Weight=1.5366666666666666
+4	argielaijas	argi#eläi	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	SpaceAfter=No|Weight=1.8033333333333332
+5	,	,	PUNCT	PUNCT	_	3	punct	_	SpaceBefore=No|Weight=0.006666666666666667
+6	enimytten	enimytten	X	X	_	_	_	_	_
+7	vai	vai	ADV	ADV	_	3	advmod	_	Weight=0.04
+8	lapsien	lapset	NOUN	NOUN	Case=Gen|Number=Plur	9	nmod:poss	_	Weight=0.01
+8	lapsien	lapsi	NOUN	NOUN	Case=Gen|Number=Plur	9	nmod:poss	_	Weight=1.61
+9	keskes	keskes	ADV	ADV	_	3	advmod	_	SpaceAfter=No|Weight=4.860000000000001
+9	keskes	keski	NOUN	NOUN	Case=Ela|Number=Sing	3	obl	_	SpaceAfter=No|Weight=0.0306
+9	keskes	keski	NOUN	NOUN	Case=Ine|Number=Sing	3	obl	_	SpaceAfter=No|Weight=2.4306
+10	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|SpaceBefore=No|Weight=0.035
+
+Tokens: 0 Sentences: 25
+Unknowns / OOV: 0 = 0 %
+CPU time: 0.14962681600000002 Real time: 0.14963677991181612
+Tokens per timeunit: 0.0
+Sentences per timeunit: 167.07122416516174
