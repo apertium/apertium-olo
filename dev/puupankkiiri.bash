@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LEGPARSER=$HOME/github/flammie/leg-ape-ud/legproc.py
-GTDESC=$HOME/gtsvn/langs/olo/src/analyser-gt-desc.hfstol
+GTDESC=$HOME/github/giellalt/lang-olo/src/analyser-gt-desc.hfstol
 file_id_diz=$(basename $@ | sed -e 's/.text//')
 cat $@ | egrep -v '^#!' | hfst-proc $GTDESC |\
     sed -e 's/Sem\//Sem_/g' -e 's/Der\//Der_/g'\
