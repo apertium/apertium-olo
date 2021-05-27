@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Livvi], [0.0.0], [flammie@iki.fi], [apertium-olo], [http://wiki.apertium.org/wiki/Apertium-olo])
+AC_INIT([Apertium Livvi], [0.0.0], [flammie@iki.fi], [apertium-olo], [https://wiki.apertium.org/wiki/Apertium-olo])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
