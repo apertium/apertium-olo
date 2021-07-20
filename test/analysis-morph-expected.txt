@@ -1,0 +1,10 @@
+[Hau6Ic2tRFQf#0] ^✓/✓<n><symbol>$
+[/Hau6Ic2tRFQf]
+[S2sb84GNTmyc#0] ^”/”<punct><right>$
+[/S2sb84GNTmyc]
+[bywdDeKqrzQg#0] ^¶/¶<clb>$
+[/bywdDeKqrzQg]
+[ijMf3ecDLzOn#0] ^"/"<punct>$
+[/ijMf3ecDLzOn]
+[laq2eyorW-PW#0] ^ÆXČI/ÆXČI<np><sem_org><acr><dyn><sg><nom>$
+[/laq2eyorW-PW]
